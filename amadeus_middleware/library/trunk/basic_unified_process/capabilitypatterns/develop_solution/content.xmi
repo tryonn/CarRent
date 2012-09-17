@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<com.ibm.uma:ProcessDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:com.ibm.uma="http://www.ibm.com/uma/1.0.2/uma.ecore" xmi:id="_h6zSEPimEdmugcVr9AdHjQ" name="develop_sr_within_scope,_h2-iAfimEdmugcVr9AdHjQ" guid="_h6zSEPimEdmugcVr9AdHjQ">
+  <mainDescription>&lt;p&gt;
+    Project managers use this Capability Pattern&amp;nbsp;as a way to&amp;nbsp;perform a goal-based planning and management. Work
+    is assigned to developers and work progress is tracked&amp;nbsp;based on the goals to be achieved, i.e., the designed,
+    unit-tested and&amp;nbsp;integrated&amp;nbsp;source code.
+&lt;/p&gt;
+&lt;p&gt;
+    A context can be specified when a requirement is assigned to be developed, thus specifying how broadly a requirement is
+    to be developed in a iteration --&amp;nbsp;development&amp;nbsp;may be&amp;nbsp;focused&amp;nbsp;on a layer (e.g., user-interface,
+    business logic or&amp;nbsp;database access),&amp;nbsp;on a component and so on.
+&lt;/p&gt;
+&lt;p&gt;
+    Whether a context is specified or not, developer's responsibility is to create a design and implementation for that
+    requirement, then to&amp;nbsp;write and run unit tests against the implementation to make sure the&amp;nbsp;implementation
+    works as designed, both as a unit&amp;nbsp;and&amp;nbsp;integrated into the code base.
+&lt;/p&gt;</mainDescription>
+  <purpose>&lt;ul&gt;
+    &lt;li&gt;
+        For developers: to create a solution for the requirement assigned to/owned by&amp;nbsp;them
+    &lt;/li&gt;
+    &lt;li&gt;
+        For project managers: to have a goal-based way of assigning work and tracking project status
+    &lt;/li&gt;
+&lt;/ul&gt;</purpose>
+  <usageNotes>&lt;p&gt;
+    This Capability Pattern ocurrs multiple times per iteration. Usually, there will be one instance per requirement
+    planned for that iteration. When instantiated in a project plan, the pattern becomes a development task to be assigned
+    to a developer and is expected to be renamed to contain the actual requirement name in it.&amp;nbsp;Optionally, the word
+    'Solution' may be suppressed, then this pattern is instantiate as:
+&lt;/p&gt;
+&lt;p&gt;
+    &amp;nbsp;'Develop &lt;em&gt;requirement_name&lt;/em&gt; (within &lt;em&gt;context_name&lt;/em&gt; context)'
+&lt;/p&gt;
+&lt;p&gt;
+    If&amp;nbsp;a context&amp;nbsp;is specified, there will be one instance of this pattern for each requirement&amp;nbsp;for each
+    context.
+&lt;/p&gt;
+&lt;p&gt;
+    Example:
+&lt;/p&gt;
+&lt;ol&gt;
+    &lt;li&gt;
+        Develop &lt;em&gt;scenario 1&lt;/em&gt; (within &lt;em&gt;user interface&lt;/em&gt; context)
+    &lt;/li&gt;
+    &lt;li&gt;
+        Develop &lt;em&gt;scenario 1&lt;/em&gt; (within &lt;em&gt;business logic and DB access&lt;/em&gt; context)
+    &lt;/li&gt;
+    &lt;li&gt;
+        Develop &lt;em&gt;scenario 2&lt;/em&gt;
+    &lt;/li&gt;
+    &lt;li&gt;
+        Develop &lt;em&gt;supplemental requirement 1&lt;/em&gt;
+    &lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;
+    Note that there are four instances of this pattern in the example above:
+&lt;/p&gt;
+&lt;ul&gt;
+    &lt;li&gt;
+        the first two are related to the same requirement (&lt;em&gt;scenario 1&lt;/em&gt;) but within two different contexts
+    &lt;/li&gt;
+    &lt;li&gt;
+        the last two are related to different requirements, no context specified.
+    &lt;/li&gt;
+&lt;/ul&gt;</usageNotes>
+</com.ibm.uma:ProcessDescription>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<com.ibm.uma:ContentDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:com.ibm.uma="http://www.ibm.com/uma/1.0.2/uma.ecore" xmi:id="-7pbyO29v0VnsosWHabeZDQ" name="breakdown_element,_cvdpEB_LEdq6CKKKq4D7YA" guid="-7pbyO29v0VnsosWHabeZDQ" changeDate="2005-09-22T19:07:46.580-0700">
+  <mainDescription>Any element modeled in &lt;a class=&quot;elementLink&quot;
+href=&quot;base_concepts/guidances/termdefinitions/uma,_cj6jkB_PEdq6CKKKq4D7YA.html&quot;
+guid=&quot;_cj6jkB_PEdq6CKKKq4D7YA&quot;&gt;UMA&lt;/a&gt;&amp;nbsp;that is part of &lt;a class=&quot;elementLink&quot;
+href=&quot;base_concepts/guidances/termdefinitions/process,_yQ5m2NnmEdmO6L4XMImrsA.html&quot;
+guid=&quot;_yQ5m2NnmEdmO6L4XMImrsA&quot;&gt;process&lt;/a&gt;&amp;nbsp;structure.&lt;!--EndFragment--&gt;</mainDescription>
+</com.ibm.uma:ContentDescription>

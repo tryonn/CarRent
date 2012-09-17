@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<com.ibm.uma:ArtifactDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:com.ibm.uma="http://www.ibm.com/uma/1.0.2/uma.ecore" xmi:id="_2LWIoMJ4EdmvyNnEUA1LkQ" name="arch_poc,_PoDR0NbYEdmlO4WLYHrJaQ" guid="_2LWIoMJ4EdmvyNnEUA1LkQ" changeDate="2005-10-17T14:01:35.676-0700">
+  <keyConsiderations>&lt;p&gt;
+    The decision about whether or not&amp;nbsp;this artifact&amp;nbsp;is required and what form it should take depends on:
+&lt;/p&gt;
+&lt;ul&gt;
+    &lt;li&gt;
+        how well the domain is understood - if the domain is unfamiliar,&amp;nbsp;having an architetural
+        proof-of-concept&amp;nbsp;may not only help to explore possible solutions, but may also help the customer and
+        development organizations to understand and clarify requirements
+    &lt;/li&gt;
+    &lt;li&gt;
+        the novelty of the system - if the development organization has constructed many&amp;nbsp;similar systems previously
+        then it should not be necessary to build a proof-of-concept - it should be possible to base a determination of
+        feasibility on existing reference architectures and technologies
+    &lt;/li&gt;
+    &lt;li&gt;
+        when any of the requirements are judged to be particularly onerous, even though the domain is familiar and the
+        system is precedented; for example, when ultra-high transaction rates or extreme reliability are required
+    &lt;/li&gt;
+&lt;/ul&gt;</keyConsiderations>
+  <purpose>&lt;p&gt;
+    To demonstrate the feasibility of the project using the selected candidate architecture or to mitigate one or more
+    architecturally significant risk(s).
+&lt;/p&gt;</purpose>
+  <reasonsForNotNeeding>The Architectural Proof-of-Concept may be omitted when the problem domain is well-understood, the requirements are
+well-defined, the system is well-precedented, and its development is evaluated as having low risk</reasonsForNotNeeding>
+  <representationOptions>&lt;p&gt;
+    This artifact may take many forms, for example:&amp;nbsp;
+&lt;/p&gt;
+&lt;ul&gt;
+    &lt;li&gt;
+        a list of known technologies (frameworks, patterns, executable architectures) which seem appropriate to the
+        solution
+    &lt;/li&gt;
+    &lt;li&gt;
+        a sketch of a conceptual model of a solution using a notation such as UML
+    &lt;/li&gt;
+    &lt;li&gt;
+        a simulation of a solution
+    &lt;/li&gt;
+    &lt;li&gt;
+        an executable prototype
+    &lt;/li&gt;
+&lt;/ul&gt;</representationOptions>
+</com.ibm.uma:ArtifactDescription>

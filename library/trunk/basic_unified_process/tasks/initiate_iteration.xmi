@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<com.ibm.uma:TaskDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:com.ibm.uma="http://www.ibm.com/uma/1.0.2/uma.ecore" xmi:id="_NrbRVKeqEdmKDbQuyzCoqQ" name="initiate_iteration,_0kSG0slgEdmt3adZL5Dmdw" guid="_NrbRVKeqEdmKDbQuyzCoqQ" changeDate="2005-09-23T16:31:39.405-0700">
+  <sections xmi:id="_8WTUIMMqEdmdo9HxCRR_Gw" name="Launch iteration" guid="_8WTUIMMqEdmdo9HxCRR_Gw">
+    <sectionDescription>&lt;p&gt;
+    Each iteration is launched by a team meeting in which the project manager communicates the goals and objectives of the
+    iteration and starts assigning the high-level tasks identified to achieve those goals.
+&lt;/p&gt;
+&lt;p&gt;
+    Those&amp;nbsp;high-level tasks&amp;nbsp;come from iteration planning done at the end of the previous iteration. Tasks will be
+    refined as they are analyzed and estimated by those assigned to work on the tasks.
+&lt;/p&gt;</sectionDescription>
+  </sections>
+  <sections xmi:id="_919JAMMqEdmdo9HxCRR_Gw" name="Allocate work" guid="_919JAMMqEdmdo9HxCRR_Gw">
+    <sectionDescription>&lt;p&gt;
+    Each high-level task that must be achieved during this iteration needs to be assigned to&amp;nbsp;a team member.
+&lt;/p&gt;
+&lt;p&gt;
+    &lt;!-- SPAN style=&quot;FONT-SIZE: 10pt; FONT-FAMILY: Arial&quot;--&gt;There are two main styles commonly used in assigning tasks:
+&lt;/p&gt;
+&lt;div style=&quot;MARGIN-LEFT: 2em&quot;&gt;
+    &lt;ul&gt;
+        &lt;li&gt;
+            &lt;p&gt;
+                &lt;!-- SPAN style=&quot;FONT-SIZE: 10pt; FONT-FAMILY: Arial&quot;--&gt;
+                &lt;!-- SPAN      style=&quot;FONT-SIZE: 10pt; FONT-FAMILY: Arial&quot;--&gt;The project manager estimates and assigns the
+                tasks to the team members.&amp;nbsp; This directive style works well with team members who have little
+                experience estimating their work.
+            &lt;/p&gt;
+        &lt;/li&gt;
+        &lt;li&gt;
+            &lt;p&gt;
+                &lt;!-- SPAN style=&quot;FONT-SIZE: 10pt; FONT-FAMILY: Arial&quot;--&gt;
+                &lt;!-- SPAN      style=&quot;FONT-SIZE: 10pt; FONT-FAMILY: Arial&quot;--&gt;The project manager asks for a team member to
+                volunteer&amp;nbsp;for a&amp;nbsp;given task. The person who takes responsibility for a task will also estimate the
+                task. This works well with self-motivated, self-directed people.
+            &lt;/p&gt;
+        &lt;/li&gt;
+    &lt;/ul&gt;
+&lt;/div&gt;
+&lt;p&gt;
+    &lt;!-- SPAN style=&quot;FONT-SIZE: 10pt; FONT-FAMILY: Arial&quot;--&gt;Whatever approach the project manager uses, he or she needs to
+    ensure that the tasks required to achieve the iteration's goals are assigned and that the estimations fit the iteration
+    schedule.
+&lt;/p&gt;</sectionDescription>
+  </sections>
+  <sections xmi:id="___5RAMMqEdmdo9HxCRR_Gw" name="Define iteration tasks" guid="___5RAMMqEdmdo9HxCRR_Gw">
+    <sectionDescription>&lt;p&gt;
+    Team members responsible for tasks should analyze them to make sure they know everything that needs to be done. It can
+    help to look at a task as a collection of smaller tasks and do a bottom-up estimate to validate overall or top-down
+    estimates.
+&lt;/p&gt;</sectionDescription>
+  </sections>
+  <purpose>&lt;p&gt;
+    Ensures that everyone on the team knows what they need to do to make the iteration successful.
+&lt;/p&gt;</purpose>
+</com.ibm.uma:TaskDescription>

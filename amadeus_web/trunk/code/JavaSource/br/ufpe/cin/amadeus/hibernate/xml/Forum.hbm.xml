@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE hibernate-mapping	PUBLIC 
+	"-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+    "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+
+<hibernate-mapping>
+ <class name="br.ufpe.cin.amadeus.system.academic.module.forum.Forum" table="forum">
+ 	<id name="id">
+ 		<column name="sqforum" not-null="true" />
+ 		<generator class="increment"/>
+ 	</id>
+ 	
+ 	<property name="name">
+ 		<column name="nm_forum" not-null="true" length="100"/>
+ 	</property>
+ 	
+ 	<property name="date">
+ 		<column name="dt_data"/>
+ 	</property>
+ 	
+ 	<property name="description">
+ 		<column name="ds_forum" length="300"/>
+ 	</property>
+ 	
+ 	<property name="time">
+ 		<column name="dt_hora"/>
+ 	</property>
+ 	
+	<list name="messages" lazy="true" cascade="all-delete-orphan">
+		<key column="sqforum"/>
+		<index column="ds_position"/>
+		<one-to-many class="br.ufpe.cin.amadeus.system.academic.module.forum.Message"/>
+	</list>
+ 		
+ </class>
+</hibernate-mapping>

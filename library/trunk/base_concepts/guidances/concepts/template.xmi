@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<com.ibm.uma:ContentDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:com.ibm.uma="http://www.ibm.com/uma/1.0.2/uma.ecore" xmi:id="_G_m7ABUCEdqrUt4zetC1gg" name="template,_G_UnIBUCEdqrUt4zetC1gg" guid="_G_m7ABUCEdqrUt4zetC1gg" changeDate="2005-10-30T17:31:08.293-0800">
+  <mainDescription>&lt;p&gt;
+    Templates are &quot;models,&quot; or prototypes, of Work Products. Within a Work Product description, there usually are one or
+    more templates that can be used to create the corresponding Work Product. Templates are linked to the tool that is to
+    be used to create the Work Product. Prior to project start, organizations may want to customize the templates by adding
+    the company logo, some project identification, or information specific to the type of project.
+&lt;/p&gt;
+&lt;h3&gt;
+    Example:
+&lt;/h3&gt;
+&lt;ul&gt;
+    &lt;li&gt;
+        Microsoft&amp;reg; Word&amp;reg; templates can be used for Work Products that are documents, and for some reports.
+    &lt;/li&gt;
+    &lt;li&gt;
+        Rational SoDA templates for Microsoft Word or Adobe&amp;reg; FrameMaker&amp;reg; extract information from tools such as Rational
+        Rose, Rational RequisitePro, or Rational TeamTest.
+    &lt;/li&gt;
+    &lt;li&gt;
+        Microsoft&amp;reg; FrontPage&amp;reg; templates for the various elements of the process.
+    &lt;/li&gt;
+    &lt;li&gt;
+        Microsoft Project template for the project plan.
+    &lt;/li&gt;
+&lt;/ul&gt;</mainDescription>
+</com.ibm.uma:ContentDescription>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<com.ibm.uma:ContentDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:com.ibm.uma="http://www.ibm.com/uma/1.0.2/uma.ecore" xmi:id="_iePk8BUDEdqrUt4zetC1gg" name="white_paper,_id9REBUDEdqrUt4zetC1gg" guid="_iePk8BUDEdqrUt4zetC1gg" changeDate="2005-09-07T03:45:10.597-0700">
+  <mainDescription>&lt;p&gt;
+    A whitepaper is a&amp;nbsp;Guidance Type for externally&amp;nbsp;published papers&amp;nbsp;that can be read and understood in
+    isolation of other Content Elements and Guidance.
+&lt;/p&gt;</mainDescription>
+</com.ibm.uma:ContentDescription>

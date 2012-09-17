@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<com.ibm.uma:ContentDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:com.ibm.uma="http://www.ibm.com/uma/1.0.2/uma.ecore" xmi:id="_m83acBUFEdqrUt4zetC1gg" guid="_m83acBUFEdqrUt4zetC1gg" changeDate="2005-10-28T10:34:36.302-0400">
+  <mainDescription>Method Libraries represent physical storage of&amp;nbsp;all Content and Process Elements as well as &lt;a class=&quot;elementLink&quot; href=&quot;./../../../base_concepts/guidances/concepts/configuration,_d698IBUFEdqrUt4zetC1gg.html&quot; guid=&quot;_d698IBUFEdqrUt4zetC1gg&quot;&gt;Method Configuration&lt;/a&gt;s. A Method Library defines a closed universe for all elements in
+it,&amp;nbsp;since &amp;nbsp;library elements cannot refer to other libraries.&amp;nbsp; All user-defined extensions to method content
+and processes have to be done with &lt;a class=&quot;elementLinkWithUserText&quot; href=&quot;./../../../base_concepts/guidances/concepts/method_plugin,_0KeEMBUFEdqrUt4zetC1gg.html&quot; guid=&quot;_0KeEMBUFEdqrUt4zetC1gg&quot;&gt;Method Plugins&lt;/a&gt;&amp;nbsp;within the same physical library.</mainDescription>
+</com.ibm.uma:ContentDescription>

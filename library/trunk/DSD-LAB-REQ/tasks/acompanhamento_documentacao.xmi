@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<com.ibm.uma:TaskDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:com.ibm.uma="http://www.ibm.com/uma/1.0.2/uma.ecore" xmi:id="-hhzzId2tYuOO3g6G9LS8Ng" name="acompanhamento_documentacao,_LNNDQNeWEdq2GYRwhl5Hnw" guid="-hhzzId2tYuOO3g6G9LS8Ng" changeDate="2006-05-09T14:32:11.859-0300">
+  <mainDescription>&lt;p class=&quot;MsoNormal&quot; style=&quot;TEXT-INDENT: 36pt; LINE-HEIGHT: 150%; TEXT-ALIGN: justify&quot;&gt;
+    fsd
+&lt;/p&gt;</mainDescription>
+  <sections xmi:id="_PUCkMNtkEdqo1eLt5uqdUA" name="Obter permissao de leitura e escrita no artefato" guid="_PUCkMNtkEdqo1eLt5uqdUA"/>
+  <sections xmi:id="_HwprQNtkEdqo1eLt5uqdUA" name="Acordar marcos de acompanhamento" guid="_HwprQNtkEdqo1eLt5uqdUA"/>
+  <sections xmi:id="_bh6PQNtkEdqo1eLt5uqdUA" name="Verificar a forma do artefato" guid="_bh6PQNtkEdqo1eLt5uqdUA"/>
+  <sections xmi:id="_jJxYgNtkEdqo1eLt5uqdUA" name="Inserir comentarios no artefato de modo a melhorar o mesmo" guid="_jJxYgNtkEdqo1eLt5uqdUA"/>
+  <purpose>Acompanhar a evolucao do &lt;strong&gt;Software Requirements Specification&lt;/strong&gt;, fazendo com que o Gerente de Projeto ou
+outro papel responsavel pela especificacao tenha nocao do quanto o artefato esta evoluindo e se o mesmo contempla o escopo
+do software.</purpose>
+</com.ibm.uma:TaskDescription>

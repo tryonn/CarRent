@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<com.ibm.uma:ContentDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:com.ibm.uma="http://www.ibm.com/uma/1.0.2/uma.ecore" xmi:id="_TqJmsBTQEdqrUt4zetC1gg" name="organizational_concepts,_Tp3S0BTQEdqrUt4zetC1gg" guid="_TqJmsBTQEdqrUt4zetC1gg" changeDate="2005-11-08T15:04:09.331-0800">
+  <mainDescription>&lt;p&gt;
+    This section describes concepts that are only used to organize method content and processes in an authoring
+    environment.None of these UMA abstractions are subject to publication.&amp;nbsp;They include:
+&lt;/p&gt;
+&lt;ul&gt;
+    &lt;li&gt;
+        &lt;a class=&quot;elementLink&quot; href=&quot;./../../base_concepts/guidances/concepts/method_library,_m8lGkBUFEdqrUt4zetC1gg.html&quot; guid=&quot;_m8lGkBUFEdqrUt4zetC1gg&quot;&gt;Method Library&lt;/a&gt;
+    &lt;/li&gt;
+    &lt;li&gt;
+        &lt;a class=&quot;elementLink&quot; href=&quot;./../../base_concepts/guidances/concepts/method_plugin,_0KeEMBUFEdqrUt4zetC1gg.html&quot; guid=&quot;_0KeEMBUFEdqrUt4zetC1gg&quot;&gt;Method Plugin&lt;/a&gt;
+    &lt;/li&gt;
+    &lt;li&gt;
+        &lt;a class=&quot;elementLink&quot; href=&quot;./../../base_concepts/guidances/concepts/configuration,_d698IBUFEdqrUt4zetC1gg.html&quot; guid=&quot;_d698IBUFEdqrUt4zetC1gg&quot;&gt;Method Configuration&lt;/a&gt;
+    &lt;/li&gt;
+    &lt;li&gt;
+        Method Package, which includes &lt;a class=&quot;elementLink&quot; href=&quot;./../../base_concepts/guidances/concepts/content_package,_49a10BUFEdqrUt4zetC1gg.html&quot; guid=&quot;_49a10BUFEdqrUt4zetC1gg&quot;&gt;Content Package&lt;/a&gt;, and &lt;a class=&quot;elementLink&quot; href=&quot;./../../base_concepts/guidances/concepts/process_package,_MT6U8BneEdqYreeU3jqaDQ.html&quot; guid=&quot;_MT6U8BneEdqYreeU3jqaDQ&quot;&gt;Process Package&lt;/a&gt;
+    &lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+    These abstractions as well as their relationships are presented with the the following UML 2.0 class diagram:
+&lt;/p&gt;
+&lt;p align=&quot;center&quot;&gt;
+    &amp;nbsp;&lt;img alt=&quot;UML Diagram describing the modeling or organizational abstractions&quot;     src=&quot;../../base_concepts/guidances/concepts/resources/packaging_uml.gif&quot; /&gt;
+&lt;/p&gt;</mainDescription>
+</com.ibm.uma:ContentDescription>

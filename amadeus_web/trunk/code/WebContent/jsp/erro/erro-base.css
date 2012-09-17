@@ -1,0 +1,109 @@
+body{
+	background-color: #fff;
+	background-image : url(/amadeus/jsp/erro/background.gif);
+	background-position : top;
+	background-repeat : repeat-x;
+	font-size: 12px;
+	font-family : "Trebuchet MS";
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
+
+#logo{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	border: 0;
+	margin: -120px 0px 0px 100px;
+}
+
+.erro{
+	height : 80px;
+	width : 200px;
+	padding: 0;
+	position: absolute;
+	top: 179px;
+	left: 404px;
+	color: #666;
+	margin: -40px 0px 0px -200px;	
+	text-align : left;
+	font-style : normal;
+	font-weight : normal;
+	font-size: 18px;
+}
+
+.erro p{
+	margin: 0;
+	padding: 0;
+	border:0;
+}
+
+.humanizando{
+	height : 80px;
+	width : 320px;
+	padding: 0;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	margin: 100px 0px 0px -300px;	
+	text-align : left;
+	font-style : normal;
+	font-weight : normal;
+	font-size: 12px;
+	color: #767676;
+}
+
+.humanizando p{
+	margin: 0;
+	padding: 0;
+	border:0;
+}
+
+
+h1{
+	font-size: 160px;
+	margin: 0px 0px 0px 0px;
+	border: 0;
+	padding: 0;
+	color: #DCDCDC;
+}
+
+.rodape{
+	position: absolute;
+	width : 100%;
+	height: 60px;
+	bottom: 0;
+	background-color: #eee;
+	margin: 0;
+	padding: 0;
+	text-align: center;
+	border-top : 1px dashed #AFAFAF;
+}
+
+.rodape p{
+	position: absolute;
+	left: 50%;
+	width : 600px;
+	margin: 2px 0px -5px -300px;
+	text-align : justify;
+	color: #767676;
+}
+
+.rodape p a:link{
+color: black;
+text-decoration : none;
+background-color: #eee;
+}
+
+.rodape p a:visited{
+color: #3F3F3F;
+text-decoration : none;
+background-color: #eee;
+}
+
+.rodape p a:hover{
+color: black;
+text-decoration : underline;
+background-color: #fff;
+}

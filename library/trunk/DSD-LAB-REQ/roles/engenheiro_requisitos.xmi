@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<com.ibm.uma:RoleDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:com.ibm.uma="http://www.ibm.com/uma/1.0.2/uma.ecore" xmi:id="-c6R-UMpGChUop9EFNGQQSA" name="engenheiro_requisitos,_7Fq5kN-ZEdq16uWWdR91fg" guid="-c6R-UMpGChUop9EFNGQQSA" changeDate="2006-05-09T20:30:54.765-0300">
+  <mainDescription>&lt;p&gt;
+    O engenheiro de requisitos possui dois papeis importantes nesse processo:
+&lt;/p&gt;
+&lt;ul&gt;
+    &lt;li&gt;
+        Elicitar os requisitos juntamente com o cliente, entendendo suas necessidades e documentando as mesmas.
+    &lt;/li&gt;
+    &lt;li&gt;
+        Mitigar as duvidas a respeito dos requisitos junto aos engenheiro de software&lt;br /&gt;
+    &lt;/li&gt;
+&lt;/ul&gt;</mainDescription>
+</com.ibm.uma:RoleDescription>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<com.ibm.uma:ContentDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:com.ibm.uma="http://www.ibm.com/uma/1.0.2/uma.ecore" xmi:id="_xuhJsBUGEdqrUt4zetC1gg" name="custom_category,_xuO10BUGEdqrUt4zetC1gg" guid="_xuhJsBUGEdqrUt4zetC1gg" changeDate="2005-10-26T23:47:50.212-0700">
+  <mainDescription>&lt;p&gt;
+    A Custom Category is a category introduced by a method author to structure any number of Method Content Elements of any
+    type based on user-defined criteria. Custom categories can be used to categorize content based on the user's criteria
+    as well as to define whole tree-structures of nested categories allowing the user to systematically navigate and browse
+    Method Content and Processes based on these categories. This application of Custom Categories is also called &lt;a class=&quot;elementLink&quot; href=&quot;./../../../base_concepts/guidances/concepts/view,_uMKSsBUFEdqrUt4zetC1gg.html&quot; guid=&quot;_uMKSsBUFEdqrUt4zetC1gg&quot;&gt;View&lt;/a&gt;.
+&lt;/p&gt;
+&lt;h3&gt;
+    Examples
+&lt;/h3&gt;
+&lt;p&gt;
+    One could create a Custom Category to logically organize content relevant for the user development organization's
+    departments: A &quot;Testing&quot; category would group together all Roles, Work Products, Tasks, Capability Patterns and
+    Guidance relevant to testing.
+&lt;/p&gt;
+&lt;p&gt;
+    Another example would be categories that express licensing levels of the content: These categories would separate
+    freely distributable Method Content from Method Content that represents intellectual property and requires a purchased
+    license for use.
+&lt;/p&gt;</mainDescription>
+</com.ibm.uma:ContentDescription>

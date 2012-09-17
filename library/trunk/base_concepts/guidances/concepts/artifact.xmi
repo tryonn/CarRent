@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<com.ibm.uma:ContentDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:com.ibm.uma="http://www.ibm.com/uma/1.0.2/uma.ecore" xmi:id="_fdds0BUJEdqrUt4zetC1gg" name="artifact,_fdRfkBUJEdqrUt4zetC1gg" guid="_fdds0BUJEdqrUt4zetC1gg" changeDate="2005-11-07T13:24:56.425-0800">
+  <mainDescription>&lt;p&gt;
+    Artifacts are tangible well-defined Work Products consumed, produced, or modified by Tasks.&amp;nbsp; Artifacts may be
+    composed of other Artifacts. For example, a model Artifact can be composed of model elements, which are also Artifacts.
+    They may serve as a basis for defining Reusable Assets.&amp;nbsp; Roles use Artifacts to perform Tasks and produce
+    Artifacts in the course of performing Tasks.
+&lt;/p&gt;
+&lt;p&gt;
+    Artifacts are the responsibility of a single Role, making responsibility easy to identify and understand, and promoting
+    the idea that every piece of information produced in the method requires the appropriate set of skills. Even though one
+    Role might &quot;own&quot; a specific type of Artifact, other Roles can still use the Artifacts, and perhaps even update them if
+    the Role has been given permission to do so.
+&lt;/p&gt;
+&lt;p&gt;
+    &lt;b&gt;Artifacts&amp;nbsp;are generally &lt;i&gt;not&lt;/i&gt; documents&lt;/b&gt;. Many methods have an excessive focus on documents, and in
+    particular on &lt;i&gt;paper documentation&lt;/i&gt;. The most efficient and pragmatic approach to managing project Artifacts is to
+    maintain&amp;nbsp;them &lt;i&gt;within&lt;/i&gt; the appropriate tool used to create and manage them. When necessary, one may generate
+    documents (snapshots) from these tools, on a just-in-time basis.
+&lt;/p&gt;
+&lt;p&gt;
+    Examples Artifacts:
+&lt;/p&gt;
+&lt;ul&gt;
+    &lt;li&gt;
+        A use case specification stored in Microsoft&amp;reg; Word&amp;reg;
+    &lt;/li&gt;
+    &lt;li&gt;
+        A design model stored in Rational Software Architect.
+    &lt;/li&gt;
+    &lt;li&gt;
+        A project plan stored in Microsoft&amp;reg; Project&amp;reg;.
+    &lt;/li&gt;
+    &lt;li&gt;
+        A defect stored in Rational ClearQuest.
+    &lt;/li&gt;
+    &lt;li&gt;
+        A project requirements database in Rational RequisitePro.
+    &lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+    Note also that formats such as on &lt;b&gt;whiteboards&lt;/b&gt; or &lt;b&gt;flip charts&lt;/b&gt; can be used to capture pictorial information
+    such as UML diagrams, tabular information such as short lists of status information or even textual information such as
+    short vision statements. These formats work well for smaller, collocated teams where all team members have ready access
+    to these resources.
+&lt;/p&gt;
+&lt;p&gt;
+    However, there are still Artifacts which either have to be or are best suited to being plain text documents, as in the
+    case of external input to the project, or in some cases where it is simply the best means of presenting descriptive
+    information. Where possible, teams should consider using collaborative &lt;b&gt;Work Group&lt;/b&gt; tools, such as WikiWiki webs
+    or Groove to capture textual documentation electronically, thus simplifying ongoing content and version management.
+    This is especially of importance where historic records must be maintained for purposes such as fulfilling audit
+    requirements. For any nontrivial development effort, especially where large development teams are involved, Work
+    Products &lt;strong&gt;are&lt;/strong&gt; &lt;strong&gt;most likely to be subject to version control and configuration
+    management.&lt;/strong&gt; This is sometimes only achieved by versioning the container Work Product, when it is not possible
+    to do it for the elementary, contained Work Products. For example, in software development, you may control the
+    versions of a whole design model, or design package, and not the individual classes they contain.
+&lt;/p&gt;</mainDescription>
+</com.ibm.uma:ContentDescription>

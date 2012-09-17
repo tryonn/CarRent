@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<com.ibm.uma:TaskDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:com.ibm.uma="http://www.ibm.com/uma/1.0.2/uma.ecore" xmi:id="_Nr0S4KeqEdmKDbQuyzCoqQ" name="submit_change_request,_0mwzEclgEdmt3adZL5Dmdw" guid="_Nr0S4KeqEdmKDbQuyzCoqQ" changeDate="2005-07-07T14:57:19.105-0700">
+  <sections xmi:id="_qEkewKuoEdmEGLSmmpF1Sg" name="Update and Complete Change Request" guid="_qEkewKuoEdmEGLSmmpF1Sg"/>
+  <sections xmi:id="_r2aP0KuoEdmEGLSmmpF1Sg" name="Submit Change Request" guid="_r2aP0KuoEdmEGLSmmpF1Sg"/>
+</com.ibm.uma:TaskDescription>

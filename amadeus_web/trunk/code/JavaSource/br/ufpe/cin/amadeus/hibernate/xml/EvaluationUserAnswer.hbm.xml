@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE hibernate-mapping	PUBLIC 
+	"-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+    "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+
+<hibernate-mapping>
+	<class
+		name="br.ufpe.cin.amadeus.system.academic.module.evaluation.answer.EvaluationUserAnswer"
+		table="evaluation_useranswer">
+		<id name="id">
+			<column name="sqevaluation_useranswer" not-null="true" />
+			<generator class="increment" />
+		</id>
+
+		<property name="dateAnswer" column="dt_answer"/>
+		
+		<many-to-one name="user"
+			class="br.ufpe.cin.amadeus.system.access_control.user.User"
+			column="squser" cascade="none" lazy="false" />
+
+		<many-to-one name="evaluation"
+      		class="br.ufpe.cin.amadeus.system.academic.module.evaluation.Evaluation"
+      		column="sqevaluation" cascade="none" lazy="false" />
+
+		<!-- mapeando os list discoursive e objective question -->
+
+		
+		<list name="discoursiveAnswers"
+	 		table="evaluation_discoursivequestion_answer"
+	 		lazy="true"
+	 		cascade="all-delete-orphan"
+	 		inverse="false">
+	 		<key column="sqevaluation_useranswer"/>
+	        <index column="ds_position"/>
+	 		<many-to-many class="br.ufpe.cin.amadeus.system.academic.module.evaluation.answer.question.DiscoursiveQuestionAnswer"
+	 			          column="sqdiscoursivequestion_answer"/>
+ 		</list>
+					
+		
+		
+ 		<list name="objectiveAnswers"
+	 		table="evaluation_objectivequestion_answer"
+	 		lazy="true"
+	 		cascade="all-delete-orphan"
+	 		inverse="false">
+	 		<key column="sqevaluation_useranswer"/>
+	 		<index column="ds_position"/>
+	 		<many-to-many class="br.ufpe.cin.amadeus.system.academic.module.evaluation.answer.question.ObjectiveQuestionAnswer" 
+	 			          column="sqobjectivequestion_answer"/>
+ 		</list> 
+		
+	</class>
+</hibernate-mapping>

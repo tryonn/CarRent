@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<com.ibm.uma:TaskDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:com.ibm.uma="http://www.ibm.com/uma/1.0.2/uma.ecore" xmi:id="-03SsHKjLJfvYwHVfgk0mqw" name="retrabalho_storyboard,_UOJxINarEdqnj4Xv32ITRA" guid="-03SsHKjLJfvYwHVfgk0mqw">
+  <sections xmi:id="_QD3NENuwEdqt8-ifsyd-Mw" name="Entender ata de inspeção do storyboard" guid="_QD3NENuwEdqt8-ifsyd-Mw"/>
+  <sections xmi:id="_SHl_YNuwEdqt8-ifsyd-Mw" name="Resolver conflitos pendentes caso existam" guid="_SHl_YNuwEdqt8-ifsyd-Mw"/>
+  <sections xmi:id="_nJd2sNuwEdqt8-ifsyd-Mw" name="Corrigir erros encontrados" guid="_nJd2sNuwEdqt8-ifsyd-Mw"/>
+  <sections xmi:id="_Y203gNuwEdqt8-ifsyd-Mw" name="Publicar storyboard e disponibiliza-lo para validação" guid="_Y203gNuwEdqt8-ifsyd-Mw"/>
+</com.ibm.uma:TaskDescription>

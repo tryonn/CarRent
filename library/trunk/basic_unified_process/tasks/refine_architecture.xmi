@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<com.ibm.uma:TaskDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:com.ibm.uma="http://www.ibm.com/uma/1.0.2/uma.ecore" xmi:id="_rUis8LBKEdm7Eph_l9Cn9w" name="refine_architecture,_0gRJgMlgEdmt3adZL5Dmdw" guid="_rUis8LBKEdm7Eph_l9Cn9w" changeDate="2005-07-07T14:19:06.132-0700">
+  <sections xmi:id="_P28vkMP3EdmWKcx6ixEiwg" name="Identify common solutions across scenarios" guid="_P28vkMP3EdmWKcx6ixEiwg">
+    <sectionDescription>&lt;p&gt;
+    While&amp;nbsp;performing this step, &lt;a class=&quot;elementLinkWithType&quot;
+    href=&quot;./../../basic_unified_process/roles/architect,_0X9iEMlgEdmt3adZL5Dmdw.html&quot;
+    guid=&quot;_0X9iEMlgEdmt3adZL5Dmdw&quot;&gt;&lt;u&gt;&lt;font color=&quot;#0000ff&quot;&gt;Role: Architect&lt;/font&gt;&lt;/u&gt;&lt;/a&gt; looks for commonality across
+    scenarios as they are in the process of being analyzed and designed, then proposing common components&amp;nbsp;and patterns
+    for their solution.&amp;nbsp;
+&lt;/p&gt;
+&lt;p&gt;
+    TBD...
+&lt;/p&gt;</sectionDescription>
+  </sections>
+  <sections xmi:id="_SN28kMP3EdmWKcx6ixEiwg" name="Identify reuse opportunities" guid="_SN28kMP3EdmWKcx6ixEiwg">
+    <sectionDescription>&lt;p&gt;
+    Leverage reuse of existing components by looking to their interfaces and the behavior they provide.&amp;nbsp;After looking
+    for similar behavior and returned values, then look for parameters similarity. If their interfaces&amp;nbsp;are not an
+    exact match to the component interfaces being proposed, you can modify the proposed&amp;nbsp;signatures in order to
+    increase the degree of reuse.
+&lt;/p&gt;
+&lt;p&gt;
+    Some design mechanisms like performance or security requirements may disqualify a component from reuse even when there
+    is&amp;nbsp;a perfect match between operation signatures.
+&lt;/p&gt;</sectionDescription>
+  </sections>
+  <sections xmi:id="_Vdln8MP3EdmWKcx6ixEiwg" name="Identify how to interface to existing components" guid="_Vdln8MP3EdmWKcx6ixEiwg">
+    <sectionDescription>&lt;div align=&quot;left&quot;&gt;
+    Existing code and database definitions can be 'scavenged' to make work done on previous projects or iterations
+    available to the current project/iteration. By using potential reuse opportunities as a filter, the work that is
+    reverse engineered can be focused on just the components which are reusable for the current iteration.
+&lt;/div&gt;
+&lt;div align=&quot;left&quot;&gt;
+    &amp;nbsp;
+&lt;/div&gt;
+&lt;div align=&quot;left&quot;&gt;
+    There may exist a common set of components which provide many of the architectural mechanisms needed&amp;nbsp;for a new
+    system. These components may be available either because they were developed or purchased for&amp;nbsp;previous similar
+    systems. Given their suitability and compatibility within the software architecture, there may be a need to
+    reverse-engineer these components in order to represent them in a design model and reuse them in a project.
+&lt;/div&gt;
+&lt;div align=&quot;left&quot;&gt;
+    &amp;nbsp;
+&lt;/div&gt;
+&lt;div align=&quot;left&quot;&gt;
+    Similarly,&amp;nbsp;thinking applies to&amp;nbsp;existing databases. Part of the information to be used by the application
+    under development may already reside in a database, so the classes that represent the database structures that hold
+    this information may be obtained from reverse-engineering the database.
+&lt;/div&gt;</sectionDescription>
+  </sections>
+  <sections xmi:id="_Xmcx4MP3EdmWKcx6ixEiwg" name="Define strategies for achieving quality requirements" guid="_Xmcx4MP3EdmWKcx6ixEiwg"/>
+  <sections xmi:id="_S5QfcAXhEdqypLW0yztGdw" name="Define test architecture" guid="_S5QfcAXhEdqypLW0yztGdw"/>
+  <sections xmi:id="_Zlw-QMP3EdmWKcx6ixEiwg" name="Evaluate results" guid="_Zlw-QMP3EdmWKcx6ixEiwg"/>
+  <sections xmi:id="_aRCI0MP3EdmWKcx6ixEiwg" name="Communicate and document decisions" guid="_aRCI0MP3EdmWKcx6ixEiwg"/>
+</com.ibm.uma:TaskDescription>

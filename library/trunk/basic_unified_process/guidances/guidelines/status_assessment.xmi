@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<com.ibm.uma:ContentDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:com.ibm.uma="http://www.ibm.com/uma/1.0.2/uma.ecore" xmi:id="_qMjDAMM2EdmSIPI87WLu3g" name="status_assessment,_0daCwMlgEdmt3adZL5Dmdw" guid="_qMjDAMM2EdmSIPI87WLu3g" changeDate="2005-08-17T17:18:33.110-0700">
+  <mainDescription>&lt;p align=&quot;left&quot;&gt;
+    Below are some options for representing&amp;nbsp;the Status Assessment.
+&lt;/p&gt;
+&lt;h3&gt;
+    No Documentation
+&lt;/h3&gt;
+&lt;p&gt;
+    It is more important to perform the assessment and to communicate it, than to document it. Communication&amp;nbsp;may be
+    done directly, rather than through some form of documentation.
+&lt;/p&gt;
+&lt;h3&gt;
+    Different Documentation Formats
+&lt;/h3&gt;
+&lt;p&gt;
+    Consider documenting the assessment if there are interested stakeholders that did not participate in the assessment, or
+    to keep track of the results for future assessments or project post-mortem.
+&lt;/p&gt;
+&lt;h3&gt;
+    Meeting Minutes
+&lt;/h3&gt;
+&lt;p&gt;
+    One way to record the assessment is to do it through the minutes of the assessment meeting,&amp;nbsp;that can be eventually
+    merged with the iteration assessment meeting. This will ensure that important information are recorded and can be
+    communicated to the different interested parties, without extra-work as the minutes can be captured during the meeting
+&lt;/p&gt;
+&lt;h3&gt;
+    Email
+&lt;/h3&gt;
+&lt;p&gt;
+    One common medium to record and communicate the status assessment is to use email. The email should include the main
+    information about the assessment, such as:
+&lt;/p&gt;
+&lt;ul&gt;
+    &lt;li&gt;
+        Which was the iteration
+    &lt;/li&gt;
+    &lt;li&gt;
+        What was&amp;nbsp;the result of the assessment&amp;nbsp;
+    &lt;/li&gt;
+    &lt;li&gt;
+        Major risks
+    &lt;/li&gt;
+    &lt;li&gt;
+        Major issues
+    &lt;/li&gt;
+    &lt;li&gt;
+        Action items&lt;br /&gt;
+    &lt;/li&gt;
+&lt;/ul&gt;</mainDescription>
+</com.ibm.uma:ContentDescription>

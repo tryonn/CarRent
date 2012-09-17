@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<com.ibm.uma:TaskDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:com.ibm.uma="http://www.ibm.com/uma/1.0.2/uma.ecore" xmi:id="-FPI_ipL6Xhx0vQlv65MR6A" name="inspecao_storyboard,_eVr3cNbPEdqnj4Xv32ITRA" guid="-FPI_ipL6Xhx0vQlv65MR6A" changeDate="2006-05-10T15:29:56.957-0300">
+  <mainDescription>Some types of usability problems can be found simply by looking for them—the false top, cascading menu, and keyboard-mouse
+issues are ones I can often predict just by looking at a screen. However, there's something of a Catch-22 here: To find a
+problem by inspection in a paper prototype, you have to know to look for it &lt;a id=&quot;691&quot; name=&quot;691&quot;&gt;&lt;/a&gt;&lt;a id=&quot;IDX-282&quot; name=&quot;IDX-282&quot;&gt;&lt;/a&gt;and that knowledge only comes from having seen examples of it in real interfaces and/or interface
+guidelines. To the extent that you're able to educate yourself about common usability issues, you may be able to use that
+expertise to partially compensate for some of paper prototyping's deficiencies. But don't expect &quot;armchair usability&quot; to
+replace the real thing because there are many, many important problems that you'll never find if you look only for the
+problems you know about.</mainDescription>
+  <sections xmi:id="_SFKlMNuqEdqt8-ifsyd-Mw" name="Contactar inspetores" guid="_SFKlMNuqEdqt8-ifsyd-Mw"/>
+  <sections xmi:id="_P_YvANurEdqt8-ifsyd-Mw" name="Agendar horário de reunião de inspecao" guid="_P_YvANurEdqt8-ifsyd-Mw"/>
+  <sections xmi:id="_T4zGANuqEdqt8-ifsyd-Mw" name="Disponibilizar storyboards para os inspetores" guid="_T4zGANuqEdqt8-ifsyd-Mw"/>
+  <sections xmi:id="_UST8wNurEdqt8-ifsyd-Mw" name="Realizar inspeção" guid="_UST8wNurEdqt8-ifsyd-Mw"/>
+  <sections xmi:id="_fYNTINurEdqt8-ifsyd-Mw" name="Redigir ata de inspeção" guid="_fYNTINurEdqt8-ifsyd-Mw"/>
+</com.ibm.uma:TaskDescription>

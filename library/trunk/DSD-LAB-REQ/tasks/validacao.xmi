@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<com.ibm.uma:TaskDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:com.ibm.uma="http://www.ibm.com/uma/1.0.2/uma.ecore" xmi:id="-1mvEqNT2rtlkxNlS0ChnWA" name="validacao,_qpCLoNB9EdqUyPR7gE-fIQ" guid="-1mvEqNT2rtlkxNlS0ChnWA" changeDate="2006-05-09T21:19:44.937-0300">
+  <mainDescription>fsd</mainDescription>
+  <sections xmi:id="_0qC8YNVFEdqeD-T9MUVwYA" name="Disponibilizar o Software Requirements Specification para os validadores" guid="_0qC8YNVFEdqeD-T9MUVwYA"/>
+  <sections xmi:id="_34a84NVFEdqeD-T9MUVwYA" name="Comparar as diferencas entre documentação desenvolvida e a versão enviada para inspeção e se certificar que as alterações registradas nas atas de inspeção foram realizadas" guid="_34a84NVFEdqeD-T9MUVwYA"/>
+  <sections xmi:id="_kJ5J8NwuEdqxu_MHTiRzng" name="Aprovar documentação" guid="_kJ5J8NwuEdqxu_MHTiRzng"/>
+  <sections xmi:id="_mKfIsNwuEdqxu_MHTiRzng" name="Colocar o documento em baseline" guid="_mKfIsNwuEdqxu_MHTiRzng"/>
+</com.ibm.uma:TaskDescription>

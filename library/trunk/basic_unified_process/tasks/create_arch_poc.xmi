@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<com.ibm.uma:TaskDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:com.ibm.uma="http://www.ibm.com/uma/1.0.2/uma.ecore" xmi:id="_yw7BoLtQEdm3b_jWTe1Rjg" name="create_arch_poc,_0hmmQclgEdmt3adZL5Dmdw" guid="_yw7BoLtQEdm3b_jWTe1Rjg" changeDate="2005-07-07T14:22:36.707-0700">
+  <sections xmi:id="_-3BOQMP3EdmWKcx6ixEiwg" name="Define objectives" guid="_-3BOQMP3EdmWKcx6ixEiwg">
+    <sectionDescription>&lt;p&gt;
+    Creating an architectural&amp;nbsp;proof-of-concept is usually a way to mitigate risks related to the architecture you plan
+    to use for your system. For this reason you should, before starting building it, define what is the scope and objective
+    of this proof-of-concept. Are you building it because you are plan to use a new technology, or because you plan to use
+    a new COTS as part of your overall architecture?
+&lt;/p&gt;
+&lt;p&gt;
+    Clearly defining the rationale and objective of this proof-of-concept will help you define which approach you should
+    take on building it, and will help you assess&amp;nbsp;its success.
+&lt;/p&gt;</sectionDescription>
+  </sections>
+  <sections xmi:id="__UoXUMP3EdmWKcx6ixEiwg" name="Decide on construction approach" guid="__UoXUMP3EdmWKcx6ixEiwg">
+    <sectionDescription>&lt;p&gt;
+    The&amp;nbsp;proof-of-concept can have different forms, ranging from a conceptual diagram to an executable prototype. Its
+    form and the approach you will be using to construct it are directly related to the objectives you defined for the
+    proof-of-concept.
+&lt;/p&gt;
+&lt;p&gt;
+    If the objective is to validate the integration with an external system you can develop a prototype to validate this
+    integration on a meaningful transaction. If the objective is to validate the feasibility, perhaps searching
+    documentation on previous successfull projects who used this approach would be enough.
+&lt;/p&gt;</sectionDescription>
+  </sections>
+  <sections xmi:id="_F6-ZMMP4EdmWKcx6ixEiwg" name="Construct the proof-of-concept" guid="_F6-ZMMP4EdmWKcx6ixEiwg">
+    <sectionDescription>Using the chosen construction approach, you can then construct your proof-of-concept. You should also assess at the end
+that it met the objectives you defined initially.</sectionDescription>
+  </sections>
+</com.ibm.uma:TaskDescription>

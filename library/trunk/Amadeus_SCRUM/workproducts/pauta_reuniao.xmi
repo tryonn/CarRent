@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<com.ibm.uma:DeliverableDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:com.ibm.uma="http://www.ibm.com/uma/1.0.2/uma.ecore" xmi:id="-iEl22NLi4VftgkdlGvunzA" name="new_deliverable,_k7NvgMoiEdqL3LkYAkf7Sw" guid="-iEl22NLi4VftgkdlGvunzA" changeDate="2006-04-12T09:54:23.296-0300">
+  <mainDescription>O comite_set do amadeus entrara em consenso para saber quais assuntos estarao na pauta de reuniao. Um dos integrantes
+ficara responsavel por enviar um email ao grupo com 4 horas de antecedencia, para que todos possam se preparar para a
+mesma.</mainDescription>
+  <purpose>Informar a todos os assuntos que serao tratados em reuniao.</purpose>
+</com.ibm.uma:DeliverableDescription>

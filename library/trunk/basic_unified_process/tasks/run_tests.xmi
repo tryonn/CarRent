@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<com.ibm.uma:TaskDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:com.ibm.uma="http://www.ibm.com/uma/1.0.2/uma.ecore" xmi:id="_NrbRUqeqEdmKDbQuyzCoqQ" name="run_tests,_0jVEkMlgEdmt3adZL5Dmdw" guid="_NrbRUqeqEdmKDbQuyzCoqQ" changeDate="2005-07-07T14:48:06.988-0700">
+  <sections xmi:id="_fR4aQKuSEdmhFZtkg1nakg" name="Schedule tests execution" guid="_fR4aQKuSEdmhFZtkg1nakg"/>
+  <sections xmi:id="_gV408KuSEdmhFZtkg1nakg" name="Execute Test" guid="_gV408KuSEdmhFZtkg1nakg"/>
+  <sections xmi:id="_hfVJQKuSEdmhFZtkg1nakg" name="Evaluate execution of Test" guid="_hfVJQKuSEdmhFZtkg1nakg"/>
+  <sections xmi:id="_isZZUKuSEdmhFZtkg1nakg" name="Examine the Test Log" guid="_isZZUKuSEdmhFZtkg1nakg"/>
+  <sections xmi:id="_kHIR8KuSEdmhFZtkg1nakg" name="Identify failures and propose candidate solutions" guid="_kHIR8KuSEdmhFZtkg1nakg"/>
+  <sections xmi:id="_m6xeQKuSEdmhFZtkg1nakg" name="Create and maintain Change Request" guid="_m6xeQKuSEdmhFZtkg1nakg"/>
+  <sections xmi:id="_pN8awKuSEdmhFZtkg1nakg" name="Draft a test evaluation summary" guid="_pN8awKuSEdmhFZtkg1nakg"/>
+  <sections xmi:id="_rDCUIKuSEdmhFZtkg1nakg" name="Evaluate and verify your results" guid="_rDCUIKuSEdmhFZtkg1nakg"/>
+</com.ibm.uma:TaskDescription>

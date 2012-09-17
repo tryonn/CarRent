@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<com.ibm.uma:TaskDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:com.ibm.uma="http://www.ibm.com/uma/1.0.2/uma.ecore" xmi:id="-nSINhxb8IbGRyoLrqjbkng" name=",_-KficNVGEdqeD-T9MUVwYA" guid="-nSINhxb8IbGRyoLrqjbkng">
+  <sections xmi:id="_G09YMNVHEdqeD-T9MUVwYA" name="Marcação da reunião é realizada" guid="_G09YMNVHEdqeD-T9MUVwYA"/>
+  <sections xmi:id="_EAEOsNVHEdqeD-T9MUVwYA" name="Dúvidas são enviadas para o stakeholder" guid="_EAEOsNVHEdqeD-T9MUVwYA"/>
+  <sections xmi:id="_LXYagNVHEdqeD-T9MUVwYA" name="Reunião de forma síncrona é realizada" guid="_LXYagNVHEdqeD-T9MUVwYA"/>
+</com.ibm.uma:TaskDescription>

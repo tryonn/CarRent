@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE hibernate-mapping	PUBLIC 
+	"-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+    "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+
+<hibernate-mapping>
+ <class name="br.ufpe.cin.amadeus.system.academic.module.homework.Homework" table="homework">
+ 	<id name="id">
+ 		<column name="sqhomework" not-null="true" unique="true"/>
+ 		<generator class="increment"/>
+ 	</id>
+ 	<property name="name">
+ 		<column name="nm_homework" length="100" not-null="true" />
+ 	</property>
+ 	
+ 	<property name="deadLine">
+ 		<column name="dt_deliverydate" not-null="true" />
+ 	</property>
+ 	
+ 	<property name="date">
+ 		<column name="dt_date" not-null="true" />
+ 	</property>
+ 	
+ 	<property name="allowed">
+ 		<column name="in_deliverable" />
+ 	</property>
+ 	
+ 	<property name="description">
+ 		<column name="ds_description" />
+ 	</property>
+ 	 	
+ </class>
+</hibernate-mapping>

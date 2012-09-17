@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<com.ibm.uma:ContentDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:com.ibm.uma="http://www.ibm.com/uma/1.0.2/uma.ecore" xmi:id="_ycE8HdnmEdmO6L4XMImrsA" name="activity_detail_diagram,_ycE8HNnmEdmO6L4XMImrsA" guid="_ycE8HdnmEdmO6L4XMImrsA" changeDate="2005-09-07T10:37:28.348-0700">
+  <mainDescription>Diagram depicting all the &lt;a class=&quot;elementLink&quot;
+href=&quot;file://./../../../base_concepts/guidances/termdefinitions/process_element,_cvdpEB_LEdq6CKKKq4D7YA.html&quot;
+guid=&quot;_cvdpEB_LEdq6CKKKq4D7YA&quot;&gt;process element&lt;/a&gt;s within the scope of an &lt;a
+class=&quot;elementLink&quot; href=&quot;file://./../../../base_concepts/guidances/termdefinitions/activity,_yoVhMB_IEdq6CKKKq4D7YA.html&quot;
+guid=&quot;_yoVhMB_IEdq6CKKKq4D7YA&quot;&gt;activity&lt;/a&gt;&amp;nbsp;Activity (Role &lt;a class=&quot;elementLink&quot;
+href=&quot;file://./../../../base_concepts/guidances/termdefinitions/descriptor,_7rS6AB_JEdq6CKKKq4D7YA.html&quot;
+guid=&quot;_7rS6AB_JEdq6CKKKq4D7YA&quot;&gt;descriptor&lt;/a&gt;s, Work Product Descriptors, TaskDescriptors,
+sub-Activities). This diagram also depicts input/output relationships between Task Descriptors (or Activities)and Work
+Product Descriptors,&amp;nbsp;as well as responsibility relationships between Role Descriptors and Task Descriptors. Activity
+Detail Diagrams are used to provide a complete summary of an activity&amp;nbsp;and thus&amp;nbsp;improve their comprehensibility.</mainDescription>
+</com.ibm.uma:ContentDescription>

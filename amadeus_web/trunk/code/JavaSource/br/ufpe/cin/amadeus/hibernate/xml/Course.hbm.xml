@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE hibernate-mapping	PUBLIC 
+	"-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+    "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+
+<hibernate-mapping>
+ <class name="br.ufpe.cin.amadeus.system.academic.course.Course" table="course">
+ 	<id name="id">
+ 		<column name="sqCourse" not-null="true" />
+ 		<generator class="increment"/>
+ 	</id>
+ 	<property name="name">
+ 		<column name="nmCourse" length="100" not-null="true" />
+ 	</property>
+ 	
+ 	<property name="idAuthor">
+ 		<column name="sqPerson" not-null="true" />
+ 	</property>
+ 	
+ 	<property name="objectives">
+ 		<column name="dsObjectives"/>
+ 	</property>
+ 	
+ 	<property name="content">
+ 		<column name="dscontents"/>
+ 	</property>
+ 	
+ 	<property name="students">
+ 		<column name="qtMaxStudents"/>
+ 	</property>
+ 	
+ 	<property name="creationDate">
+ 		<column name="dtCreation" length="20" not-null="true" />
+ 	</property>
+ 	
+ 	<property name="initialRegistrationDate">
+ 		<column name="dtregstart" length="20" not-null="true" />
+ 	</property>
+ 	
+ 	<property name="finalRegistrationDate">
+ 		<column name="dtregend" length="20" not-null="true" />
+ 	</property>
+ 	
+ 	<property name="initialCourseDate">
+ 		<column name="dtstart" length="20" not-null="true" />
+ 	</property>
+ 	
+ 	<property name="finalCourseDate">
+ 		<column name="dtend" length="20" not-null="true" />
+ 	</property>
+ 	
+ 	<property name="targetAudience">
+ 		<column name="dstargetpublic"/>
+ 	</property>
+ 	
+ 	<set name="tools"
+ 		table="COURSE_TOOL"
+ 		lazy="true"
+ 		cascade="save-update">
+ 		<key column="sqCourse"/>
+ 		<many-to-many class="br.ufpe.cin.amadeus.system.academic.tool.Tool" column="sqtool"/>
+ 	</set>
+ 	
+ 	 <set name="keywords"
+ 		table="COURSE_KEYWORD"
+ 		lazy="true"
+ 		cascade="save-update">
+ 		<key column="sqCourse"/>
+ 		<many-to-many class="br.ufpe.cin.amadeus.system.academic.keyword.Keyword" column="sqkeyword"/>
+ 	</set>
+ 	
+ 	<list name="modules"
+ 		table="course_module"
+ 		lazy="true"
+ 		cascade="all">
+ 		<key column="sqCourse"/>
+ 		<index column="ds_position"/>
+ 		<many-to-many class="br.ufpe.cin.amadeus.system.academic.module.Module" column="sqModule"/>
+ 	</list>
+
+	
+	
+ </class>
+</hibernate-mapping>

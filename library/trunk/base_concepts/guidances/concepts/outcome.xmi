@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<com.ibm.uma:ContentDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:com.ibm.uma="http://www.ibm.com/uma/1.0.2/uma.ecore" xmi:id="_pRmgYBUJEdqrUt4zetC1gg" name="outcome,_pROF4BUJEdqrUt4zetC1gg" guid="_pRmgYBUJEdqrUt4zetC1gg" changeDate="2005-10-26T18:17:53.880-0700">
+  <mainDescription>&lt;p&gt;
+    An Outcome describes intangible Work Products that are a result or state, such as an installed server or optimized
+    network.&amp;nbsp;As the occurrence of an Outcome is often informally documented (for example, through minutes or memos),
+    Outcomes may also be used to describe Work Products that are not formally defined.&amp;nbsp;A key differentiator for
+    Outcomes against Artifacts is that Outcomes are not candidates for harvesting as reusable assets.&amp;nbsp; Outcomes can
+    not have associated templates or examples and are not possible to reuse as assets on other projects.
+&lt;/p&gt;</mainDescription>
+</com.ibm.uma:ContentDescription>

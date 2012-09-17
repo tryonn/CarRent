@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<com.ibm.uma:ContentDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:com.ibm.uma="http://www.ibm.com/uma/1.0.2/uma.ecore" xmi:id="_uMcmkBUFEdqrUt4zetC1gg" name="view,_uMKSsBUFEdqrUt4zetC1gg" guid="_uMcmkBUFEdqrUt4zetC1gg" changeDate="2005-10-26T23:55:52.721-0700">
+  <mainDescription>&lt;p&gt;
+    Views are tabs that appear at the top of the tree browser within a published site. They identify pre-arranged
+    structured collections of content designed to facilitate its browsing by process users and practitioners.
+&lt;/p&gt;
+&lt;p&gt;
+    A View is specified by defining a nested structure of &lt;a class=&quot;elementLinkWithUserText&quot; href=&quot;./../../../base_concepts/guidances/concepts/custom_category,_xuO10BUGEdqrUt4zetC1gg.html&quot; guid=&quot;_xuO10BUGEdqrUt4zetC1gg&quot;&gt;Custom Categories&lt;/a&gt; containing references to the&amp;nbsp;Content Elements one desires to
+    publish within the view. Structurally, Views represent a selection of Custom Categories for one specific&amp;nbsp;&lt;a class=&quot;elementLink&quot; href=&quot;./../../../base_concepts/guidances/concepts/configuration,_d698IBUFEdqrUt4zetC1gg.html&quot; guid=&quot;_d698IBUFEdqrUt4zetC1gg&quot;&gt;Method Configuration&lt;/a&gt;. In other words, every configuration defines its views by
+    referring to a set of Custom Categories.
+&lt;/p&gt;</mainDescription>
+</com.ibm.uma:ContentDescription>

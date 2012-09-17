@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<com.ibm.uma:TaskDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:com.ibm.uma="http://www.ibm.com/uma/1.0.2/uma.ecore" xmi:id="-vzd_C-qQwRcQkCkNGn6KXQ" name="documentacao_requisitos,_Nlyw8NPVEdq7_fGj-0nUqg" guid="-vzd_C-qQwRcQkCkNGn6KXQ" changeDate="2006-05-09T11:09:49.156-0300">
+  <mainDescription>&lt;p&gt;
+    fsdfsd
+&lt;/p&gt;
+&lt;p&gt;
+    fsdfsd fs
+&lt;/p&gt;
+&lt;p&gt;
+    fsd
+&lt;/p&gt;
+&lt;p&gt;
+    fsd
+&lt;/p&gt;
+&lt;br /&gt;</mainDescription>
+  <sections xmi:id="_aqqMwNVGEdqeD-T9MUVwYA" name="Entender o Storyboard" guid="_aqqMwNVGEdqeD-T9MUVwYA"/>
+  <sections xmi:id="_pjnvoNVHEdqeD-T9MUVwYA" name="Mitigar dúvidas encontradas no storyboard" guid="_pjnvoNVHEdqeD-T9MUVwYA"/>
+  <sections xmi:id="_xAwPkNVHEdqeD-T9MUVwYA" name="Extrair os atores" guid="_xAwPkNVHEdqeD-T9MUVwYA"/>
+  <sections xmi:id="_c0fnENVGEdqeD-T9MUVwYA" name="Extrair os casos de uso" guid="_c0fnENVGEdqeD-T9MUVwYA"/>
+  <sections xmi:id="_nbRjENVHEdqeD-T9MUVwYA" name="Detalhar os casos de uso" guid="_nbRjENVHEdqeD-T9MUVwYA"/>
+</com.ibm.uma:TaskDescription>

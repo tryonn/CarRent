@@ -1,0 +1,56 @@
+Primeira Fase
+
+Completa
+
+Segunda Fase
+
+1. Integração dos jogos padrão total com o Amadeus (Em Desenvolvimento)
+2. Fazer a parte HTTP (Passei para João (13/01/2007), mas não me deu retorno)
+3. Integração dos jogos padrão com o Amadeus. (Envolve a Jynx e a atividade anterior)
+4. Página web que receba um novo link do jogo e identifique se é padrão e adicione no BD
+
+
+Não Resolvidos
+1. Descobrir pq a URL não esta sendo enviada corretamente, quando uma sala ja esta criada. Envia parâmetros a mais.
+2.Não esta tratando quando um novo usuário entra numa sala quando o usuário saiu dela.
+OK 3. O jogo so podera esperar jogadores, caso receba a mensagem de usuários. CRIAR mesagem dizendo q a sala nao foi criada.
+OK 4. Acentuação no Linux
+5. Ver pq os jogos avulsos nao estao abrindo
+6. Em listar salas criadas e quando vai listar os jogos para iniciar um novo jogo -> QUando o texto é maior que a caixa disponpivel não aparece.
+
+Terceira Fase
+
+1. Teste em carga
+2. Melhoramento da Interface com o Cliente
+3. Interface de Administração
+4. Manter histórico em BD das partidas
+
+
+Falta
+
+1. A avaliação do prof. pelo jogo ainda não esta definida. (Oque sera avaliado, sera por pontuação ? como ?)
+2. Tela de integração com o AMADeUS (Prototipação em papel visão aluno e professor)
+3. Avaliação do Aluno pelo Jogo. Tempo de permanencia na partida e pontos.
+
+
+
+Ambiente de Teste de Criação de Jogos
+1. Colocar todas as execption para mostrar
+
+
+
+
+Problema acentuação no linux
+arquivo /etc/sysconfig/i18n
+
+de caso esteja assim:
+LANG="pt_BR.UTF-8"
+SYSFONT="latarcyrheb-sun16"
+SUPPORTED="pt_BR.UTF-8:pt_BR
+:pt"
+
+para:
+
+LANG="pt_BR.iso88591"
+SYSFONT="latarcyrheb-sun16"
+SUPPORTED="pt_BR.iso88591:pt_BR:pt"

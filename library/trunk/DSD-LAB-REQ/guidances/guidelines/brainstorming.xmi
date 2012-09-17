@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<com.ibm.uma:ContentDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:com.ibm.uma="http://www.ibm.com/uma/1.0.2/uma.ecore" xmi:id="-F4IA2KKMFHKAjavUD6VKYw" name="new_guideline,_z3r7wNtuEdqo1eLt5uqdUA" guid="-F4IA2KKMFHKAjavUD6VKYw" changeDate="2006-05-06T10:22:42.890-0300">
+  <mainDescription>&lt;p&gt;
+    Brainstorming siginificar dispendiar uma quantidade pequena de tempo, normalmente 15 minutos, onde todos os
+    participantes podem dizer o que acham importante para o projeto. Depois disso, o facilitador lidera o grupo de
+    priorizacao dos resultados. Para a realizacao do storyboard eh necessario seguir as seguintes regras:
+&lt;/p&gt;
+&lt;ul&gt;
+    &lt;li&gt;
+        Deixar bastante claro o proposito do brainstorming.
+    &lt;/li&gt;
+    &lt;li&gt;
+        Gerar o maximo de ideias possivel.
+    &lt;/li&gt;
+    &lt;li&gt;
+        Deixar a imaginacao fluir.
+    &lt;/li&gt;
+    &lt;li&gt;
+        Nao permitir criticas ou discussoes enquanto estiver colhendo as informacoes.
+    &lt;/li&gt;
+    &lt;li&gt;
+        As informacoes sao compartilhadas, modificadas e por vezes combinandas entre os participantes.
+    &lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+    As melhores ideias sao aceitas e trabalhadas posteriormente, as que nao demonstraram interesse dos participantes sao
+    eliminadas.
+&lt;/p&gt;
+&lt;p&gt;
+    Outras tecnicas para reduzir os conflitos sao:
+&lt;/p&gt;
+&lt;ul&gt;
+    &lt;li&gt;
+        Todos posssuem direito a voto simples.
+    &lt;/li&gt;
+    &lt;li&gt;
+        Deixar todos priorizarem as ideias por categoria (essencial, importante e desejavel), cada uma delas possui um peso
+        (por exemplo: 3, 2 e 1). A soma das prioridades de cada ideia revelarao a devida importancia.
+    &lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+    Algumas ideiaspodem simplesmente serem armazedas para uma sessao de brainstoming posterior, caso seja necessario.
+&lt;/p&gt;
+&lt;br /&gt;</mainDescription>
+</com.ibm.uma:ContentDescription>

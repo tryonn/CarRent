@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<com.ibm.uma:ContentDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:com.ibm.uma="http://www.ibm.com/uma/1.0.2/uma.ecore" xmi:id="-dcYwPivhczonAxeyXweyIQ" name="work_product,_H4JXwB_SEdq6CKKKq4D7YA" guid="-dcYwPivhczonAxeyXweyIQ" changeDate="2005-09-07T12:05:14.604-0700">
+  <mainDescription>&lt;a class=&quot;elementLink&quot; href=&quot;base_concepts/guidances/termdefinitions/content_element,_N8x34B_LEdq6CKKKq4D7YA.html&quot;
+guid=&quot;_N8x34B_LEdq6CKKKq4D7YA&quot;&gt;content element&lt;/a&gt;&amp;nbsp;that represents&amp;nbsp;anything used, produced, or modified by a &lt;a
+class=&quot;elementLink&quot; href=&quot;base_concepts/guidances/termdefinitions/task,_x459ktnmEdmO6L4XMImrsA.html&quot;
+guid=&quot;_x459ktnmEdmO6L4XMImrsA&quot;&gt;task&lt;/a&gt;.</mainDescription>
+</com.ibm.uma:ContentDescription>

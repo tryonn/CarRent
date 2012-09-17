@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<com.ibm.uma:ContentDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:com.ibm.uma="http://www.ibm.com/uma/1.0.2/uma.ecore" xmi:id="-AY7-wWpxUmZp4c-odX8e7g" name="capability_pattern,_2RUJACO4EdqaNq6Ptg8uyA" guid="-AY7-wWpxUmZp4c-odX8e7g" changeDate="2005-09-12T11:13:52.662-0700">
+  <mainDescription>&lt;p&gt;
+    &lt;!--StartFragment--&gt;A Capability Pattern is a special Process that describes a reusable cluster of &lt;a
+    class=&quot;elementLink&quot;
+    href=&quot;file://./../../../base_concepts/guidances/termdefinitions/activity,_yoVhMB_IEdq6CKKKq4D7YA.html&quot;
+    guid=&quot;_yoVhMB_IEdq6CKKKq4D7YA&quot;&gt;Activities&lt;/a&gt;. 
+    Capabilities Patterns express and communicate process knowledge for a key area of interest such as a Discipline and can be directly
+    used by process practitioner to guide his work.&lt;!--EndFragment--&gt;
+&lt;/p&gt;</mainDescription>
+</com.ibm.uma:ContentDescription>

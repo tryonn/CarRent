@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<com.ibm.uma:ContentDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:com.ibm.uma="http://www.ibm.com/uma/1.0.2/uma.ecore" xmi:id="_AtZBwBTQEdqrUt4zetC1gg" name="process_concepts,_AtM0gBTQEdqrUt4zetC1gg" guid="_AtZBwBTQEdqrUt4zetC1gg" changeDate="2005-10-27T00:17:01.670-0700">
+  <mainDescription>&lt;p&gt;
+    A Development Process defines the structured work definitions that need to be performed to develop a system, e.g. by
+    performing a project that follows the process.&amp;nbsp; Such structured work definitions delineate the work to be
+    performed along a timeline or lifecycle and organize it in so called breakdown structures and/or activity diagrams. A
+    process takes reusable core method elements such as Tasks and Work Products and relates them into semi-ordered
+    sequences that are then customized to specific types of projects.
+&lt;/p&gt;
+&lt;p&gt;
+    Fundamental concepts used in UMA to define processes include:
+&lt;/p&gt;
+&lt;ul&gt;
+    &lt;li&gt;
+        &lt;a class=&quot;elementLink&quot; href=&quot;./../../base_concepts/guidances/concepts/activity,3.132140065969088E-305.html&quot; guid=&quot;3.132140065969088E-305&quot;&gt;Activity&lt;/a&gt;
+    &lt;/li&gt;
+    &lt;li&gt;
+        &lt;a class=&quot;elementLink&quot; href=&quot;./../../base_concepts/guidances/concepts/capability_pattern,1.7072348895114264E-305.html&quot; guid=&quot;1.7072348895114264E-305&quot;&gt;Capability Pattern&lt;/a&gt;
+    &lt;/li&gt;
+    &lt;li&gt;
+        &lt;a class=&quot;elementLink&quot; href=&quot;./../../base_concepts/guidances/concepts/delivery_process,_EhgqwO8MEdmKSqa_gSYthg.html&quot; guid=&quot;_EhgqwO8MEdmKSqa_gSYthg&quot;&gt;Delivery Process&lt;/a&gt;
+    &lt;/li&gt;
+    &lt;li&gt;
+        &lt;a class=&quot;elementLink&quot; href=&quot;./../../base_concepts/guidances/concepts/process_contribution,_NYASQBtqEdqSLrJ4Ij2LVA.html&quot; guid=&quot;_NYASQBtqEdqSLrJ4Ij2LVA&quot;&gt;Process Contribution&lt;/a&gt;
+    &lt;/li&gt;
+    &lt;li&gt;
+        &lt;a class=&quot;elementLink&quot; href=&quot;./../../base_concepts/guidances/concepts/descriptor,_5V9HEBUEEdqrUt4zetC1gg.html&quot; guid=&quot;_5V9HEBUEEdqrUt4zetC1gg&quot;&gt;Descriptor&lt;/a&gt;
+    &lt;/li&gt;
+    &lt;li&gt;
+        &lt;a class=&quot;elementLink&quot; href=&quot;./../../base_concepts/guidances/concepts/composite_role,_P9gp0BtHEdqSLrJ4Ij2LVA.html&quot; guid=&quot;_P9gp0BtHEdqSLrJ4Ij2LVA&quot;&gt;Composite Role&lt;/a&gt;
+    &lt;/li&gt;
+    &lt;li&gt;
+        &lt;a class=&quot;elementLink&quot; href=&quot;./../../base_concepts/guidances/concepts/team_profile,_dRKRMBtHEdqSLrJ4Ij2LVA.html&quot; guid=&quot;_dRKRMBtHEdqSLrJ4Ij2LVA&quot;&gt;Team Profile&lt;/a&gt;
+    &lt;/li&gt;
+&lt;/ul&gt;</mainDescription>
+</com.ibm.uma:ContentDescription>

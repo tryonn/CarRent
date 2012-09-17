@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<com.ibm.uma:ArtifactDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:com.ibm.uma="http://www.ibm.com/uma/1.0.2/uma.ecore" xmi:id="-buxz4BVToq97bSxaqyjySg" name="work_items_list,_rGNWsCbSEdqh1LYUOGRh2A" guid="-buxz4BVToq97bSxaqyjySg" changeDate="2005-09-22T15:26:05.720-0700">
+  <mainDescription>&lt;p&gt;
+    Project progress&amp;nbsp;can be&amp;nbsp;measured by understanding how the product is evolving compared to what has been
+    requested to be done. Working demonstrations of the product&amp;nbsp;can provide this comparison.
+&lt;/p&gt;
+&lt;p&gt;
+    A work items list can also provide information about remaining work at any point in time. It consists of requirements
+    of any nature (functional, non-functional),&amp;nbsp;requests for changes, design constraints, infrastructure, architecture
+    and&amp;nbsp;technology work, and so on. See &lt;a class=&quot;elementLinkWithType&quot;
+    href=&quot;resources/requirements,_0Wh-sMlgEdmt3adZL5Dmdw.html&quot;
+    guid=&quot;_0Wh-sMlgEdmt3adZL5Dmdw&quot;&gt;Concept: Requirements&lt;/a&gt;&amp;nbsp;and &lt;a class=&quot;elementLinkWithType&quot;
+    href=&quot;resources/change_requests,_6jdvECb3Edqh1LYUOGRh2A.html&quot;
+    guid=&quot;_6jdvECb3Edqh1LYUOGRh2A&quot;&gt;Concept: Change Requests&lt;/a&gt;&amp;nbsp;for types of work items that can be captured in this
+    list.
+&lt;/p&gt;
+&lt;p&gt;
+    This list is constantly updated with new entries, as the stakeholders have new requests, as the project evolves and the
+    team better understands the problem domain and technology being used, and so on. Work is constantly updated in terms of
+    priority, estimated effort (in days) and&amp;nbsp;planned release, so at each iteration, tasks are assigned to team members
+    in order to address the planned work.
+&lt;/p&gt;
+&lt;p&gt;
+    For more information, see concept of &quot;Product Backlog&quot; in &lt;a class=&quot;elementLinkWithUserText&quot;
+    href=&quot;resources/references,_9ToeIB83Edqsvps02rpOOg.html&quot;
+    guid=&quot;_9ToeIB83Edqsvps02rpOOg&quot;&gt;&lt;font color=&quot;#0000ff&quot;&gt;[SCH04]&lt;/font&gt;&lt;/a&gt;.
+&lt;/p&gt;</mainDescription>
+  <purpose>To collect all work that has to be done in a project, so&amp;nbsp;work can be prioritized and&amp;nbsp;effort estimated.&amp;nbsp;</purpose>
+  <representationOptions>&lt;h4&gt;
+    As a separate artifact
+&lt;/h4&gt;
+&lt;p&gt;
+    This list&amp;nbsp;be&amp;nbsp;captured as a separate artifact, represented by a table or spreadsheet containing the following
+    columns:
+&lt;/p&gt;
+&lt;table cellspacing=&quot;2&quot; cellpadding=&quot;2&quot; width=&quot;180&quot; border=&quot;1&quot;&gt;
+    &lt;tbody&gt;
+        &lt;tr&gt;
+            &lt;td&gt;
+                Name/Description&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;
+            &lt;/td&gt;
+            &lt;td&gt;
+                Type&amp;nbsp;&amp;nbsp;&amp;nbsp;
+            &lt;/td&gt;
+            &lt;td&gt;
+                Priority&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;
+            &lt;/td&gt;
+            &lt;td&gt;
+                Estimation&amp;nbsp;(d)&amp;nbsp;&amp;nbsp;
+            &lt;/td&gt;
+            &lt;td&gt;
+                Release&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;
+            &lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+            &lt;td&gt;
+            &lt;/td&gt;
+            &lt;td&gt;
+            &lt;/td&gt;
+            &lt;td&gt;
+            &lt;/td&gt;
+            &lt;td&gt;
+            &lt;/td&gt;
+            &lt;td&gt;
+            &lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+            &lt;td&gt;
+            &lt;/td&gt;
+            &lt;td&gt;
+            &lt;/td&gt;
+            &lt;td&gt;
+            &lt;/td&gt;
+            &lt;td&gt;
+            &lt;/td&gt;
+            &lt;td&gt;
+            &lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+            &lt;td&gt;
+            &lt;/td&gt;
+            &lt;td&gt;
+            &lt;/td&gt;
+            &lt;td&gt;
+            &lt;/td&gt;
+            &lt;td&gt;
+            &lt;/td&gt;
+            &lt;td&gt;
+            &lt;/td&gt;
+        &lt;/tr&gt;
+    &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;br /&gt;
+&lt;ul&gt;
+    &lt;li&gt;
+        T&lt;span style=&quot;mso-bidi-font-family: Arial&quot;&gt;ype =&amp;nbsp;various types of requirements and change requests&lt;/span&gt;
+    &lt;/li&gt;
+    &lt;li&gt;
+        &lt;span style=&quot;mso-bidi-font-family: Arial&quot;&gt;Priority = Low (1) … High (5)&lt;/span&gt;
+    &lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4&gt;
+    In databases
+&lt;/h4&gt;
+&lt;p&gt;
+    Requirements Management tools and Change Request tools are an option to capture the list of work to be done.
+&lt;/p&gt;
+&lt;h4&gt;
+    As part of the Project Plan
+&lt;/h4&gt;
+&lt;p&gt;
+    Instead of being&amp;nbsp;represented in a separate artifact, this list&amp;nbsp;can be represented as a section on the project
+    plan, containing the same columns as above.
+&lt;/p&gt;</representationOptions>
+</com.ibm.uma:ArtifactDescription>

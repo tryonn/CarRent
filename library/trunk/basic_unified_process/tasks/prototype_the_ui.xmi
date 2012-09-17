@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<com.ibm.uma:TaskDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:com.ibm.uma="http://www.ibm.com/uma/1.0.2/uma.ecore" xmi:id="_8fU78MjKEdmJGe422NK4sg" name="prototype_the_ui,_ql3vcNnTEdm-TbchcRN5RQ" guid="_8fU78MjKEdmJGe422NK4sg" changeDate="2005-07-07T14:25:59.870-0700">
+  <sections xmi:id="_tb8XsMu8Edmr1udnGYwenA" name="Determine user characteristics" guid="_tb8XsMu8Edmr1udnGYwenA"/>
+  <sections xmi:id="_u2jUgMu8Edmr1udnGYwenA" name="Identify the primary User-Interface elements" guid="_u2jUgMu8Edmr1udnGYwenA"/>
+  <sections xmi:id="_xU_F0Mu8Edmr1udnGYwenA" name="Mock up the User-Iinterface" guid="_xU_F0Mu8Edmr1udnGYwenA"/>
+  <sections xmi:id="_z2qYYMu8Edmr1udnGYwenA" name="Evaluate and communicate the design" guid="_z2qYYMu8Edmr1udnGYwenA"/>
+</com.ibm.uma:TaskDescription>

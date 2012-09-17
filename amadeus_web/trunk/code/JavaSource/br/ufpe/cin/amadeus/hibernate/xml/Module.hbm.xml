@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE hibernate-mapping	PUBLIC 
+	"-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+    "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+
+<hibernate-mapping>
+ <class name="br.ufpe.cin.amadeus.system.academic.module.Module" table="module">
+ 	<id name="id">
+ 		<column name="sqModule" not-null="true" unique="true"/>
+ 		<generator class="increment"/>
+ 	</id>
+ 	<property name="name">
+ 		<column name="nmModule" length="100" not-null="true" />
+ 	</property>
+ 	
+ 	<property name="description">
+ 		<column name="dsmodule" not-null="true" />
+ 	</property>
+ 	
+ 	<property name="visible">
+ 		<column name="in_visible" not-null="true" />
+ 	</property>
+ 	
+ 	<property name="order">
+ 		<column name="dsorder" not-null="true" />
+ 	</property>
+ 	
+<!-- 	<property name="hasCourseEval">-->
+<!-- 		<column name="in_hasCourseEval" not-null="true" />-->
+<!-- 	</property>-->
+ 	
+ 	<list name="materials" lazy="true" cascade="all-delete-orphan">
+		<key column="sqmodule"/>
+		<index column="ds_position"/>
+		<one-to-many class="br.ufpe.cin.amadeus.system.academic.module.material.Material"/>
+	</list>
+	
+	<list name="polls" lazy="true" cascade="all-delete-orphan">
+		<key column="sqmodule"/>
+		<index column="ds_position"/>
+		<one-to-many class="br.ufpe.cin.amadeus.system.academic.module.poll.Poll"/>
+	</list>
+	
+	<list name="homeworks" lazy="true" cascade="all-delete-orphan">
+		<key column="sqmodule"/>
+		<index column="ds_position"/>
+		<one-to-many class="br.ufpe.cin.amadeus.system.academic.module.homework.Homework"/>
+	</list>
+	
+	<list name="forums" lazy="true" cascade="all-delete-orphan">
+		<key column="sqmodule"/>
+		<index column="ds_position"/>
+		<one-to-many class="br.ufpe.cin.amadeus.system.academic.module.forum.Forum"/>
+	</list>
+	
+	<many-to-one name="courseEvaluation"
+ 		class="br.ufpe.cin.amadeus.system.academic.module.courseEvaluation.CourseEvaluation"
+ 		column="sqCourseEvaluation" cascade="all-delete-orphan" unique="true" lazy="proxy" />
+ 	
+ </class>
+</hibernate-mapping>

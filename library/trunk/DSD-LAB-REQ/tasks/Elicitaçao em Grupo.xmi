@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<com.ibm.uma:TaskDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:com.ibm.uma="http://www.ibm.com/uma/1.0.2/uma.ecore" xmi:id="-OlmnpxZJobb9FkqF1lU_-g" name=",_PNzrcMWOEdqcv6u-ojHzKA" guid="-OlmnpxZJobb9FkqF1lU_-g" changeDate="2006-04-06T14:01:09.253-0300">
+  <sections xmi:id="_8_lyEMWOEdqcv6u-ojHzKA" name="New Step" guid="_8_lyEMWOEdqcv6u-ojHzKA"/>
+  <purpose>Elicitar os requisitos do sistema atraves de gupos de elicitaçao</purpose>
+</com.ibm.uma:TaskDescription>

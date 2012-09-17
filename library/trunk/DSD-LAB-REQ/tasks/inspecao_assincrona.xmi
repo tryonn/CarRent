@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<com.ibm.uma:TaskDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:com.ibm.uma="http://www.ibm.com/uma/1.0.2/uma.ecore" xmi:id="-UKfInUt2HiMRD4WjnzwNzw" name="inspecao_assincrona,_SsI_sNPVEdq7_fGj-0nUqg" guid="-UKfInUt2HiMRD4WjnzwNzw" changeDate="2006-05-09T21:16:35.453-0300">
+  <mainDescription>fsd</mainDescription>
+  <sections xmi:id="_8bC1MNt0Edqo1eLt5uqdUA" name="Autor seleciona os inspetores do artefato" guid="_8bC1MNt0Edqo1eLt5uqdUA"/>
+  <sections xmi:id="_qoqR4NSTEdq90538QjPN0A" name="Autor disponibiliza artefato para todos os inspetores" guid="_qoqR4NSTEdq90538QjPN0A"/>
+  <sections xmi:id="_4D85INt0Edqo1eLt5uqdUA" name="Inspetores acessam o artefato" guid="_4D85INt0Edqo1eLt5uqdUA"/>
+  <sections xmi:id="_5RM2UNSYEdq90538QjPN0A" name="Inspetores fazem a leitura do documento" guid="_5RM2UNSYEdq90538QjPN0A"/>
+  <sections xmi:id="_8kpkENSYEdq90538QjPN0A" name="Inspetores adcionam comentários no documento de forma assíncrona" guid="_8kpkENSYEdq90538QjPN0A"/>
+</com.ibm.uma:TaskDescription>

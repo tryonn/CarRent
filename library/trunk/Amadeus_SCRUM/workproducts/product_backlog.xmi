@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<com.ibm.uma:ArtifactDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:com.ibm.uma="http://www.ibm.com/uma/1.0.2/uma.ecore" xmi:id="-Vjh_s2DJS0rfH23MUnmQEQ" name="product_backlog,_EMJB0CofEdqHVICqX5k_yQ" guid="-Vjh_s2DJS0rfH23MUnmQEQ" changeDate="2006-04-11T11:37:20.496-0300">
+  <mainDescription>&lt;p&gt;
+    Na metodologia&amp;nbsp;original do Scrum os registros do product backlog continham os proprios requisitos descritos. Mas
+    como o processo de desenvolvimento esta sendo distribuido, o product backlog desse projeto contera apenas as
+    referencias aos requisitos detalhados durante as atividades&amp;nbsp;de engenharia de requisitos do projeto. Apos os
+    requisitos serem documentados e validados, eles entrarao no product backlog para serem desenvolvidos.
+&lt;/p&gt;</mainDescription>
+</com.ibm.uma:ArtifactDescription>

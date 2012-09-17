@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<com.ibm.uma:TaskDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:com.ibm.uma="http://www.ibm.com/uma/1.0.2/uma.ecore" xmi:id="-0FM8rztuVjqa0wat4eTNXw" name=",_gsq0UNd8Edqnj4Xv32ITRA" guid="-0FM8rztuVjqa0wat4eTNXw" changeDate="2006-05-10T15:30:32.976-0300">
+  <mainDescription>Validity is probably the biggest concern people have—they're afraid that because a paper prototype doesn't look realistic,
+the results from usability testing it aren't realistic either. I'm often asked whether paper prototyping finds important
+problems. Although this is an area where more research would be helpful, the evidence I've seen supports the generalization
+that paper prototypes will find the same number and types of problems as a more high-tech method</mainDescription>
+  <sections xmi:id="_xbBA8Nd8Edqnj4Xv32ITRA" name="Disponibilizar os Storyboards para os validadores" guid="_xbBA8Nd8Edqnj4Xv32ITRA"/>
+  <sections xmi:id="_ZWY5MNwwEdqxu_MHTiRzng" name="Certificar que as alterações solicitadas durante a inspeção foram realizadas" guid="_ZWY5MNwwEdqxu_MHTiRzng"/>
+  <sections xmi:id="_njgfMNwwEdqxu_MHTiRzng" name="Aprovar storyboard" guid="_njgfMNwwEdqxu_MHTiRzng"/>
+  <sections xmi:id="_opGOQNwwEdqxu_MHTiRzng" name="Colocar storyboard em baseline" guid="_opGOQNwwEdqxu_MHTiRzng"/>
+</com.ibm.uma:TaskDescription>

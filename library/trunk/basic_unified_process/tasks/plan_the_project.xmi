@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<com.ibm.uma:TaskDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:com.ibm.uma="http://www.ibm.com/uma/1.0.2/uma.ecore" xmi:id="_fPbdIKe2Edmzde8VFK5bxg" name="plan_the_project,_0lC70MlgEdmt3adZL5Dmdw" guid="_fPbdIKe2Edmzde8VFK5bxg" changeDate="2005-09-06T17:57:35.491-0700">
+  <sections xmi:id="_EAxI0ABdEdqbLd6pTNxdcA" name="Define the main project constraints" guid="_EAxI0ABdEdqbLd6pTNxdcA">
+    <sectionDescription>&lt;p&gt;
+    All project have constraints. Much as everyone wants to deliver high-quality projects on time, on budget and with the
+    full set of features, there are times when project managers have to make compromises.
+&lt;/p&gt;
+&lt;p&gt;
+    (Based on stakeholder input, the project manager should determine the key project constraints. This may involve the
+    scope, key features that must be delivered for the project to be useful, and&amp;nbsp;key&amp;nbsp;delivery dates such and the
+    flexibility of those dates. Constraints may also include dependencies on other projects or organizations.
+&lt;/p&gt;
+&lt;p&gt;
+    Understanding these constraints helps the project manager to make good decisions when tradeoffs need to be made during
+    the project.
+&lt;/p&gt;</sectionDescription>
+  </sections>
+  <sections xmi:id="_6UFZYABiEdqHlpDr8LcRqg" name="Define project scope and duration" guid="_6UFZYABiEdqHlpDr8LcRqg">
+    <sectionDescription>&lt;p&gt;
+    The project manager defines a rough, high-level scope and duration for the project. This initial estimate is usually
+    not very accurate and needs to be refined during the project.
+&lt;/p&gt;
+&lt;p&gt;
+    If the main constraint is the scope,&amp;nbsp;the project manager&amp;nbsp;focuses on estimating the time and effort needed to
+    develop the full scope. If the main constraint is the delivery date, the manager often needs to estimate how much can
+    be developed by the delivery date.
+&lt;/p&gt;
+&lt;p&gt;
+    This estimation is usually a joint effort involving the project team and key stakeholders.
+&lt;/p&gt;</sectionDescription>
+  </sections>
+  <sections xmi:id="_F2dQYABjEdqHlpDr8LcRqg" name="Validate staffing of the project" guid="_F2dQYABjEdqHlpDr8LcRqg">
+    <sectionDescription>&lt;p&gt;
+    The Project Manager needs to ensure that the right team is in place. That means:
+&lt;/p&gt;
+&lt;div style=&quot;MARGIN-LEFT: 2em&quot;&gt;
+    &lt;ul&gt;
+        &lt;li&gt;
+            There are enough people on the team,
+        &lt;/li&gt;
+        &lt;li&gt;
+            The people have all the necessary skills.
+        &lt;/li&gt;
+    &lt;/ul&gt;
+&lt;/div&gt;
+&lt;p&gt;
+    If&amp;nbsp;the right people are not available,&amp;nbsp;the project manager needs to change this by hiring people,
+    requesting&amp;nbsp;reassignments, by training people that are available, or by adapting the scope or duration to fit the
+    available personnel.
+&lt;/p&gt;
+&lt;p&gt;
+    &amp;nbsp;
+&lt;/p&gt;</sectionDescription>
+  </sections>
+  <sections xmi:id="_k1bY4MMsEdmdo9HxCRR_Gw" name="Define project measurements" guid="_k1bY4MMsEdmdo9HxCRR_Gw">
+    <sectionDescription>&lt;p&gt;
+    The project manager needs to decide how to measure and track the progress of the project. The simplest measure of
+    progress is the number of requirements that are implemented and tested.&amp;nbsp;Stakeholders may want additional
+    visibility, especially on larger projects, into measures such as how many use-cases have been fully detailed and
+    reviewed, outstanding defects, blocked tests, and so on.
+&lt;/p&gt;
+&lt;p&gt;
+    Consider documenting the measurement approach in the project plan to ensure that all stakeholders are aware of the
+    measurements.&amp;nbsp;
+&lt;/p&gt;</sectionDescription>
+  </sections>
+  <sections xmi:id="_OfFTEABjEdqHlpDr8LcRqg" name="Define phases and milestones" guid="_OfFTEABjEdqHlpDr8LcRqg">
+    <sectionDescription>&lt;p&gt;
+    The objective of defining the project phases and milestones is to define the project's important stages, not to detail
+    how it will reach them. This plan can then be used as a roadmap by the project manager, by the project team, and by the
+    stakeholders.
+&lt;/p&gt;
+&lt;p&gt;
+    For each phase, the project manager needs to define its start and end dates, its objectives and its
+    milestones.&amp;nbsp;The end of each phase usually corresponds to a milestone, but the project manager can decide also to
+    have intermediary milestones, during long phases for example.
+&lt;/p&gt;
+&lt;p&gt;
+    &amp;nbsp;
+&lt;/p&gt;</sectionDescription>
+  </sections>
+  <sections xmi:id="_xjpBcCcEEdq6tq2Oy1wDZQ" name="Define number, length and objectives for iterations" guid="_xjpBcCcEEdq6tq2Oy1wDZQ">
+    <sectionDescription>&lt;p&gt;
+    When the lengths of the phases are determined, the project manager will&amp;nbsp;need to&amp;nbsp;define the length, number,
+    and objectives of the phase iterations.
+&lt;/p&gt;
+&lt;p&gt;
+    Each iteration produces an executable step that is used to assess progress and quality. Because each iteration has a
+    different focus, the functionality and completeness of the iteration deliverable will vary. Iteration goals must be
+    specific enough to be assessed at the end of the iteration. Goals in early iterations usually&amp;nbsp;focus on risk
+    mitigation; in later iterations, goals are more focused on functional completion and quality.
+&lt;/p&gt;</sectionDescription>
+  </sections>
+  <sections xmi:id="_4ecLkNHtEdmeR_FKkMnjfA" name="Define the process for the project" guid="_4ecLkNHtEdmeR_FKkMnjfA">
+    <sectionDescription>&lt;p class=&quot;MsoNormal&quot; style=&quot;MARGIN: 0in 0in 0pt&quot;&gt;
+    Decide on the process to be followed.&amp;nbsp; Often you can adapt existing processes to the specific context of your
+    project. Rather than again describing again all the processes, you can&amp;nbsp;make references to existing process
+    guidance and, in the project plan, describe the differences for your specific project. For more detailed guidance on
+    process definition for a project, see &lt;a class=&quot;elementLinkWithUserText&quot;
+    href=&quot;basic_unified_process/guidances/supportingmaterials/references,_9ToeIB83Edqsvps02rpOOg.html&quot;
+    guid=&quot;_9ToeIB83Edqsvps02rpOOg&quot;&gt;[RUP06]&lt;/a&gt;.
+&lt;/p&gt;</sectionDescription>
+  </sections>
+</com.ibm.uma:TaskDescription>

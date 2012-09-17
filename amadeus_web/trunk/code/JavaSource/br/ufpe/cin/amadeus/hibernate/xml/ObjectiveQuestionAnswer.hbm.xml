@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE hibernate-mapping	PUBLIC 
+	"-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+    "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+    
+    <hibernate-mapping>
+
+      <class  
+      	name="br.ufpe.cin.amadeus.system.academic.module.evaluation.answer.question.ObjectiveQuestionAnswer"
+      	table="objectivequestion_answer">
+      	
+      	<id name="id">
+      		<column name="sqobjectivequestion_answer"/>
+      		<generator class="increment" />
+      	</id>
+
+
+		<property name="posInEvaluation">
+			<column name="ds_posinevaluation" />
+		</property>
+		
+		
+	  <!-- Listando subclasses -->
+	  <!-- TrueOrFalseAnswer -->
+	  
+	  <many-to-one name="objectiveQuestion"
+ 		class="br.ufpe.cin.amadeus.system.academic.module.evaluation.question.ObjectiveQuestion"
+ 		column="sq_objectivequestion" cascade="none" unique="true" lazy="false"/>
+	  
+	   <joined-subclass
+			name="br.ufpe.cin.amadeus.system.academic.module.evaluation.answer.question.TrueOrFalseAnswer"
+			table="trueorfalse_answer">
+			<key column="sqtrueorfalse_answer" />
+			
+			 <list name="sentences" table="sentenceanswer" 
+				lazy="true" 
+				cascade="all">
+				<key column="sqtrueorfalse_answer" />
+				<index column="ds_position" />
+				<one-to-many
+					class="br.ufpe.cin.amadeus.system.academic.module.evaluation.answer.question.sentence.SentenceAnswer" />
+			</list> 
+		</joined-subclass>
+		
+		<!-- MultipleChoiceAnswer -->
+		
+		 <joined-subclass
+			name="br.ufpe.cin.amadeus.system.academic.module.evaluation.answer.question.MultipleChoiceAnswer"
+			table="multiplechoice_answer">
+			<key column="sqmultiplechoice_answer" />
+
+			<list name="alternatives" table="alternativeanswer" 
+				lazy="true" 
+				cascade="all">
+				<key column="sqmultiplechoice_answer" />
+				<index column="ds_position" />
+				<one-to-many
+					class="br.ufpe.cin.amadeus.system.academic.module.evaluation.answer.question.alternative.AlternativeAnswer"/>
+			</list>
+		</joined-subclass>  
+		
+    
+      </class>
+</hibernate-mapping>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<com.ibm.uma:TaskDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:com.ibm.uma="http://www.ibm.com/uma/1.0.2/uma.ecore" xmi:id="_Nqwi8KeqEdmKDbQuyzCoqQ" name="detail_requirements,_0e1mIMlgEdmt3adZL5Dmdw" guid="_Nqwi8KeqEdmKDbQuyzCoqQ" changeDate="2005-09-23T13:51:51.759-0300">
+  <sections xmi:id="_vWeHMCxSEdqjsdw1QLH_6Q" name="Detail Use Cases and Scenarios" guid="_vWeHMCxSEdqjsdw1QLH_6Q">
+    <sectionDescription>&lt;p&gt;
+    Some requirements, like Use-Cases and Scenarios may need to be described in more details. Separate
+    documents&amp;nbsp;coexist with the &lt;a class=&quot;elementLinkWithType&quot; href=&quot;./../../basic_unified_process/workproducts/work_items_list,_rGNWsCbSEdqh1LYUOGRh2A.html&quot; guid=&quot;_rGNWsCbSEdqh1LYUOGRh2A&quot;&gt;Work Product: Work Items List&lt;/a&gt;; this list has a simplified description&amp;nbsp;of the
+    Use Case or Scenario, and&amp;nbsp;optionally a pointer to the actual document describing the Use Case or Scenario.
+    See&amp;nbsp;&lt;a class=&quot;elementLinkWithType&quot; href=&quot;./../../basic_unified_process/guidances/guidelines/detail_ucs_and_scenarios,_4BJ_YCxSEdqjsdw1QLH_6Q.html&quot; guid=&quot;_4BJ_YCxSEdqjsdw1QLH_6Q&quot;&gt;Guideline: Detail Use Cases and Scenarios&lt;/a&gt; for more information.
+&lt;/p&gt;</sectionDescription>
+  </sections>
+  <sections xmi:id="_B47VwCxTEdqjsdw1QLH_6Q" name="Detail Supplemental Requirements" guid="_B47VwCxTEdqjsdw1QLH_6Q"/>
+  <purpose>&lt;p&gt;
+    The Use Case&amp;nbsp;is described in sufficient detail -- to the understanding and satisfaction of the actor
+    representative or customer -- in order&amp;nbsp;to enable software development to begin.
+&lt;/p&gt;</purpose>
+</com.ibm.uma:TaskDescription>

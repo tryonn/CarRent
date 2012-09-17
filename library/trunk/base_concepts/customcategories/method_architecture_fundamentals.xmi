@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<com.ibm.uma:ContentDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:com.ibm.uma="http://www.ibm.com/uma/1.0.2/uma.ecore" xmi:id="_uDU1oQSEEdq61bDkWg1SXw" guid="_uDU1oQSEEdq61bDkWg1SXw" changeDate="2005-10-30T16:58:11.631-0800">
+  <mainDescription>&lt;h3&gt;
+    What is UMA?
+&lt;/h3&gt;
+&lt;p&gt;
+    The Unified Method Architecture (UMA) is a process engineering meta-model that defines schema and terminology for
+    representing methods consisting of method content and processes. Also see &lt;a class=&quot;elementLinkWithType&quot; href=&quot;./../../base_concepts/guidances/concepts/introduction_to_uma,_94_eoO8LEdmKSqa_gSYthg.html&quot; guid=&quot;_94_eoO8LEdmKSqa_gSYthg&quot;&gt;Concept: Key Capabilities of the Unified Method Architecture (UMA)&lt;/a&gt;&amp;nbsp;for more
+    details.
+&lt;/p&gt;
+&lt;h3&gt;
+    Fundamental principle within UMA
+&lt;/h3&gt;
+&lt;p&gt;
+    UMA is based&amp;nbsp;on the following fundamental&amp;nbsp;separations of concern:
+&lt;/p&gt;
+&lt;ul&gt;
+    &lt;li&gt;
+        The separation of core method content versus the application of method content in processes
+    &lt;/li&gt;
+    &lt;li&gt;
+        The definition of an optional extensibility mechanism in the method for large scale management of method and
+        process repositories
+    &lt;/li&gt;
+    &lt;li&gt;
+        Packaging and configuration of method content, processes, and plugins in method libraries
+    &lt;/li&gt;
+    &lt;li&gt;
+        A separation of recommended method and guidance description fields
+    &lt;/li&gt;
+    &lt;li&gt;
+        A separation of semantic elements from their notation in process diagrams
+    &lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;
+    The Basic Elements of UMA
+&lt;/h3&gt;
+&lt;p&gt;
+    The most fundamental principle of the Unified Method Architecture (UMA) is the separation of&amp;nbsp;reusable core method
+    content from its application in processes and almost all of UMA's elements are categorized along this seperations.
+&lt;/p&gt;
+&lt;p&gt;
+    The Unified Method Architecture separates reusable core method content from its application in processes.&amp;nbsp; Method
+    content describes what is to be produced, the necessary skills required and the step-by-step explanation describing how
+    specific development goals are achieved, independently of the placement of these items within a development
+    lifecycle.&amp;nbsp; Processes take these method elements and relate them into semi-ordered sequences that are customized
+    to specific types of projects. For example, a software development project that develops an application from scratch
+    performs development tasks such as &quot;Develop Vision&quot; or &quot;Use Case Design&quot; similar to a project that extends an existing
+    software system.&amp;nbsp; However, the two projects will perform the Tasks at different points in time with a different
+    emphasis, i.e. they will perform the steps of these tasks at different point of time and perhaps apply individual
+    variations and additions.
+&lt;/p&gt;
+&lt;p&gt;
+    The figure below shows the difference between method content and process by representing them as two different
+    dimensions:
+&lt;/p&gt;
+&lt;ul&gt;
+    &lt;li&gt;
+        Method content describing how development work is being performed is categorized by disciplines.&amp;nbsp; Each
+        discipline is comprised of tasks (not visible in the figure) that provide step-by-step descriptions of how specific
+        development goals are achieved.&amp;nbsp;
+    &lt;/li&gt;
+    &lt;li&gt;
+        For a process, tasks have been referenced by the process from the method content and placed into breakdown
+        structures and workflows ready for instantiation by allocating resources to perform the work and having real work
+        products as the inputs and outputs of the tasks.&lt;br /&gt;
+    &lt;/li&gt;
+&lt;/ul&gt;
+&lt;p align=&quot;center&quot;&gt;
+    &lt;img alt=&quot;Diagram illustrating the separation of Method and Process content within the UMA Meta-Model&quot;     src=&quot;../guidances/concepts/resources/uma_hump.jpg&quot; border=&quot;0&quot; /&gt;
+&lt;/p&gt;
+&lt;p class=&quot;picturetext&quot; align=&quot;center&quot;&gt;
+    Method Content definition versus&lt;br /&gt;
+    the application of Method Content in a Process.
+&lt;/p&gt;
+&lt;p&gt;
+    UMA's key concepts reflect this separation of method content from process as shown in the figure below.&amp;nbsp; It show
+    that a Method (also refered to as a Method Framework) comprises on method content described with concepts such Work
+    Products, Roles, Task and Categories as well as Processes described with Activities, Capability Patterns, or Delivery
+    Processes.
+&lt;/p&gt;
+&lt;p align=&quot;center&quot;&gt;
+    &lt;img alt=&quot;Diagram illustrating that the intersection between Method and Process content is guidance&quot;     src=&quot;../guidances/concepts/resources/uma_m_vs_p.gif&quot; /&gt;
+&lt;/p&gt;
+&lt;p align=&quot;center&quot;&gt;
+    Overview of how the key UMA concepts are positioned based on whether they represent method content or process
+&lt;/p&gt;
+&lt;p class=&quot;picturetext&quot; align=&quot;left&quot;&gt;
+    Key &lt;a class=&quot;elementLinkWithUserText&quot; href=&quot;./../../base_concepts/customcategories/method_concepts,_WfL28BTMEdqrUt4zetC1gg.html&quot; guid=&quot;_WfL28BTMEdqrUt4zetC1gg&quot;&gt;Method Content Elements&lt;/a&gt; &amp;nbsp;are:
+&lt;/p&gt;
+&lt;div style=&quot;MARGIN-LEFT: 2em&quot;&gt;
+    &lt;ul&gt;
+        &lt;li&gt;
+            &lt;div class=&quot;picturetext&quot; align=&quot;left&quot;&gt;
+                &lt;a class=&quot;elementLink&quot; href=&quot;./../../base_concepts/guidances/concepts/work_product,4.804531471620803E-306.html&quot; guid=&quot;4.804531471620803E-306&quot;&gt;Work Product&lt;/a&gt;
+            &lt;/div&gt;
+        &lt;/li&gt;
+        &lt;li&gt;
+            &lt;div class=&quot;picturetext&quot; align=&quot;left&quot;&gt;
+                &lt;a class=&quot;elementLink&quot; href=&quot;./../../base_concepts/guidances/concepts/role,1.1609745730665898E-304.html&quot; guid=&quot;1.1609745730665898E-304&quot;&gt;Role&lt;/a&gt;
+            &lt;/div&gt;
+        &lt;/li&gt;
+        &lt;li&gt;
+            &lt;div class=&quot;picturetext&quot; align=&quot;left&quot;&gt;
+                &lt;a class=&quot;elementLink&quot; href=&quot;./../../base_concepts/guidances/concepts/task,7.624729048911575E-305.html&quot; guid=&quot;7.624729048911575E-305&quot;&gt;Task&lt;/a&gt;
+            &lt;/div&gt;
+        &lt;/li&gt;
+    &lt;/ul&gt;
+&lt;/div&gt;
+&lt;p class=&quot;picturetext&quot; align=&quot;left&quot;&gt;
+    Key &lt;a class=&quot;elementLinkWithUserText&quot; href=&quot;./../../base_concepts/customcategories/process_concepts,_AtM0gBTQEdqrUt4zetC1gg.html&quot; guid=&quot;_AtM0gBTQEdqrUt4zetC1gg&quot;&gt;Process Elements&lt;/a&gt; &amp;nbsp;are:
+&lt;/p&gt;
+&lt;div style=&quot;MARGIN-LEFT: 2em&quot;&gt;
+    &lt;ul&gt;
+        &lt;li&gt;
+            &lt;div class=&quot;picturetext&quot; align=&quot;left&quot;&gt;
+                &lt;a class=&quot;elementLink&quot; href=&quot;./../../base_concepts/guidances/concepts/activity,3.132140065969088E-305.html&quot; guid=&quot;3.132140065969088E-305&quot;&gt;Activity&lt;/a&gt;
+            &lt;/div&gt;
+        &lt;/li&gt;
+        &lt;li&gt;
+            &lt;div class=&quot;picturetext&quot; align=&quot;left&quot;&gt;
+                &lt;a class=&quot;elementLink&quot; href=&quot;./../../base_concepts/guidances/concepts/capability_pattern,1.7072348895114264E-305.html&quot; guid=&quot;1.7072348895114264E-305&quot;&gt;Capability Pattern&lt;/a&gt;
+            &lt;/div&gt;
+        &lt;/li&gt;
+        &lt;li&gt;
+            &lt;div class=&quot;picturetext&quot; align=&quot;left&quot;&gt;
+                &lt;a class=&quot;elementLink&quot; href=&quot;./../../base_concepts/guidances/concepts/delivery_process,_EhgqwO8MEdmKSqa_gSYthg.html&quot; guid=&quot;_EhgqwO8MEdmKSqa_gSYthg&quot;&gt;Delivery Process&lt;/a&gt;
+            &lt;/div&gt;
+        &lt;/li&gt;
+    &lt;/ul&gt;
+&lt;/div&gt;
+&lt;p class=&quot;picturetext&quot; align=&quot;left&quot;&gt;
+    &lt;a class=&quot;elementLinkWithUserText&quot; href=&quot;./../../base_concepts/customcategories/guidance,_xy2SAAIsEdqEutyfYo0quQ.html&quot; guid=&quot;_xy2SAAIsEdqEutyfYo0quQ&quot;&gt;Guidance&lt;/a&gt; &amp;nbsp;comes in many types:
+&lt;/p&gt;
+&lt;div style=&quot;MARGIN-LEFT: 2em&quot;&gt;
+    &lt;ul&gt;
+        &lt;li&gt;
+            &lt;div class=&quot;picturetext&quot; align=&quot;left&quot;&gt;
+                &lt;a class=&quot;elementLink&quot; href=&quot;./../../base_concepts/guidances/concepts/checklist,_2vVuUBT9EdqrUt4zetC1gg.html&quot; guid=&quot;_2vVuUBT9EdqrUt4zetC1gg&quot;&gt;Checklist&lt;/a&gt;
+            &lt;/div&gt;
+        &lt;/li&gt;
+        &lt;li&gt;
+            &lt;div class=&quot;picturetext&quot; align=&quot;left&quot;&gt;
+                &lt;a class=&quot;elementLink&quot; href=&quot;./../../base_concepts/guidances/concepts/concept,_8wobABUAEdqrUt4zetC1gg.html&quot; guid=&quot;_8wobABUAEdqrUt4zetC1gg&quot;&gt;Concept&lt;/a&gt;
+            &lt;/div&gt;
+        &lt;/li&gt;
+        &lt;li&gt;
+            &lt;div class=&quot;picturetext&quot; align=&quot;left&quot;&gt;
+                &lt;a class=&quot;elementLink&quot; href=&quot;./../../base_concepts/guidances/concepts/example,_dCG-UBUBEdqrUt4zetC1gg.html&quot; guid=&quot;_dCG-UBUBEdqrUt4zetC1gg&quot;&gt;Example&lt;/a&gt;
+            &lt;/div&gt;
+        &lt;/li&gt;
+        &lt;li&gt;
+            &lt;div class=&quot;picturetext&quot; align=&quot;left&quot;&gt;
+                &lt;a class=&quot;elementLink&quot; href=&quot;./../../base_concepts/guidances/concepts/guideline,_IAwkEBUEEdqrUt4zetC1gg.html&quot; guid=&quot;_IAwkEBUEEdqrUt4zetC1gg&quot;&gt;Guideline&lt;/a&gt;
+            &lt;/div&gt;
+        &lt;/li&gt;
+        &lt;li&gt;
+            &lt;div class=&quot;picturetext&quot; align=&quot;left&quot;&gt;
+                &lt;a class=&quot;elementLink&quot; href=&quot;./../../base_concepts/guidances/concepts/practice,_szl6EBUBEdqrUt4zetC1gg.html&quot; guid=&quot;_szl6EBUBEdqrUt4zetC1gg&quot;&gt;Practice&lt;/a&gt;
+            &lt;/div&gt;
+        &lt;/li&gt;
+        &lt;li&gt;
+            &lt;div class=&quot;picturetext&quot; align=&quot;left&quot;&gt;
+                &lt;a class=&quot;elementLink&quot; href=&quot;./../../base_concepts/guidances/concepts/report,_x2sAgBUBEdqrUt4zetC1gg.html&quot; guid=&quot;_x2sAgBUBEdqrUt4zetC1gg&quot;&gt;Report&lt;/a&gt;
+            &lt;/div&gt;
+        &lt;/li&gt;
+        &lt;li&gt;
+            &lt;div class=&quot;picturetext&quot; align=&quot;left&quot;&gt;
+                &lt;a class=&quot;elementLink&quot; href=&quot;./../../base_concepts/guidances/concepts/reusable_asset,_20bs4BUBEdqrUt4zetC1gg.html&quot; guid=&quot;_20bs4BUBEdqrUt4zetC1gg&quot;&gt;Reusable Asset&lt;/a&gt;
+            &lt;/div&gt;
+        &lt;/li&gt;
+        &lt;li&gt;
+            &lt;div class=&quot;picturetext&quot; align=&quot;left&quot;&gt;
+                &lt;a class=&quot;elementLink&quot; href=&quot;./../../base_concepts/guidances/concepts/roadmap,_JCQbIBnXEdqYreeU3jqaDQ.html&quot; guid=&quot;_JCQbIBnXEdqYreeU3jqaDQ&quot;&gt;Roadmap&lt;/a&gt;
+            &lt;/div&gt;
+        &lt;/li&gt;
+        &lt;li&gt;
+            &lt;div class=&quot;picturetext&quot; align=&quot;left&quot;&gt;
+                &lt;a class=&quot;elementLink&quot; href=&quot;./../../base_concepts/guidances/concepts/supporting_material,_80XPABUBEdqrUt4zetC1gg.html&quot; guid=&quot;_80XPABUBEdqrUt4zetC1gg&quot;&gt;Supporting Material&lt;/a&gt;
+            &lt;/div&gt;
+        &lt;/li&gt;
+        &lt;li&gt;
+            &lt;div class=&quot;picturetext&quot; align=&quot;left&quot;&gt;
+                &lt;a class=&quot;elementLink&quot; href=&quot;./../../base_concepts/guidances/concepts/template,_G_UnIBUCEdqrUt4zetC1gg.html&quot; guid=&quot;_G_UnIBUCEdqrUt4zetC1gg&quot;&gt;Template&lt;/a&gt;
+            &lt;/div&gt;
+        &lt;/li&gt;
+        &lt;li&gt;
+            &lt;div class=&quot;picturetext&quot; align=&quot;left&quot;&gt;
+                &lt;a class=&quot;elementLink&quot; href=&quot;./../../base_concepts/guidances/concepts/term_definition,_Z45fwBUDEdqrUt4zetC1gg.html&quot; guid=&quot;_Z45fwBUDEdqrUt4zetC1gg&quot;&gt;Term Definition&lt;/a&gt;
+            &lt;/div&gt;
+        &lt;/li&gt;
+        &lt;li&gt;
+            &lt;div class=&quot;picturetext&quot; align=&quot;left&quot;&gt;
+                &lt;font face=&quot;Arial, Helvetica, sans-serif&quot;&gt;&lt;a class=&quot;elementLink&quot; href=&quot;./../../base_concepts/guidances/concepts/tool_mentor,1.0762105093945226E-304.html&quot; guid=&quot;1.0762105093945226E-304&quot;&gt;Tool Mentor&lt;/a&gt; &lt;!-- END:mainDescription,_uDU1oQSEEdq61bDkWg1SXw --&gt;&lt;/font&gt;
+            &lt;/div&gt;
+        &lt;/li&gt;
+    &lt;/ul&gt;
+&lt;/div&gt;</mainDescription>
+</com.ibm.uma:ContentDescription>

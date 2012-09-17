@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<com.ibm.uma:ContentDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:com.ibm.uma="http://www.ibm.com/uma/1.0.2/uma.ecore" xmi:id="_iegZwBncEdqYreeU3jqaDQ" name="method_package,_idpeIBncEdqYreeU3jqaDQ" guid="_iegZwBncEdqYreeU3jqaDQ" changeDate="2005-09-07T01:34:01.431-0700">
+  <mainDescription>&lt;p&gt;
+    &lt;font face=&quot;Arial, Helvetica, sans-serif&quot;&gt;A Method Package package defines how the method elements can be physically
+    organized in package hierarchies. It is an abstract class for packaging Method Elements. All Method Elements shall be
+    located in exactly one of Method Package’s concrete specializations (e.g. Content Package). Method Package defines
+    common properties for all of its specializations.&lt;/font&gt;
+&lt;/p&gt;
+&lt;p&gt;
+    &lt;font face=&quot;Arial, Helvetica, sans-serif&quot;&gt;Elements are organized in Method Packages to structure large scale of method
+    content and processes as well as to define a mechanism for reuse. Method Elements from one package can reuse element
+    from other packages by defining a reusedPackages link.&lt;/font&gt;
+&lt;/p&gt;
+&lt;p&gt;
+    &lt;font face=&quot;Arial, Helvetica, sans-serif&quot;&gt;For example, a work product defined in one package can be used as an input
+    for Tasks defined in other packages. By reusing it from one common place (i.e. the package in which it has been
+    defined) ensures that no redundant definitions of the same elements are required. Also maintenance of method content is
+    greatly improved as changes can be performed in only one place.&lt;/font&gt;
+&lt;/p&gt;
+&lt;p&gt;
+    &lt;font face=&quot;Arial, Helvetica, sans-serif&quot;&gt;&lt;br /&gt;
+    Note, that other packages will introduce more specializations of Method Package, e.g. Process Package and Process
+    Component&lt;/font&gt;.
+&lt;/p&gt;</mainDescription>
+</com.ibm.uma:ContentDescription>

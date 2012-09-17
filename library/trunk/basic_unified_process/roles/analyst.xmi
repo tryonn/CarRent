@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<com.ibm.uma:RoleDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:com.ibm.uma="http://www.ibm.com/uma/1.0.2/uma.ecore" xmi:id="_Nx8icKYdEdmvhNXG0Oc2uA" name="analyst,_0VxJsMlgEdmt3adZL5Dmdw" guid="_Nx8icKYdEdmvhNXG0Oc2uA" changeDate="2005-09-22T10:04:21.773-0700">
+  <skills>&lt;p&gt;
+    A person performing the Analyst role needs:
+&lt;/p&gt;
+&lt;ul&gt;
+    &lt;li&gt;
+        To be an expert in identifying and understanding problems and opportunities, being&amp;nbsp;able to articulate the
+        needs that are associated with the key problem to be solved or opportunity to be realized.
+    &lt;/li&gt;
+    &lt;li&gt;
+        To be a good facilitator and have&amp;nbsp;good communication (verbally and in writing) skills.
+    &lt;/li&gt;
+    &lt;li&gt;
+        To have knowledge of (or&amp;nbsp;quickly absorb and understand information on) the business and technology domains.
+    &lt;/li&gt;
+    &lt;li&gt;
+        To be able to collaborate effectively with other team members.
+    &lt;/li&gt;
+&lt;/ul&gt;</skills>
+  <assignmentApproaches>&lt;p&gt;
+    The Analyst role can be assigned in the following ways:
+&lt;/p&gt;
+&lt;ul&gt;
+    &lt;li&gt;
+        One staff member to perform the Analyst role only -- commonly adopted approach, suitable for complex, difficult to
+        elicit requirements.
+    &lt;/li&gt;
+    &lt;li&gt;
+        One staff member to perform both the Analyst and Tester roles -- good option for smaller or resource constrained
+        test teams.
+    &lt;/li&gt;
+    &lt;li&gt;
+        A&amp;nbsp;customer representative to perform the Analyst&amp;nbsp;role -- provides continuous feedback and customer
+        involvement with development team.
+    &lt;/li&gt;
+&lt;/ul&gt;</assignmentApproaches>
+</com.ibm.uma:RoleDescription>

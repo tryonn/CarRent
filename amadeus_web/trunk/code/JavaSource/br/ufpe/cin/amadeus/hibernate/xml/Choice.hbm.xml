@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE hibernate-mapping	PUBLIC 
+	"-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+    "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+
+<hibernate-mapping>
+ <class name="br.ufpe.cin.amadeus.system.academic.module.poll.choice.Choice" table="choice">
+ 	
+ 	<id name="id">
+ 		<column name="sqChoice" not-null="true" unique="true"/>
+ 		<generator class="increment"/>
+ 	</id>
+ 	<property name="option">
+ 		<column name="ds_option" length="100" not-null="true" />
+ 	</property>
+ 	
+ 	<property name="alternative">
+ 		<column name="ds_alternative" not-null="true" />
+ 	</property>	
+ 	
+ 	<property name="votes">
+ 		<column name="qt_votes"/>
+ 	</property>
+ 
+ </class>
+</hibernate-mapping>

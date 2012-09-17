@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project name="Untitled Gantt Project" company="" webLink="http://" view-date="2006-02-27" view-index="0" gantt-divider-location="1013" resource-divider-location="560" version="1.12">
+<view zooming-state="default:2"/>
+<!-- -->
+<calendars>
+<day-types>
+<day-type id="0"/>
+<day-type id="1"/>
+<calendar id="1" name="default">
+<default-week sun="1" mon="0" tue="0" wed="0" thu="0" fri="0" sat="1"/>
+<overriden-day-types/>
+<days/>
+</calendar>
+</day-types>
+</calendars>    <description>    </description>
+
+    <tasks color="#8cb6ce">
+        <taskproperties>
+            <taskproperty id="tpd0" name="type" type="default" valuetype="icon" />
+            <taskproperty id="tpd1" name="priority" type="default" valuetype="icon" />
+            <taskproperty id="tpd2" name="info" type="default" valuetype="icon" />
+            <taskproperty id="tpd3" name="name" type="default" valuetype="text" />
+            <taskproperty id="tpd4" name="begindate" type="default" valuetype="date" />
+            <taskproperty id="tpd5" name="enddate" type="default" valuetype="date" />
+            <taskproperty id="tpd6" name="duration" type="default" valuetype="int" />
+            <taskproperty id="tpd7" name="completion" type="default" valuetype="int" />
+            <taskproperty id="tpd8" name="coordinator" type="default" valuetype="text" />
+            <taskproperty id="tpd9" name="predecessors" type="default" valuetype="text" />
+        </taskproperties>
+        <task id="35" name="Gerencia de Projeto" color="#8cb6ce" meeting="false" start="2006-04-03" duration="19" complete="0" priority="1" expand="true">
+        </task>
+        <task id="36" name="Gerencia de Qualidade" color="#8cb6ce" meeting="false" start="2006-04-03" duration="19" complete="0" priority="1" expand="true">
+        </task>
+        <task id="40" name="Documento de Casos de Uso de Módulo de Cadastro – manutenção do documento" color="#8cb6ce" meeting="false" start="2006-04-03" duration="19" complete="100" priority="1" expand="true">
+        </task>
+        <task id="41" name="Documento de Casos de Uso de Transparência – manutenção do documento" color="#8cb6ce" meeting="false" start="2006-04-03" duration="19" complete="100" priority="1" expand="true">
+        </task>
+        <task id="42" name="Documento de Requisitos – manutenção do documento" color="#8cb6ce" meeting="false" start="2006-04-03" duration="19" complete="100" priority="1" expand="true">
+        </task>
+        <task id="43" name="Documento de Modelagem Relacional – manutenção do documento" color="#8cb6ce" meeting="false" start="2006-04-03" duration="19" complete="0" priority="1" expand="true">
+        </task>
+        <task id="44" name="Documento de Arquitetura – manutenção do documento" color="#8cb6ce" meeting="false" start="2006-04-18" duration="8" complete="0" priority="1" expand="true">
+        </task>
+        <task id="45" name="Modelagem de Classes referente a Gestão de Conteúdo" color="#8cb6ce" meeting="false" start="2006-04-20" duration="3" complete="0" priority="1" expand="true">
+        </task>
+        <task id="46" name="Modelagem do Banco referente a Gestao de Conteúdo - manutenção do documento" color="#8cb6ce" meeting="false" start="2006-04-10" duration="8" complete="0" priority="1" expand="true">
+        </task>
+        <task id="47" name="Modelagem do Banco referente à Transparência – esboço inicial" color="#8cb6ce" meeting="false" start="2006-04-20" duration="7" complete="0" priority="1" expand="true">
+        </task>
+        <task id="48" name="Constante interação com os desenvolvedores e com o DBA ­ - suporte técnico" color="#8cb6ce" meeting="false" start="2006-04-03" duration="20" complete="0" priority="1" expand="true">
+        </task>
+        <task id="49" name="Testes do modulo UDP" color="#8cb6ce" meeting="false" start="2006-04-03" duration="1" complete="0" priority="1" expand="true">
+        </task>
+        <task id="50" name="Documentação do código do middleware." color="#8cb6ce" meeting="false" start="2006-04-04" duration="1" complete="0" priority="1" expand="true">
+        </task>
+        <task id="51" name="Testes do middleware de formal geral" color="#8cb6ce" meeting="false" start="2006-04-05" duration="11" complete="0" priority="1" expand="true">
+        </task>
+        <task id="52" name="Integração do middleware com o Plattus Server" color="#8cb6ce" meeting="false" start="2006-04-24" duration="9" complete="0" priority="1" expand="true">
+        </task>
+        <task id="53" name="Desenvolvimento do middleware e Estudo do protocolo JABBER (em paralelo)" color="#8cb6ce" meeting="false" start="2006-04-24" duration="9" complete="0" priority="1" expand="true">
+        </task>
+        <task id="54" name="[UC_GC-01] Inserir dados do primeiro Modulo - 10-04-06 - à confirmar" color="#8cb6ce" meeting="false" start="2006-04-03" duration="5" complete="100" priority="1" expand="true">
+        </task>
+        <task id="56" name="[UC_GC-03] Criar Módulo - 10-04-06 - à confirmar" color="#8cb6ce" meeting="false" start="2006-04-03" duration="5" complete="100" priority="1" expand="false">
+        </task>
+        <task id="58" name="[UC_GC-05] Adicionar Atividade &#34;Entrega de Material&#34; 12-04-06 - à confirmar" color="#8cb6ce" meeting="false" start="2006-04-10" duration="5" complete="100" priority="1" expand="false">
+        </task>
+        <task id="59" name="[UC_GC-07] Adicionar Atividade &#34;Enquete&#34; 19-04-06" color="#8cb6ce" meeting="false" start="2006-04-13" duration="5" complete="100" priority="1" expand="true">
+        </task>
+        <task id="60" name="[UC_GC-09] Excluir Atividade" color="#8cb6ce" meeting="false" start="2006-04-20" duration="16" complete="0" priority="1" expand="true">
+        </task>
+        <task id="61" name="[UC_GC-10] Editar Atividade" color="#8cb6ce" meeting="false" start="2006-04-20" duration="16" complete="0" priority="1" expand="true">
+        </task>
+        <task id="62" name="[UC_GC-11] Adicionar Material" color="#8cb6ce" meeting="false" start="2006-04-24" duration="14" complete="60" priority="1" expand="true">
+        </task>
+        <task id="63" name="[UC_GC-12] Excluir Material" color="#8cb6ce" meeting="false" start="2006-02-27" duration="54" complete="60" priority="1" expand="true">
+        </task>
+        <task id="64" name="Processo Scrum Do Amadeus" color="#8cb6ce" meeting="false" start="2006-04-11" duration="8" complete="0" priority="1" expand="true">
+        </task>
+        <task id="65" name="Processo Requisitos" color="#8cb6ce" meeting="false" start="2006-04-24" duration="4" complete="20" priority="1" expand="true">
+        </task>
+        <task id="66" name="acompanhamento atividades" color="#8cb6ce" meeting="false" start="2006-04-03" duration="19" complete="0" priority="1" expand="true">
+        </task>
+        <task id="67" name="gestao projeto interiorizacao" color="#8cb6ce" meeting="false" start="2006-04-03" duration="19" complete="0" priority="1" expand="true">
+        </task>
+        <task id="68" name="organizacao documentos e nomenclatura" color="#8cb6ce" meeting="false" start="2006-04-03" duration="1" complete="0" priority="1" expand="true">
+        </task>
+    </tasks>
+
+    <resources>
+        <resource id="0" name="Rodrigo Lumack" function="Default:0" contacts="" phone="" />
+        <resource id="1" name="Vitor Costa" function="Default:0" contacts="" phone="" />
+        <resource id="2" name="Yuri" function="Default:0" contacts="" phone="" />
+        <resource id="3" name="Almir Moura" function="Default:0" contacts="" phone="" />
+        <resource id="4" name="Caparica" function="Default:0" contacts="" phone="" />
+        <resource id="5" name="Alex Sandro" function="Default:0" contacts="" phone="" />
+        <resource id="6" name="Leonardo Medeiros" function="Default:0" contacts="" phone="" />
+        <resource id="7" name="Maria Cláudia Costa" function="Default:0" contacts="" phone="" />
+        <resource id="8" name="Fernando Trinta" function="Default:0" contacts="" phone="" />
+        <resource id="9" name="Eliaquim Lima" function="Default:0" contacts="" phone="" />
+        <resource id="10" name="Marcelo Queiroz" function="Default:0" contacts="" phone="" />
+        <resource id="11" name="Altair Aquino" function="Default:0" contacts="" phone="" />
+        <resource id="12" name="Tássio Guerreiro" function="Default:0" contacts="" phone="" />
+    </resources>
+
+    <allocations>
+        <allocation task-id="51" resource-id="9" function="Default:0" responsible="false" load="100.0"/>
+        <allocation task-id="51" resource-id="10" function="Default:0" responsible="true" load="100.0"/>
+        <allocation task-id="40" resource-id="3" function="Default:0" responsible="true" load="17.2"/>
+        <allocation task-id="43" resource-id="3" function="Default:0" responsible="true" load="4.3"/>
+        <allocation task-id="48" resource-id="3" function="Default:0" responsible="true" load="100.0"/>
+        <allocation task-id="35" resource-id="6" function="Default:0" responsible="true" load="100.0"/>
+        <allocation task-id="49" resource-id="9" function="Default:0" responsible="true" load="100.0"/>
+        <allocation task-id="49" resource-id="10" function="Default:0" responsible="false" load="100.0"/>
+        <allocation task-id="54" resource-id="0" function="Default:0" responsible="true" load="100.0"/>
+        <allocation task-id="54" resource-id="2" function="Default:0" responsible="false" load="100.0"/>
+        <allocation task-id="54" resource-id="1" function="Default:0" responsible="false" load="100.0"/>
+        <allocation task-id="59" resource-id="0" function="Default:0" responsible="true" load="100.0"/>
+        <allocation task-id="59" resource-id="2" function="Default:0" responsible="false" load="100.0"/>
+        <allocation task-id="59" resource-id="1" function="Default:0" responsible="false" load="100.0"/>
+        <allocation task-id="41" resource-id="3" function="Default:0" responsible="true" load="17.2"/>
+        <allocation task-id="53" resource-id="10" function="Default:0" responsible="true" load="100.0"/>
+        <allocation task-id="53" resource-id="8" function="Default:0" responsible="false" load="100.0"/>
+        <allocation task-id="65" resource-id="6" function="Default:0" responsible="true" load="100.0"/>
+        <allocation task-id="60" resource-id="0" function="Default:0" responsible="true" load="100.0"/>
+        <allocation task-id="60" resource-id="2" function="Default:0" responsible="false" load="100.0"/>
+        <allocation task-id="60" resource-id="1" function="Default:0" responsible="false" load="100.0"/>
+        <allocation task-id="61" resource-id="0" function="Default:0" responsible="true" load="100.0"/>
+        <allocation task-id="61" resource-id="2" function="Default:0" responsible="false" load="100.0"/>
+        <allocation task-id="61" resource-id="1" function="Default:0" responsible="false" load="100.0"/>
+        <allocation task-id="52" resource-id="9" function="Default:0" responsible="false" load="100.0"/>
+        <allocation task-id="52" resource-id="10" function="Default:0" responsible="true" load="100.0"/>
+        <allocation task-id="42" resource-id="3" function="Default:0" responsible="true" load="4.3"/>
+        <allocation task-id="68" resource-id="7" function="Default:0" responsible="true" load="100.0"/>
+        <allocation task-id="47" resource-id="3" function="Default:0" responsible="true" load="8.6"/>
+        <allocation task-id="36" resource-id="7" function="Default:0" responsible="true" load="40.0"/>
+        <allocation task-id="58" resource-id="0" function="Default:0" responsible="true" load="100.0"/>
+        <allocation task-id="58" resource-id="2" function="Default:0" responsible="false" load="100.0"/>
+        <allocation task-id="58" resource-id="1" function="Default:0" responsible="false" load="100.0"/>
+        <allocation task-id="67" resource-id="7" function="Default:0" responsible="true" load="100.0"/>
+        <allocation task-id="50" resource-id="9" function="Default:0" responsible="true" load="100.0"/>
+        <allocation task-id="50" resource-id="10" function="Default:0" responsible="false" load="100.0"/>
+        <allocation task-id="63" resource-id="0" function="Default:0" responsible="true" load="100.0"/>
+        <allocation task-id="63" resource-id="2" function="Default:0" responsible="false" load="100.0"/>
+        <allocation task-id="63" resource-id="1" function="Default:0" responsible="false" load="100.0"/>
+        <allocation task-id="66" resource-id="7" function="Default:0" responsible="true" load="25.0"/>
+        <allocation task-id="44" resource-id="3" function="Default:0" responsible="true" load="100.0"/>
+        <allocation task-id="45" resource-id="3" function="Default:0" responsible="true" load="100.0"/>
+        <allocation task-id="64" resource-id="6" function="Default:0" responsible="true" load="100.0"/>
+        <allocation task-id="46" resource-id="3" function="Default:0" responsible="true" load="8.6"/>
+        <allocation task-id="56" resource-id="0" function="Default:0" responsible="true" load="100.0"/>
+        <allocation task-id="56" resource-id="2" function="Default:0" responsible="false" load="100.0"/>
+        <allocation task-id="56" resource-id="1" function="Default:0" responsible="false" load="100.0"/>
+    </allocations>
+
+    <vacations>
+    </vacations>
+
+    <taskdisplaycolumns>
+        <displaycolumn property-id="tpd3" order="0" width="326" />
+        <displaycolumn property-id="tpd4" order="1" width="45" />
+        <displaycolumn property-id="tpd5" order="2" width="47" />
+        <displaycolumn property-id="tpd10" order="3" width="61" />
+        <displaycolumn property-id="tpd7" order="4" width="59" />
+    </taskdisplaycolumns>
+
+    <previous>
+    </previous>
+
+
+<roles roleset-name="Default"/>
+</project>

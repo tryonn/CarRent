@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<com.ibm.uma:ContentDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:com.ibm.uma="http://www.ibm.com/uma/1.0.2/uma.ecore" xmi:id="_21rDABUBEdqrUt4zetC1gg" name="reusable_asset,_20bs4BUBEdqrUt4zetC1gg" guid="_21rDABUBEdqrUt4zetC1gg" changeDate="2005-10-07T18:47:08.091-0700">
+  <mainDescription>&lt;p&gt;
+    &amp;nbsp;A Reusable Asset typically includes source code, templates, patterns, but may also include architectural
+    frameworks, domain models, and so on.&amp;nbsp; A Reusable Asset has usage rules which are the instructions describing how
+    the asset should be used.
+&lt;/p&gt;</mainDescription>
+</com.ibm.uma:ContentDescription>

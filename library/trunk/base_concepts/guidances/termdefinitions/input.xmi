@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<com.ibm.uma:ContentDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:com.ibm.uma="http://www.ibm.com/uma/1.0.2/uma.ecore" xmi:id="_yK8IydnmEdmO6L4XMImrsA" name="input,_yK8IyNnmEdmO6L4XMImrsA" guid="_yK8IydnmEdmO6L4XMImrsA">
+  <mainDescription>A &lt;a class=&quot;elementLink&quot;
+href=&quot;file://./../../../base_concepts/guidances/termdefinitions/work_product,_H4JXwB_SEdq6CKKKq4D7YA.html&quot;
+guid=&quot;_H4JXwB_SEdq6CKKKq4D7YA&quot;&gt;Work Product&lt;/a&gt;&amp;nbsp;used by a &lt;a class=&quot;elementLink&quot;
+href=&quot;file://./../../../base_concepts/guidances/termdefinitions/task,_x459ktnmEdmO6L4XMImrsA.html&quot;
+guid=&quot;_x459ktnmEdmO6L4XMImrsA&quot;&gt;task&lt;/a&gt; See: &lt;a class=&quot;elementLink&quot;
+href=&quot;base_concepts/guidances/termdefinitions/static_work_product,_yWaY9tnmEdmO6L4XMImrsA.html&quot;
+guid=&quot;_yWaY9tnmEdmO6L4XMImrsA&quot;&gt;static Work Product&lt;/a&gt;.</mainDescription>
+</com.ibm.uma:ContentDescription>

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<com.ibm.uma:TaskDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:com.ibm.uma="http://www.ibm.com/uma/1.0.2/uma.ecore" xmi:id="_rMd0wP7HEdmoksg_p4sGZg" name="implement_solution_mdd,_rMRngP7HEdmoksg_p4sGZg" guid="_rMd0wP7HEdmoksg_p4sGZg" changeDate="2005-07-27T10:56:17.874-0700">
+  <sections xmi:id="_rg-0wP7eEdm-ybQeucxfNQ" name="Transform Design into Implementation" guid="_rg-0wP7eEdm-ybQeucxfNQ">
+    <sectionDescription>&lt;p&gt;
+    There are various techniques for transforming design to implementation. Here are some examples:
+&lt;/p&gt;
+&lt;ul&gt;
+    &lt;li&gt;
+        Platform-specific visual models can be used to generate an initial code framework. This code framework can then be
+        further elaborated with additional code not specified in the design.&lt;br /&gt;
+    &lt;/li&gt;
+    &lt;li&gt;
+        Models can be detailed, and used to generate executable prototypes. Both structure (class and package diagrams) and
+        behavior diagrams (such as state and activity diagram) can be used to generate executable code. These prototypes
+        can be further refined as needed.&lt;br /&gt;
+    &lt;/li&gt;
+    &lt;li&gt;
+        Models can also be detailed to the point where the model completely represents the implementation. In this case,
+        rather than transform an abstract design to a code implementation, one takes the design and adds implementation
+        details directly to the model.&lt;br /&gt;
+    &lt;/li&gt;
+    &lt;li&gt;
+        The design may be platform independent to varying degrees. Platform specific design models or even code can be
+        generated via transformations that apply various rules to map high level abstractions platform specific elements.
+        This is the focus of the Object Management Group (OMG) Model Driven Architecture (MDA) &lt;a
+        href=&quot;http://www.omg.org/&quot; target=&quot;_blank&quot;&gt;(http://www.omg.org&lt;/a&gt;) initiative.&lt;br /&gt;
+    &lt;/li&gt;
+    &lt;li&gt;
+        Standard patterns can also be applied to generate design and code elements from related design and implementation.
+        For example, a standard transformation pattern can be applied to a data table to create java classes to access the
+        data table. Another example is using an Eclipse Modeling Framework (&lt;a href=&quot;http://www.eclipse.org/emf/&quot;
+        target=&quot;_blank&quot;&gt;http://www.eclipse.org/emf/&lt;/a&gt;) model to generate code for storing data that matches the model and
+        to generate a user interface implementation for populating data.
+    &lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+    In all cases, however, some design abstraction is detailed to become the implementation.
+&lt;/p&gt;</sectionDescription>
+  </sections>
+</com.ibm.uma:TaskDescription>

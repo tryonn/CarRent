@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<com.ibm.uma:ContentDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:com.ibm.uma="http://www.ibm.com/uma/1.0.2/uma.ecore" xmi:id="-sIh01vzZACgxRrG_sv7DVw" name="new_work_product_kind,_mC_6sDz7Edq03rqPoNVoKg" guid="-sIh01vzZACgxRrG_sv7DVw" changeDate="2005-10-14T14:43:49.126-0700">
+  <mainDescription>&lt;p&gt;
+    &lt;font face=&quot;Arial&quot; size=&quot;2&quot;&gt;Many work products contribute to the overall solution or product.&amp;nbsp; Tests and test data
+    is needed to validate the solution.&amp;nbsp; User support materials of all sorts are needed in the final product.&amp;nbsp;
+    Source code and other implementation elements are required to build the final product.&amp;nbsp; These work products,
+    including those that ship with the product, are categorized as Solution.&lt;/font&gt;
+&lt;/p&gt;</mainDescription>
+</com.ibm.uma:ContentDescription>

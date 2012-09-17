@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE hibernate-mapping	PUBLIC 
+	"-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+    "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+
+<hibernate-mapping>
+ <class name="br.ufpe.cin.amadeus.system.human_resources.user_request.UserRequest" table="request">
+ 	<id name="idUserRequest">
+ 		<column name="sqRequest" not-null="true" unique="true"/>
+ 		<generator class="increment"/>
+ 	</id>
+ 	<property name="status">
+ 		<column name="inStatus" length="2" not-null="false" />
+ 	</property>
+ 	
+ 	<property name="interest">
+ 		<column name="dsInterest" not-null="true" />
+ 	</property>
+ 	
+ 	<property name="userRequestDate">
+ 		<column name="dtDate_s" not-null="false" />
+ 	</property>
+ 	
+ 	<property name="teachingRequest">
+ 		<column name="in_teaching" not-null="true" />
+ 	</property>
+ 	
+ 	<many-to-one name="person"
+ 		class="br.ufpe.cin.amadeus.system.human_resources.person.Person"
+ 		column="sqPerson" cascade="none" unique="true" lazy="false" /> 
+ 		
+ 	<many-to-one name="course"
+ 		class="br.ufpe.cin.amadeus.system.academic.course.Course"
+ 		column="sqCourse" cascade="none" unique="true" lazy="false" /> 
+ 
+ </class>
+</hibernate-mapping>

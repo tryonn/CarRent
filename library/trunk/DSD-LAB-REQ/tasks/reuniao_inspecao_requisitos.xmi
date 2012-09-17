@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<com.ibm.uma:TaskDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:com.ibm.uma="http://www.ibm.com/uma/1.0.2/uma.ecore" xmi:id="-wTgI-ootL9YS1dzt_uRZEQ" name=",_38ahkNSAEdq90538QjPN0A" guid="-wTgI-ootL9YS1dzt_uRZEQ" changeDate="2006-05-09T21:19:38.796-0300">
+  <mainDescription>fsdfs</mainDescription>
+  <sections xmi:id="_Yt5twNSZEdq90538QjPN0A" name="Contactar inspetores" guid="_Yt5twNSZEdq90538QjPN0A"/>
+  <sections xmi:id="_-zDWsNwqEdqhlLc_6YijvA" name="Agendar horario de inspeção" guid="_-zDWsNwqEdqhlLc_6YijvA"/>
+  <sections xmi:id="_BG3zcNwrEdqhlLc_6YijvA" name="Disponibilizar artefato para inspetores" guid="_BG3zcNwrEdqhlLc_6YijvA"/>
+  <sections xmi:id="_ERrikNwrEdqhlLc_6YijvA" name="Realizar inspeção" guid="_ERrikNwrEdqhlLc_6YijvA"/>
+  <sections xmi:id="_FjoSoNwrEdqhlLc_6YijvA" name="Redigir ata de inspeção" guid="_FjoSoNwrEdqhlLc_6YijvA"/>
+</com.ibm.uma:TaskDescription>

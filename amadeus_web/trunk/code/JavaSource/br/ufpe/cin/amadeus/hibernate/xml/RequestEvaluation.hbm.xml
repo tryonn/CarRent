@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE hibernate-mapping	PUBLIC 
+	"-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+    "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+
+<hibernate-mapping>
+	<class name="br.ufpe.cin.amadeus.system.human_resources.user_request.request_evaluation.RequestEvaluation" table="person_evaluate_request">
+		<composite-id>
+			<key-many-to-one name="person" class="br.ufpe.cin.amadeus.system.human_resources.person.Person" column="sqPerson" />
+			<key-many-to-one name="request" class="br.ufpe.cin.amadeus.system.human_resources.user_request.UserRequest" column="sqRequest" />
+		</composite-id>
+		
+		<property name="evaluationDate">
+			<column name="dtdate_a" not-null="true" />
+		</property>
+		
+		<many-to-one name="person"
+					 class="br.ufpe.cin.amadeus.system.human_resources.person.Person"
+					 column="sqPerson" cascade="none" insert="false" update="false" />
+					 
+		<many-to-one name="request"
+					 class="br.ufpe.cin.amadeus.system.human_resources.user_request.UserRequest"
+					 column="sqRequest" cascade="none" insert="false" update="false" />
+	
+	</class>
+</hibernate-mapping>
+			

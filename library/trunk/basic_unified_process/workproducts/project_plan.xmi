@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<com.ibm.uma:ArtifactDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:com.ibm.uma="http://www.ibm.com/uma/1.0.2/uma.ecore" xmi:id="_IbVp8KX4EdmvhNXG0Oc2uA" name="project_plan,_0a6vcMlgEdmt3adZL5Dmdw" guid="_IbVp8KX4EdmvhNXG0Oc2uA" changeDate="2005-08-19T10:10:07.264-0700">
+  <purpose>&lt;p&gt;
+    The purpose of the Project Plan is to provide a central document where the any project team member can find the
+    information on how the project will be managed.&amp;nbsp;
+&lt;/p&gt;</purpose>
+  <representationOptions>The Project Plan usually defines also which specific process will be followed by the project, such as how the
+requirementswill be managed, how the artifacts will be managed under configuration management, etc. This can be done
+directly as a paragraph into the Project Plan, or in case such practices are standardized at the company level, it can be
+done by referencing the company corresponding plan.</representationOptions>
+</com.ibm.uma:ArtifactDescription>

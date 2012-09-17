@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<com.ibm.uma:ContentDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:com.ibm.uma="http://www.ibm.com/uma/1.0.2/uma.ecore" xmi:id="_zag6RdnmEdmO6L4XMImrsA" name="capability_pattern,1.7072348895114264E-305" guid="_zag6RdnmEdmO6L4XMImrsA" changeDate="2005-11-07T13:30:08.356-0800">
+  <mainDescription>&lt;a id=&quot;XE_WORKFLOW__KEY_CONCEPTS&quot; name=&quot;XE_workflow__key_concepts&quot;&gt;&lt;/a&gt; 
+&lt;p&gt;
+    Capabilities Patterns express and communicate process knowledge for a key area of interest such as a Discipline
+    or&amp;nbsp;a practice and can be directly used by process practitioners to guide their work.&amp;nbsp; They are also used as
+    building blocks to assemble &lt;a class=&quot;elementLinkWithUserText&quot; href=&quot;./../../../base_concepts/guidances/concepts/delivery_process,_EhgqwO8MEdmKSqa_gSYthg.html&quot; guid=&quot;_EhgqwO8MEdmKSqa_gSYthg&quot;&gt;Delivery Processes&lt;/a&gt;&amp;nbsp;or larger Capability Patterns ensuring optimal reuse and
+    application of the key practices they express.
+&lt;/p&gt;
+&lt;p&gt;
+    Examples for Capability Pattern could be 'use case-based requirements management', 'use case analysis', or 'unit
+    testing'. Typically but not necessarily, Capability Patterns have the scope of one Discipline providing a breakdown of
+    reusable complex Activities, relationships to the Roles which perform Tasks within these Activities, as well as to the
+    Work Products that are used and produced.&amp;nbsp; Generally, a Capability Pattern does not relate to any specific phase
+    or iteration of a development lifecycle, and should not imply any.&amp;nbsp; In other words, a pattern should be designed
+    in a way that it is applicable anywhere in a Delivery Process.&amp;nbsp; This enables its Activities to be flexibly
+    assigned to whatever phases there are in the Delivery Process to which it is being applied.&amp;nbsp; An exception to this
+    would be capability patterns that are intended to provide a template for quickly creating an iteration or portion of an
+    iteration for a particular phase in a Delivery Process.&lt;br /&gt;
+    &lt;br /&gt;
+    Key applications&amp;nbsp;or areas of reuse for Capability Patterns are:
+&lt;/p&gt;
+&lt;ul&gt;
+    &lt;li&gt;
+        To serve as building blocks for assembling Delivery Processes or larger Capability Patterns.&amp;nbsp; Normally
+        developing a Delivery Process is not done from scratch but by systematically applying and binding patterns.
+    &lt;/li&gt;
+    &lt;li&gt;
+        To support direct execution in a development project that does not work following a well-defined process, but works
+        based on loosely connected process fragments of practices in a flexible manner (for example, Agile Development).
+    &lt;/li&gt;
+    &lt;li&gt;
+        To support process education by describing knowledge for a key area such as practices on how to perform the work
+        for a Discipline (for example, Requirements Management), for a specific development technique (aspect-oriented
+        development), or a specific technical area (for example, relational database design), which is used for education
+        and teaching.&lt;br /&gt;
+    &lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+    The workflow of a Capability Pattern is usually represented using the UML Activity Diagram notation.&amp;nbsp;
+&lt;/p&gt;
+&lt;p align=&quot;center&quot;&gt;
+    &lt;img alt=&quot;Sample activity diagram representing the workflow of a Capability Pattern&quot; src=&quot;resources/wf_req.gif&quot; /&gt;
+&lt;/p&gt;
+&lt;p class=&quot;picturetext&quot;&gt;
+    Sample activity diagram, from&amp;nbsp;the requirements Discipline in RUP, showing workflow and transitions.&lt;br /&gt;
+&lt;/p&gt;
+&lt;br /&gt;
+&lt;br /&gt;</mainDescription>
+</com.ibm.uma:ContentDescription>

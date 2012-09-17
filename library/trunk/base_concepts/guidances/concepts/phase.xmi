@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<com.ibm.uma:ContentDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:com.ibm.uma="http://www.ibm.com/uma/1.0.2/uma.ecore" xmi:id="-bhzuf6RMHP3d-AHkoKDg7g" name="phase,__7xOEC7aEdqHMdmRzC0-2g" guid="-bhzuf6RMHP3d-AHkoKDg7g" changeDate="2005-11-07T14:18:06.208-0800">
+  <mainDescription>&lt;h3&gt;
+    What is a Phase?
+&lt;/h3&gt;
+&lt;p&gt;
+    While the entire purpose of a project is to produce a product, the specific goals of the team in charge of a project
+    vary substantially throughout of the project. In the beginning, there usually is considerable latitude in the
+    requirements for the product. It is also not always clear whether the project is feasible or&amp;nbsp;even if
+    it&amp;nbsp;is&amp;nbsp;likely to be profitable. At that time, it is critical to bring an answer to these questions, and of
+    little of no value to start developing the product in earnest. Similarly, towards the end of the project, the product
+    itself is usually complete, and issues of quality, delivery, and completeness then take center stage. &lt;a class=&quot;elementLink&quot; href=&quot;./../../../base_concepts/guidances/concepts/task,7.624729048911575E-305.html&quot; guid=&quot;7.624729048911575E-305&quot;&gt;Task&lt;/a&gt;s are undertaken in new ways. &lt;a class=&quot;elementLink&quot; href=&quot;./../../../base_concepts/guidances/concepts/work_product,4.804531471620803E-306.html&quot; guid=&quot;4.804531471620803E-306&quot;&gt;Work Product&lt;/a&gt;s will have new content.
+&lt;/p&gt;
+&lt;p&gt;
+    To take these fundamental observations into account in the definition of a &lt;a class=&quot;elementLink&quot; href=&quot;./../../../base_concepts/guidances/concepts/delivery_process,_EhgqwO8MEdmKSqa_gSYthg.html&quot; guid=&quot;_EhgqwO8MEdmKSqa_gSYthg&quot;&gt;Delivery Process&lt;/a&gt;, UMA recommend dividing the process in a sequence of Phases. Each
+    Phase has its own goals, its own Iteration style and usually customizes its Tasks and Work Products differently.
+&lt;/p&gt;
+&lt;h3&gt;
+    &amp;nbsp;&lt;a id=&quot;Iteration and phases&quot; name=&quot;Iteration and phases&quot;&gt;Iteration and Phases&lt;/a&gt;
+&lt;/h3&gt;
+&lt;p&gt;
+    Each phase can be further broken down into iterations. An iteration is a complete development loop resulting in a
+    release (internal or external) of an executable system, usually a subset of the final product under development, which
+    grows incrementally from iteration to iteration to become the product delivered. The Diagram below provides an example
+    of a project decomposition in phases and iterations
+&lt;/p&gt;
+&lt;p align=&quot;center&quot;&gt;
+    &lt;img height=&quot;128&quot; alt=&quot;Phases and Iteration exemplified in Rational Unified Process&quot; src=&quot;resources/im_prar6.gif&quot;     width=&quot;382&quot; border=&quot;0&quot; /&gt;
+&lt;/p&gt;
+&lt;p class=&quot;picturetext&quot; align=&quot;center&quot;&gt;
+    Phases and Iterations&amp;nbsp;exemplified in&amp;nbsp;RUP
+&lt;/p&gt;
+&lt;p&gt;
+    Releases that coincide with the end of a phase are of greater significance (major releases) that those produced for a
+    mere Iteration (minor).
+&lt;/p&gt;</mainDescription>
+</com.ibm.uma:ContentDescription>

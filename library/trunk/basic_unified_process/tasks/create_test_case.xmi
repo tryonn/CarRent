@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<com.ibm.uma:TaskDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:com.ibm.uma="http://www.ibm.com/uma/1.0.2/uma.ecore" xmi:id="_NrVKsKeqEdmKDbQuyzCoqQ" name="create_test_case,_0iwc0clgEdmt3adZL5Dmdw" guid="_NrVKsKeqEdmKDbQuyzCoqQ" changeDate="2005-08-02T16:58:28.186-0700">
+  <sections xmi:id="_IJFSsKuSEdmhFZtkg1nakg" name="Examine the requirements to be tested" guid="_IJFSsKuSEdmhFZtkg1nakg"/>
+  <sections xmi:id="_LpbM8KuSEdmhFZtkg1nakg" name="Outline the Test Case" guid="_LpbM8KuSEdmhFZtkg1nakg"/>
+  <sections xmi:id="_NK18YKuSEdmhFZtkg1nakg" name="Identify Test Data" guid="_NK18YKuSEdmhFZtkg1nakg"/>
+  <sections xmi:id="_Ok_mMKuSEdmhFZtkg1nakg" name="Evaluate and verify your results" guid="_Ok_mMKuSEdmhFZtkg1nakg"/>
+</com.ibm.uma:TaskDescription>

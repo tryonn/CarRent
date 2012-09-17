@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE hibernate-mapping	PUBLIC 
+	"-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+    "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+
+<hibernate-mapping>
+ <class name="br.ufpe.cin.amadeus.system.academic.keyword.Keyword" table="keyword">
+ 	<id name="id">
+ 		<column name="sqkeyword" not-null="true" unique="true"/>
+ 		<generator class="increment"/>
+ 	</id>
+ 	<property name="name">
+ 		<column name="nmkeyword" length="30" not-null="true" />
+ 	</property>
+ 	<property name="popularity">
+ 		<column name="qt_popularity" not-null="true" />
+ 	</property> 
+ </class>
+</hibernate-mapping>

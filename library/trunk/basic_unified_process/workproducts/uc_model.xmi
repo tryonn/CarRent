@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<com.ibm.uma:ArtifactDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:com.ibm.uma="http://www.ibm.com/uma/1.0.2/uma.ecore" xmi:id="_zHZW9KYSEdmvhNXG0Oc2uA" name="uc_model,_0UCrZclgEdmt3adZL5Dmdw" guid="_zHZW9KYSEdmvhNXG0Oc2uA" changeDate="2005-07-07T11:42:42.978-0700">
+  <purpose>&lt;p&gt;
+    The use-case model is useful when considered together with its related work products: &lt;u&gt;Use Cases&lt;/u&gt; and
+    &lt;u&gt;Actors&lt;/u&gt;.
+&lt;/p&gt;
+&lt;p&gt;
+    In general,&amp;nbsp;a use-case model&amp;nbsp;presents an overview of the system, serving as basis for an agreement between
+    customers and project team of the intended functionality for the system. It also helps to drive the various tasks in
+    the software development lifecycle. Refer to &lt;u&gt;Work Product: Use Cases&lt;/u&gt; for additional information.
+&lt;/p&gt;</purpose>
+  <representationOptions>&lt;p&gt;
+
+    Tailor to support project needs.&amp;nbsp;Projects may not to include the use-case model as one of the work
+
+    products being created.&amp;nbsp;Identifying actors and use cases, then describing the use-cases scenarios
+
+    are&amp;nbsp;recommended tasks though.&amp;nbsp;
+
+&lt;/p&gt;
+
+&lt;p&gt;
+
+&lt;/p&gt;</representationOptions>
+</com.ibm.uma:ArtifactDescription>

@@ -1,0 +1,44 @@
+CREATE TABLE jogos
+(
+  id_jogo serial NOT NULL,
+  nm_jogo character varying(100) NOT NULL,
+  minimo smallint NOT NULL,
+  maximo smallint NOT NULL,
+  url character varying(300) NOT NULL,
+  flag smallint NOT NULL,
+  id_curso smallint NOT NULL,
+  comentario text,
+  atualizacao timestamp without time zone DEFAULT now(), -- salva a ultima data da atualizacao
+  CONSTRAINT chave PRIMARY KEY (id_jogo)
+) ;
+
+CREATE TABLE partidas
+(
+   id_partida integer NOT NULL,
+   id_jogo integer NOT NULL, 
+   dt_criacao timestamp without time zone NOT NULL DEFAULT now(), 
+   dt_fim timestamp without time zone, 
+    PRIMARY KEY (id_partida), 
+    FOREIGN KEY (id_jogo) REFERENCES jogos (id_jogo)    ON UPDATE NO ACTION ON DELETE NO ACTION
+);
+
+CREATE TABLE participantes
+(
+   id_participante serial, 
+   id_partida integer NOT NULL, 
+   id_usuario character(50) NOT NULL, 
+   dt_entrada timestamp without time zone NOT NULL DEFAULT now(), 
+   dt_saida timestamp without time zone, 
+   flag smallint, --Informa a forma como saiu Normal(0) ou TimeOUT(1). Se for TimeOut os pontos serão 0.
+   pontos integer NOT NULL DEFAULT 0, 
+    PRIMARY KEY (id_participante), 
+    FOREIGN KEY (id_partida) REFERENCES partidas (id_partida)    ON UPDATE NO ACTION ON DELETE NO ACTION
+);
+
+CREATE TABLE partidasAvulsas
+(
+   id_jogo integer NOT NULL, 
+   id_usuario character(50) NOT NULL, 
+   dt_criacao timestamp without time zone NOT NULL DEFAULT now(), 
+    FOREIGN KEY (id_jogo) REFERENCES jogos (id_jogo)    ON UPDATE NO ACTION ON DELETE NO ACTION
+);

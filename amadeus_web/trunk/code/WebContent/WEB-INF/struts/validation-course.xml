@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+
+<!DOCTYPE form-validation PUBLIC
+          "-//Apache Software Foundation//DTD Commons Validator Rules Configuration 1.1.3//EN"
+          "http://jakarta.apache.org/commons/dtds/validator_1_1_3.dtd">
+
+<form-validation>
+
+<!--
+     This is a minimal Validator form file with a couple of examples.
+-->
+
+    <global>
+
+        <!-- An example global constant
+        <constant>
+            <constant-name>postalCode</constant-name>
+            <constant-value>^\d{5}\d*$</constant-value>
+        </constant>
+        end example-->
+
+    </global>
+
+    <formset>
+
+		<form name="logonCourseForm">
+            <field
+                property="login"
+                depends="required">
+                    <arg key="logonForm.login"/>
+            </field>
+            <field
+                property="password"
+                depends="required,mask">
+                    <arg key="logonForm.password"/>
+                    <var>
+                        <var-name>mask</var-name>
+                        <var-value>^[0-9a-zA-Z]*$</var-value>
+                    </var>
+            </field>
+        </form>
+       
+         
+        <form name="courseContentForm">
+            <field
+                property="moduleName"
+                depends="required">
+            </field>
+            <field
+                property="moduleDescription"
+                depends="required">
+            </field>
+        </form>
+        <form name="logonActionForm">
+            <field
+                property="login"
+                depends="required">
+                    <arg key="logonForm.login"/>
+            </field>
+            <field
+                property="password"
+                depends="required,mask">
+                    <arg key="logonForm.password"/>
+                    <var>
+                        <var-name>mask</var-name>
+                        <var-value>^[0-9a-zA-Z]*$</var-value>
+                    </var>
+            </field>
+        </form>
+        
+        <form name="courseForm">
+            <field
+                property="name"
+                depends="required">
+                    <arg key="courseForm.courseName"/>
+            </field>
+            <field
+                property="objectives"
+                depends="required">
+                    <arg key="courseForm.objectives"/>
+            </field>
+            <field
+                property="content"
+                depends="required">
+                    <arg key="courseForm.content"/>
+            </field>
+            <field
+                property="students"
+                depends="required, integer">
+                    <arg key="courseForm.students"/>
+            </field>
+            <field
+                property="initialRegistrationDay"
+                depends="required, mask">
+                    <arg key="courseForm.initialRegistrationDay"/>
+                    <var>
+                        <var-name>mask</var-name>
+                        <var-value>^[0-9]*$</var-value>
+                    </var>
+            </field>
+            <field
+                property="initialRegistrationMonth"
+                depends="required, mask">
+                    <arg key="courseForm.initialRegistrationMonth"/>
+                     <var>
+                        <var-name>mask</var-name>
+                        <var-value>^[0-9]*$</var-value>
+                    </var>
+            </field>
+            <field
+                property="initialRegistrationYear"
+                depends="required, mask">
+                    <arg key="courseForm.initialRegistrationYear"/>
+                     <var>
+                        <var-name>mask</var-name>
+                        <var-value>^[0-9]*$</var-value>
+                    </var>
+            </field>
+            <field
+                property="finalRegistrationDay"
+                depends="required, mask">
+                    <arg key="courseForm.finalRegistrationDay"/>
+                     <var>
+                        <var-name>mask</var-name>
+                        <var-value>^[0-9]*$</var-value>
+                    </var>
+            </field>
+            <field
+                property="finalRegistrationMonth"
+                depends="required, mask">
+                    <arg key="courseForm.finalRegistrationMonth"/>
+                     <var>
+                        <var-name>mask</var-name>
+                        <var-value>^[0-9]*$</var-value>
+                    </var>
+            </field>
+            <field
+                property="finalRegistrationYear"
+                depends="required, mask">
+                    <arg key="courseForm.finalRegistrationYear"/>
+                     <var>
+                        <var-name>mask</var-name>
+                        <var-value>^[0-9]*$</var-value>
+                    </var>
+            </field>
+            <field
+                property="initialCourseDay"
+                depends="required, mask">
+                    <arg key="courseForm.initialCourseDay"/>
+                     <var>
+                        <var-name>mask</var-name>
+                        <var-value>^[0-9]*$</var-value>
+                    </var>
+            </field>
+            <field
+                property="initialCourseMonth"
+                depends="required, mask">
+                    <arg key="courseForm.initialCourseMonth"/>
+                     <var>
+                        <var-name>mask</var-name>
+                        <var-value>^[0-9]*$</var-value>
+                    </var>
+            </field>
+            <field
+                property="initialCourseYear"
+                depends="required, mask">
+                    <arg key="courseForm.initialCourseYear"/>
+                     <var>
+                        <var-name>mask</var-name>
+                        <var-value>^[0-9]*$</var-value>
+                    </var>
+            </field>
+            <field
+                property="finalCourseDay"
+                depends="required, mask">
+                    <arg key="courseForm.finalCourseDay"/>
+                     <var>
+                        <var-name>mask</var-name>
+                        <var-value>^[0-9]*$</var-value>
+                    </var>
+            </field>
+            <field
+                property="finalCourseMonth"
+                depends="required, mask">
+                    <arg key="courseForm.finalCourseMonth"/>
+                     <var>
+                        <var-name>mask</var-name>
+                        <var-value>^[0-9]*$</var-value>
+                    </var>
+            </field>
+            <field
+                property="finalCourseYear"
+                depends="required, mask">
+                    <arg key="courseForm.finalCourseYear"/>
+                     <var>
+                        <var-name>mask</var-name>
+                        <var-value>^[0-9]*$</var-value>
+                    </var>
+            </field>
+        </form>
+        
+        <form name="courseFormStepTwo">
+            <field
+                property="keywords"
+                depends="required">
+                    <arg key="courseForm.keywords"/>
+            </field>
+        </form>
+   </formset>
+
+    
+
+</form-validation>

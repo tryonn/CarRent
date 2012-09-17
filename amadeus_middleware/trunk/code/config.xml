@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<amadeus>
+	<connectors>
+		<logicConnector name="TCP" value="Reliable" use="true"></logicConnector>
+		<logicConnector name="UDP" value="NotReliable"></logicConnector>
+		<logicConnector name="TCPFile" value="Reliable_File"></logicConnector>
+	</connectors>
+	<components>
+		<component name="Componente de Criptografia" value="CryptographyComponent"></component>
+		<component name="Componente de Compressao" value="CompressionComponent" use="true"></component>
+	</components>
+	<hosts>
+		<host name="namingService" host="localhost" localPort="5399" remotePort="1099"></host>
+	</hosts>
+</amadeus>

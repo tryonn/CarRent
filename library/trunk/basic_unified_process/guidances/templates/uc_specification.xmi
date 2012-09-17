@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<com.ibm.uma:GuidanceDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:com.ibm.uma="http://www.ibm.com/uma/1.0.2/uma.ecore" xmi:id="_OaB-UMM2EdmSIPI87WLu3g" name="uc_specification,_0cpNwMlgEdmt3adZL5Dmdw" guid="_OaB-UMM2EdmSIPI87WLu3g" changeDate="2005-07-07T14:15:02.713-0700">
+  <mainDescription>&lt;blockquote dir=&quot;ltr&quot; style=&quot;MARGIN-RIGHT: 0px&quot;&gt;
+    &lt;blockquote dir=&quot;ltr&quot; style=&quot;MARGIN-RIGHT: 0px&quot;&gt;
+        &lt;blockquote dir=&quot;ltr&quot; style=&quot;MARGIN-RIGHT: 0px&quot;&gt;
+            &lt;blockquote dir=&quot;ltr&quot; style=&quot;MARGIN-RIGHT: 0px&quot;&gt;
+                &lt;blockquote dir=&quot;ltr&quot; style=&quot;MARGIN-RIGHT: 0px&quot;&gt;
+                    &lt;blockquote dir=&quot;ltr&quot; style=&quot;MARGIN-RIGHT: 0px&quot;&gt;
+                        &lt;h3 class=&quot;Section1&quot; dir=&quot;ltr&quot; style=&quot;MARGIN-RIGHT: 0px&quot;&gt;
+                            &amp;lt;Project Name&amp;gt;
+                        &lt;/h3&gt;
+                    &lt;/blockquote&gt;
+                    &lt;h3 class=&quot;Section1&quot; dir=&quot;ltr&quot; style=&quot;MARGIN-RIGHT: 0px&quot;&gt;
+                        Use-Case: &amp;lt;use-case name&amp;gt;
+                    &lt;/h3&gt;
+                &lt;/blockquote&gt;
+            &lt;/blockquote&gt;
+        &lt;/blockquote&gt;
+    &lt;/blockquote&gt;
+&lt;/blockquote&gt;
+&lt;h3&gt;
+    Brief Description
+&lt;/h3&gt;
+&lt;p class=&quot;MsoBodyText&quot;&gt;
+    &amp;lt;brief description of use-case&amp;gt;
+&lt;/p&gt;
+&lt;h3&gt;
+    Actors Brief Descriptions
+&lt;/h3&gt;
+&lt;p&gt;
+    &amp;lt;brief description of actors interacting with use case&amp;gt;
+&lt;/p&gt;
+&lt;h3&gt;
+    Preconditions
+&lt;/h3&gt;
+&lt;p&gt;
+    &amp;lt;pre-condition 1&amp;gt;&lt;br /&gt;
+&lt;/p&gt;
+&lt;h3&gt;
+    Basic Flow of Events
+&lt;/h3&gt;
+&lt;h4&gt;
+    1.&lt;span style=&quot;FONT: 7pt 'Times New Roman'&quot;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/span&gt; &amp;lt;basic
+    flow steps&amp;gt;
+&lt;/h4&gt;
+&lt;h4&gt;
+    2.&lt;span style=&quot;FONT: 7pt 'Times New Roman'&quot;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/span&gt; ..
+&lt;/h4&gt;
+&lt;h4&gt;
+    3.&lt;span style=&quot;FONT: 7pt 'Times New Roman'&quot;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/span&gt; The use case
+    ends.&lt;br /&gt;
+    &lt;br /&gt;
+&lt;/h4&gt;
+&lt;h3&gt;
+    Alternative Flows
+&lt;/h3&gt;
+&lt;p&gt;
+    &amp;lt;alternate flow 1&amp;gt;&lt;br /&gt;
+&lt;/p&gt;
+&lt;h3&gt;
+    Subflows
+&lt;/h3&gt;
+&lt;p&gt;
+    &amp;lt;subflow 1&amp;gt;&lt;br /&gt;
+&lt;/p&gt;
+&lt;h3&gt;
+    Key Scenarios
+&lt;/h3&gt;
+&lt;p&gt;
+    &amp;lt;scenario 1&amp;gt;&lt;br /&gt;
+&lt;/p&gt;
+&lt;h3&gt;
+    Post-conditions
+&lt;/h3&gt;
+&lt;p&gt;
+    &amp;lt;post-condition 1&amp;gt;&lt;br /&gt;
+&lt;/p&gt;
+&lt;h3&gt;
+    Extension Points
+&lt;/h3&gt;
+&lt;p&gt;
+    &amp;lt;extension point 1&amp;gt;&lt;br /&gt;
+&lt;/p&gt;
+&lt;h3&gt;
+    Special Requirements
+&lt;/h3&gt;
+&lt;p&gt;
+    &amp;lt;supplementary requirement 1&amp;gt;&lt;br /&gt;
+&lt;/p&gt;
+&lt;h3&gt;
+    Additional Information
+&lt;/h3&gt;</mainDescription>
+</com.ibm.uma:GuidanceDescription>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<com.ibm.uma:ArtifactDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:com.ibm.uma="http://www.ibm.com/uma/1.0.2/uma.ecore" xmi:id="-ZM5dIlYcrGwv9lLYQJp6ow" name="product_backlog,_EMJB0CofEdqHVICqX5k_yQ" guid="-ZM5dIlYcrGwv9lLYQJp6ow" changeDate="2006-04-11T11:18:36.443-0300">
+  <mainDescription>&lt;p&gt;
+    Product Backlog main description here.
+&lt;/p&gt;
+&lt;br /&gt;</mainDescription>
+</com.ibm.uma:ArtifactDescription>

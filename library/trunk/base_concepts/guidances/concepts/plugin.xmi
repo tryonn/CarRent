@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<com.ibm.uma:ContentDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:com.ibm.uma="http://www.ibm.com/uma/1.0.2/uma.ecore" xmi:id="_0LCr8BUFEdqrUt4zetC1gg" name="method_plugin,_0KeEMBUFEdqrUt4zetC1gg" guid="_0LCr8BUFEdqrUt4zetC1gg" changeDate="2005-09-07T02:03:28.352-0700">
+  <mainDescription>&lt;p&gt;
+    A Method Plugin is a Method Element that represents a physical container for Method Packages.&amp;nbsp; It defines a
+    granularity level for the modularization and organization of method content and processes.&amp;nbsp; A Method Plugin can
+    extend many other Method Plugins and it can be extended by many Method Plugins.&amp;nbsp; It can also be used stand-alone,
+    i.e. with no Extension relationship to other plug-ins.
+&lt;/p&gt;
+&lt;p&gt;
+    Method Plugin conceptually represents a unit for configuration, modularization, extension, packaging, and deployment of
+    method content and processes.&amp;nbsp; A Process Engineer must design his Plugins and allocate his content to these
+    Plugins with requirements for extensibility, modularity, reuse, and maintainability in mind.&amp;nbsp;&lt;br /&gt;
+&lt;/p&gt;
+&lt;p&gt;
+    Another use of Plugins is that they allow factoring out context or technology specific content into separate Method
+    Plugins.For example, his factoring allows one to alternatively choose one Method Plugin over another depending on the
+    technology used for the project (e.g. J2EE vs. .NET)
+&lt;/p&gt;</mainDescription>
+</com.ibm.uma:ContentDescription>

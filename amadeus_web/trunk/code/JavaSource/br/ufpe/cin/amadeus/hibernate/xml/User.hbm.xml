@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE hibernate-mapping	PUBLIC 
+	"-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+    "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+
+<hibernate-mapping>
+ <class name="br.ufpe.cin.amadeus.system.access_control.user.User" table="amadeususer">
+ 	<id name="id">
+ 		<column name="sqUser" not-null="true" unique="true" />
+ 		<generator class="increment" />
+ 	</id>
+ 	<property name="login">
+ 		<column name="LOGIN" length="20" not-null="true" unique="true" />
+ 	</property>
+ 	<property name="password">
+ 		<column name="password" length="20" not-null="true" />
+ 	</property>
+
+ 	<!-- Relacionamento um-para-um com Pessoa -->
+ 	<many-to-one name="person"
+ 		class="br.ufpe.cin.amadeus.system.human_resources.person.Person"
+ 		column="sqPerson" cascade="all" unique="true" lazy="proxy" />
+ 		
+ 	<!--  Relacionamento um-para-um com Perfil -->
+ 	<many-to-one name="profile"
+ 		class="br.ufpe.cin.amadeus.system.human_resources.profile.Profile"
+ 		column="sqProfile" cascade="all" unique="true" lazy="proxy"/>
+ </class>
+</hibernate-mapping>

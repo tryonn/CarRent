@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<com.ibm.uma:ContentDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:com.ibm.uma="http://www.ibm.com/uma/1.0.2/uma.ecore" xmi:id="_s0dcwBUBEdqrUt4zetC1gg" name="practice,_szl6EBUBEdqrUt4zetC1gg" guid="_s0dcwBUBEdqrUt4zetC1gg" changeDate="2005-10-30T17:24:23.678-0800">
+  <mainDescription>&lt;p&gt;
+    Practices are orthogonal to methods and processes. They often summarize aspects that impact many different parts of a
+    method or specific processes.
+&lt;/p&gt;
+In Software Engineering, examples for practices include: 
+&lt;ul&gt;
+    &lt;li&gt;
+        Manage Risks,
+    &lt;/li&gt;
+    &lt;li&gt;
+        Continuously verify quality,
+    &lt;/li&gt;
+    &lt;li&gt;
+        Architecture-centric and component-based development, etc.
+    &lt;/li&gt;
+&lt;/ul&gt;</mainDescription>
+</com.ibm.uma:ContentDescription>

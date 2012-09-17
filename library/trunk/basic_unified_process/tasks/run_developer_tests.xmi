@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<com.ibm.uma:TaskDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:com.ibm.uma="http://www.ibm.com/uma/1.0.2/uma.ecore" xmi:id="_W6rc0Lv7EdmmUvZAZjqE3g" name="run_developer_tests,_0iYCUMlgEdmt3adZL5Dmdw" guid="_W6rc0Lv7EdmmUvZAZjqE3g" changeDate="2005-10-19T13:09:03.950-0700">
+  <mainDescription>Implementation and modification of components takes place in the context of configuration management on the project.
+Developers are provided with a private development&amp;nbsp;workspace&amp;nbsp;in which they do their work (see &lt;a
+class=&quot;elementLinkWithType&quot; href=&quot;resources/workspace,_0cEmAMlgEdmt3adZL5Dmdw.html&quot; guid=&quot;_0cEmAMlgEdmt3adZL5Dmdw&quot;&gt;Concept:
+Workspace&lt;/a&gt;). In this workspace, source elements are created and placed under configuration management, or they are
+modified through the usual check out, edit, build, unit test, and check in cycle (see &lt;a class=&quot;elementLinkWithType&quot;
+href=&quot;resources/make_changes,_0m9AUMlgEdmt3adZL5Dmdw.html&quot; guid=&quot;_0m9AUMlgEdmt3adZL5Dmdw&quot;&gt;Task: Make Changes&lt;/a&gt;).
+Following the completion of some set of components required for an upcoming build, the&amp;nbsp;developer will deliver the
+associated new and modified components to the&amp;nbsp;component integration workspace, for integration with the work of other
+developers. Finally, at a convenient point, the&amp;nbsp;developer can update, or re-baseline, the private development
+workspace so it's consistent with the&amp;nbsp;component integration workspace.</mainDescription>
+  <keyConsiderations>&lt;p&gt;
+    &lt;b&gt;Unit&lt;/b&gt; means not only a class in an object-oriented language, but also free subprograms, such as functions in C++.
+    For testing each unit (implemented class), perform the steps defined for this task.
+&lt;/p&gt;</keyConsiderations>
+  <sections xmi:id="_MSnQsMP4EdmWKcx6ixEiwg" name="Run tests" guid="_MSnQsMP4EdmWKcx6ixEiwg">
+    <sectionDescription>&lt;p&gt;
+    Make sure you have the test environment set up with all needed elements, such as software, hardware, tools, data and so
+    on. Refer to &lt;a class=&quot;elementLinkWithType&quot;
+    href=&quot;./../../basic_unified_process/tasks/impl_developer_tests,_0iL1EMlgEdmt3adZL5Dmdw.html&quot;
+    guid=&quot;_0iL1EMlgEdmt3adZL5Dmdw&quot;&gt;&lt;u&gt;&lt;font color=&quot;#0000ff&quot;&gt;Task: Implement Developer Tests&lt;/font&gt;&lt;/u&gt;&lt;/a&gt;&amp;nbsp;for more
+    information.
+&lt;/p&gt;
+&lt;p&gt;
+    Then, initialize the test environment to ensure all components are in the correct initial state for the start of
+    testing.
+&lt;/p&gt;
+&lt;p&gt;
+    Finally, execute the tests. The execution will vary depending on wheter test is manual or automated, and whether test
+    components are needed as either drivers or stubs.
+&lt;/p&gt;</sectionDescription>
+  </sections>
+  <sections xmi:id="_NkRF0MP4EdmWKcx6ixEiwg" name="Evaluate execution of tests" guid="_NkRF0MP4EdmWKcx6ixEiwg">
+    <sectionDescription>&lt;p&gt;
+    Determine whether the tests completed successfully and as desired, and&amp;nbsp;if corrective action is required.&amp;nbsp;The
+    execution of testing ends or terminates in one of two conditions:
+&lt;/p&gt;
+&lt;ul&gt;
+    &lt;li&gt;
+        Normal: all test procedures (or scripts) execute as intended. If testing terminates normally, then continue with
+        the step&amp;nbsp;&lt;strong&gt;Verify tests results&lt;/strong&gt;.
+    &lt;/li&gt;
+    &lt;li&gt;
+        Abnormal or premature: the test procedures, or scripts, did not execute completely or as intended. When testing
+        ends abnormally, the test results may be unreliable. The cause of termination must be identified, corrected, and
+        the tests re-executed before additional test tasks are performed. If tests terminate abnormally, continue with the
+        step &lt;strong&gt;Recover from halted tests&lt;/strong&gt;.
+    &lt;/li&gt;
+&lt;/ul&gt;</sectionDescription>
+  </sections>
+  <sections xmi:id="_QrHiAMP4EdmWKcx6ixEiwg" name="Verify tests results" guid="_QrHiAMP4EdmWKcx6ixEiwg">
+    <sectionDescription>&lt;p&gt;
+    When testing is complete, review the test results to ensure they are reliable and reported failures, warnings, or
+    unexpected results were not caused by external influences (to the target-of-test), such as improper setup or data.
+&lt;/p&gt;
+&lt;p&gt;
+    If the reported failures are due to errors identified in the test work products or due to problems with the test
+    environment, take the appropriate corrective action as described in step &lt;strong&gt;Recover from halted tests&lt;/strong&gt;,
+    and then execute the tests again.
+&lt;/p&gt;
+&lt;p&gt;
+    If the test results indicate the failures are genuinely due to the target-of-test, then this task is essentially
+    complete and typically&amp;nbsp;the&amp;nbsp;&lt;a class=&quot;elementLinkWithType&quot;
+    href=&quot;./../../basic_unified_process/tasks/submit_change_request,_0mwzEclgEdmt3adZL5Dmdw.html&quot;
+    guid=&quot;_0mwzEclgEdmt3adZL5Dmdw&quot;&gt;&lt;u&gt;&lt;font color=&quot;#0000ff&quot;&gt;Task: Submit Change Request&lt;/font&gt;&lt;/u&gt;&lt;/a&gt;&amp;nbsp;should now be
+    performed.
+&lt;/p&gt;</sectionDescription>
+  </sections>
+  <sections xmi:id="_SXPFkMP4EdmWKcx6ixEiwg" name="Recover from halted tests" guid="_SXPFkMP4EdmWKcx6ixEiwg">
+    <sectionDescription>&lt;p&gt;
+    Determine the appropriate corrective action to recover from a halted test, and execute the tests again.&amp;nbsp;
+&lt;/p&gt;
+&lt;p&gt;
+    There are two major types of halted tests:
+&lt;/p&gt;
+&lt;ul&gt;
+    &lt;li&gt;
+        Fatal errors; for example, network failures, hardware crashes, and the like.
+    &lt;/li&gt;
+    &lt;li&gt;
+        Test Script Command Failures; specific to automated testing, this is when a test script cannot execute a command or
+        a line of code.
+    &lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+    Both types of abnormal termination to testing may exhibit the same symptoms:
+&lt;/p&gt;
+&lt;ul&gt;
+    &lt;li&gt;
+        Unexpected actions, windows, or events occur while the test script is executing.
+    &lt;/li&gt;
+    &lt;li&gt;
+        Test environment appears unresponsive or in an undesirable state, such as hung or crashed.
+    &lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+    To recover from halted tests, perform these steps:
+&lt;/p&gt;
+&lt;ol&gt;
+    &lt;li&gt;
+        Determine the actual cause of the problem.
+    &lt;/li&gt;
+    &lt;li&gt;
+        Correct the problem.
+    &lt;/li&gt;
+    &lt;li&gt;
+        Set up the test environment again.
+    &lt;/li&gt;
+    &lt;li&gt;
+        Initialize the test environment again.
+    &lt;/li&gt;
+    &lt;li&gt;
+        Execute the tests again.
+    &lt;/li&gt;
+&lt;/ol&gt;</sectionDescription>
+  </sections>
+</com.ibm.uma:TaskDescription>

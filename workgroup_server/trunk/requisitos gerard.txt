@@ -1,0 +1,19 @@
+Servidor:
+- Mantem uma lista de conectados (ok)
+- Sabe (controla) quem e o dono do modelo (ok) 
+- So aceita atualizacao do modelo do dono (ok)
+- Reenvia o modelo para todos (ok)
+- O primeiro é o dono inical do modelo (ok)
+- matem a lista de solicitacoes de lock (floor control) (ok)
+- mantem chat entre usuarios (ok)
+- mantem copia do ultimo modelo 
+- controla o sequenciamento dos modelos 
+- Login dos usuários (ok)
+
+Gerard:
+- campo (boolean) que indica que tem o lock
+- Funcionalidade para conectar com servidor
+- desabilita botoes quando nao tem lock
+- recebe modelos da rede quando nao tem lock
+
+

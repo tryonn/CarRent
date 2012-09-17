@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE hibernate-mapping	PUBLIC 
+	"-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+    "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+    
+   	 
+ <hibernate-mapping>
+      <class name="br.ufpe.cin.amadeus.system.academic.module.evaluation.answer.question.alternative.AlternativeAnswer" table="alternativeanswer">
+	      <id name = "id">
+	          <column name = "sqalternative_answer" not-null = "true"/>
+	          <generator class="increment"/>  
+	      </id>
+	      
+	      <property name = "answered">  
+	      		<column name = "ds_answered"/> 
+	      </property>
+	     
+
+      </class>
+ </hibernate-mapping>

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<com.ibm.uma:TaskDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:com.ibm.uma="http://www.ibm.com/uma/1.0.2/uma.ecore" xmi:id="_P9iS8PV_EdmdHa9MmVPgqQ" name="find_and_outline_requirements,_P9cMUPV_EdmdHa9MmVPgqQ" guid="_P9iS8PV_EdmdHa9MmVPgqQ" changeDate="2005-09-23T09:47:29.542-0700">
+  <sections xmi:id="_ckG-cCY-EdqNHcQ-rAojXw" name="Gather information" guid="_ckG-cCY-EdqNHcQ-rAojXw">
+    <sectionDescription>&lt;p&gt;
+    Information is initially gathered when the vision for the system to be is being defined (see &lt;a
+    class=&quot;elementLinkWithType&quot; href=&quot;resources/define_vision,_0fOAoMlgEdmt3adZL5Dmdw.html&quot;
+    guid=&quot;_0fOAoMlgEdmt3adZL5Dmdw&quot;&gt;Task: Define Vision&lt;/a&gt;&amp;nbsp;for more details). Various techniques can be used to
+    facilitate requirements elicitation. For that, consider to conduct a workshop,&amp;nbsp;as described in &lt;a
+    class=&quot;elementLinkWithType&quot;
+    href=&quot;resources/requirements_workshop,_OnoNQNSAEdmLhZ9H5Plxyw.html&quot;
+    guid=&quot;_OnoNQNSAEdmLhZ9H5Plxyw&quot;&gt;Guideline: Requirements Workshop&lt;/a&gt;.
+&lt;/p&gt;</sectionDescription>
+  </sections>
+  <sections xmi:id="_fDbgkCY-EdqNHcQ-rAojXw" name="Capture requirements" guid="_fDbgkCY-EdqNHcQ-rAojXw">
+    <sectionDescription>&lt;p&gt;
+    Capture the various types of&amp;nbsp; requirements (see &lt;a class=&quot;elementlinkwithtype&quot;
+    href=&quot;resources/requirements,_0Wh-sMlgEdmt3adZL5Dmdw.html&quot;
+    guid=&quot;_0Wh-sMlgEdmt3adZL5Dmdw&quot;&gt;Concept: Requirements&lt;/a&gt;) as part of the &lt;a class=&quot;elementLinkWithType&quot;
+    href=&quot;resources/work_items_list,_rGNWsCbSEdqh1LYUOGRh2A.html&quot;
+    guid=&quot;_rGNWsCbSEdqh1LYUOGRh2A&quot;&gt;Work Product: Work Items List&lt;/a&gt;, so work&amp;nbsp;can be prioritized and assigned to team
+    members:
+&lt;/p&gt;
+&lt;ul&gt;
+    &lt;li&gt;
+        Use Cases and Scenarios have their description captured in this list, but may be detailed&amp;nbsp;in a separate
+        document as needed.
+    &lt;/li&gt;
+    &lt;li&gt;
+        Supplemental requirements&amp;nbsp;can be captured in this list, but can be detailed or&amp;nbsp;make reference to external
+        supplemental documents as necessary.
+    &lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+    While capturing requirements, it may be useful to identify and capture Use Cases and Actors in a Use-Case Model,
+    helping to better understand proposed system functionality and its&amp;nbsp;surroundings. See &lt;a
+    class=&quot;elementLinkWithType&quot;
+    href=&quot;resources/find_and_outline_actors_and_ucs,_eyL0wCu-EdqSxKAVa9kmvA.html&quot;
+    guid=&quot;_eyL0wCu-EdqSxKAVa9kmvA&quot;&gt;Guideline: Find and Outline Actors and Use Cases&lt;/a&gt;&amp;nbsp;for more details.
+&lt;/p&gt;</sectionDescription>
+  </sections>
+</com.ibm.uma:TaskDescription>

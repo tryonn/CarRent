@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<com.ibm.uma:DeliveryProcessDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:com.ibm.uma="http://www.ibm.com/uma/1.0.2/uma.ecore" xmi:id="_mtb-4PL5Edm6Nvont3uinw" guid="_mtb-4PL5Edm6Nvont3uinw">
+  <purpose>&lt;ul&gt;
+    &lt;li&gt;
+        To offer process guidance for small scale projects
+    &lt;/li&gt;
+    &lt;li&gt;
+        To allow project managers to create project plans based on the proposed work breakdown structures
+    &lt;/li&gt;
+    &lt;li&gt;
+        To allow project managers to assign work and track status based on goals
+    &lt;/li&gt;
+    &lt;li&gt;
+        To allow process practitioners (analysts, architects, developers and test engineers) to understand how to perform
+        their work to achieve project goals
+    &lt;/li&gt;
+&lt;/ul&gt;</purpose>
+  <projectCharacteristics>&lt;p class=&quot;O&quot; style=&quot;mso-margin-left-alt: 216; mso-char-wrap: 1; mso-kinsoku-overflow: 1&quot; v:shape=&quot;_x0000_s1026&quot;&gt;
+    &lt;span
+    style=&quot;LEFT: -4.35%; COLOR: #0099cc; FONT-FAMILY: Wingdings; POSITION: absolute; mso-color-index: 5; mso-special-format: bullet&quot;&gt;
+    §&lt;/span&gt;This delivery process is aimed to the offer process guidance to small projects:
+&lt;/p&gt;
+&lt;ul&gt;
+    &lt;li&gt;
+        &lt;div class=&quot;O&quot; style=&quot;mso-margin-left-alt: 216; mso-char-wrap: 1; mso-kinsoku-overflow: 1&quot; v:shape=&quot;_x0000_s1026&quot;&gt;
+            5 to 10 people in the team
+        &lt;/div&gt;
+    &lt;/li&gt;
+&lt;/ul&gt;
+&lt;ul&gt;
+    &lt;li&gt;
+        &lt;div class=&quot;O&quot; style=&quot;mso-margin-left-alt: 216; mso-char-wrap: 1; mso-kinsoku-overflow: 1&quot; v:shape=&quot;_x0000_s1026&quot;&gt;
+            8&amp;nbsp;to 12 months effort
+        &lt;/div&gt;
+    &lt;/li&gt;
+&lt;/ul&gt;</projectCharacteristics>
+</com.ibm.uma:DeliveryProcessDescription>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<com.ibm.uma:ContentDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:com.ibm.uma="http://www.ibm.com/uma/1.0.2/uma.ecore" xmi:id="_yQ5m2dnmEdmO6L4XMImrsA" name="process,_yQ5m2NnmEdmO6L4XMImrsA" guid="_yQ5m2dnmEdmO6L4XMImrsA">
+  <mainDescription>&lt;p&gt;
+    (1) A general structure for particular types of development projects.&amp;nbsp;Processes take &lt;a class=&quot;elementLink&quot;
+    href=&quot;file://./../../../base_concepts/guidances/termdefinitions/content_element,_N8x34B_LEdq6CKKKq4D7YA.html&quot;
+    guid=&quot;_N8x34B_LEdq6CKKKq4D7YA&quot;&gt;content element&lt;/a&gt;s and relate them into semi-ordered
+    sequences that are customized to specific types of projects.&amp;nbsp;Thus, a Process is a set of partially ordered work
+    descriptions intended to reach a higher development goal, such as the release of a specific software&amp;nbsp; 
+    &lt;!--StartFragment--&gt;These work descriptions are organized into a hierarchical&amp;nbsp;breakdown-structure A Process
+    focuses on the lifecycle and the sequencing of work in breakdown structures.&lt;br /&gt;
+&lt;/p&gt;
+&lt;p&gt;
+    (2) The part of&amp;nbsp; &lt;a class=&quot;elementLink&quot;
+    href=&quot;file:///C:/CC2/Migration1/tng_content/libraries/rup_20050708/base_concepts/guidances/termdefinitions/base_concepts/guidances/termdefinitions/uma,_cj6jkB_PEdq6CKKKq4D7YA.html&quot;
+     guid=&quot;_cj6jkB_PEdq6CKKKq4D7YA&quot;&gt;UMA&lt;/a&gt;&amp;nbsp;that models processes.
+&lt;/p&gt;
+&lt;!--EndFragment--&gt;</mainDescription>
+</com.ibm.uma:ContentDescription>

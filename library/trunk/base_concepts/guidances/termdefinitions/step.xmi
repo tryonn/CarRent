@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<com.ibm.uma:ContentDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:com.ibm.uma="http://www.ibm.com/uma/1.0.2/uma.ecore" xmi:id="-KfXoeGTRnQImE1byTBtryQ" name="step,_BqZloB_eEdqAHrsQ7-jSbw" guid="-KfXoeGTRnQImE1byTBtryQ" changeDate="2005-09-07T13:29:12.128-0700">
+  <mainDescription>&lt;a class=&quot;elementLink&quot;
+href=&quot;file://./../../../base_concepts/guidances/termdefinitions/content_element,_N8x34B_LEdq6CKKKq4D7YA.html&quot;
+guid=&quot;_N8x34B_LEdq6CKKKq4D7YA&quot;&gt;content element&lt;/a&gt;&amp;nbsp;used to organize &lt;a
+class=&quot;elementLink&quot; href=&quot;file://./../../../base_concepts/guidances/termdefinitions/task,_x459ktnmEdmO6L4XMImrsA.html&quot;
+guid=&quot;_x459ktnmEdmO6L4XMImrsA&quot;&gt;task&lt;/a&gt;s into parts or subunits of work.</mainDescription>
+</com.ibm.uma:ContentDescription>

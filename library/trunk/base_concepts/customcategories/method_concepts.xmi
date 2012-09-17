@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<com.ibm.uma:ContentDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:com.ibm.uma="http://www.ibm.com/uma/1.0.2/uma.ecore" xmi:id="_WfkRcBTMEdqrUt4zetC1gg" name="method_concepts,_WfL28BTMEdqrUt4zetC1gg" guid="_WfkRcBTMEdqrUt4zetC1gg" changeDate="2005-11-07T15:54:23.625-0800">
+  <mainDescription>&lt;p&gt;
+    Method Content is fundamentally described by defining Tasks described with Steps that have Work Products as input and
+    output and which are&amp;nbsp;performed by Roles.&amp;nbsp; Roles also define important responsibility relationships to work
+    products.
+&lt;/p&gt;
+&lt;p&gt;
+    The fundamental Method Content abstractions are:
+&lt;/p&gt;
+&lt;ul&gt;
+    &lt;li&gt;
+        &lt;a class=&quot;elementLink&quot; href=&quot;./../../base_concepts/guidances/concepts/work_product,4.804531471620803E-306.html&quot; guid=&quot;4.804531471620803E-306&quot;&gt;Work Product&lt;/a&gt;, which includes &lt;a class=&quot;elementLink&quot; href=&quot;./../../base_concepts/guidances/concepts/artifact,_fdRfkBUJEdqrUt4zetC1gg.html&quot; guid=&quot;_fdRfkBUJEdqrUt4zetC1gg&quot;&gt;Artifact&lt;/a&gt;, &lt;a class=&quot;elementLink&quot; href=&quot;./../../base_concepts/guidances/concepts/deliverable,_lBgkMBUJEdqrUt4zetC1gg.html&quot; guid=&quot;_lBgkMBUJEdqrUt4zetC1gg&quot;&gt;Deliverable&lt;/a&gt;&amp;nbsp;and &lt;a class=&quot;elementLink&quot; href=&quot;./../../base_concepts/guidances/concepts/outcome,_pROF4BUJEdqrUt4zetC1gg.html&quot; guid=&quot;_pROF4BUJEdqrUt4zetC1gg&quot;&gt;Outcome&lt;/a&gt;
+    &lt;/li&gt;
+    &lt;li&gt;
+        &lt;a class=&quot;elementLink&quot; href=&quot;./../../base_concepts/guidances/concepts/role,1.1609745730665898E-304.html&quot; guid=&quot;1.1609745730665898E-304&quot;&gt;Role&lt;/a&gt;
+    &lt;/li&gt;
+    &lt;li&gt;
+        &lt;a class=&quot;elementLink&quot; href=&quot;./../../base_concepts/guidances/concepts/task,7.624729048911575E-305.html&quot; guid=&quot;7.624729048911575E-305&quot;&gt;Task&lt;/a&gt;
+    &lt;/li&gt;
+&lt;/ul&gt;
+&lt;br align=&quot;center&quot; /&gt;
+&lt;br /&gt;</mainDescription>
+</com.ibm.uma:ContentDescription>

@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<com.ibm.uma:ContentDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:com.ibm.uma="http://www.ibm.com/uma/1.0.2/uma.ecore" xmi:id="_zaqENNnmEdmO6L4XMImrsA" name="task,7.624729048911575E-305" guid="_zaqENNnmEdmO6L4XMImrsA" changeDate="2005-11-07T14:35:02.199-0800">
+  <mainDescription>&lt;a id=&quot;XE_ACTIVITY__KEY_CONCEPTS&quot; name=&quot;XE_activity__key_concepts&quot;&gt;&lt;/a&gt; 
+&lt;h3&gt;
+    Definition
+&lt;/h3&gt;
+&lt;p&gt;
+    A Task describes a unit of work. Every Task is performed by specific Roles. The granularity of a Task is generally a
+    few hours to a few days. It usually affects one or only a small number of Work Products. Tasks are not necessarily used
+    as&amp;nbsp;a basis for planning and tracking progress - they are often too fine-grained for that purpose; Activity
+    groupings of Tasks are often the better units for planning and tracking.
+&lt;/p&gt;
+&lt;p&gt;
+    A Task has a clear purpose, usually expressed in terms of creating or updating some Work Products, such as models,
+    classes, or&amp;nbsp;plans. Within a Task, each performing Role achieves a well defined goal. A Task provides complete
+    step-by-step explanations of doing all the work required to achieve this goal. This description is complete,
+    independent of when in a process lifecycle the work would actually be done. Therefore, it does not describe when you do
+    what work at what point of time, but describes all the work that gets done throughout the development lifecycle that
+    contributes to the achievement of the Task's goal.
+&lt;/p&gt;
+&lt;p&gt;
+    When a Task is being applied in a Process, a reference object defined as Task Descriptor provides information, which
+    includes what elements of the Task will actually be performed at that point in time. This assumes that a Task will
+    usually be performed in the Process over and over again, but each time with a slightly different emphasis on different
+    steps or aspects of the Task description&amp;nbsp;as well as perhaps different or additional performing roles or different
+    input/output (also refer to &lt;a class=&quot;elementLink&quot; href=&quot;./../../../base_concepts/guidances/concepts/introduction_to_uma,_94_eoO8LEdmKSqa_gSYthg.html&quot; guid=&quot;_94_eoO8LEdmKSqa_gSYthg&quot;&gt;Key Capabilities of the Unified Method Architecture (UMA)&lt;/a&gt; for the difference between
+    Method Content and Process).
+&lt;/p&gt;
+&lt;h3&gt;
+    Steps
+&lt;/h3&gt;
+&lt;p&gt;
+    Tasks can be broken down into sections of Steps. A Step describes a meaningful and consist part of the overall work
+    described for a Task. Steps fall into three main categories:
+&lt;/p&gt;
+&lt;ul&gt;
+    &lt;li&gt;
+        &lt;b&gt;Thinking&lt;/b&gt; Steps: where the individual performing the Role understands the nature of the Task, gathers and
+        examines the input Work Products, and formulates the result.
+    &lt;/li&gt;
+    &lt;li&gt;
+        &lt;b&gt;Performing&lt;/b&gt; Steps: where the individual performing the Role creates or updates some Work Products.
+    &lt;/li&gt;
+    &lt;li&gt;
+        &lt;b&gt;Reviewing&lt;/b&gt; Steps: where the individual performing the Role inspects the results against some criteria.
+    &lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+    Not all Steps are necessarily performed each time a Task is invoked, so they can be expressed in the form of alternate
+    flows (similar to Use Cases).
+&lt;/p&gt;
+&lt;h3&gt;
+    Examples
+&lt;/h3&gt;
+&lt;h4&gt;
+    A Typical Task
+&lt;/h4&gt;
+&lt;p&gt;
+    A Task such as &quot;Develop Use-Case Model&quot; in RUP describes all the work that needs to be done to develop a complete
+    use-case model. This would comprise:
+&lt;/p&gt;
+&lt;ul&gt;
+    &lt;li&gt;
+        The identification and naming of use cases and actors,
+    &lt;/li&gt;
+    &lt;li&gt;
+        The writing of a brief description,
+    &lt;/li&gt;
+    &lt;li&gt;
+        The modeling of use cases and their relationships in diagrams,
+    &lt;/li&gt;
+    &lt;li&gt;
+        The detailed description of a basic flow,
+    &lt;/li&gt;
+    &lt;li&gt;
+        The detailed description of alternative flows,
+    &lt;/li&gt;
+    &lt;li&gt;
+        Performing of walkthroughs, workshops and reviews, etc.
+    &lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+    All of these parts contribute to the development goal of developing the use case model, but the parts will be performed
+    at different points in time in a Process. Identification, naming, and brief descriptions would be performed early in a
+    typical development Process versus the writing of detailed alternative flows which would be performed much later. All
+    these parts or Steps within the same Task define the &quot;method&quot; of developing a use-case model. Applying such a method in
+    a lifecycle is defining which Steps are done when going from one iteration to the next.
+&lt;/p&gt;
+&lt;h4&gt;
+    A Task and its Steps
+&lt;/h4&gt;
+&lt;p class=&quot;example&quot;&gt;
+    The Task &quot;Find Use Cases and Actors&quot; in RUP decomposes into the following Steps:
+&lt;/p&gt;
+&lt;blockquote&gt;
+    &lt;blockquote&gt;
+        &lt;ol&gt;
+            &lt;li&gt;
+                Find actors
+            &lt;/li&gt;
+            &lt;li&gt;
+                Find use cases
+            &lt;/li&gt;
+            &lt;li&gt;
+                Describe how actors interact with use cases
+            &lt;/li&gt;
+            &lt;li&gt;
+                Package use cases and actors
+            &lt;/li&gt;
+            &lt;li&gt;
+                Present the use-case model in use-case diagrams
+            &lt;/li&gt;
+            &lt;li&gt;
+                Develop a survey of the use-case model
+            &lt;/li&gt;
+            &lt;li&gt;
+                Evaluate your results
+            &lt;/li&gt;
+        &lt;/ol&gt;
+    &lt;/blockquote&gt;
+&lt;/blockquote&gt;
+&lt;p class=&quot;example&quot;&gt;
+    The finding part [Steps 1 to 3] requires some thinking; the performing part [Steps 4 to 6] involves capturing the
+    result in the use-case model; the reviewing part [Step 7] is where the individual performing the Role evaluates the
+    result to assess completeness, robustness, intelligibility, or other qualities.
+&lt;/p&gt;
+&lt;br /&gt;</mainDescription>
+</com.ibm.uma:ContentDescription>

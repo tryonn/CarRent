@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE hibernate-mapping	PUBLIC 
+	"-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+    "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+
+<hibernate-mapping>
+ <class name="br.ufpe.cin.amadeus.system.academic.module.courseEvaluation.criterion.CriterionAnswer" table="criterionanswer">
+ 	
+ 	<id name="id">
+ 		<column name="sqcriterionanswer" not-null="true" unique="true"/>
+ 		<generator class="increment"/>
+ 	</id>
+ 	
+ 	<property name="r1">
+ 		<column name="in_r1" />
+ 	</property>
+ 	
+ 	<property name="r2">
+ 		<column name="in_r2" />
+ 	</property>	
+ 	
+ 	<property name="r3">
+ 		<column name="in_r3"/>
+ 	</property>
+
+ 	<property name="r4">
+ 		<column name="in_r4"/>
+ 	</property>
+ 
+ </class>
+</hibernate-mapping>

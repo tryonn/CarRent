@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<com.ibm.uma:ContentDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:com.ibm.uma="http://www.ibm.com/uma/1.0.2/uma.ecore" xmi:id="_zag6Q9nmEdmO6L4XMImrsA" name="discipline,3.409251897849429E-305" guid="_zag6Q9nmEdmO6L4XMImrsA" changeDate="2005-10-28T23:12:26.440-0700">
+  <mainDescription>&lt;a id=&quot;XE_DISCIPLINE__KEY_CONCEPTS&quot; name=&quot;XE_discipline__key_concepts&quot;&gt;&lt;/a&gt; 
+&lt;p&gt;
+    A Discipline is a collection of Tasks that are related to a major &quot;area of concern&quot; within the overall project. The
+    grouping of Tasks into Disciplines is mainly an aid to understanding the project from a traditional waterfall
+    perspective. Although it is more common to perform Tasks concurrently across several Disciplines (for example, certain
+    requirements Tasks are performed in close coordination with analysis and design Tasks), separating these Tasks into
+    distinct Disciplines is simply an effective way to organize content, which makes comprehension easier.
+&lt;/p&gt;
+&lt;p&gt;
+    Another reason that several Tasks are all categorized by the same Discipline is that they all represent a part in
+    achieving a higher goal or performing work that is all related to each other.&amp;nbsp; Every Discipline defines standard
+    ways of doing the work it categorizes.&amp;nbsp; Such standard ways are expressed by so-called reference workflows
+    described with &lt;a class=&quot;elementLink&quot; href=&quot;./../../../base_concepts/guidances/concepts/capability_pattern,1.7072348895114264E-305.html&quot; guid=&quot;1.7072348895114264E-305&quot;&gt;Capability Pattern&lt;/a&gt;s defining how the Tasks categorized by the Discipline 'work
+    together' in the most generic way.&amp;nbsp; These reference workflows are often used for educating and teaching
+    practitioners.
+&lt;/p&gt;
+&lt;p&gt;
+    Like other workflows, a Discipline's reference workflow is a semi-ordered sequence of activities presented as either a
+    breakdown structure or an activity diagram performed to achieve a particular result. The &quot;semi-ordered&quot; nature of
+    Discipline workflows emphasizes that the Discipline workflows cannot present the real nuances of scheduling &quot;real
+    work&quot;, for they cannot depict the optionality of activities or iterative nature of real projects. Yet they still have
+    value as a way for us to understand the process by breaking it into smaller areas of concern.
+&lt;/p&gt;
+&lt;h4&gt;
+    Example: The role of Disciplines in Software Engineering
+&lt;/h4&gt;
+&lt;p&gt;
+    In Software Development, each Discipline has associated with it one or more 'models', which are in turn composed of
+    associated Work Products. Some fundamental disciplines identified in Software are:
+&lt;/p&gt;
+&lt;ul&gt;
+    &lt;li&gt;
+        Business Modeling
+    &lt;/li&gt;
+    &lt;li&gt;
+        Requirements
+    &lt;/li&gt;
+    &lt;li&gt;
+        Analysis and Design
+    &lt;/li&gt;
+    &lt;li&gt;
+        Implementation
+    &lt;/li&gt;
+    &lt;li&gt;
+        Test
+    &lt;/li&gt;
+    &lt;li&gt;
+        Deployment
+    &lt;/li&gt;
+    &lt;li&gt;
+        Configuration and Change Management
+    &lt;/li&gt;
+    &lt;li&gt;
+        Project Management
+    &lt;/li&gt;
+    &lt;li&gt;
+        Environment
+    &lt;/li&gt;
+&lt;/ul&gt;</mainDescription>
+</com.ibm.uma:ContentDescription>

@@ -1,0 +1,216 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:com.ibm.uma="http://www.ibm.com/uma/1.0.2/uma.ecore" xmlns:com.ibm.uma.resourcemanager="http:///com/ibm/uma/resourcemanager.ecore">
+  <com.ibm.uma.resourcemanager:ResourceManager xmi:id="_XM8FMcWOEdqcv6u-ojHzKA" guid="_XM8FMcWOEdqcv6u-ojHzKA">
+    <subManagers xmi:id="_VxlR4NUuEdqeD-T9MUVwYA" href="uma://_Vq4M8NUuEdqeD-T9MUVwYA#_VxlR4NUuEdqeD-T9MUVwYA"/>
+    <subManagers xmi:id="_x5Cr0NUuEdqeD-T9MUVwYA" href="uma://_xyyS0NUuEdqeD-T9MUVwYA#_x5Cr0NUuEdqeD-T9MUVwYA"/>
+    <resourceDescriptors xmi:id="_FnrWwdPIEdq7_fGj-0nUqg" id="-Q2JjRzuniJn2XDt3NWhrXw" uri="guidances/guidelines/brainstorming.xmi"/>
+    <resourceDescriptors xmi:id="_FoICsdPIEdq7_fGj-0nUqg" id="-HqSjoEpMcRZFBDW4S8iIfw" uri="guidances/guidelines/use_case.xmi"/>
+    <resourceDescriptors xmi:id="_Ik7LANPIEdq7_fGj-0nUqg" id="-gFZW0ufgzMySJJ3bgx99yg" uri="workproducts/actor.xmi"/>
+    <resourceDescriptors xmi:id="_e2EIMNSAEdq90538QjPN0A" id="-chCCV9OwZtHUzt0jc-orvA" uri="workproducts/descricao_dos_atores.xmi"/>
+    <resourceDescriptors xmi:id="_iAcbsNSPEdq90538QjPN0A" id="-lsD5z0C4cANnNPzf56eXgw" uri="guidances/checklists/checklist_inspecao.xmi"/>
+    <resourceDescriptors xmi:id="_FXLJoNSZEdq90538QjPN0A" id="-UKfInUt2HiMRD4WjnzwNzw" uri="tasks/inspecao_assincrona.xmi"/>
+    <resourceDescriptors xmi:id="_UL_W4NSbEdq90538QjPN0A" id="-wTgI-ootL9YS1dzt_uRZEQ" uri="tasks/reuniao_inspecao_requisitos.xmi"/>
+    <resourceDescriptors xmi:id="_wl-loNUnEdqeD-T9MUVwYA" id="-0sKf0BrWNs5QcVitD7fFMA" uri="tasks/desenvolver_storyboad.xmi"/>
+    <resourceDescriptors xmi:id="_Vs0GoNUuEdqeD-T9MUVwYA" id="_Vq4M8NUuEdqeD-T9MUVwYA" uri="deliveryprocesses/dsd-req-process/model.xmi"/>
+    <resourceDescriptors xmi:id="_x0IWoNUuEdqeD-T9MUVwYA" id="_xyyS0NUuEdqeD-T9MUVwYA" uri="capabilitypatterns/engenharia_requisitos/model.xmi"/>
+    <resourceDescriptors xmi:id="__1Ji4NVFEdqeD-T9MUVwYA" id="-1mvEqNT2rtlkxNlS0ChnWA" uri="tasks/validacao.xmi"/>
+    <resourceDescriptors xmi:id="_dzOgMNVGEdqeD-T9MUVwYA" id="-vzd_C-qQwRcQkCkNGn6KXQ" uri="tasks/documentacao_requisitos.xmi"/>
+    <resourceDescriptors xmi:id="_upB_sNVGEdqeD-T9MUVwYA" id="-j2zsQzpGklnyMUjX2raD_Q" uri="tasks/apresentacao_storyboard.xmi"/>
+    <resourceDescriptors xmi:id="_OTb78NVHEdqeD-T9MUVwYA" id="-nSINhxb8IbGRyoLrqjbkng" uri="tasks/elicitacao_cliente.xmi"/>
+    <resourceDescriptors xmi:id="_l_WEUNd7Edqnj4Xv32ITRA" id="-WtfgzgGkjBU3XbCC3AKOWw" uri="guidances/checklists/checklist_validacao_storyboard.xmi"/>
+    <resourceDescriptors xmi:id="_yF7mMNd8Edqnj4Xv32ITRA" id="-0FM8rztuVjqa0wat4eTNXw" uri="tasks/validacao_storyboard.xmi"/>
+    <resourceDescriptors xmi:id="_6FDd8NtjEdqo1eLt5uqdUA" id="-hhzzId2tYuOO3g6G9LS8Ng" uri="tasks/acompanhamento_documentacao.xmi"/>
+    <resourceDescriptors xmi:id="_KWYvsNtqEdqo1eLt5uqdUA" id="-7_vJR-KIpf2f2gxqVLFESA" uri="guidances/checklists/pontos_relevantes_preparacao_elicitacao.xmi"/>
+    <resourceDescriptors xmi:id="_An-XYNtvEdqo1eLt5uqdUA" id="-F4IA2KKMFHKAjavUD6VKYw" uri="guidances/guidelines/brainstorming.xmi"/>
+    <resourceDescriptors xmi:id="_zAnIANupEdqt8-ifsyd-Mw" id="-FPI_ipL6Xhx0vQlv65MR6A" uri="tasks/inspecao_storyboard.xmi"/>
+    <resourceDescriptors xmi:id="_3pUw0NuvEdqt8-ifsyd-Mw" id="-YtExqQ7lWjbW8naf00v1rQ" uri="tasks/retrabalho_requisitos.xmi"/>
+    <resourceDescriptors xmi:id="_VxF1oNuwEdqt8-ifsyd-Mw" id="-03SsHKjLJfvYwHVfgk0mqw" uri="tasks/retrabalho_storyboard.xmi"/>
+    <resourceDescriptors xmi:id="_Kf4wMNz6Edqj2N79AnMvRA" id="-EHh1URTvDcKPSRMumqeMew" uri="guidances/toolmentors/calendario_virtual.xmi"/>
+    <resourceDescriptors xmi:id="_4i4ioNz6Edqj2N79AnMvRA" id="-zQaMW8QboXeUICMyVYx_qA" uri="guidances/toolmentors/telefonia_por_internet.xmi"/>
+    <resourceDescriptors xmi:id="_CaUrYN0HEdqj2N79AnMvRA" id="-Mu6yiNwLl5JSLQcMS_wLYA" uri="guidances/toolmentors/editor_texto_colaborativo.xmi"/>
+    <resourceDescriptors xmi:id="_l8RrgN0IEdqj2N79AnMvRA" id="-l69EwSS6iwrWALbutVRWmQ" uri="guidances/toolmentors/instant_messaging.xmi"/>
+    <resourceDescriptors xmi:id="_nVxlIN9lEdq_r4DJMJEZ2w" id="-o0W4i-sZhfaJt1KqbvcZeQ" uri="customcategories/visao_geral.xmi"/>
+    <resourceDescriptors xmi:id="_8uTB4N9lEdq_r4DJMJEZ2w" id="-DhqpSTxorjqFqBg8F27tyA" uri="disciplines/engenharia_requisitos.xmi"/>
+    <resourceDescriptors xmi:id="_CQzBIN9mEdq_r4DJMJEZ2w" id="-6Lp5x1sAOIcEJoF_XpXtaQ" uri="guidances/concepts/requisitos_funcionais.xmi"/>
+    <resourceDescriptors xmi:id="_sZlrAN9qEdq_r4DJMJEZ2w" id="-lTA5YsaFX9Tmzn1GxrhokA" uri="workproducts/requisitos_funcionais_iniciais.xmi"/>
+    <resourceDescriptors xmi:id="_ThSZEN-IEdq16uWWdR91fg" id="-UDjdtvOAU9RVb6rF1jo44A" uri="roles/cliente%202.xmi"/>
+    <resourceDescriptors xmi:id="_Yo3joN-YEdq16uWWdR91fg" id="-bglaAv5sj5b2BCDZMgNyyw" uri="roles/engenheiro_software.xmi"/>
+    <resourceDescriptors xmi:id="_wUd2QN-YEdq16uWWdR91fg" id="-8PD8Fdjcs4-mhfvFgkW4Ww" uri="roles/gerente_projeto.xmi"/>
+    <resourceDescriptors xmi:id="_EdN48N-0EdqrLLbbr0OB8g" id="-c6R-UMpGChUop9EFNGQQSA" uri="roles/engenheiro_requisitos.xmi"/>
+    <resourceDescriptors xmi:id="_AUT7IN-6EdqrLLbbr0OB8g" id="-x0DoIEMIeUzpBcYS8yqKdA" uri="roles/designer.xmi"/>
+    <resourceDescriptors xmi:id="_pnUwYN-6Edq80v0Mk-K3VA" id="-ydUfz-B9HMg0wsqSLA7A5Q" uri="tasks/elicitacao.xmi"/>
+    <resourceDescriptors xmi:id="_sZR7MOApEdq0d_phQ3_z8Q" id="-g76ybsYSBJ8cd1inYOJAOA" uri="workproducts/storyboard.xmi"/>
+    <resourceDescriptors xmi:id="_xsPI8OAxEdq0d_phQ3_z8Q" id="-H4kP7PcFbl12i9ln_bFbqA" uri="workproducts/prototipo_papel.xmi"/>
+    <resourceDescriptors xmi:id="_MZQpkOBQEdqdvLaesVYAZg" id="-v9-0g8KzK8AJVhtR3r31fA" uri="workproducts/base_formal_de_conhecimento_problema.xmi"/>
+  </com.ibm.uma.resourcemanager:ResourceManager>
+  <com.ibm.uma:MethodPlugin xmi:id="_BWX9MMVwEdqoWucqOCtw5Q" name="DSD-LAB-REQ" guid="_BWX9MMVwEdqoWucqOCtw5Q" briefDescription="A proposta desse processo é integrar unidades distribuídas de desenvolvimento através de ferramentas colaborativas. Espera-se que as unidades possam interagir entre si através da execução de um processo de engenharia de requisitos distribuída.  São objetivos desse processo:  - Minimizar o impacto da distância dos stakeholders, nas atividades de documentação e validação dos requisitos. " changeDate="2006-04-24T18:03:51.255-0300" version="00.01" userChangeable="true">
+    <methodPackages xsi:type="com.ibm.uma:ContentPackage" xmi:id="_BWX9McVwEdqoWucqOCtw5Q" name="Content" guid="_BWX9McVwEdqoWucqOCtw5Q">
+      <childPackages xsi:type="com.ibm.uma:ContentPackage" xmi:id="_BWX9MsVwEdqoWucqOCtw5Q" name="Categories" guid="_BWX9MsVwEdqoWucqOCtw5Q">
+        <childPackages xsi:type="com.ibm.uma:ContentPackage" xmi:id="_BWX9M8VwEdqoWucqOCtw5Q" name="Domains" guid="_BWX9M8VwEdqoWucqOCtw5Q"/>
+        <childPackages xsi:type="com.ibm.uma:ContentPackage" xmi:id="_BWX9NMVwEdqoWucqOCtw5Q" name="Disciplines" guid="_BWX9NMVwEdqoWucqOCtw5Q">
+          <contentElements xsi:type="com.ibm.uma:Discipline" xmi:id="_Tg1WcNB8EdqUyPR7gE-fIQ" name="engenharia_requisitos" guid="_Tg1WcNB8EdqUyPR7gE-fIQ" briefDescription="disciplina de engenharia de requisitos do processo." presentationName="Engenharia de Requisitos" tasks="_Nlyw8NPVEdq7_fGj-0nUqg _xVX8INSAEdq90538QjPN0A _EbzTENSEEdq90538QjPN0A _SsI_sNPVEdq7_fGj-0nUqg _38ahkNSAEdq90538QjPN0A _qpCLoNB9EdqUyPR7gE-fIQ _dwi_oNVGEdqeD-T9MUVwYA _UOJxINarEdqnj4Xv32ITRA _-KficNVGEdqeD-T9MUVwYA _eVr3cNbPEdqnj4Xv32ITRA _gsq0UNd8Edqnj4Xv32ITRA _LNNDQNeWEdq2GYRwhl5Hnw _vOf84Ne6Edq2GYRwhl5Hnw _hIzAsN_BEdq80v0Mk-K3VA">
+            <presentation xmi:id="-DhqpSTxorjqFqBg8F27tyA" href="uma://-DhqpSTxorjqFqBg8F27tyA#-DhqpSTxorjqFqBg8F27tyA"/>
+          </contentElements>
+        </childPackages>
+        <childPackages xsi:type="com.ibm.uma:ContentPackage" xmi:id="_BWX9NcVwEdqoWucqOCtw5Q" name="RoleSets" guid="_BWX9NcVwEdqoWucqOCtw5Q"/>
+        <childPackages xsi:type="com.ibm.uma:ContentPackage" xmi:id="_BWX9NsVwEdqoWucqOCtw5Q" name="WP Types" guid="_BWX9NsVwEdqoWucqOCtw5Q">
+          <contentElements xsi:type="com.ibm.uma:WorkProductType" xmi:id="_OEQFoNXlEdqhcMGaAINucA" name="software_requirements_specification" guid="_OEQFoNXlEdqhcMGaAINucA" presentationName="Software Requirements Specification"/>
+        </childPackages>
+        <childPackages xsi:type="com.ibm.uma:ContentPackage" xmi:id="_BWX9N8VwEdqoWucqOCtw5Q" name="Tools" guid="_BWX9N8VwEdqoWucqOCtw5Q"/>
+        <childPackages xsi:type="com.ibm.uma:ContentPackage" xmi:id="_BWX9OMVwEdqoWucqOCtw5Q" name="StandardCategories" guid="_BWX9OMVwEdqoWucqOCtw5Q"/>
+        <childPackages xsi:type="com.ibm.uma:ContentPackage" xmi:id="_BWX9OcVwEdqoWucqOCtw5Q" name="CustomCategories" guid="_BWX9OcVwEdqoWucqOCtw5Q">
+          <childPackages xsi:type="com.ibm.uma:ContentPackage" xmi:id="_BWX9OsVwEdqoWucqOCtw5Q" name="Hidden" guid="_BWX9OsVwEdqoWucqOCtw5Q">
+            <contentElements xsi:type="com.ibm.uma:CustomCategory" xmi:id="_BWX9O8VwEdqoWucqOCtw5Q" name="Custom Categories" guid="_BWX9O8VwEdqoWucqOCtw5Q" categorizedElements="_HCMlcNPzEdqX78fvMWY_1g _lZu8UNX7EdqhcMGaAINucA"/>
+          </childPackages>
+          <contentElements xsi:type="com.ibm.uma:CustomCategory" xmi:id="_HCMlcNPzEdqX78fvMWY_1g" name="design_usabilidade" guid="_HCMlcNPzEdqX78fvMWY_1g" presentationName="Design Usabilidade" categorizedElements="_EbzTENSEEdq90538QjPN0A _dwi_oNVGEdqeD-T9MUVwYA _UOJxINarEdqnj4Xv32ITRA _eVr3cNbPEdqnj4Xv32ITRA _gsq0UNd8Edqnj4Xv32ITRA _hIzAsN_BEdq80v0Mk-K3VA"/>
+          <contentElements xsi:type="com.ibm.uma:CustomCategory" xmi:id="_lZu8UNX7EdqhcMGaAINucA" name="visao_geral" guid="_lZu8UNX7EdqhcMGaAINucA" presentationName="Visao Geral">
+            <presentation xmi:id="-o0W4i-sZhfaJt1KqbvcZeQ" href="uma://-o0W4i-sZhfaJt1KqbvcZeQ#-o0W4i-sZhfaJt1KqbvcZeQ"/>
+            <categorizedElements xsi:type="com.ibm.uma:CapabilityPattern" href="uma://_xyyS0NUuEdqeD-T9MUVwYA#_xyyS0dUuEdqeD-T9MUVwYA"/>
+          </contentElements>
+        </childPackages>
+      </childPackages>
+      <childPackages xsi:type="com.ibm.uma:ContentPackage" xmi:id="_BWX9PMVwEdqoWucqOCtw5Q" name="CoreContent" guid="_BWX9PMVwEdqoWucqOCtw5Q">
+        <childPackages xsi:type="com.ibm.uma:ContentPackage" xmi:id="_fT0XoMWMEdqoWucqOCtw5Q" name="Requisitos" guid="_fT0XoMWMEdqoWucqOCtw5Q">
+          <contentElements xsi:type="com.ibm.uma:Role" xmi:id="_5z4V8MWMEdqoWucqOCtw5Q" name="gerente_projeto" guid="_5z4V8MWMEdqoWucqOCtw5Q" briefDescription=" Individuo responsavel em gerenciar o projeto." presentationName="Gerente de Projeto">
+            <presentation xsi:type="com.ibm.uma:RoleDescription" xmi:id="-8PD8Fdjcs4-mhfvFgkW4Ww" href="uma://-8PD8Fdjcs4-mhfvFgkW4Ww#-8PD8Fdjcs4-mhfvFgkW4Ww"/>
+          </contentElements>
+          <contentElements xsi:type="com.ibm.uma:Role" xmi:id="_Pwc68MWNEdqoWucqOCtw5Q" name="designer" guid="_Pwc68MWNEdqoWucqOCtw5Q" briefDescription="Coletar as necessidades do cliente e usuários para produzir o padrão de interface além do modelo navegacional do software. " presentationName="Designer">
+            <presentation xsi:type="com.ibm.uma:RoleDescription" xmi:id="-x0DoIEMIeUzpBcYS8yqKdA" href="uma://-x0DoIEMIeUzpBcYS8yqKdA#-x0DoIEMIeUzpBcYS8yqKdA"/>
+          </contentElements>
+          <contentElements xsi:type="com.ibm.uma:Artifact" xmi:id="_rRqHUNB8EdqUyPR7gE-fIQ" name="storyboard" guid="_rRqHUNB8EdqUyPR7gE-fIQ" presentationName="Storyboard">
+            <presentation xsi:type="com.ibm.uma:ArtifactDescription" xmi:id="-g76ybsYSBJ8cd1inYOJAOA" href="uma://-g76ybsYSBJ8cd1inYOJAOA#-g76ybsYSBJ8cd1inYOJAOA"/>
+          </contentElements>
+          <contentElements xsi:type="com.ibm.uma:Artifact" xmi:id="_EbJUQNB9EdqUyPR7gE-fIQ" name="prototipo_papel" guid="_EbJUQNB9EdqUyPR7gE-fIQ" presentationName="Esboco para o Storyboard">
+            <presentation xsi:type="com.ibm.uma:ArtifactDescription" xmi:id="-H4kP7PcFbl12i9ln_bFbqA" href="uma://-H4kP7PcFbl12i9ln_bFbqA#-H4kP7PcFbl12i9ln_bFbqA"/>
+          </contentElements>
+          <contentElements xsi:type="com.ibm.uma:Task" xmi:id="_qpCLoNB9EdqUyPR7gE-fIQ" name="validacao" guid="_qpCLoNB9EdqUyPR7gE-fIQ" presentationName="Validacao" performedBy="_5z4V8MWMEdqoWucqOCtw5Q" mandatoryInput="_9jNeANfNEdq2GYRwhl5Hnw _Ij4pMNPIEdq7_fGj-0nUqg" output="_Ij4pMNPIEdq7_fGj-0nUqg" additionallyPerformedBy="_bZQ-wN-EEdq16uWWdR91fg" optionalInput="_nYsBENPyEdqX78fvMWY_1g" toolMentors="_0VACYNz5Edqj2N79AnMvRA _-NF7MNwwEdqxu_MHTiRzng">
+            <presentation xsi:type="com.ibm.uma:TaskDescription" xmi:id="-1mvEqNT2rtlkxNlS0ChnWA" href="uma://-1mvEqNT2rtlkxNlS0ChnWA#-1mvEqNT2rtlkxNlS0ChnWA"/>
+          </contentElements>
+          <contentElements xsi:type="com.ibm.uma:Checklist" xmi:id="_Fha9wdPIEdq7_fGj-0nUqg" name="casos_de_uso" guid="_Fha9wdPIEdq7_fGj-0nUqg" briefDescription="Esse check list provê questões que verificam se os Casos de Uso estão descritos de maneira completa e consistente." presentationName="Casos de Uso" checklists="_4uyncNSFEdq90538QjPN0A">
+            <presentation xmi:id="-32m4pigOGy9EXDQKk_eCPQ" href="uma://-32m4pigOGy9EXDQKk_eCPQ#-32m4pigOGy9EXDQKk_eCPQ"/>
+          </contentElements>
+          <contentElements xsi:type="com.ibm.uma:Guideline" xmi:id="_Fha9w9PIEdq7_fGj-0nUqg" name="detail_ucs_and_scenarios" guid="_Fha9w9PIEdq7_fGj-0nUqg" presentationName="Detail Use Cases and Scenarios">
+            <presentation xmi:id="-M3HUrPTjynP2N8r8SqsK3w" href="uma://-M3HUrPTjynP2N8r8SqsK3w#-M3HUrPTjynP2N8r8SqsK3w"/>
+          </contentElements>
+          <contentElements xsi:type="com.ibm.uma:Artifact" xmi:id="_Ij4pMNPIEdq7_fGj-0nUqg" name="software_requirements_specification" guid="_Ij4pMNPIEdq7_fGj-0nUqg" briefDescription=" The use-case model is a model of the system's intended functions and its environment, and serves as a contract between the customer and the developers. The use-case model is used as an essential input to activities in analysis, design, and test." presentationName="Software Requirements Specification">
+            <presentation xsi:type="com.ibm.uma:ArtifactDescription" xmi:id="-5oWTNt0E4blFlbOpkmgQuA" href="uma://-5oWTNt0E4blFlbOpkmgQuA#-5oWTNt0E4blFlbOpkmgQuA"/>
+            <checklists href="uma://_0TLvwMlgEdmt3adZL5Dmdw#_0U6OEMlgEdmt3adZL5Dmdw"/>
+            <guidelines href="uma://_0TLvwMlgEdmt3adZL5Dmdw#_0VAUsMlgEdmt3adZL5Dmdw"/>
+            <containedArtifacts xmi:id="_Ij4pMdPIEdq7_fGj-0nUqg" name="detalhamento_caso_de_uso" guid="_Ij4pMdPIEdq7_fGj-0nUqg" briefDescription="O documento de caso de uso define um conjunto de cenários, onde cada cenário é uma seqüência de ações que o sistema executa por intervenção dos atores no sistema." presentationName="Detalhamento Casos de Uso">
+              <presentation xsi:type="com.ibm.uma:ArtifactDescription" xmi:id="-zMb2n6aVK0ZqKbCv59RKCA" href="uma://-zMb2n6aVK0ZqKbCv59RKCA#-zMb2n6aVK0ZqKbCv59RKCA"/>
+              <conceptsAndPapers href="uma://_0TLvwMlgEdmt3adZL5Dmdw#_0Wh-sMlgEdmt3adZL5Dmdw"/>
+              <checklists href="uma://_0TLvwMlgEdmt3adZL5Dmdw#_0Vk8cMlgEdmt3adZL5Dmdw"/>
+              <guidelines href="uma://_0TLvwMlgEdmt3adZL5Dmdw#_0Ve10MlgEdmt3adZL5Dmdw"/>
+              <templates href="uma://_0TLvwMlgEdmt3adZL5Dmdw#_0cpNwMlgEdmt3adZL5Dmdw"/>
+            </containedArtifacts>
+            <containedArtifacts xmi:id="_e0IOgNSAEdq90538QjPN0A" name="descricao_dos_atores" guid="_e0IOgNSAEdq90538QjPN0A" briefDescription="Um ator é definido por um conjunto de papéis que interagem com o sistema. Um ator pode ser uma instância de usuário ou um subsistema externo. " presentationName="Descricao dos Atores">
+              <presentation xsi:type="com.ibm.uma:ArtifactDescription" xmi:id="-chCCV9OwZtHUzt0jc-orvA" href="uma://-chCCV9OwZtHUzt0jc-orvA#-chCCV9OwZtHUzt0jc-orvA"/>
+              <checklists href="uma://_0TLvwMlgEdmt3adZL5Dmdw#_0VrDEMlgEdmt3adZL5Dmdw"/>
+            </containedArtifacts>
+          </contentElements>
+          <contentElements xsi:type="com.ibm.uma:Task" xmi:id="_Nlyw8NPVEdq7_fGj-0nUqg" name="documentacao_requisitos" guid="_Nlyw8NPVEdq7_fGj-0nUqg" presentationName="Documentacao dos Requisitos" guidelines="_Fha9w9PIEdq7_fGj-0nUqg" performedBy="_7Fq5kN-ZEdq16uWWdR91fg" mandatoryInput="_rRqHUNB8EdqUyPR7gE-fIQ _nYsBENPyEdqX78fvMWY_1g" output="_Ij4pMNPIEdq7_fGj-0nUqg" additionallyPerformedBy="_Pwc68MWNEdqoWucqOCtw5Q _5z4V8MWMEdqoWucqOCtw5Q" toolMentors="_-NF7MNwwEdqxu_MHTiRzng">
+            <presentation xsi:type="com.ibm.uma:TaskDescription" xmi:id="-vzd_C-qQwRcQkCkNGn6KXQ" href="uma://-vzd_C-qQwRcQkCkNGn6KXQ#-vzd_C-qQwRcQkCkNGn6KXQ"/>
+          </contentElements>
+          <contentElements xsi:type="com.ibm.uma:Task" xmi:id="_SsI_sNPVEdq7_fGj-0nUqg" name="inspecao_assincrona" guid="_SsI_sNPVEdq7_fGj-0nUqg" presentationName="Inspecao Assincrona" checklists="_4uyncNSFEdq90538QjPN0A" performedBy="_7Fq5kN-ZEdq16uWWdR91fg" mandatoryInput="_Ij4pMNPIEdq7_fGj-0nUqg" output="_Ij4pMNPIEdq7_fGj-0nUqg" additionallyPerformedBy="_Pwc68MWNEdqoWucqOCtw5Q _5z4V8MWMEdqoWucqOCtw5Q _KrPiwNSCEdq90538QjPN0A" toolMentors="_-NF7MNwwEdqxu_MHTiRzng">
+            <presentation xsi:type="com.ibm.uma:TaskDescription" xmi:id="-UKfInUt2HiMRD4WjnzwNzw" href="uma://-UKfInUt2HiMRD4WjnzwNzw#-UKfInUt2HiMRD4WjnzwNzw"/>
+          </contentElements>
+          <contentElements xsi:type="com.ibm.uma:Artifact" xmi:id="_nYsBENPyEdqX78fvMWY_1g" name="requisitos_funcionais_iniciais" guid="_nYsBENPyEdqX78fvMWY_1g" briefDescription="Os requisitos funcionais iniciais estão descritos na base formal de conhecimentos do problema, com um baixo nível de detalhamento. Servindo apenas como guia para a realização das atividades de elicitação da engenharia de requisitos." presentationName="requisitos_funcionais" conceptsAndPapers="_8t2V8N9lEdq_r4DJMJEZ2w">
+            <presentation xsi:type="com.ibm.uma:ArtifactDescription" xmi:id="-lTA5YsaFX9Tmzn1GxrhokA" href="uma://-lTA5YsaFX9Tmzn1GxrhokA#-lTA5YsaFX9Tmzn1GxrhokA"/>
+          </contentElements>
+          <contentElements xsi:type="com.ibm.uma:Outcome" xmi:id="_RaLJENP3EdqX78fvMWY_1g" name="base_formal_de_conhecimento_problema" guid="_RaLJENP3EdqX78fvMWY_1g" presentationName="Base Formal de Conhecimento do Problema">
+            <presentation xsi:type="com.ibm.uma:WorkProductDescription" xmi:id="-v9-0g8KzK8AJVhtR3r31fA" href="uma://-v9-0g8KzK8AJVhtR3r31fA#-v9-0g8KzK8AJVhtR3r31fA"/>
+          </contentElements>
+          <contentElements xsi:type="com.ibm.uma:Task" xmi:id="_xVX8INSAEdq90538QjPN0A" name="elicitacao" guid="_xVX8INSAEdq90538QjPN0A" presentationName="Elicitacao" guidelines="_z3r7wNtuEdqo1eLt5uqdUA" performedBy="_7Fq5kN-ZEdq16uWWdR91fg" mandatoryInput="_RaLJENP3EdqX78fvMWY_1g" output="_EbJUQNB9EdqUyPR7gE-fIQ" additionallyPerformedBy="_Pwc68MWNEdqoWucqOCtw5Q _bZQ-wN-EEdq16uWWdR91fg" optionalInput="_nYsBENPyEdqX78fvMWY_1g">
+            <presentation xsi:type="com.ibm.uma:TaskDescription" xmi:id="-ydUfz-B9HMg0wsqSLA7A5Q" href="uma://-ydUfz-B9HMg0wsqSLA7A5Q#-ydUfz-B9HMg0wsqSLA7A5Q"/>
+          </contentElements>
+          <contentElements xsi:type="com.ibm.uma:Task" xmi:id="_38ahkNSAEdq90538QjPN0A" name="reuniao_inspecao_requisitos" guid="_38ahkNSAEdq90538QjPN0A" presentationName="Reuniao de Inspecao dos Requisitos" performedBy="_7Fq5kN-ZEdq16uWWdR91fg" toolMentors="_0VACYNz5Edqj2N79AnMvRA _VIaAYNwxEdqxu_MHTiRzng">
+            <presentation xsi:type="com.ibm.uma:TaskDescription" xmi:id="-wTgI-ootL9YS1dzt_uRZEQ" href="uma://-wTgI-ootL9YS1dzt_uRZEQ#-wTgI-ootL9YS1dzt_uRZEQ"/>
+          </contentElements>
+          <contentElements xsi:type="com.ibm.uma:Role" xmi:id="_KrPiwNSCEdq90538QjPN0A" name="engenheiro_software" guid="_KrPiwNSCEdq90538QjPN0A" briefDescription="Responsavel por desenvolver o software especificado no Software Requirements Specification." presentationName="Engenheiro de Software">
+            <presentation xsi:type="com.ibm.uma:RoleDescription" xmi:id="-bglaAv5sj5b2BCDZMgNyyw" href="uma://-bglaAv5sj5b2BCDZMgNyyw#-bglaAv5sj5b2BCDZMgNyyw"/>
+          </contentElements>
+          <contentElements xsi:type="com.ibm.uma:Task" xmi:id="_EbzTENSEEdq90538QjPN0A" name="desenvolver_storyboad" guid="_EbzTENSEEdq90538QjPN0A" presentationName="Desenvolver Storyboard" guidelines="_UPJQANSEEdq90538QjPN0A _QyBB0NSEEdq90538QjPN0A" performedBy="_Pwc68MWNEdqoWucqOCtw5Q" mandatoryInput="_EbJUQNB9EdqUyPR7gE-fIQ _nYsBENPyEdqX78fvMWY_1g" output="_rRqHUNB8EdqUyPR7gE-fIQ" optionalInput="_RaLJENP3EdqX78fvMWY_1g _z7PMQNB8EdqUyPR7gE-fIQ">
+            <presentation xsi:type="com.ibm.uma:TaskDescription" xmi:id="-0sKf0BrWNs5QcVitD7fFMA" href="uma://-0sKf0BrWNs5QcVitD7fFMA#-0sKf0BrWNs5QcVitD7fFMA"/>
+          </contentElements>
+          <contentElements xsi:type="com.ibm.uma:Guideline" xmi:id="_QyBB0NSEEdq90538QjPN0A" name="padroes_usabilidade" guid="_QyBB0NSEEdq90538QjPN0A" presentationName="Padroes de Usabilidade"/>
+          <contentElements xsi:type="com.ibm.uma:Guideline" xmi:id="_UPJQANSEEdq90538QjPN0A" name="padroes_interface" guid="_UPJQANSEEdq90538QjPN0A" presentationName="Padrões de Interface"/>
+          <contentElements xsi:type="com.ibm.uma:Checklist" xmi:id="_4uyncNSFEdq90538QjPN0A" name="checklist_inspecao" guid="_4uyncNSFEdq90538QjPN0A" presentationName="Checklist Inspecao">
+            <presentation xmi:id="-lsD5z0C4cANnNPzf56eXgw" href="uma://-lsD5z0C4cANnNPzf56eXgw#-lsD5z0C4cANnNPzf56eXgw"/>
+          </contentElements>
+          <contentElements xsi:type="com.ibm.uma:Checklist" xmi:id="_aL29sNSSEdq90538QjPN0A" name="pontos_relevantes_preparacao_elicitacao" guid="_aL29sNSSEdq90538QjPN0A" presentationName="Pontos relevantes preparacao elicitacao">
+            <presentation xmi:id="-7_vJR-KIpf2f2gxqVLFESA" href="uma://-7_vJR-KIpf2f2gxqVLFESA#-7_vJR-KIpf2f2gxqVLFESA"/>
+          </contentElements>
+          <contentElements xsi:type="com.ibm.uma:Task" xmi:id="_dwi_oNVGEdqeD-T9MUVwYA" name="apresentacao_storyboard" guid="_dwi_oNVGEdqeD-T9MUVwYA" presentationName="Apresentacao Storyboard" performedBy="_Pwc68MWNEdqoWucqOCtw5Q" mandatoryInput="_rRqHUNB8EdqUyPR7gE-fIQ" output="_-_8P0NB8EdqUyPR7gE-fIQ" additionallyPerformedBy="_KrPiwNSCEdq90538QjPN0A _bZQ-wN-EEdq16uWWdR91fg _7Fq5kN-ZEdq16uWWdR91fg" optionalInput="_nYsBENPyEdqX78fvMWY_1g _EbJUQNB9EdqUyPR7gE-fIQ" toolMentors="_0VACYNz5Edqj2N79AnMvRA _VIaAYNwxEdqxu_MHTiRzng">
+            <presentation xsi:type="com.ibm.uma:TaskDescription" xmi:id="-j2zsQzpGklnyMUjX2raD_Q" href="uma://-j2zsQzpGklnyMUjX2raD_Q#-j2zsQzpGklnyMUjX2raD_Q"/>
+          </contentElements>
+          <contentElements xsi:type="com.ibm.uma:Task" xmi:id="_-KficNVGEdqeD-T9MUVwYA" name="elicitacao_cliente" guid="_-KficNVGEdqeD-T9MUVwYA" presentationName="Elicitacao com o Cliente" performedBy="_7Fq5kN-ZEdq16uWWdR91fg" mandatoryInput="_nYsBENPyEdqX78fvMWY_1g" output="_-_8P0NB8EdqUyPR7gE-fIQ _nYsBENPyEdqX78fvMWY_1g" additionallyPerformedBy="_bZQ-wN-EEdq16uWWdR91fg">
+            <presentation xsi:type="com.ibm.uma:TaskDescription" xmi:id="-nSINhxb8IbGRyoLrqjbkng" href="uma://-nSINhxb8IbGRyoLrqjbkng#-nSINhxb8IbGRyoLrqjbkng"/>
+          </contentElements>
+          <contentElements xsi:type="com.ibm.uma:Task" xmi:id="_UOJxINarEdqnj4Xv32ITRA" name="retrabalho_storyboard" guid="_UOJxINarEdqnj4Xv32ITRA" presentationName="Retrabalho Storyboard" guidelines="_UPJQANSEEdq90538QjPN0A _QyBB0NSEEdq90538QjPN0A" performedBy="_Pwc68MWNEdqoWucqOCtw5Q" mandatoryInput="_rRqHUNB8EdqUyPR7gE-fIQ _RaLJENP3EdqX78fvMWY_1g _nYsBENPyEdqX78fvMWY_1g" output="_rRqHUNB8EdqUyPR7gE-fIQ" optionalInput="_-_8P0NB8EdqUyPR7gE-fIQ _z7PMQNB8EdqUyPR7gE-fIQ">
+            <presentation xsi:type="com.ibm.uma:TaskDescription" xmi:id="-03SsHKjLJfvYwHVfgk0mqw" href="uma://-03SsHKjLJfvYwHVfgk0mqw#-03SsHKjLJfvYwHVfgk0mqw"/>
+          </contentElements>
+          <contentElements xsi:type="com.ibm.uma:Task" xmi:id="_eVr3cNbPEdqnj4Xv32ITRA" name="inspecao_storyboard" guid="_eVr3cNbPEdqnj4Xv32ITRA" presentationName="Inspecao Storyboard" checklists="_bHwPsNd7Edqnj4Xv32ITRA" performedBy="_Pwc68MWNEdqoWucqOCtw5Q" mandatoryInput="_rRqHUNB8EdqUyPR7gE-fIQ" output="_rRqHUNB8EdqUyPR7gE-fIQ _9jNeANfNEdq2GYRwhl5Hnw" additionallyPerformedBy="_bZQ-wN-EEdq16uWWdR91fg _7Fq5kN-ZEdq16uWWdR91fg" optionalInput="_z7PMQNB8EdqUyPR7gE-fIQ" toolMentors="_0VACYNz5Edqj2N79AnMvRA">
+            <presentation xsi:type="com.ibm.uma:TaskDescription" xmi:id="-FPI_ipL6Xhx0vQlv65MR6A" href="uma://-FPI_ipL6Xhx0vQlv65MR6A#-FPI_ipL6Xhx0vQlv65MR6A"/>
+          </contentElements>
+          <contentElements xsi:type="com.ibm.uma:Checklist" xmi:id="_bHwPsNd7Edqnj4Xv32ITRA" name="checklist_validacao_storyboard" guid="_bHwPsNd7Edqnj4Xv32ITRA" presentationName="Checklist Validacao de Storyboard">
+            <presentation xmi:id="-WtfgzgGkjBU3XbCC3AKOWw" href="uma://-WtfgzgGkjBU3XbCC3AKOWw#-WtfgzgGkjBU3XbCC3AKOWw"/>
+          </contentElements>
+          <contentElements xsi:type="com.ibm.uma:Task" xmi:id="_gsq0UNd8Edqnj4Xv32ITRA" name="validacao_storyboard" guid="_gsq0UNd8Edqnj4Xv32ITRA" presentationName="Validacao Storyboard" performedBy="_Pwc68MWNEdqoWucqOCtw5Q" mandatoryInput="_rRqHUNB8EdqUyPR7gE-fIQ" output="_rRqHUNB8EdqUyPR7gE-fIQ" additionallyPerformedBy="_5z4V8MWMEdqoWucqOCtw5Q _bZQ-wN-EEdq16uWWdR91fg _7Fq5kN-ZEdq16uWWdR91fg" optionalInput="_z7PMQNB8EdqUyPR7gE-fIQ" toolMentors="_JiEWsN9jEdqk9aXL3ToPFA">
+            <presentation xsi:type="com.ibm.uma:TaskDescription" xmi:id="-0FM8rztuVjqa0wat4eTNXw" href="uma://-0FM8rztuVjqa0wat4eTNXw#-0FM8rztuVjqa0wat4eTNXw"/>
+          </contentElements>
+          <contentElements xsi:type="com.ibm.uma:Task" xmi:id="_LNNDQNeWEdq2GYRwhl5Hnw" name="acompanhamento_documentacao" guid="_LNNDQNeWEdq2GYRwhl5Hnw" presentationName="Acompanhamento da Documentacao" performedBy="_5z4V8MWMEdqoWucqOCtw5Q" mandatoryInput="_Ij4pMNPIEdq7_fGj-0nUqg _rRqHUNB8EdqUyPR7gE-fIQ" output="_Ij4pMNPIEdq7_fGj-0nUqg" additionallyPerformedBy="_7Fq5kN-ZEdq16uWWdR91fg" optionalInput="_z7PMQNB8EdqUyPR7gE-fIQ" toolMentors="_-NF7MNwwEdqxu_MHTiRzng _tvKTsNwxEdqxu_MHTiRzng _VIaAYNwxEdqxu_MHTiRzng">
+            <presentation xsi:type="com.ibm.uma:TaskDescription" xmi:id="-hhzzId2tYuOO3g6G9LS8Ng" href="uma://-hhzzId2tYuOO3g6G9LS8Ng#-hhzzId2tYuOO3g6G9LS8Ng"/>
+          </contentElements>
+          <contentElements xsi:type="com.ibm.uma:Task" xmi:id="_vOf84Ne6Edq2GYRwhl5Hnw" name="retrabalho_requisitos" guid="_vOf84Ne6Edq2GYRwhl5Hnw" presentationName="Retrabalho Requisitos" performedBy="_7Fq5kN-ZEdq16uWWdR91fg" mandatoryInput="_Ij4pMNPIEdq7_fGj-0nUqg _9jNeANfNEdq2GYRwhl5Hnw" output="_Ij4pMNPIEdq7_fGj-0nUqg" toolMentors="_-NF7MNwwEdqxu_MHTiRzng">
+            <presentation xsi:type="com.ibm.uma:TaskDescription" xmi:id="-YtExqQ7lWjbW8naf00v1rQ" href="uma://-YtExqQ7lWjbW8naf00v1rQ#-YtExqQ7lWjbW8naf00v1rQ"/>
+          </contentElements>
+          <contentElements xsi:type="com.ibm.uma:Artifact" xmi:id="_9jNeANfNEdq2GYRwhl5Hnw" name="ata_inspecao" guid="_9jNeANfNEdq2GYRwhl5Hnw" presentationName="Ata de Inspecao"/>
+          <contentElements xsi:type="com.ibm.uma:Guideline" xmi:id="_z3r7wNtuEdqo1eLt5uqdUA" name="brainstorming" guid="_z3r7wNtuEdqo1eLt5uqdUA" briefDescription="Brainstorming is a short group session where everyone is allowed to say whatever they feel is important to the project. This guideline explains how to organize a Brainstorming Session. " presentationName="Brainstorming">
+            <presentation xmi:id="-F4IA2KKMFHKAjavUD6VKYw" href="uma://-F4IA2KKMFHKAjavUD6VKYw#-F4IA2KKMFHKAjavUD6VKYw"/>
+          </contentElements>
+          <contentElements xsi:type="com.ibm.uma:ToolMentor" xmi:id="_-NF7MNwwEdqxu_MHTiRzng" name="editor_texto_colaborativo" guid="_-NF7MNwwEdqxu_MHTiRzng" presentationName="Editor de texto colaborativo">
+            <presentation xmi:id="-Mu6yiNwLl5JSLQcMS_wLYA" href="uma://-Mu6yiNwLl5JSLQcMS_wLYA#-Mu6yiNwLl5JSLQcMS_wLYA"/>
+          </contentElements>
+          <contentElements xsi:type="com.ibm.uma:ToolMentor" xmi:id="_VIaAYNwxEdqxu_MHTiRzng" name="telefonia_por_internet" guid="_VIaAYNwxEdqxu_MHTiRzng" briefDescription="Software gratuito capaz de realizar conexões através de VoIP." presentationName="Telefonia via Internet">
+            <presentation xmi:id="-zQaMW8QboXeUICMyVYx_qA" href="uma://-zQaMW8QboXeUICMyVYx_qA#-zQaMW8QboXeUICMyVYx_qA"/>
+          </contentElements>
+          <contentElements xsi:type="com.ibm.uma:ToolMentor" xmi:id="_tvKTsNwxEdqxu_MHTiRzng" name="instant_messaging" guid="_tvKTsNwxEdqxu_MHTiRzng" presentationName="Instant Messaging">
+            <presentation xmi:id="-l69EwSS6iwrWALbutVRWmQ" href="uma://-l69EwSS6iwrWALbutVRWmQ#-l69EwSS6iwrWALbutVRWmQ"/>
+          </contentElements>
+          <contentElements xsi:type="com.ibm.uma:ToolMentor" xmi:id="_0VACYNz5Edqj2N79AnMvRA" name="calendario_virtual" guid="_0VACYNz5Edqj2N79AnMvRA" presentationName="Workspace Virtual">
+            <presentation xmi:id="-EHh1URTvDcKPSRMumqeMew" href="uma://-EHh1URTvDcKPSRMumqeMew#-EHh1URTvDcKPSRMumqeMew"/>
+          </contentElements>
+          <contentElements xsi:type="com.ibm.uma:ToolMentor" xmi:id="_JiEWsN9jEdqk9aXL3ToPFA" name="email" guid="_JiEWsN9jEdqk9aXL3ToPFA" briefDescription="Uso de email como ferramenta de comunicação formal" presentationName="Email"/>
+          <contentElements xsi:type="com.ibm.uma:Concept" xmi:id="_8t2V8N9lEdq_r4DJMJEZ2w" name="requisitos_funcionais" guid="_8t2V8N9lEdq_r4DJMJEZ2w" briefDescription="Requisitos correspondem à descrição dos serviços que um sistema deve prover e às restrições sobre as quais ele deve operar; e a Engenharia de Requisitos é um processo que envolve todas as atividades necessárias para coletar, documentar e manter o conjunto de requisitos de um sistema [Som03]." presentationName="Requisitos Funcionais">
+            <presentation xmi:id="-6Lp5x1sAOIcEJoF_XpXtaQ" href="uma://-6Lp5x1sAOIcEJoF_XpXtaQ#-6Lp5x1sAOIcEJoF_XpXtaQ"/>
+          </contentElements>
+          <contentElements xsi:type="com.ibm.uma:Role" xmi:id="_bZQ-wN-EEdq16uWWdR91fg" name="cliente" guid="_bZQ-wN-EEdq16uWWdR91fg" briefDescription="Contratante do projeto " presentationName="Cliente">
+            <presentation xsi:type="com.ibm.uma:RoleDescription" xmi:id="-UDjdtvOAU9RVb6rF1jo44A" href="uma://-UDjdtvOAU9RVb6rF1jo44A#-UDjdtvOAU9RVb6rF1jo44A"/>
+          </contentElements>
+          <contentElements xsi:type="com.ibm.uma:Role" xmi:id="_7Fq5kN-ZEdq16uWWdR91fg" name="engenheiro_requisitos" guid="_7Fq5kN-ZEdq16uWWdR91fg" briefDescription="responsável pela elicitação, análise, negociação, documentação e validação dos requisitos." presentationName="Engenheiro de Requisitos">
+            <presentation xsi:type="com.ibm.uma:RoleDescription" xmi:id="-c6R-UMpGChUop9EFNGQQSA" href="uma://-c6R-UMpGChUop9EFNGQQSA#-c6R-UMpGChUop9EFNGQQSA"/>
+          </contentElements>
+          <contentElements xsi:type="com.ibm.uma:Task" xmi:id="_hIzAsN_BEdq80v0Mk-K3VA" name="elicitacao_grupo" guid="_hIzAsN_BEdq80v0Mk-K3VA" presentationName="Elicitacao Grupo" checklists="_aL29sNSSEdq90538QjPN0A" guidelines="_z3r7wNtuEdqo1eLt5uqdUA" performedBy="_7Fq5kN-ZEdq16uWWdR91fg" mandatoryInput="_RaLJENP3EdqX78fvMWY_1g" output="_z7PMQNB8EdqUyPR7gE-fIQ _EbJUQNB9EdqUyPR7gE-fIQ" additionallyPerformedBy="_Pwc68MWNEdqoWucqOCtw5Q _5z4V8MWMEdqoWucqOCtw5Q" optionalInput="_nYsBENPyEdqX78fvMWY_1g"/>
+        </childPackages>
+        <childPackages xsi:type="com.ibm.uma:ContentPackage" xmi:id="_PwojwNPIEdq7_fGj-0nUqg" name="Templates" guid="_PwojwNPIEdq7_fGj-0nUqg">
+          <contentElements xsi:type="com.ibm.uma:Template" xmi:id="_TcqwoNPIEdq7_fGj-0nUqg" name="uc_specification" guid="_TcqwoNPIEdq7_fGj-0nUqg" briefDescription="Essa é o template sugerido para representar o documento de Casos de Uso." presentationName="Use-Case Specification">
+            <presentation xsi:type="com.ibm.uma:GuidanceDescription" xmi:id="-pVjmvdK-HQmSwM0FuJ2nug" href="uma://-pVjmvdK-HQmSwM0FuJ2nug#-pVjmvdK-HQmSwM0FuJ2nug"/>
+          </contentElements>
+          <contentElements xsi:type="com.ibm.uma:Artifact" xmi:id="_z7PMQNB8EdqUyPR7gE-fIQ" name="ata_reuniao_elicitacao" guid="_z7PMQNB8EdqUyPR7gE-fIQ" presentationName="Ata de Reuniao de Elicitacao em Grupos"/>
+          <contentElements xsi:type="com.ibm.uma:Artifact" xmi:id="_-_8P0NB8EdqUyPR7gE-fIQ" name="ata_reuniao_stakeholder" guid="_-_8P0NB8EdqUyPR7gE-fIQ" presentationName="Ata de Reuniao do Stakeholder"/>
+          <contentElements xsi:type="com.ibm.uma:Deliverable" xmi:id="_6R5MUNB8EdqUyPR7gE-fIQ" name="email_ata_reuniao" guid="_6R5MUNB8EdqUyPR7gE-fIQ" presentationName="Email com a Ata de Reuniao"/>
+        </childPackages>
+      </childPackages>
+      <childPackages xsi:type="com.ibm.uma:ProcessPackage" xmi:id="_BWX9PcVwEdqoWucqOCtw5Q" name="CapabilityPatterns" guid="_BWX9PcVwEdqoWucqOCtw5Q">
+        <childPackages xsi:type="com.ibm.uma:ProcessPackage" xmi:id="_f9Lr0NSBEdq90538QjPN0A" name="engenharia de requisitos" guid="_f9Lr0NSBEdq90538QjPN0A">
+          <childPackages xsi:type="com.ibm.uma:ProcessComponent" xmi:id="_xyyS0NUuEdqeD-T9MUVwYA" href="uma://_xyyS0NUuEdqeD-T9MUVwYA#_xyyS0NUuEdqeD-T9MUVwYA"/>
+        </childPackages>
+      </childPackages>
+    </methodPackages>
+    <methodPackages xsi:type="com.ibm.uma:ProcessPackage" xmi:id="_BWX9PsVwEdqoWucqOCtw5Q" name="DeliveryProcesses" guid="_BWX9PsVwEdqoWucqOCtw5Q">
+      <childPackages xsi:type="com.ibm.uma:ProcessComponent" xmi:id="_Vq4M8NUuEdqeD-T9MUVwYA" href="uma://_Vq4M8NUuEdqeD-T9MUVwYA#_Vq4M8NUuEdqeD-T9MUVwYA"/>
+    </methodPackages>
+    <methodPackages xsi:type="com.ibm.uma:ProcessPackage" xmi:id="_BWX9P8VwEdqoWucqOCtw5Q" name="ProcessContributions" guid="_BWX9P8VwEdqoWucqOCtw5Q"/>
+    <bases href="uma://_0TLvwMlgEdmt3adZL5Dmdw#_0TLvwMlgEdmt3adZL5Dmdw"/>
+  </com.ibm.uma:MethodPlugin>
+</xmi:XMI>

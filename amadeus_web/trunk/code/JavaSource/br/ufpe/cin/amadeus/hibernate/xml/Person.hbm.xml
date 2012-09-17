@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE hibernate-mapping	PUBLIC 
+	"-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+    "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+
+<hibernate-mapping>
+ <class name="br.ufpe.cin.amadeus.system.human_resources.person.Person" table="person">
+  	<id name="id">
+  		<column name="sqPerson" not-null="true"/>
+  		<generator class="increment"/>
+  	</id>
+  	<property name="name">
+		<column name="nmPerson" length="50" not-null="true"/>
+	</property>
+	<property name="city">
+		<column name="nmcity" length="100" not-null="false" />
+	</property>
+	<property name="state">
+		<column name="nmstate" length="2" not-null="false" />
+	</property>
+	<property name="birthDate">
+		<column name="dtbirth" not-null="false" />
+	</property>
+	<property name="gender">
+		<column name="dsSex" length="1" not-null="false"/>
+	</property>
+	<property name="email">
+		<column name="EMAIL" length="50" not-null="false" unique="true" />
+	</property>
+	<property name="cpf">
+		<column name="nuCPF" length="11" not-null="false" />
+	</property>
+	<property name="phoneNumber">
+		<column name="nuphone" length="20" not-null="false" />
+	</property>
+	
+ </class>
+</hibernate-mapping>

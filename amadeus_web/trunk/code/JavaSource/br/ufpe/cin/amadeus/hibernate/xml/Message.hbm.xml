@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE hibernate-mapping	PUBLIC 
+	"-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+    "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+
+<hibernate-mapping>
+ <class name="br.ufpe.cin.amadeus.system.academic.module.forum.Message" table="message">
+ 	<id name="id">
+ 		<column name="sqmessage" not-null="true" />
+ 		<generator class="increment"/>
+ 	</id>
+ 	
+ 	<property name="title">
+ 		<column name="ds_title" not-null="true" length="100"/>
+ 	</property>
+ 	
+ 	 <property name="body">
+ 		<column name="ds_body" not-null="true" length="600"/>
+ 	</property>
+ 	
+ 	 <property name="date">
+ 		<column name="dt_date" not-null="true" length="100"/>
+ 	</property>
+ 	
+ 	<property name="hour">
+ 		<column name="hr_hour" not-null="true"/>
+ 	</property>
+ 	
+ 	<many-to-one name="author"
+ 		class="br.ufpe.cin.amadeus.system.human_resources.person.Person"
+ 		column="sqPerson" cascade="none" unique="true" lazy="proxy" />
+ 		
+ </class>
+</hibernate-mapping>

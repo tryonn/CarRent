@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<com.ibm.uma:ContentDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:com.ibm.uma="http://www.ibm.com/uma/1.0.2/uma.ecore" xmi:id="_yYy-mtnmEdmO6L4XMImrsA" name="tool_mentor,_yYy-mdnmEdmO6L4XMImrsA" guid="_yYy-mtnmEdmO6L4XMImrsA">
+  <mainDescription>&lt;a class=&quot;elementLink&quot; href=&quot;base_concepts/guidances/termdefinitions/guidance,_83ttAB_NEdq6CKKKq4D7YA.html&quot;
+guid=&quot;_83ttAB_NEdq6CKKKq4D7YA&quot;&gt;guidance&lt;/a&gt;&amp;nbsp;that explains how to perform specific &lt;a class=&quot;elementLink&quot;
+href=&quot;base_concepts/guidances/termdefinitions/task,_x459ktnmEdmO6L4XMImrsA.html&quot;
+guid=&quot;_x459ktnmEdmO6L4XMImrsA&quot;&gt;task&lt;/a&gt;&amp;nbsp;or &lt;a class=&quot;elementLink&quot;
+href=&quot;file://./../../../base_concepts/guidances/termdefinitions/step,_BqZloB_eEdqAHrsQ7-jSbw.html&quot;
+guid=&quot;_BqZloB_eEdqAHrsQ7-jSbw&quot;&gt;step&lt;/a&gt;s using a specificsoftware tool.</mainDescription>
+</com.ibm.uma:ContentDescription>

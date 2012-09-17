@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<com.ibm.uma:ContentDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:com.ibm.uma="http://www.ibm.com/uma/1.0.2/uma.ecore" xmi:id="_DiKm8BUGEdqrUt4zetC1gg" name="domain,_Dh4TEBUGEdqrUt4zetC1gg" guid="_DiKm8BUGEdqrUt4zetC1gg" changeDate="2005-09-22T17:32:59.052-0400">
+  <mainDescription>&lt;p&gt;
+    A Domain is a refineable hierarchy designed to classify related Work Products. In other words, Domains are organized
+    into trees where individual Work Products appear as the leaves. Conceptually, each Domain is a grouping of related Work
+    Products that tend to be used for a similar purpose.
+&lt;/p&gt;
+&lt;p&gt;
+    A&amp;nbsp;single Work Product can be categorized in only one Domain.
+&lt;/p&gt;</mainDescription>
+</com.ibm.uma:ContentDescription>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<com.ibm.uma:ContentDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:com.ibm.uma="http://www.ibm.com/uma/1.0.2/uma.ecore" xmi:id="-snzV1tHJHhS661h_Bj0kww" name="scrum_roles,_9N4ZsCrjEdq8PpJx7h6hmw" guid="-snzV1tHJHhS661h_Bj0kww" changeDate="2006-04-11T10:11:44.646-0300">
+  <mainDescription>&lt;p&gt;
+    1. É necessário que todos tenham uma noção clara do cronograma;
+&lt;/p&gt;
+&lt;p&gt;
+    2. Os participantes organizar-se-ão em sub-grupos temáticos;
+&lt;/p&gt;
+&lt;p&gt;
+    3. Um comitê de coordenação substituirá a figura de um coordenador e será composto por um participante de cada
+    sub-grupo;
+&lt;/p&gt;
+&lt;p&gt;
+    4. Os sub-grupos trabalham semanalmente;
+&lt;/p&gt;
+&lt;p&gt;
+    5. Os sub-grupos definidos são os seguintes, com seus respectivos integrantes.
+&lt;/p&gt;</mainDescription>
+</com.ibm.uma:ContentDescription>

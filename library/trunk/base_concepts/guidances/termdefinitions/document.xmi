@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<com.ibm.uma:ContentDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:com.ibm.uma="http://www.ibm.com/uma/1.0.2/uma.ecore" xmi:id="_yG6kZNnmEdmO6L4XMImrsA" name="document,_yG6kY9nmEdmO6L4XMImrsA" guid="_yG6kZNnmEdmO6L4XMImrsA">
+  <mainDescription>A document is a collection of information intended to be represented on paper, or in a medium using a paper metaphor. The
+paper metaphor includes the concept of pages, and it has either an implicit or explicit sequence of contents. The
+information is in text or two-dimensional pictures. Examples of paper metaphors are word processor documents, spreadsheets,
+schedules, Gantt charts, web-pages,&amp;nbsp;and overhead slide presentations.</mainDescription>
+</com.ibm.uma:ContentDescription>

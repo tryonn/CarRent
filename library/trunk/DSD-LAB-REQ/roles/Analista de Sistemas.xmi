@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<com.ibm.uma:RoleDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:com.ibm.uma="http://www.ibm.com/uma/1.0.2/uma.ecore" xmi:id="-VVsq1k62Abqs9nNR4ITbRg" name="new_role,_QU2zEMWOEdqcv6u-ojHzKA" guid="-VVsq1k62Abqs9nNR4ITbRg" changeDate="2006-04-06T13:56:56.481-0300">
+  <mainDescription>&lt;p&gt;
+    Analise e documentaçao dos requisitos do sistema
+&lt;/p&gt;
+&lt;br /&gt;
+&lt;br /&gt;</mainDescription>
+</com.ibm.uma:RoleDescription>

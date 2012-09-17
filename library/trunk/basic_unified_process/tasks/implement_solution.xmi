@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<com.ibm.uma:TaskDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:com.ibm.uma="http://www.ibm.com/uma/1.0.2/uma.ecore" xmi:id="_d2aMwKrMEdmqUqi7YGiSxw" name="implement_solution,_0hyzgMlgEdmt3adZL5Dmdw" guid="_d2aMwKrMEdmqUqi7YGiSxw" changeDate="2005-07-28T14:02:23.910-0700">
+  <keyConsiderations>&lt;p&gt;
+    It is recommended that implementation is done incrementally; compile, link and run some regression tests a couple of
+    times a day. When fixing the underlying problems of defects in code, do it incrementally; make one change at a time and
+    verify if any new faults have been introduced in the process of fixing a defect.
+&lt;/p&gt;</keyConsiderations>
+  <sections xmi:id="_iMMWoKuPEdmhFZtkg1nakg" name="Prepare for Implementation" guid="_iMMWoKuPEdmhFZtkg1nakg">
+    <sectionDescription>&lt;p&gt;
+    If design has been done at some extent before the implementation, the scope of what is to be implemented&amp;nbsp;should be
+    already clear. Work assignments and iteration plans also help to clarify this scope.
+&lt;/p&gt;
+&lt;p&gt;
+    The focus of implementation can be to implement a new functionality or fix a defect, restricted or not to a particular
+    element, like a class or component.
+&lt;/p&gt;
+&lt;p&gt;
+    Before implementing an&amp;nbsp;element from scratch, consider whether there is existing code that can be reused or
+    adapted. Reuse opportunities are leveraged when there is an overall understanding of the solution being proposed.
+&lt;/p&gt;</sectionDescription>
+  </sections>
+  <sections xmi:id="_mFQ58KuPEdmhFZtkg1nakg" name="Complete the Implementation" guid="_mFQ58KuPEdmhFZtkg1nakg">
+    <sectionDescription>&lt;p&gt;
+    One of the advantages of doing design before implementation is to better understand and capture the solution being
+    proposed, its constituent elements and their relationships. If design is captured in such a way that allows direct
+    transformation into implementation (e.g., visual models), various levels of implementation completeness can be achieved
+    from this transformation.
+&lt;/p&gt;
+&lt;p&gt;
+    Typically, however, there is substantial effort to complete the implementation, for example:
+&lt;/p&gt;
+&lt;ul&gt;
+    &lt;li&gt;
+        Tuning the results of transformation by, for example, improving performance or the user interface&lt;br /&gt;
+    &lt;/li&gt;
+    &lt;li&gt;
+        Adding missing details, such as:
+    &lt;/li&gt;
+    &lt;li style=&quot;LIST-STYLE-TYPE: none&quot;&gt;
+        &lt;ul&gt;
+            &lt;li&gt;
+                completing operations described in the design - choosing algorithms and writing the code.
+            &lt;/li&gt;
+            &lt;li&gt;
+                adding additional supporting classes, operations, and data structure
+            &lt;/li&gt;
+        &lt;/ul&gt;
+    &lt;/li&gt;
+&lt;/ul&gt;</sectionDescription>
+  </sections>
+  <sections xmi:id="_ni25UKuPEdmhFZtkg1nakg" name="Evaluate the Implementation" guid="_ni25UKuPEdmhFZtkg1nakg">
+    <sectionDescription>&lt;p&gt;
+    This is where you verify that the implementation is fit for purpose.&amp;nbsp; In addition to testing (described in other
+    tasks), some additional checks are often useful:
+&lt;/p&gt;
+&lt;ul&gt;
+    &lt;li&gt;
+        Mentally read through the code. Consider keeping a checklist of common mistakes that you personally make in your
+        implementations, and look for those mistakes.
+    &lt;/li&gt;
+    &lt;li&gt;
+        Use tools to check the code for errors. For example, a static code rule checker, or compiler set to detailed
+        warning level.
+    &lt;/li&gt;
+    &lt;li&gt;
+        Use tools that can visualize the code. Code visualization can help a developer identify patterns such as excessive
+        coupling, circular dependencies, and so forth.
+    &lt;/li&gt;
+&lt;/ul&gt;</sectionDescription>
+  </sections>
+  <sections xmi:id="_q5XiIKuPEdmhFZtkg1nakg" name="Communicate signficant decisions" guid="_q5XiIKuPEdmhFZtkg1nakg">
+    <sectionDescription>&lt;p&gt;
+    As implementation is evolving and being tested, errors are discovered and fixed, sometimes demanding changes from what
+    was originally designed.&amp;nbsp;If a design abstraction is maintained for future maintenance efforts, or for contractual
+    or communication reasons, then the design has to be updated.
+&lt;/p&gt;
+&lt;p&gt;
+    How this is done depends on the project size and required formality. Generally, if the required change is small, and
+    the same individual is designing and implementing the class, then there is no need for a change request. The individual
+    can do the change in the design. If the required change has a broad impact, for example a change in a public operation,
+    then it may be necessary to communicate&amp;nbsp;that change to the other team members, so everybody is aware of how their
+    components are affected.
+&lt;/p&gt;</sectionDescription>
+  </sections>
+  <purpose>&lt;p&gt;
+    Produce an implementation for part of the&amp;nbsp;solution (such as a class or component), or to fix one or more defects.
+    The result is typically new or modified source code, referred to generally as Implementation.
+&lt;/p&gt;</purpose>
+</com.ibm.uma:TaskDescription>

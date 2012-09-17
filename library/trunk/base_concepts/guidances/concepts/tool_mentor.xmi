@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<com.ibm.uma:ContentDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:com.ibm.uma="http://www.ibm.com/uma/1.0.2/uma.ecore" xmi:id="_zaz1MtnmEdmO6L4XMImrsA" name="tool_mentor,1.0762105093945226E-304" guid="_zaz1MtnmEdmO6L4XMImrsA" changeDate="2005-11-07T14:51:12.283-0800">
+  <mainDescription>&lt;a id=&quot;Top&quot; name=&quot;Top&quot;&gt;&lt;/a&gt;&lt;a id=&quot;XE_key_concepts__tool_mentor&quot; name=&quot;XE_key_concepts__tool_mentor&quot;&gt;&lt;/a&gt;&lt;a id=&quot;XE_TOOL_MENTOR__KEY_CONCEPTS&quot; name=&quot;XE_tool_mentor__key_concepts&quot;&gt;&lt;/a&gt; 
+&lt;p&gt;
+    Tasks, Steps, and associated guidelines provide general guidance to the practitioner. To go one step further, Tool
+    Mentors are an additional means of providing guidance by showing how to achieve certain goals with a specific software
+    tool. Tool mentors link Tasks with tools such as Rational Rose, Rational RequisitePro, Rational ClearCase, Rational
+    ClearQuest, Rational Suite TestStudio. Tool Mentors almost completely encapsulate the dependencies of the content on
+    the tool set, keeping the tasks free from tool details. An organization can extend the concept of Tool Mentor to
+    provide guidance for other tools.
+&lt;/p&gt;</mainDescription>
+</com.ibm.uma:ContentDescription>

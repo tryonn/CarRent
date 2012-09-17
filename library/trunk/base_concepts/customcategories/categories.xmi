@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<com.ibm.uma:ContentDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:com.ibm.uma="http://www.ibm.com/uma/1.0.2/uma.ecore" xmi:id="_yrIvUBTMEdqrUt4zetC1gg" name="categories,_yqwU0BTMEdqrUt4zetC1gg" guid="_yrIvUBTMEdqrUt4zetC1gg" changeDate="2005-10-26T23:27:36.315-0700">
+  <mainDescription>&lt;p&gt;
+    Categories provide different ways to logically organize Content Elements. In addition to Standard Categories that have
+    been predefined for most Content Element types in UMA, &lt;a class=&quot;elementLinkWithUserText&quot; href=&quot;./../../base_concepts/guidances/concepts/custom_category,_xuO10BUGEdqrUt4zetC1gg.html&quot; guid=&quot;_xuO10BUGEdqrUt4zetC1gg&quot;&gt;Custom Categories&lt;/a&gt; can be used to either of the following:
+&lt;/p&gt;
+&lt;div style=&quot;MARGIN-LEFT: 2em&quot;&gt;
+    &lt;ul&gt;
+        &lt;li&gt;
+            Categorize content based on the user's criteria.
+        &lt;/li&gt;
+        &lt;li&gt;
+            Define tree-structures of nested categories allowing the user to systematically navigate and browse Method
+            Content as well as Processes based on these categories. When&amp;nbsp;Custom Categories are used in this way they
+            are also referred to&amp;nbsp;as &lt;a class=&quot;elementLinkWithUserText&quot; href=&quot;./../../base_concepts/guidances/concepts/view,_uMKSsBUFEdqrUt4zetC1gg.html&quot; guid=&quot;_uMKSsBUFEdqrUt4zetC1gg&quot;&gt;Views&lt;/a&gt;.
+        &lt;/li&gt;
+    &lt;/ul&gt;
+&lt;/div&gt;</mainDescription>
+</com.ibm.uma:ContentDescription>

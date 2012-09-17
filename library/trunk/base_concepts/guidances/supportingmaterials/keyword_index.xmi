@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<com.ibm.uma:ContentDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:com.ibm.uma="http://www.ibm.com/uma/1.0.2/uma.ecore" xmi:id="_zZxTYNnmEdmO6L4XMImrsA" name="keyword_index,2.0088322577945588E-305" guid="_zZxTYNnmEdmO6L4XMImrsA" changeDate="2005-06-14T08:32:05.050-0700">
+  <mainDescription>&lt;p class=&quot;banner&quot; align=&quot;left&quot;&gt;
+    The keyword index provides the ability to look-up topics in the method website based on keywords or topics. At the time
+    the pages are created, keywords are identified which allows the keyword index to be built. The top frame of the keyword
+    index window allows topics beginning with a letter or number to be displayed. The lower frame displays a list of topics
+    and their related links. Clicking on a link causes the related page to be displayed in the main frame of the published
+    site browser window.
+&lt;/p&gt;
+&lt;p class=&quot;banner&quot; align=&quot;left&quot;&gt;
+    &lt;br /&gt;
+&lt;/p&gt;</mainDescription>
+</com.ibm.uma:ContentDescription>

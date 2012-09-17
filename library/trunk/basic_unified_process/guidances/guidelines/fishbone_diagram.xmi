@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<com.ibm.uma:ContentDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:com.ibm.uma="http://www.ibm.com/uma/1.0.2/uma.ecore" xmi:id="-IYHJoUIySpxWSGoAZNAMGA" name="fishbone_diagram,_Avm_wCOsEdqwXqDBrxi05A" guid="-IYHJoUIySpxWSGoAZNAMGA" changeDate="2005-09-12T09:41:14.608-0700">
+  <mainDescription>&lt;p&gt;
+    The fishbone diagram is one method for finding the &quot;root cause&quot; of a problem. Each &quot;spine&quot; in a fishbone represents a
+    contributing cause to the problem.
+&lt;/p&gt;
+&lt;p&gt;
+    Once you have defined the root causes, you should prioritize which one contributes the most to the problem. Typically,
+    the 80-20 rule applies, meaning 20 percent of the root causes contribute to 80 percent of the problem.
+&lt;/p&gt;
+&lt;p&gt;
+    Once you have identified 20 percent of the root causes, it is often helpful if you build other spines to better
+    understand how you can address these causes.
+&lt;/p&gt;
+&lt;p align=&quot;center&quot;&gt;
+    &lt;img height=&quot;288&quot; alt=&quot;Diagram described in accompanying text.&quot; src=&quot;resources/wg_fish.gif&quot; width=&quot;533&quot; /&gt;
+&lt;/p&gt;
+&lt;p class=&quot;picturetext&quot; align=&quot;center&quot;&gt;
+    Example of a fishbone diagram for a Recycling Machine system.
+&lt;/p&gt;</mainDescription>
+</com.ibm.uma:ContentDescription>

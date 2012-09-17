@@ -1,0 +1,49 @@
+body{
+       font-family: "trebuchet ms";
+}
+
+
+#tagcloud{
+       text-align: center;
+       padding: 4px;
+}
+
+
+#tagcloud a:link{
+       color:  #000;
+       text-decoration: none;
+}
+
+#tagcloud a:hover{
+       color: #00f;
+       text-decoration: none;
+}
+
+#tagcloud a:visited{
+       color: #000;
+       text-decoration: none;
+}
+
+.tagcloud{
+        margin: 0px 0px 0px -10px;
+}
+
+.keywork4{
+       font-size: 1.6em;
+}
+
+.keywork3{
+       font-size: 1.4em;
+}
+
+.keywork2{
+       font-size: 1.2em;
+}
+
+.keywork1{
+       font-size: 1em;
+}
+
+.keywork0{
+       font-size: 0.9em;
+}

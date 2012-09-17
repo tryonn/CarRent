@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<com.ibm.uma:ContentDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:com.ibm.uma="http://www.ibm.com/uma/1.0.2/uma.ecore" xmi:id="_zaqEMNnmEdmO6L4XMImrsA" name="activity,3.132140065969088E-305" guid="_zaqEMNnmEdmO6L4XMImrsA" changeDate="2005-10-27T01:00:09.167-0700">
+  <mainDescription>&lt;p&gt;
+    Activities are the fundamental concept for defining processes.&amp;nbsp; Activities define the breakdown as well as flow of
+    work.&amp;nbsp; In other words, Activities can be nested into each other defining a breakdown structure of work or they can
+    define predecessor relationships to other Activities defining a flow presented in Activity diagrams.&amp;nbsp; Activities
+    can also contain references to Task, Roles, and Work Products called &lt;a class=&quot;elementLink&quot; href=&quot;./../../../base_concepts/guidances/concepts/descriptor,_5V9HEBUEEdqrUt4zetC1gg.html&quot; guid=&quot;_5V9HEBUEEdqrUt4zetC1gg&quot;&gt;Descriptor&lt;/a&gt;.&amp;nbsp; Activities as well as Descriptors relate to timelines by allowing
+    their instances to define start and/or end dates.&amp;nbsp; Further, they specify information relevant to the instantiation
+    of work in project such as if an Activity shall be performed several times and if so if they can be performed in
+    parallel (hasMultipleOccurrences attribute) or one after other (isRepeatable attribute).&amp;nbsp; Activities and Task
+    Descriptors can also be event driven or describing ongoing work that does not have a fixed start and end time.
+&lt;/p&gt;
+&lt;p&gt;
+    UMA defines several&amp;nbsp;special Activities that allow expressing processes with terms many users are familiar
+    with.&amp;nbsp; For example, Phase or Iteration are just special Activities for which specific attribute values have been
+    set with predefined values. A process such as a &lt;a class=&quot;elementLink&quot; href=&quot;./../../../base_concepts/guidances/concepts/capability_pattern,1.7072348895114264E-305.html&quot; guid=&quot;1.7072348895114264E-305&quot;&gt;Capability Pattern&lt;/a&gt;&amp;nbsp;or &lt;a class=&quot;elementLink&quot; href=&quot;./../../../base_concepts/guidances/concepts/delivery_process,_EhgqwO8MEdmKSqa_gSYthg.html&quot; guid=&quot;_EhgqwO8MEdmKSqa_gSYthg&quot;&gt;Delivery Process&lt;/a&gt;&amp;nbsp;is also nothing else than just a special Activity that
+    contains additional documentation on why and how to use the process. Hence, because Activities could be nested into
+    each other, so can processes.
+&lt;/p&gt;</mainDescription>
+</com.ibm.uma:ContentDescription>

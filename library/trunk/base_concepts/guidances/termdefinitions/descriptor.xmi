@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<com.ibm.uma:ContentDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:com.ibm.uma="http://www.ibm.com/uma/1.0.2/uma.ecore" xmi:id="-TI6lqoTE1op3-SnmGa2S9Q" name="descriptor,_7rS6AB_JEdq6CKKKq4D7YA" guid="-TI6lqoTE1op3-SnmGa2S9Q" changeDate="2005-09-07T11:05:25.216-0700">
+  <mainDescription>Abstract generalization for special &lt;a class=&quot;elementLink&quot;
+href=&quot;base_concepts/guidances/termdefinitions/process_element,_cvdpEB_LEdq6CKKKq4D7YA.html&quot;
+guid=&quot;_cvdpEB_LEdq6CKKKq4D7YA&quot;&gt;process element&lt;/a&gt;s&amp;nbsp;that reference one concrete &lt;a class=&quot;elementLink&quot;
+href=&quot;base_concepts/guidances/termdefinitions/content_element,_N8x34B_LEdq6CKKKq4D7YA.html&quot;
+guid=&quot;_N8x34B_LEdq6CKKKq4D7YA&quot;&gt;content element&lt;/a&gt;. Descriptors are the keyconcept for realizing the separation of &lt;a
+class=&quot;elementLink&quot; href=&quot;base_concepts/guidances/termdefinitions/process,_yQ5m2NnmEdmO6L4XMImrsA.html&quot;
+guid=&quot;_yQ5m2NnmEdmO6L4XMImrsA&quot;&gt;process&lt;/a&gt;&amp;nbsp;from Method Content. A Descriptor can be characterized as a reference
+object for one particular Content Element. In addition, a Descriptor&amp;nbsp;has its own relationships and properties whose
+purpose is to modify the semantics of the Content Element it refers to.</mainDescription>
+</com.ibm.uma:ContentDescription>

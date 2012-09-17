@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<com.ibm.uma:ContentDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:com.ibm.uma="http://www.ibm.com/uma/1.0.2/uma.ecore" xmi:id="_7ygXoMM3EdmSIPI87WLu3g" name="metrics,_0mYYkMlgEdmt3adZL5Dmdw" guid="_7ygXoMM3EdmSIPI87WLu3g" changeDate="2005-07-07T14:55:36.492-0700">
+  <mainDescription>&lt;h3&gt;
+    What is a Metric?
+&lt;/h3&gt;
+&lt;p&gt;
+    There is usually a lot of discussion on what is a metric, if it is or not different from a measure and if it is the
+    case what the difference is. So to clarify that let start by defined what is meant her by measure and by metric.
+&lt;/p&gt;
+&lt;ul&gt;
+    &lt;li&gt;
+        &lt;strong&gt;A Measure&lt;/strong&gt;: is a raw data item that is directly measured and that will be used to calculate a
+        metric.
+    &lt;/li&gt;
+    &lt;li&gt;
+        A &lt;strong&gt;Metric&lt;/strong&gt;: is an interpretation of a measure or a set of measures that you will for analysis.
+    &lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+    For example, recording how many defects are newly open and how many are closed are &lt;strong&gt;measures&lt;/strong&gt;.
+    Interpreting their difference as the&amp;nbsp;level of effectiveness of the tests&amp;nbsp;is a &lt;strong&gt;metric&lt;/strong&gt;.
+&lt;/p&gt;
+&lt;h3&gt;
+    Why Measure?
+&lt;/h3&gt;
+&lt;p&gt;
+    Measurements will mainly help the project manager to:
+&lt;/p&gt;
+&lt;div style=&quot;margin-left: 2em&quot;&gt;
+    &lt;div align=&quot;left&quot;&gt;
+        &lt;ul class=&quot;noindent&quot;&gt;
+            &lt;li&gt;
+                &lt;b&gt;Communicate effectively&lt;/b&gt;. Measurement supports effective communication among the team members and all
+                the stakeholders.
+            &lt;/li&gt;
+            &lt;li&gt;
+                &lt;b&gt;Identify and correct problems early&lt;/b&gt;. Measurement&amp;nbsp;allows to identify and manage potential
+                problems early in the development lifecycle, before they become really problems.&amp;nbsp;
+            &lt;/li&gt;
+            &lt;li&gt;
+                &lt;b&gt;Make&amp;nbsp;informed trade-offs&lt;/b&gt;. Measurement helps assess objectively the impact of decisions, helping
+                managers&amp;nbsp;to make trade-off decisions to best meet project goals.&amp;nbsp;
+            &lt;/li&gt;
+            &lt;li&gt;
+                &lt;b&gt;Tune estimations&lt;/b&gt;. Recording schedule, progress, and expenditures for projects provides will help
+                managers to&amp;nbsp;make more reliable estimations for future&amp;nbsp;projects.
+            &lt;/li&gt;
+        &lt;/ul&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+&lt;p align=&quot;left&quot;&gt;
+    Essentially, measurement provides the data managers need to make the right decisions based on objective information.
+&lt;/p&gt;</mainDescription>
+</com.ibm.uma:ContentDescription>

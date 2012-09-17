@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<com.ibm.uma:ContentDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:com.ibm.uma="http://www.ibm.com/uma/1.0.2/uma.ecore" xmi:id="-x11qt8TVnuIKeMC69UP1TQ" name="process_contribution,_NYASQBtqEdqSLrJ4Ij2LVA" guid="-x11qt8TVnuIKeMC69UP1TQ" changeDate="2005-11-07T14:24:54.021-0800">
+  <mainDescription>&lt;p&gt;
+    A Process Contribution is a special Process that externally defines additions and changes to an existing Process
+    without directly modifying the existing Process. It achieves this by describing these additions and changes in a
+    separate Process structure. This structure's elements relate to the other Process's elements using &quot;Contributes&quot; and
+    &quot;Replace&quot; specializations. Process Contributions are normally packaged with Method Plug-ins that extend existing Method
+    Plug-in with new capabilities.
+&lt;/p&gt;
+&lt;p&gt;
+    A Process Contribution is a kind of &quot;process plug-in&quot; that plugs additional breakdown structures into an existing
+    Process and therefore updates it afterwards with new or changed capabilities. For example, the J2EE Plug-in plugs into
+    the technology independent main Plug-in. It may update the generic Delivery Processes defined in that Plug-in with J2EE
+    specific Activities. A respective &quot;.NET Plug-in&quot; could define similar updates relevant for that technology platform. A
+    process practitioner could then apply the chosen Plug-in, thereby generating a technology specific Process, but keeping
+    maintenance of his/her Processes minimal, because technology specific parts are kept separate and will be applied on
+    demand only.
+&lt;/p&gt;</mainDescription>
+</com.ibm.uma:ContentDescription>

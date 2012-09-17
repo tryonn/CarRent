@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<com.ibm.uma:ArtifactDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:com.ibm.uma="http://www.ibm.com/uma/1.0.2/uma.ecore" xmi:id="-chCCV9OwZtHUzt0jc-orvA" name="ator,_e0IOgNSAEdq90538QjPN0A" guid="-chCCV9OwZtHUzt0jc-orvA" changeDate="2006-04-25T14:27:04.000-0300">
+  <purpose>&lt;p&gt;
+    Different stakeholders use this artifact for different purposes:
+&lt;/p&gt;
+&lt;ul&gt;
+    &lt;li&gt;
+        &lt;b&gt;Analysts&lt;/b&gt; - to define the system boundaries and to describe use cases interaction with actors.
+    &lt;/li&gt;
+    &lt;li&gt;
+        &lt;b&gt;Developers&lt;/b&gt; - to capture characteristics of human actors when creating the user interface and to realize use
+        cases (in terms of objects) and their interaction with actors.
+    &lt;/li&gt;
+&lt;/ul&gt;</purpose>
+  <representationOptions>&lt;p&gt;
+    Give an actor a name,&amp;nbsp;brief descritption&amp;nbsp;and represent its relationship to use cases. There is no need for a
+    separate representation for actors other than in the use-case model (if present)&amp;nbsp;and in the use-case description.
+&lt;/p&gt;</representationOptions>
+</com.ibm.uma:ArtifactDescription>

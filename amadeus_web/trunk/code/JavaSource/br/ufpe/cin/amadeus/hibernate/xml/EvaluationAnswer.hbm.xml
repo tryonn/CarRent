@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE hibernate-mapping	PUBLIC 
+	"-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+    "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+
+<hibernate-mapping>
+ <class name="br.ufpe.cin.amadeus.system.academic.module.courseEvaluation.evaluationAnswer.EvaluationAnswer" table="evaluationanswer">
+ 	
+ 	<id name="id">
+ 		<column name="sqEvaluationAnswer" not-null="true" unique="true"/>
+ 		<generator class="increment"/>
+ 	</id>
+ 	
+ 	<property name="frequencyType">
+ 		<column name="ds_frequencyType" />
+ 	</property>
+ 	
+ 	<many-to-one name="criterion"
+ 		class="br.ufpe.cin.amadeus.system.academic.module.courseEvaluation.criterion.Criterion"
+ 		column="sqCriterion" cascade="none" unique="true" lazy="proxy" />
+ 		
+ 	<many-to-one name="criterionAnswer"
+ 		class="br.ufpe.cin.amadeus.system.academic.module.courseEvaluation.criterion.CriterionAnswer"
+ 		column="sqCriterionAnswer" cascade="all" unique="true" lazy="proxy" />
+ 
+ </class>
+</hibernate-mapping>

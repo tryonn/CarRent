@@ -1,0 +1,866 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<com.ibm.uma:ContentDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:com.ibm.uma="http://www.ibm.com/uma/1.0.2/uma.ecore" xmi:id="-adf9s_DFIL1YgIHbAFvKWg" name="new_concept,_SZDtIEdjEdqBmOmOgjH2IQ" guid="-adf9s_DFIL1YgIHbAFvKWg" changeDate="2005-10-28T10:36:46.402-0700">
+  <mainDescription>&lt;h3&gt;
+    Background
+&lt;/h3&gt;
+&lt;p&gt;
+    The Unified Method Architecture (UMA) has been developed with the aim to unify the representation schemata and
+    terminology of all method and process engineering approaches within IBM as well as to support the most important
+    standards in industry.&amp;nbsp; Hence, as shown in the figure below, UMA has been developed in a collaborative effort by
+    the architects of the IBM Rational Unified Process (RUP), IBM Global Services Method (GS Method), and IBM Rational
+    Summit Ascendant.&amp;nbsp; In addition to this core group of architects, stakeholders of many other development process
+    initiatives within and outside of IBM reviewed and contributed to the specification.&amp;nbsp; The specification itself has
+    been submitted to the &lt;a href=&quot;http://www.omg.org/&quot; target=&quot;_blank&quot;&gt;OMG&lt;/a&gt;&amp;nbsp;as a proposal for the &lt;a href=&quot;http://www.omg.org/cgi-bin/doc?ad/2004-11-4&quot; target=&quot;_blank&quot;&gt;SPEM 2.0 standard&lt;/a&gt;.&amp;nbsp; Because, the RUP 2003
+    meta-model had been developed based on the current &lt;a href=&quot;http://www.omg.org/technology/documents/formal/spem.htm&quot; target=&quot;_blank&quot;&gt;SPEM 1.1 standard&lt;/a&gt;, this SPEM 2.0 draft proposal can be seen as a significant but continuous
+    evolution of that standard.
+&lt;/p&gt;
+&lt;center&gt;
+    &lt;img alt=&quot;Picture showing the evolution of the Unified Method Architecture&quot; src=&quot;./resources/uma-evo.gif&quot; /&gt;
+&lt;/center&gt;
+&lt;p&gt;
+    The main goal of this unification was to come up with one set of terms and data structures that allows all of these
+    methods and processes to be expressed without&amp;nbsp;losing key characteristics.&amp;nbsp; For example, UMA had to be
+    designed to support many different lifecycle models: the RUP iterative development lifecycle, incremental GS Method
+    lifecycles, and Summit Ascendant waterfall and iterative lifecycles.&amp;nbsp; In addition, terminology differences needed
+    to be resolved: What RUP would call an Activity was called Task in GS Method, RUP would speak of Artifacts where Summit
+    Ascendant would define Deliverables, and so on.
+&lt;/p&gt;
+&lt;h3&gt;
+    Changes in UMA for RUP 2003 Users
+&lt;/h3&gt;
+&lt;p&gt;
+    As a result of defining just one data structure and more importantly one terminology for all of these approaches,
+    compromises and changes had to be accepted by all stakeholders. Although these changes might be disturbing to the
+    current RUP user, on the long run they will benefit from one broadly used unified terminology and standardized way of
+    expressing method content and processes improving communication about processes and facilitating reuse.&amp;nbsp; The
+    following list summarizes the most important changes to the RUP 2003 meta-model.&amp;nbsp; The table at the end of this
+    page provides you with a complete terminology comparison of all the key sources for UMA.
+&lt;/p&gt;
+&lt;ul&gt;
+    &lt;li&gt;
+        &lt;strong&gt;Activities have been renamed to task&lt;/strong&gt;: To provide a tighter link to process enactment and project
+        management we renamed the lowest assignable units of work to Task, because this is the term most commonly used.
+    &lt;/li&gt;
+    &lt;li&gt;
+        &lt;strong&gt;Workflow details renamed to activity&lt;/strong&gt;: Workflows are commonly expressed in hierarchies of activity
+        diagrams (e.g. activity diagrams defined in the UML 2.0).&amp;nbsp; Although RUP only provided one level of workflow
+        breakdown, UMA is designed to provide multiple levels of such a breakdown. Because the word Activity was more
+        commonly used to express the elements of activity diagrams as well as the activity diagram itself, we decided to
+        replace the name Workflow Detail used in RUP with the name Activity.&amp;nbsp; We realize that the shift in the usage
+        of the word Activity might cause confusion with existing RUP users.&amp;nbsp; However, one important goal of the UMA
+        work was to use terms in the way they are most commonly used in standards and industry.&amp;nbsp;
+    &lt;/li&gt;
+    &lt;li&gt;
+        &lt;strong&gt;Tasks (former RUP Activities) can be performed by many roles&lt;/strong&gt;:&amp;nbsp; In RUP 2003 an activity was
+        modeled as an operation of a role.&amp;nbsp; Customer feedback, a look at other process modeling approaches, as well as
+        changes introduced in UML 2.0 indicated that this was a too restrictive way of modeling human behavior.&amp;nbsp; This
+        approach did not allow expressing that some work was performed as a collaboration of different roles.&amp;nbsp; UMA
+        addresses this issue&amp;nbsp;by making&amp;nbsp;Task an independent model element to which performing roles can be
+        assigned as resources.&amp;nbsp; UMA therefore now allows several roles to be assigned to a task.&amp;nbsp; For backward
+        compatibility, it still allows a primary performing role to be identified&amp;nbsp;(being responsible for the task) as
+        well as several additional performers.
+    &lt;/li&gt;
+    &lt;li&gt;
+        &lt;strong&gt;Refinement of the artifact concept&lt;/strong&gt;: RUP only used the concept of artifact to define things that
+        are used and produced in a development project.&amp;nbsp; UMA defines an extended taxonomy for these concepts.&amp;nbsp; It
+        defines the general concept of work product, which has three different specializations (specific work product
+        types): Artifacts (managed work products), Deliverables (packaged work products that will be delivered to a
+        stakeholder for review), and Outcome (unmanaged, intangible work products).
+    &lt;/li&gt;
+    &lt;li&gt;
+        &lt;strong&gt;Different categorizations for work products and roles&lt;/strong&gt;: In RUP, artifacts and roles were all
+        categorized by discipline.&amp;nbsp; However, sometimes artifacts were used across disciplines and a categorization to
+        only one discipline caused confusion.&amp;nbsp; In UMA different categories have been defined for work definitions
+        (discipline for tasks and activities), work products (domain and work product kind), and roles (role sets).&amp;nbsp;
+    &lt;/li&gt;
+    &lt;li&gt;
+        &lt;strong&gt;Process Components renamed to Method Package&lt;/strong&gt;:&amp;nbsp; The concept of component is commonly used in
+        many standards and technologies.&amp;nbsp; Most applications of component link it to the abstraction of encapsulation
+        defining a component as a black box which can be used via well-defined interfaces.&amp;nbsp; RUP component did not
+        fulfill this black box criterion.&amp;nbsp; Also the SPEM standard defined packages as well as components. To be
+        compliant to SPEM and the industry usage of the word component, we renamed Process Component to Method Package
+        ('method' because it can contain method elements or process elements)
+    &lt;/li&gt;
+    &lt;li&gt;
+        &lt;strong&gt;Separation of method content elements from process elements&lt;/strong&gt;: In RUP 2003&amp;nbsp;you created a new
+        process by defining a new configuration and documenting manually in a development case artifact changes to standard
+        RUP.&amp;nbsp; UMA provides extended concepts in addition to the configuration concept for tailoring processes.&amp;nbsp;
+        It allows you to model concretely for a process what work defined in the method content you want to actually do in
+        each phase, because you can easily add, remove, and reorder elements in the process structure, reusing or not
+        reusing whatever you want from the method content. It achieves these features by a more clear separation of method
+        content (e.g. tasks defined for disciplines) and the application of method content in process (expressed with
+        activity diagrams and/or work breakdown structures) as well as the modeling of processes (i.e. creating new or
+        adapted activity diagrams or new or adapted work breakdown structures).&amp;nbsp; It introduces a few new concepts such
+        as descriptor that support this separation and achieve new capabilities for maintaining and reusing many different
+        families of alternative processes and process parts all within the same configuration.
+    &lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;
+    Terminology Comparision
+&lt;/h3&gt;
+The following table shows how the UMA terminoly maps to terms used in other process enginerring approaches.&lt;br /&gt;
+&lt;br /&gt;
+&lt;table cellspacing=&quot;0&quot; cellpadding=&quot;0&quot; width=&quot;938&quot; border=&quot;1&quot;&gt;
+    &lt;colgroup&gt;
+        &lt;col style=&quot;WIDTH: 48pt&quot; width=&quot;64&quot; /&gt;
+        &lt;col style=&quot;WIDTH: 176pt&quot; width=&quot;235&quot; /&gt;
+        &lt;col style=&quot;WIDTH: 117pt&quot; width=&quot;156&quot; /&gt;
+        &lt;col style=&quot;WIDTH: 108pt&quot; width=&quot;144&quot; /&gt;
+        &lt;col style=&quot;WIDTH: 139pt&quot; width=&quot;185&quot; /&gt;
+        &lt;col style=&quot;WIDTH: 116pt&quot; width=&quot;154&quot; /&gt;
+    &lt;/colgroup&gt;
+    &lt;tbody&gt;
+        &lt;tr bgcolor=&quot;#cccccc&quot; height=&quot;17&quot;&gt;
+            &lt;td width=&quot;64&quot; height=&quot;17&quot;&gt;
+                &amp;nbsp;
+            &lt;/td&gt;
+            &lt;td width=&quot;235&quot;&gt;
+                &lt;b&gt;UMA/RMC&lt;/b&gt; 
+            &lt;/td&gt;
+            &lt;td width=&quot;156&quot;&gt;
+                &lt;b&gt;RUP 2003&lt;/b&gt; 
+            &lt;/td&gt;
+            &lt;td width=&quot;144&quot;&gt;
+                &lt;b&gt;SUMMIT&lt;/b&gt; 
+            &lt;/td&gt;
+            &lt;td width=&quot;185&quot;&gt;
+                &lt;b&gt;IGSM&lt;/b&gt; 
+            &lt;/td&gt;
+            &lt;td width=&quot;154&quot;&gt;
+                &lt;b&gt;SPEM 1.1&lt;/b&gt; 
+            &lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+            &lt;td colspan=&quot;2&quot; height=&quot;17&quot;&gt;
+                Basic Method Elements
+            &lt;/td&gt;
+            &lt;td&gt;
+                &amp;nbsp;
+            &lt;/td&gt;
+            &lt;td&gt;
+                &amp;nbsp;
+            &lt;/td&gt;
+            &lt;td&gt;
+                &amp;nbsp;
+            &lt;/td&gt;
+            &lt;td&gt;
+                &amp;nbsp;
+            &lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+            &lt;td height=&quot;136&quot; rowspan=&quot;8&quot;&gt;
+                &amp;nbsp;
+            &lt;/td&gt;
+            &lt;td&gt;
+                Role
+            &lt;/td&gt;
+            &lt;td&gt;
+                Role
+            &lt;/td&gt;
+            &lt;td&gt;
+                Role
+            &lt;/td&gt;
+            &lt;td&gt;
+                Role
+            &lt;/td&gt;
+            &lt;td&gt;
+                Process Role
+            &lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+            &lt;td&gt;
+                Work Product
+            &lt;/td&gt;
+            &lt;td&gt;
+                &amp;nbsp;
+            &lt;/td&gt;
+            &lt;td&gt;
+                Deliverable
+            &lt;/td&gt;
+            &lt;td&gt;
+                &amp;nbsp;
+            &lt;/td&gt;
+            &lt;td&gt;
+                &amp;nbsp;
+            &lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+            &lt;td&gt;
+                Work Product/Artifact
+            &lt;/td&gt;
+            &lt;td&gt;
+                Artifact
+            &lt;/td&gt;
+            &lt;td&gt;
+                &amp;nbsp;
+            &lt;/td&gt;
+            &lt;td&gt;
+                Work Product Description
+            &lt;/td&gt;
+            &lt;td&gt;
+                Work Product
+            &lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+            &lt;td&gt;
+                Work Product/Outcome
+            &lt;/td&gt;
+            &lt;td&gt;
+                &amp;nbsp;
+            &lt;/td&gt;
+            &lt;td&gt;
+                &amp;nbsp;
+            &lt;/td&gt;
+            &lt;td&gt;
+                Task Outcome
+            &lt;/td&gt;
+            &lt;td&gt;
+                &amp;nbsp;
+            &lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+            &lt;td&gt;
+                Work Product/Deliverable
+            &lt;/td&gt;
+            &lt;td&gt;
+                &amp;nbsp;
+            &lt;/td&gt;
+            &lt;td&gt;
+                &amp;nbsp;
+            &lt;/td&gt;
+            &lt;td&gt;
+                Deliverable Content Descrip.
+            &lt;/td&gt;
+            &lt;td&gt;
+                &amp;nbsp;
+            &lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+            &lt;td&gt;
+                Task
+            &lt;/td&gt;
+            &lt;td&gt;
+                Activity
+            &lt;/td&gt;
+            &lt;td&gt;
+                Activity
+            &lt;/td&gt;
+            &lt;td&gt;
+                Task
+            &lt;/td&gt;
+            &lt;td&gt;
+                Activity
+            &lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+            &lt;td&gt;
+                Step
+            &lt;/td&gt;
+            &lt;td&gt;
+                Step
+            &lt;/td&gt;
+            &lt;td&gt;
+                Step
+            &lt;/td&gt;
+            &lt;td&gt;
+                Subtask
+            &lt;/td&gt;
+            &lt;td&gt;
+                Step
+            &lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+            &lt;td&gt;
+                &amp;nbsp;
+            &lt;/td&gt;
+            &lt;td&gt;
+                &amp;nbsp;
+            &lt;/td&gt;
+            &lt;td&gt;
+                &amp;nbsp;
+            &lt;/td&gt;
+            &lt;td&gt;
+                &amp;nbsp;
+            &lt;/td&gt;
+            &lt;td&gt;
+                &amp;nbsp;
+            &lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+            &lt;td colspan=&quot;2&quot; height=&quot;17&quot;&gt;
+                Process Related
+            &lt;/td&gt;
+            &lt;td&gt;
+                &amp;nbsp;
+            &lt;/td&gt;
+            &lt;td&gt;
+                &amp;nbsp;
+            &lt;/td&gt;
+            &lt;td&gt;
+                &amp;nbsp;
+            &lt;/td&gt;
+            &lt;td&gt;
+                &amp;nbsp;
+            &lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+            &lt;td height=&quot;102&quot; rowspan=&quot;6&quot;&gt;
+                &amp;nbsp;
+            &lt;/td&gt;
+            &lt;td&gt;
+                Activity
+            &lt;/td&gt;
+            &lt;td&gt;
+                Workflow Detail
+            &lt;/td&gt;
+            &lt;td&gt;
+                Task
+            &lt;/td&gt;
+            &lt;td&gt;
+                Activity
+            &lt;/td&gt;
+            &lt;td&gt;
+                Work Definition
+            &lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+            &lt;td&gt;
+                Iteration
+            &lt;/td&gt;
+            &lt;td&gt;
+                Iteration
+            &lt;/td&gt;
+            &lt;td&gt;
+                &amp;nbsp;
+            &lt;/td&gt;
+            &lt;td&gt;
+                &amp;nbsp;
+            &lt;/td&gt;
+            &lt;td&gt;
+                Iteration
+            &lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+            &lt;td&gt;
+                Phase
+            &lt;/td&gt;
+            &lt;td&gt;
+                Phase
+            &lt;/td&gt;
+            &lt;td&gt;
+                Phase
+            &lt;/td&gt;
+            &lt;td&gt;
+                Phase
+            &lt;/td&gt;
+            &lt;td&gt;
+                Phase
+            &lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+            &lt;td&gt;
+                Capability Pattern
+            &lt;/td&gt;
+            &lt;td&gt;
+                &amp;nbsp;
+            &lt;/td&gt;
+            &lt;td&gt;
+                &amp;nbsp;
+            &lt;/td&gt;
+            &lt;td&gt;
+                Capability Pattern
+            &lt;/td&gt;
+            &lt;td&gt;
+                (Process Component)
+            &lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+            &lt;td&gt;
+                Delivery Process
+            &lt;/td&gt;
+            &lt;td&gt;
+                Lifecycle/Configuration
+            &lt;/td&gt;
+            &lt;td&gt;
+                Route Map
+            &lt;/td&gt;
+            &lt;td&gt;
+                Engagement Model
+            &lt;/td&gt;
+            &lt;td&gt;
+                (Process)
+            &lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+            &lt;td&gt;
+                &amp;nbsp;
+            &lt;/td&gt;
+            &lt;td&gt;
+                &amp;nbsp;
+            &lt;/td&gt;
+            &lt;td&gt;
+                &amp;nbsp;
+            &lt;/td&gt;
+            &lt;td&gt;
+                &amp;nbsp;
+            &lt;/td&gt;
+            &lt;td&gt;
+                &amp;nbsp;
+            &lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+            &lt;td colspan=&quot;2&quot; height=&quot;17&quot;&gt;
+                Categorization
+            &lt;/td&gt;
+            &lt;td&gt;
+                &amp;nbsp;
+            &lt;/td&gt;
+            &lt;td&gt;
+                &amp;nbsp;
+            &lt;/td&gt;
+            &lt;td&gt;
+                &amp;nbsp;
+            &lt;/td&gt;
+            &lt;td&gt;
+                &amp;nbsp;
+            &lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+            &lt;td height=&quot;85&quot; rowspan=&quot;5&quot;&gt;
+                &amp;nbsp;
+            &lt;/td&gt;
+            &lt;td&gt;
+                Discipline
+            &lt;/td&gt;
+            &lt;td&gt;
+                Discipline
+            &lt;/td&gt;
+            &lt;td&gt;
+                Module
+            &lt;/td&gt;
+            &lt;td&gt;
+                &amp;nbsp;
+            &lt;/td&gt;
+            &lt;td&gt;
+                Discipline
+            &lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+            &lt;td&gt;
+                Domain
+            &lt;/td&gt;
+            &lt;td&gt;
+                (Artifact Set)
+            &lt;/td&gt;
+            &lt;td&gt;
+                &amp;nbsp;
+            &lt;/td&gt;
+            &lt;td&gt;
+                Domain
+            &lt;/td&gt;
+            &lt;td&gt;
+                Work Product Kind
+            &lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+            &lt;td&gt;
+                Role Set
+            &lt;/td&gt;
+            &lt;td&gt;
+                (Role Set)
+            &lt;/td&gt;
+            &lt;td&gt;
+                &amp;nbsp;
+            &lt;/td&gt;
+            &lt;td&gt;
+                &amp;nbsp;
+            &lt;/td&gt;
+            &lt;td&gt;
+                &amp;nbsp;
+            &lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+            &lt;td&gt;
+                Tool
+            &lt;/td&gt;
+            &lt;td&gt;
+                Tool
+            &lt;/td&gt;
+            &lt;td&gt;
+                &amp;nbsp;
+            &lt;/td&gt;
+            &lt;td&gt;
+                &amp;nbsp;
+            &lt;/td&gt;
+            &lt;td&gt;
+                &amp;nbsp;
+            &lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+            &lt;td&gt;
+                &amp;nbsp;
+            &lt;/td&gt;
+            &lt;td&gt;
+                &amp;nbsp;
+            &lt;/td&gt;
+            &lt;td&gt;
+                &amp;nbsp;
+            &lt;/td&gt;
+            &lt;td&gt;
+                &amp;nbsp;
+            &lt;/td&gt;
+            &lt;td&gt;
+                &amp;nbsp;
+            &lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+            &lt;td colspan=&quot;2&quot; height=&quot;17&quot;&gt;
+                Method Packaging
+            &lt;/td&gt;
+            &lt;td&gt;
+                &amp;nbsp;
+            &lt;/td&gt;
+            &lt;td&gt;
+                &amp;nbsp;
+            &lt;/td&gt;
+            &lt;td&gt;
+                &amp;nbsp;
+            &lt;/td&gt;
+            &lt;td&gt;
+                &amp;nbsp;
+            &lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+            &lt;td height=&quot;102&quot; rowspan=&quot;6&quot;&gt;
+                &amp;nbsp;
+            &lt;/td&gt;
+            &lt;td&gt;
+                Method Plug-in
+            &lt;/td&gt;
+            &lt;td&gt;
+                Process Model Plug-in
+            &lt;/td&gt;
+            &lt;td&gt;
+                &amp;nbsp;
+            &lt;/td&gt;
+            &lt;td&gt;
+                &amp;nbsp;
+            &lt;/td&gt;
+            &lt;td&gt;
+                Process
+            &lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+            &lt;td&gt;
+                Method Package
+            &lt;/td&gt;
+            &lt;td&gt;
+                Process Component
+            &lt;/td&gt;
+            &lt;td&gt;
+                &amp;nbsp;
+            &lt;/td&gt;
+            &lt;td&gt;
+                &amp;nbsp;
+            &lt;/td&gt;
+            &lt;td&gt;
+                Package
+            &lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+            &lt;td&gt;
+                Method Package/Content Package&amp;nbsp;
+            &lt;/td&gt;
+            &lt;td&gt;
+                &amp;nbsp;
+            &lt;/td&gt;
+            &lt;td&gt;
+                &amp;nbsp;
+            &lt;/td&gt;
+            &lt;td&gt;
+                &amp;nbsp;
+            &lt;/td&gt;
+            &lt;td&gt;
+                Package
+            &lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+            &lt;td&gt;
+                Method Package/Process Package
+            &lt;/td&gt;
+            &lt;td&gt;
+                &amp;nbsp;
+            &lt;/td&gt;
+            &lt;td&gt;
+                &amp;nbsp;
+            &lt;/td&gt;
+            &lt;td&gt;
+                &amp;nbsp;
+            &lt;/td&gt;
+            &lt;td&gt;
+                Package
+            &lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+            &lt;td&gt;
+                Process Package/Process Component
+            &lt;/td&gt;
+            &lt;td&gt;
+                &amp;nbsp;
+            &lt;/td&gt;
+            &lt;td&gt;
+                &amp;nbsp;
+            &lt;/td&gt;
+            &lt;td&gt;
+                &amp;nbsp;
+            &lt;/td&gt;
+            &lt;td&gt;
+                Process Component
+            &lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+            &lt;td&gt;
+                &amp;nbsp;
+            &lt;/td&gt;
+            &lt;td&gt;
+                &amp;nbsp;
+            &lt;/td&gt;
+            &lt;td&gt;
+                &amp;nbsp;
+            &lt;/td&gt;
+            &lt;td&gt;
+                &amp;nbsp;
+            &lt;/td&gt;
+            &lt;td&gt;
+                &amp;nbsp;
+            &lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+            &lt;td colspan=&quot;2&quot; height=&quot;17&quot;&gt;
+                Guidance Types
+            &lt;/td&gt;
+            &lt;td&gt;
+                &amp;nbsp;
+            &lt;/td&gt;
+            &lt;td&gt;
+                &amp;nbsp;
+            &lt;/td&gt;
+            &lt;td&gt;
+                &amp;nbsp;
+            &lt;/td&gt;
+            &lt;td&gt;
+                &amp;nbsp;
+            &lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+            &lt;td height=&quot;204&quot; rowspan=&quot;12&quot;&gt;
+                &amp;nbsp;
+            &lt;/td&gt;
+            &lt;td&gt;
+                Guideline
+            &lt;/td&gt;
+            &lt;td&gt;
+                Guideline
+            &lt;/td&gt;
+            &lt;td&gt;
+                Reference Paper
+            &lt;/td&gt;
+            &lt;td&gt;
+                Technique Paper
+            &lt;/td&gt;
+            &lt;td&gt;
+                Guideline
+            &lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+            &lt;td&gt;
+                Concept
+            &lt;/td&gt;
+            &lt;td&gt;
+                Concept
+            &lt;/td&gt;
+            &lt;td&gt;
+                Reference Paper
+            &lt;/td&gt;
+            &lt;td&gt;
+                &amp;nbsp;
+            &lt;/td&gt;
+            &lt;td&gt;
+                &amp;nbsp;
+            &lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+            &lt;td&gt;
+                Whitepaper
+            &lt;/td&gt;
+            &lt;td&gt;
+                Whitepaper
+            &lt;/td&gt;
+            &lt;td&gt;
+                Reference Paper
+            &lt;/td&gt;
+            &lt;td&gt;
+                &amp;nbsp;
+            &lt;/td&gt;
+            &lt;td&gt;
+                &amp;nbsp;
+            &lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+            &lt;td&gt;
+                Checklist
+            &lt;/td&gt;
+            &lt;td&gt;
+                Checklist
+            &lt;/td&gt;
+            &lt;td&gt;
+                &amp;nbsp;
+            &lt;/td&gt;
+            &lt;td&gt;
+                Technique Paper (V&amp;amp;V)
+            &lt;/td&gt;
+            &lt;td&gt;
+                Checklist
+            &lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+            &lt;td&gt;
+                Tool Mentor
+            &lt;/td&gt;
+            &lt;td&gt;
+                Tool Mentor
+            &lt;/td&gt;
+            &lt;td&gt;
+                &amp;nbsp;
+            &lt;/td&gt;
+            &lt;td&gt;
+                Tool Guide
+            &lt;/td&gt;
+            &lt;td&gt;
+                Tool Mentor
+            &lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+            &lt;td&gt;
+                Template
+            &lt;/td&gt;
+            &lt;td&gt;
+                Templates
+            &lt;/td&gt;
+            &lt;td&gt;
+                Template
+            &lt;/td&gt;
+            &lt;td&gt;
+                Template
+            &lt;/td&gt;
+            &lt;td&gt;
+                Template
+            &lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+            &lt;td&gt;
+                Report
+            &lt;/td&gt;
+            &lt;td&gt;
+                Report
+            &lt;/td&gt;
+            &lt;td&gt;
+                &amp;nbsp;
+            &lt;/td&gt;
+            &lt;td&gt;
+                &amp;nbsp;
+            &lt;/td&gt;
+            &lt;td&gt;
+                &amp;nbsp;
+            &lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+            &lt;td&gt;
+                Estimate
+            &lt;/td&gt;
+            &lt;td&gt;
+                &amp;nbsp;
+            &lt;/td&gt;
+            &lt;td&gt;
+                Estimate
+            &lt;/td&gt;
+            &lt;td&gt;
+                Estimating Considerations
+            &lt;/td&gt;
+            &lt;td&gt;
+                Estimate
+            &lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+            &lt;td&gt;
+                Example
+            &lt;/td&gt;
+            &lt;td&gt;
+                Example
+            &lt;/td&gt;
+            &lt;td&gt;
+                &amp;nbsp;
+            &lt;/td&gt;
+            &lt;td&gt;
+                Reference Item/Example
+            &lt;/td&gt;
+            &lt;td&gt;
+                &amp;nbsp;
+            &lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+            &lt;td&gt;
+                Roadmap&amp;nbsp;
+            &lt;/td&gt;
+            &lt;td&gt;
+                Roadmap
+            &lt;/td&gt;
+            &lt;td&gt;
+                Route Map Description
+            &lt;/td&gt;
+            &lt;td&gt;
+                &amp;nbsp;
+            &lt;/td&gt;
+            &lt;td&gt;
+                &amp;nbsp;
+            &lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+            &lt;td&gt;
+                Term Definition
+            &lt;/td&gt;
+            &lt;td&gt;
+                (Glossary)
+            &lt;/td&gt;
+            &lt;td&gt;
+                (Glossary)
+            &lt;/td&gt;
+            &lt;td&gt;
+                &amp;nbsp;
+            &lt;/td&gt;
+            &lt;td&gt;
+                &amp;nbsp;
+            &lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+            &lt;td&gt;
+                Practice
+            &lt;/td&gt;
+            &lt;td&gt;
+                &amp;nbsp;
+            &lt;/td&gt;
+            &lt;td&gt;
+                &amp;nbsp;
+            &lt;/td&gt;
+            &lt;td&gt;
+                &amp;nbsp;
+            &lt;/td&gt;
+            &lt;td&gt;
+                &amp;nbsp;
+            &lt;/td&gt;
+        &lt;/tr&gt;
+    &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;br /&gt;
+&lt;br /&gt;</mainDescription>
+</com.ibm.uma:ContentDescription>

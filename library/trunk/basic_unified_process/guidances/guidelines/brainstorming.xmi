@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<com.ibm.uma:ContentDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:com.ibm.uma="http://www.ibm.com/uma/1.0.2/uma.ecore" xmi:id="-7WBRGoXDTpGeAu6nZHGWfw" name="brainstorming,_FnQEICOsEdqwXqDBrxi05A" guid="-7WBRGoXDTpGeAu6nZHGWfw" changeDate="2005-09-12T09:41:44.245-0700">
+  <mainDescription>&lt;p&gt;
+    Brainstorming means to spend a short amount of time, say 15 minutes, where everyone in the room is allowed to say
+    whatever they feel is important to the project. After that, a facilitator leads the group in organizing and
+    prioritizing the results. Rules for brainstorming are the following:
+&lt;/p&gt;
+&lt;ul&gt;
+    &lt;li&gt;
+        Start out by clearly stating the objective of the brainstorming session.
+    &lt;/li&gt;
+    &lt;li&gt;
+        Generate as many ideas as possible.
+    &lt;/li&gt;
+    &lt;li&gt;
+        Let your imagination soar.
+    &lt;/li&gt;
+    &lt;li&gt;
+        Do not allow criticism or debate while you are gathering information.
+    &lt;/li&gt;
+    &lt;li&gt;
+        Once information is gathered, mutate and combine ideas.
+    &lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+    The information gathering is typically very informal. Ideas are expressed to the facilitator, who writes them down on
+    self-stick notes, and then posts the notes on easel charts. The information is then &quot;pruned,&quot; meaning that similar
+    ideas are combined and outrageous ideas are eliminated.
+&lt;/p&gt;
+&lt;p&gt;
+    Other techniques to reduce the amount of self-stick notes are to:
+&lt;/p&gt;
+&lt;ul&gt;
+    &lt;li&gt;
+        Have everyone take a simple vote.
+    &lt;/li&gt;
+    &lt;li&gt;
+        Let everyone prioritize each idea by category (for example, critical, important, and nice to have), which have
+        assigned weights (for example, 3, 2, 1). The sum of the priorities for each idea will tell you its importance in
+        relation to the other.
+    &lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+    Some ideas may simply be stored away for a later session if they need more development. The remaining self-stick notes
+    are then moved around and organized in a way that makes sense.
+&lt;/p&gt;</mainDescription>
+</com.ibm.uma:ContentDescription>

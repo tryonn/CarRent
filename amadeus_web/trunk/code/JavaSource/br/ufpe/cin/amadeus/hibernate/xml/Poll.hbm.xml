@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE hibernate-mapping	PUBLIC 
+	"-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+    "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+
+<hibernate-mapping>
+ <class name="br.ufpe.cin.amadeus.system.academic.module.poll.Poll" table="poll">
+ 	<id name="id">
+ 		<column name="sqPoll" not-null="true" unique="true"/>
+ 		<generator class="increment"/>
+ 	</id>
+ 	<property name="name">
+ 		<column name="nm_poll" length="100" not-null="true" />
+ 	</property>
+ 	
+ 	<property name="question">
+ 		<column name="ds_question" length="150" not-null="true" />
+ 	</property>
+ 	
+ 	<property name="creationDate">
+ 		<column name="dt_creationDate" not-null="true" />
+ 	</property>
+
+ 	<property name="finishDate">
+ 		<column name="dt_finishDate" not-null="true" />
+ 	</property>
+ 	
+ 	<property name="votes">
+ 		<column name="qt_votes" not-null="true" />
+ 	</property>
+ 	
+ 	<list name="choices" lazy="true" cascade="all-delete-orphan">
+		<key column="sqpoll"/>
+		<index column="ds_position"/>
+		<one-to-many class="br.ufpe.cin.amadeus.system.academic.module.poll.choice.Choice"/>
+	</list>
+	
+	<list name="answers" lazy="true" cascade="none">
+		<key column="sqpoll"/>
+		<index column="ds_position"/>
+		<one-to-many class="br.ufpe.cin.amadeus.system.academic.module.poll.answer.Answer"/>
+	</list>
+		
+ </class>
+</hibernate-mapping>

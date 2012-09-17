@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<com.ibm.uma:ContentDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:com.ibm.uma="http://www.ibm.com/uma/1.0.2/uma.ecore" xmi:id="_IBPFMBUEEdqrUt4zetC1gg" name="guideline,_IAwkEBUEEdqrUt4zetC1gg" guid="_IBPFMBUEEdqrUt4zetC1gg" changeDate="2005-10-30T17:23:28.397-0800">
+  <mainDescription>&lt;p&gt;
+    A Guideline usually focuses on how to perform a particular Task or grouping of Tasks (for example, grouped together as
+    activities) or provides additional detail, rules, and recommendations on Work Products and their properties. Guidelines
+    can include details about a variety of topics including:
+&lt;/p&gt;
+&lt;ul&gt;
+    &lt;li&gt;
+        Practices and different approaches for doing work,
+    &lt;/li&gt;
+    &lt;li&gt;
+        How to handle particular kinds of Content Elements,
+    &lt;/li&gt;
+    &lt;li&gt;
+        Information on different subtypes and variants of Content Elements and how they evolve throughout a lifecycle,
+    &lt;/li&gt;
+    &lt;li&gt;
+        Discussions on skills the performing Roles should acquire,
+    &lt;/li&gt;
+    &lt;li&gt;
+        Measurements of progress and maturity, etc.
+    &lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+    Work products typically have associated guidelines which present information on how to develop, evaluate and use the
+    Work Products . Guidelines contain much of the substance of a method and provide assistance in a number of contexts:
+    they help you decide what to do, they help doing it, they help assess the quality of the work, and they help understand
+    how a particular Work Product relates to the rest of the process.
+&lt;/p&gt;</mainDescription>
+</com.ibm.uma:ContentDescription>

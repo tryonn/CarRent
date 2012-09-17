@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<com.ibm.uma:ContentDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:com.ibm.uma="http://www.ibm.com/uma/1.0.2/uma.ecore" xmi:id="-dsgUC_uXte9wj6nt8DLHtw" name="release,_L5BIkC7uEdqHMdmRzC0-2g" guid="-dsgUC_uXte9wj6nt8DLHtw" changeDate="2005-09-26T17:32:36.683-0700">
+  <mainDescription>&lt;p&gt;
+    A release can be internal or external. An internal release is used only by the development organization, as part of a
+    milestone, or for a demonstration to users or customers. An external release (or delivery) is delivered to users. A
+    release is not necessarily a complete product, but can just be one step along the way, with its usefulness measured
+    only from an engineering perspective. Releases act as a forcing function that drives the development team to get
+    closure at regular intervals, avoiding the &quot;90% done, 90% remaining&quot; syndrome.
+&lt;/p&gt;
+&lt;p&gt;
+    &lt;a class=&quot;elementLinkWithType&quot;
+    href=&quot;./../../../base_concepts/guidances/concepts/iteration,3.379871268737602E-305.html&quot;
+    guid=&quot;3.379871268737602E-305&quot;&gt;Concept: Iteration&lt;/a&gt;s and releases allow a better
+    usage over time of the various specialties in the team: designers, testers, writers, and so forth. Regular releases let
+    you break down the integration and test issues and spread them across the development cycle. These issues have often
+    been the downfall of large projects because all problems were discovered at once during the single massive integration
+    step, which occurred very late in the cycle, and where a single problem halts the whole team.
+&lt;/p&gt;
+&lt;p&gt;
+    With each Release,&amp;nbsp;many &lt;a class=&quot;elementLinkWithType&quot;
+    href=&quot;./../../../base_concepts/guidances/concepts/work_product,4.804531471620803E-306.html&quot;
+    guid=&quot;4.804531471620803E-306&quot;&gt;Concept: Work Product&lt;/a&gt;s&amp;nbsp;are updated. It is
+    said that this is a bit like &quot;growing&quot; software. Instead of developing Work Products one after another, in a pipeline
+    fashion, they are evolving across the cycle, although at different rates.
+&lt;/p&gt;
+&lt;!--EndFragment--&gt;&lt;!--EndFragment--&gt;&lt;!--EndFragment--&gt;&lt;!--EndFragment--&gt;</mainDescription>
+</com.ibm.uma:ContentDescription>

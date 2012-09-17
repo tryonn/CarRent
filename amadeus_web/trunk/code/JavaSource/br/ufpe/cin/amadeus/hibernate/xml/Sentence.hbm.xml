@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE hibernate-mapping	PUBLIC 
+	"-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+    "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+
+<hibernate-mapping>
+       
+       <class name="br.ufpe.cin.amadeus.system.academic.module.evaluation.question.sentence.Sentence" table="sentence">
+
+              <id name="id">
+                  <column name="sqsentence" not-null="true" unique="true"/>
+                  <generator class="increment"/>
+              </id>
+
+              <property name="description">
+                  <column name="ds_description" not-null="true"/>
+              </property>
+
+              <property name="value">
+                  <column name="in_value" not-null="true"/>
+              </property>
+
+              <property name="order">
+                  <column name="ds_order" not-null="true"/>
+              </property>
+              
+           
+		</class>
+</hibernate-mapping>

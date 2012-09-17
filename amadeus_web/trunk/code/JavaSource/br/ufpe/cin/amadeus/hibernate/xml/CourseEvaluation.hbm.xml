@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE hibernate-mapping	PUBLIC 
+	"-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+    "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+
+<hibernate-mapping>
+ <class name="br.ufpe.cin.amadeus.system.academic.module.courseEvaluation.CourseEvaluation" table="courseevaluation">
+
+ 	<id name="id">
+ 		<column name="sqCourseEvaluation" not-null="true" />
+ 		<generator class="increment"/>
+ 	</id>
+ 	
+ 	<property name="date">
+ 		<column name="creationDate" />
+ 	</property>
+ 	
+	<list name="criterions" lazy="true" cascade="all-delete-orphan">
+		<key column="sqcourseevaluation"/>
+		<index column="ds_position"/>
+		<one-to-many class="br.ufpe.cin.amadeus.system.academic.module.courseEvaluation.criterion.Criterion"/>
+	</list>
+	
+ 	<set name="students"
+ 		table="personevaluatecourse"
+ 		lazy="true"
+ 		cascade="none">
+ 		<key column="sqCourseEvaluation"/>
+ 		<many-to-many class="br.ufpe.cin.amadeus.system.human_resources.person.Person" column="sqperson"/>
+ 	</set>
+ 	
+ 	<set name="evalAnswers"
+ 		lazy="true"
+ 		cascade="all">
+ 		<key column="sqCourseEvaluation"/>
+ 		<one-to-many class="br.ufpe.cin.amadeus.system.academic.module.courseEvaluation.evaluationAnswer.EvaluationAnswer"/>
+ 	</set>
+	
+	<list name="commentaries" lazy="true" cascade="all-delete-orphan">
+		<key column="sqcourseevaluation"/>
+		<index column="ds_position"/>
+		<one-to-many class="br.ufpe.cin.amadeus.system.academic.module.courseEvaluation.commentary.Commentary"/>
+	</list>
+
+ </class>
+</hibernate-mapping>

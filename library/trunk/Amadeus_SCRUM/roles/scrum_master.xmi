@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<com.ibm.uma:RoleDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:com.ibm.uma="http://www.ibm.com/uma/1.0.2/uma.ecore" xmi:id="-T2EQf8oroRhQJjG8APumXQ" name="new_role,_vBR6QMlWEdqyX80RomEFnQ" guid="-T2EQf8oroRhQJjG8APumXQ" changeDate="2006-04-11T10:13:44.459-0300">
+  <mainDescription>&lt;p class=&quot;MsoNormal&quot;&gt;
+    &lt;span lang=&quot;PT-BR&quot;&gt;Definirá cronograma e metas para o desenvolvimento das atividades do projeto, tendo clareza nos
+    resultados obtidos para poder reportar as atividades.&lt;/span&gt;
+&lt;/p&gt;</mainDescription>
+</com.ibm.uma:RoleDescription>

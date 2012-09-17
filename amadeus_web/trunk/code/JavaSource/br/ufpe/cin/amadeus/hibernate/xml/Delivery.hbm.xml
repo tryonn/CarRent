@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE hibernate-mapping	PUBLIC 
+	"-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+    "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+
+<hibernate-mapping>
+ <class name="br.ufpe.cin.amadeus.system.academic.module.homework.delivery.Delivery" table="delivery">
+ 	<id name="id">
+ 		<column name="sqdelivery" not-null="true" />
+ 		<generator class="increment"/>
+ 	</id>
+ 	
+ 	<property name="date">
+ 		<column name="dt_date" not-null="true"/>
+ 	</property>
+ 	
+ 	<property name="file" type="binary">
+ 		<column name="bbfile"/>
+ 	</property>
+ 	
+	<many-to-one name="person"
+ 		class="br.ufpe.cin.amadeus.system.human_resources.person.Person"
+ 		column="sqPerson" cascade="all" unique="true" lazy="proxy" />
+ 		
+ 	<many-to-one name="homework"
+ 		class="br.ufpe.cin.amadeus.system.academic.module.homework.Homework"
+ 		column="sqhomework" cascade="all" unique="true" lazy="proxy" />
+ 		
+ </class>
+</hibernate-mapping>

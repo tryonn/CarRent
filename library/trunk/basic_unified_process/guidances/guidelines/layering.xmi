@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<com.ibm.uma:ContentDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:com.ibm.uma="http://www.ibm.com/uma/1.0.2/uma.ecore" xmi:id="_lbGQwMM3EdmSIPI87WLu3g" name="layering,_0gpkAMlgEdmt3adZL5Dmdw" guid="_lbGQwMM3EdmSIPI87WLu3g" changeDate="2005-07-07T14:20:16.841-0700">
+  <mainDescription>&lt;p&gt;
+    Layering provides a logical partitioning of subsystems into a number of sets, with certain rules as to how
+    relationships can be formed between layers. The layering provides a way to restrict inter-subsystem dependencies, with
+    the result that the system is more loosely coupled and therefore more easily maintained.
+&lt;/p&gt;
+&lt;p&gt;
+    The criteria for grouping subsystems follow a few patterns:
+&lt;/p&gt;
+&lt;ul&gt;
+    &lt;li&gt;
+        &lt;b&gt;Visibility&lt;/b&gt;. Subsystems may only depend on subsystems in the same layer and the next lower layer.
+    &lt;/li&gt;
+    &lt;li&gt;
+        &lt;b&gt;Volatility&lt;/b&gt;. 
+        &lt;ul&gt;
+            &lt;li&gt;
+                &lt;b&gt;In the highest layers&lt;/b&gt;, put elements which vary when user requirements change.
+            &lt;/li&gt;
+            &lt;li&gt;
+                &lt;b&gt;In the lowest layers&lt;/b&gt;, put elements that vary when the implementation platform (hardware, language,
+                operating system, database, etc.) changes.
+            &lt;/li&gt;
+            &lt;li&gt;
+                &lt;strong&gt;Sandwiched in the middle&lt;/strong&gt;, put elements which are generally applicable across wide ranges
+                of systems and implementation environments.
+            &lt;/li&gt;
+            &lt;li&gt;
+                Add layers when additional partitions within these broad categories helps to organize the model.
+            &lt;/li&gt;
+        &lt;/ul&gt;
+    &lt;/li&gt;
+    &lt;li&gt;
+        &lt;b&gt;Generality&lt;/b&gt;. Abstract model elements tend to be placed lower in the model. If not implementation-specific,
+        they tend to gravitate toward the middle layers.
+    &lt;/li&gt;
+    &lt;li&gt;
+        &lt;b&gt;Number of Layers.&lt;/b&gt; For a small system, three layers are sufficient. For a complex system, 5-7 layers are
+        usually sufficient. For any degree of complexity, more than 10 layers should be viewed with suspicion that
+        increases with the number of layers. Some rules of thumb are presented below:
+    &lt;/li&gt;
+&lt;/ul&gt;
+&lt;div align=&quot;center&quot;&gt;
+    &lt;table
+    style=&quot;BORDER-RIGHT: rgb(128,128,128) 1px solid; BORDER-TOP: rgb(128,128,128) 1px solid; BORDER-LEFT: rgb(128,128,128) 1px solid; BORDER-BOTTOM: rgb(128,128,128) 1px solid&quot;
+     cellspacing=&quot;0&quot; bordercolordark=&quot;#808080&quot; cellpadding=&quot;4&quot; width=&quot;85%&quot; bordercolorlight=&quot;#808080&quot; border=&quot;1&quot;&gt;
+        &lt;tbody&gt;
+            &lt;tr&gt;
+                &lt;th width=&quot;40%&quot;&gt;
+                    &lt;p align=&quot;center&quot; scope=&quot;col&quot;&gt;
+                        &lt;b&gt;# Classes&lt;/b&gt;
+                    &lt;/p&gt;
+                &lt;/th&gt;
+                &lt;th width=&quot;60%&quot;&gt;
+                    &lt;p align=&quot;center&quot; scope=&quot;col&quot;&gt;
+                        &lt;b&gt;# Layers&lt;/b&gt;
+                    &lt;/p&gt;
+                &lt;/th&gt;
+            &lt;/tr&gt;
+            &lt;tr&gt;
+                &lt;td width=&quot;40%&quot;&gt;
+                    &lt;p align=&quot;center&quot;&gt;
+                        0 - 10
+                    &lt;/p&gt;
+                &lt;/td&gt;
+                &lt;td width=&quot;60%&quot;&gt;
+                    No layering needed
+                &lt;/td&gt;
+            &lt;/tr&gt;
+            &lt;tr&gt;
+                &lt;td width=&quot;40%&quot;&gt;
+                    &lt;p align=&quot;center&quot;&gt;
+                        10 - 50
+                    &lt;/p&gt;
+                &lt;/td&gt;
+                &lt;td width=&quot;60%&quot;&gt;
+                    2 layers
+                &lt;/td&gt;
+            &lt;/tr&gt;
+            &lt;tr&gt;
+                &lt;td width=&quot;40%&quot;&gt;
+                    &lt;p align=&quot;center&quot;&gt;
+                        25 - 150
+                    &lt;/p&gt;
+                &lt;/td&gt;
+                &lt;td width=&quot;60%&quot;&gt;
+                    3 layers
+                &lt;/td&gt;
+            &lt;/tr&gt;
+            &lt;tr&gt;
+                &lt;td width=&quot;40%&quot;&gt;
+                    &lt;p align=&quot;center&quot;&gt;
+                        100 - 1000
+                    &lt;/p&gt;
+                &lt;/td&gt;
+                &lt;td width=&quot;60%&quot;&gt;
+                    4 layers
+                &lt;/td&gt;
+            &lt;/tr&gt;
+        &lt;/tbody&gt;
+    &lt;/table&gt;
+    &lt;br /&gt;
+&lt;/div&gt;
+&lt;p&gt;
+    Subsystems and packages within a particular layer should only depend upon subsystems within the same layer, and at the
+    next lower layer. Failure to restrict dependencies in this way causes architectural degradation and makes the system
+    brittle and difficult to maintain.
+&lt;/p&gt;
+&lt;p&gt;
+    Exceptions include cases where subsystems need direct access to lower layer services: a conscious decision should be
+    made on how to handle primitive services needed throughout the system, such as printing, sending messages, etc. There
+    is little value in restricting messages to lower layers if the solution is to effectively implement call pass-throughs
+    in the intermediate layers.
+&lt;/p&gt;
+&lt;h4&gt;
+    &lt;a id=&quot;PartitioningPatterns&quot; name=&quot;PartitioningPatterns&quot;&gt;Partitioning Patterns&lt;/a&gt;
+&lt;/h4&gt;
+&lt;p&gt;
+    Within the top-layers of the system, additional partitioning may help organize the model. The following guidelines for
+    partitioning present different issues to consider:
+&lt;/p&gt;
+&lt;ul&gt;
+    &lt;li&gt;
+        &lt;b&gt;User organization&lt;/b&gt;. Subsystems may be organized along lines that mirror the organization of functionality in
+        the business organization (e.g. partitioning occurs along departmental lines). This partitioning often occurs early
+        in the design because an existing enterprise model has a strongly organizationally partitioned structure. This
+        organization pattern usually affects only the top few layers of application-specific services, and often disappears
+        as the design evolves. 
+        &lt;ul&gt;
+            &lt;li&gt;
+                Partitioning along user organization lines can be a good starting point for the model.
+            &lt;/li&gt;
+            &lt;li&gt;
+                The structure of the user organization is not stable over a long period of time (due to business
+                reorganization), and is not a good long-term basis for system partitioning. The internal organization of
+                the system should enable the system to evolve and be maintained independently of the organization of the
+                business it supports.
+            &lt;/li&gt;
+        &lt;/ul&gt;
+    &lt;/li&gt;
+    &lt;li&gt;
+        &lt;b&gt;Areas of competence and/or skills&lt;/b&gt;. Subsystems may be organized to partition responsibilities for parts of
+        the model among different groups within the development organization. Typically, this occurs in the middle and
+        lower layers of the system, and reflects the need for specialization in skills during the development and support
+        of complex infrastructural technology. Examples of such technologies include network and distribution management,
+        database management, communication management, and process control, among others. Partitioning along competence
+        lines may also occur in upper layers, where special competency in the problem domain is required to understand and
+        support key business functionality; examples include telecommunication call management, securities trading,
+        insurance claims processing, and air traffic control, to name a few.
+    &lt;/li&gt;
+    &lt;li&gt;
+        &lt;b&gt;System distribution&lt;/b&gt;. Within any of the layers of the system, the layers may be further partitioned
+        &quot;horizontally&quot; to reflect the physical distribution of functionality.
+    &lt;/li&gt;
+    &lt;li style=&quot;list-style: none&quot;&gt;
+        &lt;ul&gt;
+            &lt;li&gt;
+                Partitioning to reflect distribution can help to visualize the network communication which will occur as
+                the system executes.
+            &lt;/li&gt;
+            &lt;li&gt;
+                Partitioning to reflect distribution can, however, make the system more difficult to change if the
+                Deployment Model changes significantly.
+            &lt;/li&gt;
+        &lt;/ul&gt;
+    &lt;/li&gt;
+    &lt;li&gt;
+        &lt;b&gt;Secrecy areas&lt;/b&gt;. Some applications, especially those requiring special security clearance to develop and/or
+        support, require additional partitioning along security access privilege lines. Software that control access to
+        secrecy areas must be developed and maintained by personnel with appropriate clearance. If the number of persons
+        with this background on the project is limited, the functionality requiring special clearance must be partitioning
+        into subsystems that will be developed independently of other subsystems, with the interfaces to the secrecy areas
+        the only visible aspect of these subsystems.
+    &lt;/li&gt;
+    &lt;li&gt;
+        &lt;b&gt;Variability areas&lt;/b&gt;. Functionality that is likely to be optional, and thereby delivered only in some variants
+        of the system, should be organized into independent subsystems which are developed and delivered independently of
+        the mandatory functionality of the system.
+    &lt;/li&gt;
+&lt;/ul&gt;</mainDescription>
+</com.ibm.uma:ContentDescription>

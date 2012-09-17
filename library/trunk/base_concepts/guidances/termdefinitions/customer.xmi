@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<com.ibm.uma:ContentDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:com.ibm.uma="http://www.ibm.com/uma/1.0.2/uma.ecore" xmi:id="_yE05tNnmEdmO6L4XMImrsA" name="customer,_yE05s9nmEdmO6L4XMImrsA" guid="_yE05tNnmEdmO6L4XMImrsA">
+  <mainDescription>A person or organization, internal or external to the producing organization, who takes financial responsibility for the
+system. In a large system this may or may not be the user. The customer is the ultimate recipient of the developed product.
+See also: &lt;i&gt;&lt;a class=&quot;elementLink&quot; href=&quot;rup/guidances/termdefinitions/stakeholder,_yWHeDNnmEdmO6L4XMImrsA.html&quot;
+guid=&quot;_yWHeDNnmEdmO6L4XMImrsA&quot;&gt;stakeholder&lt;/a&gt;.&lt;/i&gt;</mainDescription>
+</com.ibm.uma:ContentDescription>

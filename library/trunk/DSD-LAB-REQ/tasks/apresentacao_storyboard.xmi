@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<com.ibm.uma:TaskDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:com.ibm.uma="http://www.ibm.com/uma/1.0.2/uma.ecore" xmi:id="-j2zsQzpGklnyMUjX2raD_Q" name=",_dwi_oNVGEdqeD-T9MUVwYA" guid="-j2zsQzpGklnyMUjX2raD_Q" changeDate="2006-05-09T21:18:37.796-0300">
+  <mainDescription>fsd</mainDescription>
+  <sections xmi:id="_jcbkYNVGEdqeD-T9MUVwYA" name="Disponibilização do Storyboard" guid="_jcbkYNVGEdqeD-T9MUVwYA"/>
+  <sections xmi:id="_3UaE0NtvEdqo1eLt5uqdUA" name="Gravacao da apresentacao (opcional)" guid="_3UaE0NtvEdqo1eLt5uqdUA"/>
+  <sections xmi:id="_lYHN8NVGEdqeD-T9MUVwYA" name="Realização da apresentação" guid="_lYHN8NVGEdqeD-T9MUVwYA"/>
+  <sections xmi:id="_r-aMgNVGEdqeD-T9MUVwYA" name="Mitigação de dúvidas" guid="_r-aMgNVGEdqeD-T9MUVwYA"/>
+</com.ibm.uma:TaskDescription>

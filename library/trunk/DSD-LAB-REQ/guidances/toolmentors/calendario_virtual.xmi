@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<com.ibm.uma:ContentDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:com.ibm.uma="http://www.ibm.com/uma/1.0.2/uma.ecore" xmi:id="-EHh1URTvDcKPSRMumqeMew" name="calendario_virtual,_0VACYNz5Edqj2N79AnMvRA" guid="-EHh1URTvDcKPSRMumqeMew" changeDate="2006-05-06T09:16:36.234-0300">
+  <mainDescription>&lt;p&gt;
+    O&amp;nbsp;workspace virtual eh um ambiente que possibilita que grupos de trabalho, realizem suas atividades
+    colaborativamente. Dando o suporte para ferramentas de agenda, para marcar reuniões, chat assíncrono, editor de notas,
+    fórum de discussão e a mais utilizada compartilhamento de arquivos.
+&lt;/p&gt;
+&lt;p&gt;
+    Para o projeto, teve-se a promessa de ser uma ferramenta poderosa,&lt;br /&gt;
+    que conseguiria integrar as duas unidades de desenvolvimento, com&lt;br /&gt;
+    esses recursos. Porém durante a execução das atividades foram&lt;br /&gt;
+    encontrados:
+&lt;/p&gt;
+&lt;p&gt;
+    Vatagens:&lt;br /&gt;
+    \begin{description}&lt;br /&gt;
+    &amp;nbsp;&amp;nbsp;&amp;nbsp; \item[\textbf{Backup Distribuido}] o backup não ficava centralizado em&lt;br /&gt;
+    &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; uma máquina, cada cliente era também servidor de arquivos para&lt;br /&gt;
+    &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; os demais.&lt;br /&gt;
+    &amp;nbsp;&amp;nbsp;&amp;nbsp; \item[\textbf{Espaço Físico}] como o \emph{Groove} é um cliente \useacronym{P2P}&lt;br /&gt;
+    &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; e os arquivos ficam armazenados na máquina, o espaço físico do&lt;br /&gt;
+    &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; ambiente, dependerá do espaço livre em disco. Porém um ambiente&lt;br /&gt;
+    &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; grande inibe os usuários a trabalharem em máquinas distintas.&lt;br /&gt;
+    &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; Dá para enviar uma quantidade enorme de documentos para novos membros.&lt;br /&gt;
+    &amp;nbsp;&amp;nbsp;&amp;nbsp; \item[\textbf{Edição de Texto Colaborativa}] O groove permite a edição de textos colaborativa.&lt;br /&gt;
+    &amp;nbsp;&amp;nbsp;&amp;nbsp; \item[\textbf{Trabalho Distribuído}] se o ambiente estiver instalado e configurado&lt;br /&gt;
+    &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; permite que os integrantes colaborem entre si dispoonibilizando os
+    arquivos&lt;br /&gt;
+    &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; para todos os integrantes do ambiente.&lt;br /&gt;
+    \end{description}
+&lt;/p&gt;
+&lt;p&gt;
+    Desvantagens:&lt;br /&gt;
+    \begin{description}&lt;br /&gt;
+    &amp;nbsp;&amp;nbsp;&amp;nbsp; \item[\textbf{Versionamento}] não há controle de versão automático,&lt;br /&gt;
+    &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; isso é feito através de arquivos renomeados.&lt;br /&gt;
+    &amp;nbsp;&amp;nbsp;&amp;nbsp; \item[\textbf{Segurança dos Artefatos}] se um usuário com poder de escrita&lt;br /&gt;
+    &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; apagar todos os arquivos, isso seria refletido na sincronização&lt;br /&gt;
+    &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; do ambiente pelo cliente \useacronym{P2P}.&lt;br /&gt;
+    &amp;nbsp;&amp;nbsp;&amp;nbsp; \item[\textbf{Acessibilidade}] o groove necessita de que um cliente&lt;br /&gt;
+    &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; esteja instalado na máquina. Um usuário cadastrado no ambiente e&lt;br /&gt;
+    &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; a sincronização efetuada. Para cada novo usuário registrado no&lt;br /&gt;
+    &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; ambiente, é necessário fazer download de todo o ambiente, inibindo o&lt;br /&gt;
+    &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; uso para usuários de trabalharem em qualquer lugar com facilidade.&lt;br /&gt;
+    &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; Os integrantes do projeto.&lt;br /&gt;
+    &amp;nbsp;&amp;nbsp;&amp;nbsp; \item[\textbf{Difusão do Uso no Projeto}] Devido aos problemas de acessibilidade&lt;br /&gt;
+    &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; o groove foi uma ferramenta pouco utilizada dentro do projeto.&lt;br /&gt;
+    &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; Geralmente as pessoas levavam os artefatos para casa e&lt;br /&gt;
+    &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; adcionavam arquivos e sincronizavam no ambiente que tinham instalado&lt;br /&gt;
+    &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; em casa.&lt;br /&gt;
+    \end{description}&lt;br /&gt;
+    &lt;br /&gt;
+&lt;/p&gt;</mainDescription>
+</com.ibm.uma:ContentDescription>

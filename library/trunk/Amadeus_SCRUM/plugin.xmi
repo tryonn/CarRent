@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:com.ibm.uma="http://www.ibm.com/uma/1.0.2/uma.ecore" xmlns:com.ibm.uma.resourcemanager="http:///com/ibm/uma/resourcemanager.ecore">
+  <com.ibm.uma.resourcemanager:ResourceManager xmi:id="_AO9fgcldEdqyX80RomEFnQ" guid="_AO9fgcldEdqyX80RomEFnQ">
+    <subManagers xmi:id="_j8O6ENUrEdqgBLnbh75axg" href="uma://_j6TAYNUrEdqgBLnbh75axg#_j8O6ENUrEdqgBLnbh75axg"/>
+    <resourceDescriptors xmi:id="_AO9fgsldEdqyX80RomEFnQ" id="-T2EQf8oroRhQJjG8APumXQ" uri="roles/scrum_master.xmi"/>
+    <resourceDescriptors xmi:id="_uRAvYclgEdqyX80RomEFnQ" id="-CkSIuPaREEK0AB5J9xKd8g" uri="tasks/planejar_sprint.xmi"/>
+    <resourceDescriptors xmi:id="_8Pwa0cljEdqyX80RomEFnQ" id="-Vjh_s2DJS0rfH23MUnmQEQ" uri="workproducts/product_backlog.xmi"/>
+    <resourceDescriptors xmi:id="_8P6L0MljEdqyX80RomEFnQ" id="-ogdWFs78mA4MG8sxznQsew" uri="workproducts/product_increment.xmi"/>
+    <resourceDescriptors xmi:id="_Yr0y0clkEdqyX80RomEFnQ" id="-jXb2_rZTmjVmqg61bFoR1A" uri="tools/wiki_scrum_reference.xmi"/>
+    <resourceDescriptors xmi:id="_wunQ4Ml5EdqyX80RomEFnQ" id="-KjgQqOLHr7SLcmvgldmyMw" uri="guidances/concepts/sprint.xmi"/>
+    <resourceDescriptors xmi:id="_704L8cl_EdqyX80RomEFnQ" id="-q7Xgk0UYqjticqe4MU20ww" uri="workproducts/sprint_backlog.xmi"/>
+    <resourceDescriptors xmi:id="_tpTzMcmBEdqyX80RomEFnQ" id="-d2dMucNkgqDu8wA3LqWSKg" uri="workproducts/ata_reuniao%202.xmi"/>
+    <resourceDescriptors xmi:id="_w8atQcmCEdqyX80RomEFnQ" id="-zB69soYYmTl7Y9a0t6Mg8w" uri="tasks/realizar_reuniao_semanal_presencial.xmi"/>
+    <resourceDescriptors xmi:id="_fy0c4MojEdqL3LkYAkf7Sw" id="-iEl22NLi4VftgkdlGvunzA" uri="workproducts/pauta_reuniao.xmi"/>
+    <resourceDescriptors xmi:id="_0zaLYNBxEdqvvtgcIVBM7A" id="-e8uaLI5GWKv2Oz59BHFrtQ" uri="tasks/executar_auditorias.xmi"/>
+    <resourceDescriptors xmi:id="_kjN2MNB4EdqvvtgcIVBM7A" id="-G4Mw_kAkca5x07YxSnYGLA" uri="workproducts/PGPS.xmi"/>
+    <resourceDescriptors xmi:id="__rba0NCSEdqDO55JG0DXRA" id="-CcwIUpZyECphmNiePX4t3A" uri="tasks/avaliar_projeto_processo.xmi"/>
+    <resourceDescriptors xmi:id="_sMYLsNCTEdqDO55JG0DXRA" id="-COy6I03GxBnEwlQJY5ulUg" uri="workproducts/PQS.xmi"/>
+    <resourceDescriptors xmi:id="_HPk2gNRpEdqci_Qx6Lkr8g" id="-z0R5zL21vXIh2_yjiDKHGg" uri="tasks/participar_planejamento.xmi"/>
+    <resourceDescriptors xmi:id="_voZpgNRrEdqci_Qx6Lkr8g" id="-TdDpdQ-iI1Vq2fQrAzEzSw" uri="workproducts/proposta_tecnica.xmi"/>
+    <resourceDescriptors xmi:id="_ee-4MNRwEdqci_Qx6Lkr8g" id="-EeR1xA1iww-EDckQcPrFdQ" uri="tasks/planejar_qualidade.xmi"/>
+    <resourceDescriptors xmi:id="_ZIUEgdUrEdqgBLnbh75axg" id="-dtK6EHMrjk8_6wek6_phWQ" uri="workproducts/checklist_avaliacao.xmi"/>
+    <resourceDescriptors xmi:id="_j6miYNUrEdqgBLnbh75axg" id="_j6TAYNUrEdqgBLnbh75axg" uri="capabilitypatterns/Qualitiy/model.xmi"/>
+    <resourceDescriptors xmi:id="_c5It8NUvEdqgBLnbh75axg" id="-G8228tuJGQBdDomr95T58A" uri="workproducts/time_sheet.xmi"/>
+    <resourceDescriptors xmi:id="_0VqX4NUxEdqgBLnbh75axg" id="-6TmZe3Ul_8ct21wi_78IZA" uri="tasks/coletar_metricas.xmi"/>
+    <resourceDescriptors xmi:id="_p7N_ANVBEdqgBLnbh75axg" id="-gRk2EYTDUXk_9pzz00H6Eg" uri="workproducts/nao_conformaidades.xmi"/>
+    <resourceDescriptors xmi:id="_-i5GQdVEEdqgBLnbh75axg" id="-p8U8uZKu58LvIEOQiA2SdA" uri="tasks/realizar_reuniao_qualidade.xmi"/>
+    <resourceDescriptors xmi:id="_8igtcdVFEdqgBLnbh75axg" id="-DcTrfShMo-gZvslPHKWUKQ" uri="workproducts/ata_reuniao_qualidade.xmi"/>
+    <resourceDescriptors xmi:id="_6vgXINXnEdqs1Id-lt6eoQ" id="-B3rqmKTQh0YOwE3tVTyyaw" uri="workproducts/licoes_aprendidas.xmi"/>
+  </com.ibm.uma.resourcemanager:ResourceManager>
+  <com.ibm.uma:MethodPlugin xmi:id="_FrY-4MlQEdqJONMi93DlDA" name="Amadeus_SCRUM" guid="_FrY-4MlQEdqJONMi93DlDA" briefDescription="A metodologia será baseada no SCRUM, a qual é ágil, visando um processo incremental e iterativo, mais orientada para o gerenciamento de projetos de software. O foco do SCRUM está em definir práticas e posturas a serem adotadas durante o desenvolvimento. No SCRUM todo o desenvolvimento é feito em iterações: apresentando um novo conjunto de funcionalidades ao final de cada iteração, denominada de SPRINT. No AMADEUS MM cada SPRINT terá a duração de 30 dias. " changeDate="2006-04-11T09:27:38.021-0300" version="00.01" userChangeable="true">
+    <methodPackages xsi:type="com.ibm.uma:ContentPackage" xmi:id="_FrY-4clQEdqJONMi93DlDA" name="Content" guid="_FrY-4clQEdqJONMi93DlDA">
+      <childPackages xsi:type="com.ibm.uma:ContentPackage" xmi:id="_FrY-4slQEdqJONMi93DlDA" name="Categories" guid="_FrY-4slQEdqJONMi93DlDA">
+        <childPackages xsi:type="com.ibm.uma:ContentPackage" xmi:id="_FrY-48lQEdqJONMi93DlDA" name="Domains" guid="_FrY-48lQEdqJONMi93DlDA"/>
+        <childPackages xsi:type="com.ibm.uma:ContentPackage" xmi:id="_FrY-5MlQEdqJONMi93DlDA" name="Disciplines" guid="_FrY-5MlQEdqJONMi93DlDA">
+          <contentElements xsi:type="com.ibm.uma:Discipline" xmi:id="_bQBWQMlWEdqyX80RomEFnQ" name="engenharia_requisitos" guid="_bQBWQMlWEdqyX80RomEFnQ" briefDescription="Estão descritos os principais elementos do processo SCRUM. Apesar de se tratar de uma metodologia ágil de desenvolvimento, dentro do desenvolvimento distribuído os requisitos devem estar estáveis para poderem entrar na fase de desenvolvimento. A engenharia de Requisitos desse processo estará detalhada posteriormente." presentationName="Engenharia de Requisitos"/>
+          <contentElements xsi:type="com.ibm.uma:Discipline" xmi:id="_I1z6YMl6EdqyX80RomEFnQ" name="gerencia_projeto" guid="_I1z6YMl6EdqyX80RomEFnQ" briefDescription="Disciplina " presentationName="Gerência de Projetos" tasks="_t8AIsMlgEdqyX80RomEFnQ"/>
+          <contentElements xsi:type="com.ibm.uma:Discipline" xmi:id="_Wvh2INBzEdqvvtgcIVBM7A" name="qualidade_software" guid="_Wvh2INBzEdqvvtgcIVBM7A" briefDescription="Trata da verificação, validação, revisão conjunta, acompanhamento das atividades e auditoria dos artefatos." presentationName="Garantia da Qualidade de Software" tasks="_YaIeINBwEdqvvtgcIVBM7A _Y_U58NRiEdqci_Qx6Lkr8g __MCroNRtEdqci_Qx6Lkr8g _kHtNcNUvEdqgBLnbh75axg _EpVyANVDEdqgBLnbh75axg _CAlJwNCSEdqDO55JG0DXRA">
+            <referenceWorkflows href="uma://_j6TAYNUrEdqgBLnbh75axg#_j6TAYdUrEdqgBLnbh75axg"/>
+          </contentElements>
+        </childPackages>
+        <childPackages xsi:type="com.ibm.uma:ContentPackage" xmi:id="_FrY-5clQEdqJONMi93DlDA" name="RoleSets" guid="_FrY-5clQEdqJONMi93DlDA">
+          <contentElements xsi:type="com.ibm.uma:RoleSet" xmi:id="_G3vxYMldEdqyX80RomEFnQ" name="voluntario_set" guid="_G3vxYMldEdqyX80RomEFnQ" briefDescription="Analisarão o estado da arte do projeto Amadeus MM e poderão agregar funcionalidades com a criação de requisitos que estarão sujeitos à aprovação, juntamente com o comitê do Amadeus MM." presentationName="Voluntário"/>
+          <contentElements xsi:type="com.ibm.uma:RoleSet" xmi:id="_NqYi0MldEdqyX80RomEFnQ" name="comite_set" guid="_NqYi0MldEdqyX80RomEFnQ" briefDescription="O grupo gestor do projeto Amadeus MM, responsável pela padronização e compatibilidade entre os diferentes projetos." presentationName="Comitê" roles="_pSiEMMlVEdqyX80RomEFnQ _vBR6QMlWEdqyX80RomEFnQ _WZJpwMldEdqyX80RomEFnQ"/>
+          <contentElements xsi:type="com.ibm.uma:RoleSet" xmi:id="_my8isMldEdqyX80RomEFnQ" name="bolsita_set" guid="_my8isMldEdqyX80RomEFnQ" briefDescription="Integrante que recebe Bolsa do CNPQ para desenvolver o projeto Amadeus." presentationName="Bolsista" roles="_vBR6QMlWEdqyX80RomEFnQ _WZJpwMldEdqyX80RomEFnQ"/>
+        </childPackages>
+        <childPackages xsi:type="com.ibm.uma:ContentPackage" xmi:id="_FrY-5slQEdqJONMi93DlDA" name="WP Types" guid="_FrY-5slQEdqJONMi93DlDA"/>
+        <childPackages xsi:type="com.ibm.uma:ContentPackage" xmi:id="_FrY-58lQEdqJONMi93DlDA" name="Tools" guid="_FrY-58lQEdqJONMi93DlDA">
+          <contentElements xsi:type="com.ibm.uma:Tool" xmi:id="_N-NZkMlkEdqyX80RomEFnQ" name="wiki_scrum_reference" guid="_N-NZkMlkEdqyX80RomEFnQ" briefDescription="Referenência para um wiki do Scrum" presentationName="Wiki Scrum Reference">
+            <presentation xmi:id="-jXb2_rZTmjVmqg61bFoR1A" href="uma://-jXb2_rZTmjVmqg61bFoR1A#-jXb2_rZTmjVmqg61bFoR1A"/>
+          </contentElements>
+        </childPackages>
+        <childPackages xsi:type="com.ibm.uma:ContentPackage" xmi:id="_FrY-6MlQEdqJONMi93DlDA" name="StandardCategories" guid="_FrY-6MlQEdqJONMi93DlDA"/>
+        <childPackages xsi:type="com.ibm.uma:ContentPackage" xmi:id="_FrY-6clQEdqJONMi93DlDA" name="CustomCategories" guid="_FrY-6clQEdqJONMi93DlDA">
+          <childPackages xsi:type="com.ibm.uma:ContentPackage" xmi:id="_FrY-6slQEdqJONMi93DlDA" name="Hidden" guid="_FrY-6slQEdqJONMi93DlDA">
+            <contentElements xsi:type="com.ibm.uma:CustomCategory" xmi:id="_FrY-68lQEdqJONMi93DlDA" name="Custom Categories" guid="_FrY-68lQEdqJONMi93DlDA" categorizedElements="_en4x4NX3Edqs1Id-lt6eoQ _zu7noNX4Edqs1Id-lt6eoQ"/>
+          </childPackages>
+          <contentElements xsi:type="com.ibm.uma:CustomCategory" xmi:id="_en4x4NX3Edqs1Id-lt6eoQ" name="general" guid="_en4x4NX3Edqs1Id-lt6eoQ" presentationName="Visão Geral">
+            <categorizedElements xsi:type="com.ibm.uma:CapabilityPattern" href="uma://_j6TAYNUrEdqgBLnbh75axg#_j6TAYdUrEdqgBLnbh75axg"/>
+            <categorizedElements xsi:type="com.ibm.uma:Tool" href="#_N-NZkMlkEdqyX80RomEFnQ"/>
+            <categorizedElements xsi:type="com.ibm.uma:RoleSet" href="#_NqYi0MldEdqyX80RomEFnQ"/>
+            <categorizedElements xsi:type="com.ibm.uma:Discipline" href="#_Wvh2INBzEdqvvtgcIVBM7A"/>
+          </contentElements>
+          <contentElements xsi:type="com.ibm.uma:CustomCategory" xmi:id="_zu7noNX4Edqs1Id-lt6eoQ" name="roles" guid="_zu7noNX4Edqs1Id-lt6eoQ" presentationName="Roles" categorizedElements="_my8isMldEdqyX80RomEFnQ _NqYi0MldEdqyX80RomEFnQ _G3vxYMldEdqyX80RomEFnQ"/>
+        </childPackages>
+      </childPackages>
+      <childPackages xsi:type="com.ibm.uma:ContentPackage" xmi:id="_FrY-7MlQEdqJONMi93DlDA" name="CoreContent" guid="_FrY-7MlQEdqJONMi93DlDA">
+        <childPackages xsi:type="com.ibm.uma:ContentPackage" xmi:id="_bbKrwMlVEdqyX80RomEFnQ" name="elementos_scrum" guid="_bbKrwMlVEdqyX80RomEFnQ" briefDescription="Estão descritos os principais elementos do processo SCRUM. Apesar de se tratar de uma metodologia ágil de desenvolvimento, dentro do desenvolvimento distribuído os requisitos deverão estar estáveis para poderem entrar na fase de desenvolvimento.">
+          <contentElements xsi:type="com.ibm.uma:Role" xmi:id="_pSiEMMlVEdqyX80RomEFnQ" name="product_owner" guid="_pSiEMMlVEdqyX80RomEFnQ" briefDescription="Stakeholder responsável por prover os requisitos do sistema e validá-los para o desenvolvimento." presentationName="Product Owner"/>
+          <contentElements xsi:type="com.ibm.uma:Role" xmi:id="_vBR6QMlWEdqyX80RomEFnQ" name="scrum_master" guid="_vBR6QMlWEdqyX80RomEFnQ" briefDescription="O Scrum Master possui a figura representativa do Gerente de Projetos dentro do processo Scrum." presentationName="Scrum Master">
+            <presentation xsi:type="com.ibm.uma:RoleDescription" xmi:id="-T2EQf8oroRhQJjG8APumXQ" href="uma://-T2EQf8oroRhQJjG8APumXQ#-T2EQf8oroRhQJjG8APumXQ"/>
+          </contentElements>
+          <contentElements xsi:type="com.ibm.uma:Role" xmi:id="_4zk6wMlWEdqyX80RomEFnQ" name="scrum_team" guid="_4zk6wMlWEdqyX80RomEFnQ" briefDescription="Time responsável por trabalhar no Scrum Backlog." presentationName="Scrum Team"/>
+          <contentElements xsi:type="com.ibm.uma:Role" xmi:id="_WZJpwMldEdqyX80RomEFnQ" name="scrum_quality" guid="_WZJpwMldEdqyX80RomEFnQ" briefDescription="O Scrum Quality possui a figura representativa da Engenharia de Qualidade. responsável por avaliar o padrão de documentação e versionamento dos artefatos." presentationName="Scrum Quality"/>
+          <contentElements xsi:type="com.ibm.uma:Task" xmi:id="_t8AIsMlgEdqyX80RomEFnQ" name="planejar_sprint" guid="_t8AIsMlgEdqyX80RomEFnQ" briefDescription="Representa cada iteraçao do Scrum. " presentationName="Planejar Sprint" variabilityType="replaces" conceptsAndPapers="_wsrXMMl5EdqyX80RomEFnQ" performedBy="_vBR6QMlWEdqyX80RomEFnQ" mandatoryInput="_8PTu4MljEdqyX80RomEFnQ" output="_7dV1sMl_EdqyX80RomEFnQ" additionallyPerformedBy="_pSiEMMlVEdqyX80RomEFnQ _4zk6wMlWEdqyX80RomEFnQ _WZJpwMldEdqyX80RomEFnQ">
+            <presentation xsi:type="com.ibm.uma:TaskDescription" xmi:id="-CkSIuPaREEK0AB5J9xKd8g" href="uma://-CkSIuPaREEK0AB5J9xKd8g#-CkSIuPaREEK0AB5J9xKd8g"/>
+          </contentElements>
+          <contentElements xsi:type="com.ibm.uma:Artifact" xmi:id="_8PTu4MljEdqyX80RomEFnQ" name="product_backlog" guid="_8PTu4MljEdqyX80RomEFnQ" presentationName="Product Backlog" variabilityType="replaces">
+            <presentation xsi:type="com.ibm.uma:ArtifactDescription" xmi:id="-Vjh_s2DJS0rfH23MUnmQEQ" href="uma://-Vjh_s2DJS0rfH23MUnmQEQ#-Vjh_s2DJS0rfH23MUnmQEQ"/>
+          </contentElements>
+          <contentElements xsi:type="com.ibm.uma:Artifact" xmi:id="_8PTu4cljEdqyX80RomEFnQ" name="product_increment" guid="_8PTu4cljEdqyX80RomEFnQ" briefDescription="Ao final de cada Sprint a equipe demonstra o que foi desenvolvido. " presentationName="Product Increment" variabilityType="extends">
+            <presentation xsi:type="com.ibm.uma:ArtifactDescription" xmi:id="-ogdWFs78mA4MG8sxznQsew" href="uma://-ogdWFs78mA4MG8sxznQsew#-ogdWFs78mA4MG8sxznQsew"/>
+          </contentElements>
+          <contentElements xsi:type="com.ibm.uma:Concept" xmi:id="_wsrXMMl5EdqyX80RomEFnQ" name="sprint" guid="_wsrXMMl5EdqyX80RomEFnQ" briefDescription="Iteração do SCRUM geralmente com duração de 30 dias." presentationName="Sprint">
+            <presentation xmi:id="-KjgQqOLHr7SLcmvgldmyMw" href="uma://-KjgQqOLHr7SLcmvgldmyMw#-KjgQqOLHr7SLcmvgldmyMw"/>
+          </contentElements>
+          <contentElements xsi:type="com.ibm.uma:Artifact" xmi:id="_7dV1sMl_EdqyX80RomEFnQ" name="sprint_backlog" guid="_7dV1sMl_EdqyX80RomEFnQ" briefDescription="O Sprint Backlog contém uma lista de tarefas acordadas com o Scrum Team, estar deverão ser realizadas no Sprint atual." presentationName="Sprint Backlog">
+            <presentation xsi:type="com.ibm.uma:ArtifactDescription" xmi:id="-q7Xgk0UYqjticqe4MU20ww" href="uma://-q7Xgk0UYqjticqe4MU20ww#-q7Xgk0UYqjticqe4MU20ww"/>
+          </contentElements>
+          <contentElements xsi:type="com.ibm.uma:Guideline" xmi:id="_Lm3BgMmBEdqyX80RomEFnQ" name="reuniao_semanal" guid="_Lm3BgMmBEdqyX80RomEFnQ" briefDescription="Realização de reunião semanal presencial." presentationName="Reuniao Presencial Semanal"/>
+          <contentElements xsi:type="com.ibm.uma:Deliverable" xmi:id="_mlfyMMmBEdqyX80RomEFnQ" name="ata_reuniao" guid="_mlfyMMmBEdqyX80RomEFnQ" briefDescription="Documentação da Ata de reunião presencial, demonstrando a todos os envolvidos a visão do andamento do projeto." presentationName="Ata de Reunião Semanal">
+            <presentation xsi:type="com.ibm.uma:DeliverableDescription" xmi:id="-d2dMucNkgqDu8wA3LqWSKg" href="uma://-d2dMucNkgqDu8wA3LqWSKg#-d2dMucNkgqDu8wA3LqWSKg"/>
+          </contentElements>
+          <contentElements xsi:type="com.ibm.uma:Task" xmi:id="_w7-BUMmCEdqyX80RomEFnQ" name="realizar_reuniao_semanal_presencial" guid="_w7-BUMmCEdqyX80RomEFnQ" briefDescription="Realização de uma reunião presencial com todos os envolvidos no projeto, para ter uma visão geral das atividades e identificar possíveis falhas." presentationName="Realizar Reunião Semanal Presencial" guidelines="_Lm3BgMmBEdqyX80RomEFnQ" performedBy="_vBR6QMlWEdqyX80RomEFnQ" mandatoryInput="_k7NvgMoiEdqL3LkYAkf7Sw _7dV1sMl_EdqyX80RomEFnQ" output="_mlfyMMmBEdqyX80RomEFnQ" additionallyPerformedBy="_pSiEMMlVEdqyX80RomEFnQ _WZJpwMldEdqyX80RomEFnQ _4zk6wMlWEdqyX80RomEFnQ" optionalInput="_8PTu4MljEdqyX80RomEFnQ">
+            <presentation xsi:type="com.ibm.uma:TaskDescription" xmi:id="-zB69soYYmTl7Y9a0t6Mg8w" href="uma://-zB69soYYmTl7Y9a0t6Mg8w#-zB69soYYmTl7Y9a0t6Mg8w"/>
+          </contentElements>
+          <contentElements xsi:type="com.ibm.uma:Deliverable" xmi:id="_k7NvgMoiEdqL3LkYAkf7Sw" name="pauta_reuniao" guid="_k7NvgMoiEdqL3LkYAkf7Sw" briefDescription="Algum participante do comite_set enviará para a lista de discussão um e-mail contendo a pauta de reunião presencial." presentationName="Pauta de Reunião">
+            <presentation xsi:type="com.ibm.uma:DeliverableDescription" xmi:id="-iEl22NLi4VftgkdlGvunzA" href="uma://-iEl22NLi4VftgkdlGvunzA#-iEl22NLi4VftgkdlGvunzA"/>
+          </contentElements>
+          <contentElements xsi:type="com.ibm.uma:Task" xmi:id="_YaIeINBwEdqvvtgcIVBM7A" name="executar_auditorias" guid="_YaIeINBwEdqvvtgcIVBM7A" briefDescription="Ao término de cada SPRINT será realizada a auditoria nos artefatos produzidos." presentationName="Executar Auditorias" performedBy="_WZJpwMldEdqyX80RomEFnQ" mandatoryInput="_uLC-ANB2EdqvvtgcIVBM7A __jGlQNCSEdqDO55JG0DXRA" output="_uNC2ANVAEdqgBLnbh75axg" additionallyPerformedBy="_vBR6QMlWEdqyX80RomEFnQ _4zk6wMlWEdqyX80RomEFnQ">
+            <presentation xsi:type="com.ibm.uma:TaskDescription" xmi:id="-e8uaLI5GWKv2Oz59BHFrtQ" href="uma://-e8uaLI5GWKv2Oz59BHFrtQ#-e8uaLI5GWKv2Oz59BHFrtQ"/>
+          </contentElements>
+          <contentElements xsi:type="com.ibm.uma:Artifact" xmi:id="_uLC-ANB2EdqvvtgcIVBM7A" name="PGPS" guid="_uLC-ANB2EdqvvtgcIVBM7A" briefDescription="Descreve em linhas gerais o escopo e alguns planos de apoio para o gerenciamento do projeto." presentationName="Plano de Gerenciamento de Projeto de Software">
+            <presentation xsi:type="com.ibm.uma:ArtifactDescription" xmi:id="-G4Mw_kAkca5x07YxSnYGLA" href="uma://-G4Mw_kAkca5x07YxSnYGLA#-G4Mw_kAkca5x07YxSnYGLA"/>
+          </contentElements>
+          <contentElements xsi:type="com.ibm.uma:Task" xmi:id="_CAlJwNCSEdqDO55JG0DXRA" name="avaliar_projeto_processo" guid="_CAlJwNCSEdqDO55JG0DXRA" briefDescription="Avaliar o projeto de forma geral e o processo de desenvolvimento de software adotado." presentationName="Avaliar Projeto e Processo" performedBy="_WZJpwMldEdqyX80RomEFnQ" mandatoryInput="_Pg2bANUrEdqgBLnbh75axg _uLC-ANB2EdqvvtgcIVBM7A __jGlQNCSEdqDO55JG0DXRA _uNC2ANVAEdqgBLnbh75axg" output="_j37icNXnEdqs1Id-lt6eoQ" additionallyPerformedBy="_vBR6QMlWEdqyX80RomEFnQ _4zk6wMlWEdqyX80RomEFnQ">
+            <presentation xsi:type="com.ibm.uma:TaskDescription" xmi:id="-CcwIUpZyECphmNiePX4t3A" href="uma://-CcwIUpZyECphmNiePX4t3A#-CcwIUpZyECphmNiePX4t3A"/>
+          </contentElements>
+          <contentElements xsi:type="com.ibm.uma:Artifact" xmi:id="__jGlQNCSEdqDO55JG0DXRA" name="PQS" guid="__jGlQNCSEdqDO55JG0DXRA" briefDescription="Descreve as diretivas de qualidade que devem ser adotadas ao longo do projeto." presentationName="Plano de Qualidade de Software">
+            <presentation xsi:type="com.ibm.uma:ArtifactDescription" xmi:id="-COy6I03GxBnEwlQJY5ulUg" href="uma://-COy6I03GxBnEwlQJY5ulUg#-COy6I03GxBnEwlQJY5ulUg"/>
+          </contentElements>
+          <contentElements xsi:type="com.ibm.uma:Task" xmi:id="_Y_U58NRiEdqci_Qx6Lkr8g" name="participar_planejamento" guid="_Y_U58NRiEdqci_Qx6Lkr8g" briefDescription="Discussão da Proposta Técnica e definição de padrões." presentationName="Participar das Atividades de Planejament do Projeto" performedBy="_WZJpwMldEdqyX80RomEFnQ" mandatoryInput="_iU1XINRqEdqci_Qx6Lkr8g" output="_Pg2bANUrEdqgBLnbh75axg" additionallyPerformedBy="_vBR6QMlWEdqyX80RomEFnQ">
+            <presentation xsi:type="com.ibm.uma:TaskDescription" xmi:id="-z0R5zL21vXIh2_yjiDKHGg" href="uma://-z0R5zL21vXIh2_yjiDKHGg#-z0R5zL21vXIh2_yjiDKHGg"/>
+          </contentElements>
+          <contentElements xsi:type="com.ibm.uma:Artifact" xmi:id="_iU1XINRqEdqci_Qx6Lkr8g" name="proposta_tecnica" guid="_iU1XINRqEdqci_Qx6Lkr8g" briefDescription="Descreve o acordo entre os integrantes do projeto." presentationName="Proposta Técnica">
+            <presentation xsi:type="com.ibm.uma:ArtifactDescription" xmi:id="-TdDpdQ-iI1Vq2fQrAzEzSw" href="uma://-TdDpdQ-iI1Vq2fQrAzEzSw#-TdDpdQ-iI1Vq2fQrAzEzSw"/>
+          </contentElements>
+          <contentElements xsi:type="com.ibm.uma:Task" xmi:id="__MCroNRtEdqci_Qx6Lkr8g" name="planejar_qualidade" guid="__MCroNRtEdqci_Qx6Lkr8g" briefDescription="Planejar as atividades a serem desenvolvidas pelo Grupo de Garantia da Qualidade de Sofware ao longo de um SPRINT." presentationName="Planejar Atividades de Garantia da Qualidade" performedBy="_WZJpwMldEdqyX80RomEFnQ" mandatoryInput="_uLC-ANB2EdqvvtgcIVBM7A _7dV1sMl_EdqyX80RomEFnQ" output="__jGlQNCSEdqDO55JG0DXRA _7dV1sMl_EdqyX80RomEFnQ" additionallyPerformedBy="_vBR6QMlWEdqyX80RomEFnQ">
+            <presentation xsi:type="com.ibm.uma:TaskDescription" xmi:id="-EeR1xA1iww-EDckQcPrFdQ" href="uma://-EeR1xA1iww-EDckQcPrFdQ#-EeR1xA1iww-EDckQcPrFdQ"/>
+          </contentElements>
+          <contentElements xsi:type="com.ibm.uma:Artifact" xmi:id="_Pg2bANUrEdqgBLnbh75axg" name="checklist_avaliacao" guid="_Pg2bANUrEdqgBLnbh75axg" briefDescription="Contém uma lista com todos os padrões que devem ser seguidos no projeto em conjunto com o cliente." presentationName="Checklist de Avaliação">
+            <presentation xsi:type="com.ibm.uma:ArtifactDescription" xmi:id="-dtK6EHMrjk8_6wek6_phWQ" href="uma://-dtK6EHMrjk8_6wek6_phWQ#-dtK6EHMrjk8_6wek6_phWQ"/>
+          </contentElements>
+          <contentElements xsi:type="com.ibm.uma:Artifact" xmi:id="_z66c8NUuEdqgBLnbh75axg" name="time_sheet" guid="_z66c8NUuEdqgBLnbh75axg" briefDescription="Indicador contendo os dados de esforço de toda a equipe." presentationName="Time Sheet">
+            <presentation xsi:type="com.ibm.uma:ArtifactDescription" xmi:id="-G8228tuJGQBdDomr95T58A" href="uma://-G8228tuJGQBdDomr95T58A#-G8228tuJGQBdDomr95T58A"/>
+          </contentElements>
+          <contentElements xsi:type="com.ibm.uma:Task" xmi:id="_kHtNcNUvEdqgBLnbh75axg" name="coletar_metricas" guid="_kHtNcNUvEdqgBLnbh75axg" briefDescription="Coletar métricas para analisar o andamento do projeto." presentationName="Coletar Métricas" performedBy="_WZJpwMldEdqyX80RomEFnQ" mandatoryInput="_7dV1sMl_EdqyX80RomEFnQ _z66c8NUuEdqgBLnbh75axg" output="_7dV1sMl_EdqyX80RomEFnQ" additionallyPerformedBy="_vBR6QMlWEdqyX80RomEFnQ">
+            <presentation xsi:type="com.ibm.uma:TaskDescription" xmi:id="-6TmZe3Ul_8ct21wi_78IZA" href="uma://-6TmZe3Ul_8ct21wi_78IZA#-6TmZe3Ul_8ct21wi_78IZA"/>
+          </contentElements>
+          <contentElements xsi:type="com.ibm.uma:Artifact" xmi:id="_uNC2ANVAEdqgBLnbh75axg" name="nao_conformaidades" guid="_uNC2ANVAEdqgBLnbh75axg" briefDescription="Lista as não conformidades encontradas no projeto." presentationName="Relatório de Não Conformidades">
+            <presentation xsi:type="com.ibm.uma:ArtifactDescription" xmi:id="-gRk2EYTDUXk_9pzz00H6Eg" href="uma://-gRk2EYTDUXk_9pzz00H6Eg#-gRk2EYTDUXk_9pzz00H6Eg"/>
+          </contentElements>
+          <contentElements xsi:type="com.ibm.uma:Task" xmi:id="_EpVyANVDEdqgBLnbh75axg" name="realizar_reuniao_qualidade" guid="_EpVyANVDEdqgBLnbh75axg" briefDescription="Realização de uma reunião com foco em resolver as não conformidades encontradas nas auditorias." presentationName="Realizar Reunião de Qualidade" performedBy="_WZJpwMldEdqyX80RomEFnQ" mandatoryInput="_uNC2ANVAEdqgBLnbh75axg" output="_dAIEwNVFEdqgBLnbh75axg" additionallyPerformedBy="_vBR6QMlWEdqyX80RomEFnQ _4zk6wMlWEdqyX80RomEFnQ">
+            <presentation xsi:type="com.ibm.uma:TaskDescription" xmi:id="-p8U8uZKu58LvIEOQiA2SdA" href="uma://-p8U8uZKu58LvIEOQiA2SdA#-p8U8uZKu58LvIEOQiA2SdA"/>
+          </contentElements>
+          <contentElements xsi:type="com.ibm.uma:Artifact" xmi:id="_dAIEwNVFEdqgBLnbh75axg" name="ata_reuniao_qualidade" guid="_dAIEwNVFEdqgBLnbh75axg" briefDescription="Documentação da Reunião de Qualidade, descrevendo todas as decisões tomdas." presentationName="Ata de Reunião de Qualidade">
+            <presentation xsi:type="com.ibm.uma:ArtifactDescription" xmi:id="-DcTrfShMo-gZvslPHKWUKQ" href="uma://-DcTrfShMo-gZvslPHKWUKQ#-DcTrfShMo-gZvslPHKWUKQ"/>
+          </contentElements>
+          <contentElements xsi:type="com.ibm.uma:Artifact" xmi:id="_j37icNXnEdqs1Id-lt6eoQ" name="licoes_aprendidas" guid="_j37icNXnEdqs1Id-lt6eoQ" briefDescription="Contém as lições aprendidas ao lonog do projeto" presentationName="Lições Aprendidas">
+            <presentation xsi:type="com.ibm.uma:ArtifactDescription" xmi:id="-B3rqmKTQh0YOwE3tVTyyaw" href="uma://-B3rqmKTQh0YOwE3tVTyyaw#-B3rqmKTQh0YOwE3tVTyyaw"/>
+          </contentElements>
+        </childPackages>
+      </childPackages>
+      <childPackages xsi:type="com.ibm.uma:ProcessPackage" xmi:id="_FrY-7clQEdqJONMi93DlDA" name="CapabilityPatterns" guid="_FrY-7clQEdqJONMi93DlDA">
+        <childPackages xsi:type="com.ibm.uma:ProcessComponent" xmi:id="_j6TAYNUrEdqgBLnbh75axg" href="uma://_j6TAYNUrEdqgBLnbh75axg#_j6TAYNUrEdqgBLnbh75axg"/>
+      </childPackages>
+    </methodPackages>
+    <methodPackages xsi:type="com.ibm.uma:ProcessPackage" xmi:id="_FrY-7slQEdqJONMi93DlDA" name="DeliveryProcesses" guid="_FrY-7slQEdqJONMi93DlDA"/>
+    <methodPackages xsi:type="com.ibm.uma:ProcessPackage" xmi:id="_FrY-78lQEdqJONMi93DlDA" name="ProcessContributions" guid="_FrY-78lQEdqJONMi93DlDA"/>
+    <bases href="uma://_BWX9MMVwEdqoWucqOCtw5Q#_BWX9MMVwEdqoWucqOCtw5Q"/>
+    <bases href="uma://_yCkNUCoeEdqHVICqX5k_yQ#_yCkNUCoeEdqHVICqX5k_yQ"/>
+  </com.ibm.uma:MethodPlugin>
+</xmi:XMI>

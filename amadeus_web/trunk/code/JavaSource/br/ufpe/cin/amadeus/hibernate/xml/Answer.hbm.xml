@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE hibernate-mapping	PUBLIC 
+	"-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+    "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+
+<hibernate-mapping>
+	<class name="br.ufpe.cin.amadeus.system.academic.module.poll.answer.Answer" table="answer">
+		<id name="id">
+ 			<column name="sqanswer" not-null="true" />
+ 			<generator class="increment"/>
+ 		</id>
+		
+		<property name="answerDate">
+			<column name="dt_answer" not-null="true" />
+		</property>
+		
+		<many-to-one name="person"
+ 			class="br.ufpe.cin.amadeus.system.human_resources.person.Person"
+ 			column="sqPerson" cascade="none" unique="true" lazy="proxy" />
+ 		
+ 		<many-to-one name="poll"
+ 			class="br.ufpe.cin.amadeus.system.academic.module.poll.Poll"
+ 			column="sqpoll" cascade="none" unique="true" lazy="proxy" />
+ 		
+ 		<many-to-one name="choice"
+ 			class="br.ufpe.cin.amadeus.system.academic.module.poll.choice.Choice"
+ 			column="sqchoice" cascade="none" unique="true" lazy="proxy" />
+				 
+	</class>
+</hibernate-mapping>
+			

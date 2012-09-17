@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<com.ibm.uma:ContentDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:com.ibm.uma="http://www.ibm.com/uma/1.0.2/uma.ecore" xmi:id="_u_Zg4PsDEdmyhNQr5STrZQ" name="copyright,_uuunoPsDEdmyhNQr5STrZQ" guid="_u_Zg4PsDEdmyhNQr5STrZQ" changeDate="2005-10-26T16:59:22.391-0700">
+  <mainDescription>&lt;p&gt;
+    &amp;copy; &amp;nbsp;Copyright IBM Corp.&amp;nbsp;1987, 2005&amp;nbsp;All Rights Reserved
+&lt;/p&gt;</mainDescription>
+</com.ibm.uma:ContentDescription>

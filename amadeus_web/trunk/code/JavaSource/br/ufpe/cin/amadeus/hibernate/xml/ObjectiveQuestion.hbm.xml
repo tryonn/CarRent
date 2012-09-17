@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE hibernate-mapping	PUBLIC 
+	"-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+    "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+
+<hibernate-mapping>
+	<class
+		name="br.ufpe.cin.amadeus.system.academic.module.evaluation.question.ObjectiveQuestion"
+		table="objectivequestion">
+		<id name="id">
+			<column name="sqobjectivequestion" not-null="true" />
+			<generator class="increment" />
+		</id>
+
+		<property name="question">
+			<column name="ds_question" />
+		</property>
+
+		<property name="level">
+			<column name="id_level" />
+		</property>
+		
+		<property name="posInEvaluation">
+			<column name="ds_posinevaluation"/>
+		</property>
+
+		<!-- Sub-classe BlanksFilling -->
+		
+		<joined-subclass
+			name="br.ufpe.cin.amadeus.system.academic.module.evaluation.question.BlanksFillingQuestion"
+			table="blanksfilling">
+			<key column="sqblanksfilling"/>
+
+			<property name="text">
+				<column name="ds_text" />
+			</property>
+
+			<list name="blanks" table="Blank"
+				lazy="true"	
+				cascade="all">
+				<key column="sqblanksfilling" />
+				<index column="ds_position" />
+				<one-to-many
+					class="br.ufpe.cin.amadeus.system.academic.module.evaluation.question.blank.Blank" />
+			</list>
+
+		</joined-subclass>
+	
+		<!--	Sub-classe TrueOrFalse 	-->
+		
+		
+		<joined-subclass
+			name="br.ufpe.cin.amadeus.system.academic.module.evaluation.question.TrueOrFalseQuestion"
+			table="trueorfalse">
+			<key column="sqtrueorfalse" />
+			
+			<list name="sentences" table="sentence" 
+				lazy="true" 
+				cascade="all">
+				<key column="sqtrueorfalse" />
+				<index column="ds_position" />
+				<one-to-many
+					class="br.ufpe.cin.amadeus.system.academic.module.evaluation.question.sentence.Sentence" />
+			</list>
+
+		</joined-subclass>
+		
+		
+		
+		<!--	Sub-classe ColumnsMatching	-->
+		
+		<joined-subclass
+			name="br.ufpe.cin.amadeus.system.academic.module.evaluation.question.ColumnMatching"
+			table="columnmatching">
+			<key column="sqcolumnmatching" />
+			
+			
+			<list name="columns" table="_column" 
+				lazy="true" 
+				cascade="all-delete-orphan">
+				<key column="sqcolumnmatching" />
+				<index column="ds_position" />
+				<one-to-many
+					class="br.ufpe.cin.amadeus.system.academic.module.evaluation.question.column.Column" />
+			</list>
+
+		</joined-subclass>
+		
+		<!--	Sub-classe MultipleChoice	-->
+		
+		<joined-subclass
+			name="br.ufpe.cin.amadeus.system.academic.module.evaluation.question.MultipleChoiceQuestion"
+			table="multiplechoice">
+			<key column="sqmultiplechoice" />
+
+			<list name="alternatives" table="alternative" 
+				lazy="true" 
+				cascade="all">
+				<key column="sqmultiplechoice" />
+				<index column="ds_position" />
+				<one-to-many
+					class="br.ufpe.cin.amadeus.system.academic.module.evaluation.question.alternative.Alternative"/>
+			</list>
+
+		</joined-subclass>
+		
+		
+		
+	</class>
+</hibernate-mapping>

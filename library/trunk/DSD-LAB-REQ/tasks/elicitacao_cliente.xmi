@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<com.ibm.uma:TaskDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:com.ibm.uma="http://www.ibm.com/uma/1.0.2/uma.ecore" xmi:id="-nSINhxb8IbGRyoLrqjbkng" name=",_-KficNVGEdqeD-T9MUVwYA" guid="-nSINhxb8IbGRyoLrqjbkng" changeDate="2006-05-09T21:18:58.859-0300">
+  <mainDescription>&lt;p class=&quot;MsoBodyTextIndent&quot; style=&quot;TEXT-INDENT: 36pt&quot;&gt;
+    &lt;span lang=&quot;PT-BR&quot;&gt;A captura de requisitos é uma fase crítica no desenvolvimento de software visto que ela não lida
+    apenas com os conhecimentos técnicos, mas também com questões organizacionais, gerenciais, econômicas e sociais. Sendo
+    assim, já é um consenso que a especificação de requisitos deve incluir, não apenas especificações de software, mas
+    também modelos de negócios e outros tipos de informações que descrevam o contexto sobre o qual a aplicação irá operar
+    [Cas00-B].&lt;/span&gt;
+&lt;/p&gt;
+&lt;p class=&quot;MsoBodyTextIndent&quot; style=&quot;TEXT-INDENT: 36pt&quot;&gt;
+    fds
+&lt;/p&gt;</mainDescription>
+  <sections xmi:id="_G09YMNVHEdqeD-T9MUVwYA" name="Marcar a reunião a ser realizada" guid="_G09YMNVHEdqeD-T9MUVwYA"/>
+  <sections xmi:id="_EAEOsNVHEdqeD-T9MUVwYA" name="Enviar dúvidas para os stakeholders" guid="_EAEOsNVHEdqeD-T9MUVwYA"/>
+  <sections xmi:id="_LXYagNVHEdqeD-T9MUVwYA" name="Realizar reunião de forma síncrona" guid="_LXYagNVHEdqeD-T9MUVwYA"/>
+</com.ibm.uma:TaskDescription>

@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<com.ibm.uma:PracticeDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:com.ibm.uma="http://www.ibm.com/uma/1.0.2/uma.ecore" xmi:id="_ysPBkMM1EdmSIPI87WLu3g" name="iterative_development,_0acOUMlgEdmt3adZL5Dmdw" guid="_ysPBkMM1EdmSIPI87WLu3g" changeDate="2005-07-07T13:46:36.297-0700">
+  <mainDescription>&lt;h3&gt;
+    &lt;a id=&quot;What is Iterative Development&quot; name=&quot;What is Iterative Development&quot;&gt;What is Iterative Development&lt;/a&gt;?
+&lt;/h3&gt;
+&lt;p&gt;
+    Everybody agrees that when you do software development you need first to identify your requirements, design an
+    application that meets those requirements, implement it and test it. By opposition to waterfall development, where you
+    go through those phases once for the overall application&amp;nbsp;; iterative development proposes to to go through those
+    phases in small cycles, called &lt;u&gt;iterations&lt;/u&gt;, where you&amp;nbsp;design,&amp;nbsp;implement, and test, not the overall
+    requirements of your application, but a subset.
+&lt;/p&gt;
+&lt;p&gt;
+    Successful iterative development implies also two other practices:
+&lt;/p&gt;
+&lt;div style=&quot;MARGIN-LEFT: 2em&quot;&gt;
+    &lt;ul&gt;
+        &lt;li&gt;
+            &lt;strong&gt;incremental development:&lt;/strong&gt; the application is built incrementally, each piece is built on top of
+            the previous ones. This will ensure that all the pieces fit together, avoiding the late integration breakage
+            pitfall.
+        &lt;/li&gt;
+        &lt;li&gt;
+            &lt;strong&gt;risk driven development&lt;/strong&gt;:&amp;nbsp;the content of&amp;nbsp;the iteration is defined&amp;nbsp;in function of
+            the risks that the project&amp;nbsp;needs to mitigate. Earlier iterations will address the most
+            critical&amp;nbsp;risks.&amp;nbsp;&amp;nbsp;
+        &lt;/li&gt;
+    &lt;/ul&gt;
+&lt;/div&gt;
+&lt;h3&gt;
+    Benefits of the Iterative Development
+&lt;/h3&gt;
+&lt;p&gt;
+    Moving to iterative development will not be interesting if it was not providing some benefits. Here is a list of some
+    of the major benefits of iterative development.
+&lt;/p&gt;
+&lt;h4&gt;
+    Mitigating Risks
+&lt;/h4&gt;
+&lt;p&gt;
+    As we seen in the previous section, successful iterative development includes risk driven development, helping you to
+    mitigate your risks earlier on the project lifecycle. Incremental development will also helps you to mitigate the risks
+    by continously integrating and testing your application, rather than waiting the end of the project to do a &amp;nbsp;big
+    bang integration&amp;nbsp; at the end of the project.
+&lt;/p&gt;
+&lt;h4&gt;
+    Accomodating Changes
+&lt;/h4&gt;
+&lt;p&gt;
+    By detailing, implementing, and testing incremenatally your application, you can accomodate any change coming from
+    implementation or testing feedback. As you implement part of the application at each iteration your are also able to
+    gather feedback from the final users, ensuring that the application your develop will ultimately meet their needs.
+&lt;/p&gt;
+&lt;h4&gt;
+    Improving Quality
+&lt;/h4&gt;
+&lt;p&gt;
+    As described in the previous section, each iteration results with a growing part of the application implemented but
+    also tested. By continually testing the application early flaws are detected as the product matures during the early
+    iterations. Performance bottlenecks are discovered and can be reduced, as opposed to being discovered on the eve of
+    delivery.
+&lt;/p&gt;
+&lt;p&gt;
+    Risk driven development will also help you ensure that the critical aspects of the application, those developed on the
+    early iterations, will be fully tested.
+&lt;/p&gt;</mainDescription>
+</com.ibm.uma:PracticeDescription>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<com.ibm.uma:ContentDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:com.ibm.uma="http://www.ibm.com/uma/1.0.2/uma.ecore" xmi:id="-akU0PqDaad4Ns5MQhVBJ7Q" name="method_content,_Ts2joB_MEdq6CKKKq4D7YA" guid="-akU0PqDaad4Ns5MQhVBJ7Q" changeDate="2005-09-07T11:22:21.707-0700">
+  <mainDescription>&lt;p&gt;
+    &lt;!--StartFragment--&gt;Describes generic &lt;a class=&quot;elementLink&quot;
+    href=&quot;file://./../../../base_concepts/guidances/termdefinitions/uma,_cj6jkB_PEdq6CKKKq4D7YA.html&quot;
+    guid=&quot;_cj6jkB_PEdq6CKKKq4D7YA&quot;&gt;UMA&lt;/a&gt; methodological concepts and &lt;a class=&quot;elementLink&quot;
+    href=&quot;base_concepts/guidances/termdefinitions/guidance,_83ttAB_NEdq6CKKKq4D7YA.html&quot;
+    guid=&quot;_83ttAB_NEdq6CKKKq4D7YA&quot;&gt;guidance&lt;/a&gt;&amp;nbsp;which provide step-by-step explanations, describing how specific goals
+    are achieved &lt;em&gt;independently of the placement of these steps within a process lifecycle&lt;/em&gt;. &lt;!--EndFragment--&gt;UMA
+    separates Method Content from its application in &lt;a class=&quot;elementLink&quot;
+    href=&quot;base_concepts/guidances/termdefinitions/process,_yQ5m2NnmEdmO6L4XMImrsA.html&quot;
+    guid=&quot;_yQ5m2NnmEdmO6L4XMImrsA&quot;&gt;process&lt;/a&gt;.
+&lt;/p&gt;</mainDescription>
+</com.ibm.uma:ContentDescription>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<com.ibm.uma:ArtifactDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:com.ibm.uma="http://www.ibm.com/uma/1.0.2/uma.ecore" xmi:id="-H4kP7PcFbl12i9ln_bFbqA" name="esboco_storyboard,_EbJUQNB9EdqUyPR7gE-fIQ" guid="-H4kP7PcFbl12i9ln_bFbqA" changeDate="2006-05-10T11:26:03.140-0300">
+  <mainDescription>&lt;p class=&quot;first-para&quot;&gt;
+    A prototipacao em papel pode ser considerado um metodo de brainstorming, design, criacao, teste e comunicacao das
+    interfaces do usuario. Essa tecnica e independente de plataforma, pode ser usada para diversos tipos de aplicacao como:
+    aplicacoes web, desktop, etc. Qualquer coisa que possua interface homem-maquina eh um potencial candidato para o uso da
+    tecnica de prototipacao em papel &lt;font face=&quot;CMR12&quot;&gt;[Sny03]&lt;/font&gt;.
+&lt;/p&gt;
+&lt;p class=&quot;first-para&quot;&gt;
+    Assim que parte do sistema esteja esquematizado, pede-se aos potenciais utilizadores que testem o protótipo,
+    interagindo com a interface em papel.
+&lt;/p&gt;
+&lt;p class=&quot;first-para&quot;&gt;
+    &lt;strong&gt;Prototipacao em papel eh uma variacao de teste de usabilidade onde os usuarios realizam suas atividades ao
+    interagir com uma versao em papel da interface manipuladas por uma pessoa a qual nao teve nenhum treinamento anterior a
+    respeito do funcionamento da interface.&lt;/strong&gt;
+&lt;/p&gt;
+&lt;div class=&quot;chapter&quot;&gt;
+    &lt;div class=&quot;section&quot;&gt;
+        &lt;div class=&quot;section&quot;&gt;
+            &lt;p class=&quot;last-para&quot;&gt;
+                Um prototipo de baixa fidelidade evita a tentacao de buscar a perfeicao na aparencia das telas. Deve ser
+                levado em consideracao que esse artefato&amp;nbsp;tem o&amp;nbsp;proposito de elicitar as funcionalidades e a
+                navegabilidade do software.
+            &lt;/p&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+&lt;p class=&quot;para&quot;&gt;
+    &lt;font face=&quot;CMR12&quot;&gt;[Sny03] Carolyn Snyder.&lt;/font&gt; &lt;font face=&quot;CMTI12&quot;&gt;Paper Prototyping: The Fast and Easy Way to
+    Design and Refine User Interfaces (The Morgan Kaufmann Series in Interactive Technologies)&lt;/font&gt;&lt;font face=&quot;CMR12&quot;&gt;.
+    Morgan Kaufmann, April 2003.&lt;/font&gt;
+&lt;/p&gt;</mainDescription>
+  <purpose>Prototipo de interface de baixa-fidelidade,&amp;nbsp;confeccionada durante a elicitacao em grupo.</purpose>
+</com.ibm.uma:ArtifactDescription>

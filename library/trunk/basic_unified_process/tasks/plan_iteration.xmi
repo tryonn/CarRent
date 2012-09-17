@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<com.ibm.uma:TaskDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:com.ibm.uma="http://www.ibm.com/uma/1.0.2/uma.ecore" xmi:id="_Wk7noKe1EdmGSrcKGOYDGg" name="plan_iteration,_0keUEMlgEdmt3adZL5Dmdw" guid="_Wk7noKe1EdmGSrcKGOYDGg" changeDate="2005-08-17T15:58:40.940-0700">
+  <mainDescription>&lt;p class=&quot;MsoNormal&quot; style=&quot;MARGIN: 0in 0in 0pt&quot;&gt;
+    &lt;span
+    style=&quot;FONT-SIZE: 12pt; FONT-FAMILY: 'Times New Roman'; mso-fareast-font-family: 'Times New Roman'; mso-ansi-language: EN-US; mso-fareast-language: EN-US; mso-bidi-language: AR-SA&quot;&gt;
+    &amp;nbsp;&lt;/span&gt;
+&lt;/p&gt;</mainDescription>
+  <sections xmi:id="_307v0MMsEdmdo9HxCRR_Gw" name="Define the iteration goals" guid="_307v0MMsEdmdo9HxCRR_Gw">
+    <sectionDescription>&lt;p&gt;
+    Near the end of the current iteration, the Project Manager starts defining the goals of the next iteration.
+&lt;/p&gt;
+&lt;p&gt;
+    These goals are usually based on the&amp;nbsp;following factors:
+&lt;/p&gt;
+&lt;div style=&quot;MARGIN-LEFT: 2em&quot;&gt;
+    &lt;ul&gt;
+        &lt;li&gt;
+            &lt;strong&gt;Critical risks not yet mitigated:&lt;/strong&gt;&amp;nbsp;Iteration goals often include driving down&amp;nbsp;the
+            most critical risks.
+        &lt;/li&gt;
+        &lt;li&gt;
+            &lt;strong&gt;The time allocated to the iteration:&lt;/strong&gt; Iterations are usually timeboxed, so the Project Manager
+            must ensure that the work planned for the iteration will fit the time and the resources allocated to the
+            iteration.
+        &lt;/li&gt;
+        &lt;li&gt;
+            &lt;strong&gt;The features required:&lt;/strong&gt; requirements are prioritized to ensure that the critical features of
+            the application will be developed, and tested, &amp;nbsp;early on.
+        &lt;/li&gt;
+    &lt;/ul&gt;
+&lt;/div&gt;
+&lt;p&gt;
+    This scope is usually defined in terms of scenarios that need to be implemented and tested during the iteration.
+&lt;/p&gt;</sectionDescription>
+  </sections>
+  <sections xmi:id="_7Hqr4MMsEdmdo9HxCRR_Gw" name="Allocate Change Request to iteration" guid="_7Hqr4MMsEdmdo9HxCRR_Gw">
+    <sectionDescription>&lt;p&gt;
+    When&amp;nbsp;detailing the plan for the next iteration, the Project Manager also needs to identify which Change Requests
+    will be addressed in the next iteration.&amp;nbsp; To ensure the project stays on schedule, address the Change Requests
+    throughout the project rather than pushing them to the end of the project.
+&lt;/p&gt;</sectionDescription>
+  </sections>
+  <sections xmi:id="_cfINwAVCEdqw1-dTDqzhGw" name="Identify system elements to be tested " guid="_cfINwAVCEdqw1-dTDqzhGw">
+    <sectionDescription>&lt;p&gt;
+    As every iteration includes testing, the Project Manager will need also to identify what will be tested, and to what
+    extent, &amp;nbsp;during the iteration.
+&lt;/p&gt;
+&lt;p&gt;
+    Tested elements can include:
+&lt;/p&gt;
+&lt;div style=&quot;MARGIN-LEFT: 2em&quot;&gt;
+    &lt;ul&gt;
+        &lt;li&gt;
+            scenarios developed during the iteration
+        &lt;/li&gt;
+        &lt;li&gt;
+            change requests implemented during the iteration
+        &lt;/li&gt;
+        &lt;li&gt;
+            a critical interface with an external system
+        &lt;/li&gt;
+        &lt;li&gt;
+            supplemental requirements, such as loading, response time, and so on.
+        &lt;/li&gt;
+    &lt;/ul&gt;
+&lt;/div&gt;
+&lt;p&gt;
+    &amp;nbsp;
+&lt;/p&gt;
+&lt;p&gt;
+    &amp;nbsp;
+&lt;/p&gt;</sectionDescription>
+  </sections>
+  <purpose>&lt;p class=&quot;MsoNormal&quot; style=&quot;MARGIN: 0in 0in 0pt&quot;&gt;
+    The main objective of this task is to develop a fine-grained plan for a single iteration, identifying the goals and
+    evaluation criteria of&amp;nbsp;an iteration (usually the next one).&amp;nbsp;
+&lt;/p&gt;</purpose>
+</com.ibm.uma:TaskDescription>

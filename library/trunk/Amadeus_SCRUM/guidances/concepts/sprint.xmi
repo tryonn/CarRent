@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<com.ibm.uma:ContentDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:com.ibm.uma="http://www.ibm.com/uma/1.0.2/uma.ecore" xmi:id="-KjgQqOLHr7SLcmvgldmyMw" name="sprint,_pWE54CrEEdqH4vKIfGrMhg" guid="-KjgQqOLHr7SLcmvgldmyMw" changeDate="2006-04-11T14:29:35.898-0300">
+  <mainDescription>&lt;p&gt;
+    Depois de acordado o Sprint deve ser apresentado a equipe de modo que todos tenham uma visao comum do que sera
+    desenvolvido.
+&lt;/p&gt;</mainDescription>
+</com.ibm.uma:ContentDescription>

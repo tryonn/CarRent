@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<com.ibm.uma:ContentDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:com.ibm.uma="http://www.ibm.com/uma/1.0.2/uma.ecore" xmi:id="_0FDb4BUJEdqrUt4zetC1gg" name="work_product,_0ErBYBUJEdqrUt4zetC1gg" guid="_0FDb4BUJEdqrUt4zetC1gg" changeDate="2005-10-27T21:05:30.011-0700">
+  <mainDescription>&lt;p&gt;
+    A Work Product is an abstract concept which provides a generalization for the concrete work product types &lt;a class=&quot;elementLink&quot; href=&quot;./../../base_concepts/guidances/concepts/artifact,_fdRfkBUJEdqrUt4zetC1gg.html&quot; guid=&quot;_fdRfkBUJEdqrUt4zetC1gg&quot;&gt;Artifact&lt;/a&gt;, &lt;a class=&quot;elementLink&quot; href=&quot;./../../base_concepts/guidances/concepts/outcome,_pROF4BUJEdqrUt4zetC1gg.html&quot; guid=&quot;_pROF4BUJEdqrUt4zetC1gg&quot;&gt;Outcome&lt;/a&gt;, and &lt;a class=&quot;elementLink&quot; href=&quot;./../../base_concepts/guidances/concepts/deliverable,_lBgkMBUJEdqrUt4zetC1gg.html&quot; guid=&quot;_lBgkMBUJEdqrUt4zetC1gg&quot;&gt;Deliverable&lt;/a&gt;. Work Product descriptions actually represents work product types, i.e.
+    an instance of Work Product is a description of a specific type of work product and not an individual work product
+    instance.&amp;nbsp; However, for simplicity reasons and because of low risk of misinterpretation we did not append the word
+    'type' to every element in UMA.
+&lt;/p&gt;
+&lt;p&gt;
+    A Work Product is an abstraction for descriptions of content elements that are used to define anything used, produced,
+    or modified by a task.&amp;nbsp; Roles use Work Products to perform Tasks and produce Work Products in the course of
+    performing Tasks.&amp;nbsp; Work Products are the responsibility of a single Role, making responsibility easy to identify
+    and understand, and promoting the idea that every piece of information produced in the method requires the appropriate
+    set of skills. Even though one Role might &quot;own&quot; a specific type of Work Products, other Roles can still use the Work
+    Products; perhaps even update them if the Role has been given permission to do so.
+&lt;/p&gt;
+&lt;p align=&quot;center&quot;&gt;
+    &lt;img height=&quot;569&quot; alt=&quot;Major Artifacts and information flow in the Rational Unified Process&quot;     src=&quot;./../guidances/concepts/resources/overview.gif&quot; width=&quot;536&quot; border=&quot;0&quot; /&gt;
+&lt;/p&gt;
+&lt;p class=&quot;picturetext&quot; align=&quot;center&quot;&gt;
+    Popular Work Products in Software Development, and the approximate dependency relationships between them.
+&lt;/p&gt;
+&lt;p&gt;
+    Note that Work Product is the term used to describe what other processes denote using terms such as Artifact, work
+    unit, and so on. In UMA, Deliverables are only considered to be the subsets of all Work Products that will end up being
+    delivered into the hands of the customers and users, usually as part of a formal or contractually agreed hand-over.
+&lt;/p&gt;</mainDescription>
+</com.ibm.uma:ContentDescription>

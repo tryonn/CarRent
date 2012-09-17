@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<com.ibm.uma:ContentDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:com.ibm.uma="http://www.ibm.com/uma/1.0.2/uma.ecore" xmi:id="_dCTLkBUBEdqrUt4zetC1gg" name="example,_dCG-UBUBEdqrUt4zetC1gg" guid="_dCTLkBUBEdqrUt4zetC1gg" changeDate="2005-09-07T03:57:41.587-0700">
+  <mainDescription>&lt;p&gt;
+    An Example represents a typical, partially completed, sample instance of one or more Content Elements. Examples are
+    most commonly provided for Work Products. A Work Product Example is a good supplement to its prescriptive and
+    descriptive process Guidance.
+&lt;/p&gt;
+&lt;p&gt;
+    Examples should be associated with specific Work Products to give their producer a view of how it should look like when
+    it is done.
+&lt;/p&gt;</mainDescription>
+</com.ibm.uma:ContentDescription>

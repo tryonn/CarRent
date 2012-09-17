@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<com.ibm.uma:ArtifactDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:com.ibm.uma="http://www.ibm.com/uma/1.0.2/uma.ecore" xmi:id="_zHZW8qYSEdmvhNXG0Oc2uA" name="use_case,_0VGbUMlgEdmt3adZL5Dmdw" guid="_zHZW8qYSEdmvhNXG0Oc2uA" changeDate="2005-07-07T11:57:33.018-0700">
+  <purpose>&lt;p&gt;
+    The primary purpose of the Use Case is to capture the required system behavior from the perspective of the end-user in
+    achieving one or more desired goals.
+&lt;/p&gt;
+&lt;p&gt;
+    Use Cases are used for many different roles for many purposes, including:
+&lt;/p&gt;
+&lt;ul&gt;
+    &lt;li&gt;
+        By &lt;strong&gt;customers&lt;/strong&gt; to describe -- or at least approve -- the description of the system's behavior.
+    &lt;/li&gt;
+    &lt;li&gt;
+        By potential &lt;b&gt;users&lt;/b&gt; to understand the system's behavior.
+    &lt;/li&gt;
+    &lt;li&gt;
+        By a&lt;b&gt;rchitects&lt;/b&gt; to identify architecturally significant functionality.
+    &lt;/li&gt;
+    &lt;li&gt;
+        By&amp;nbsp;&lt;strong&gt;developers&lt;/strong&gt; to understand the required system behavior, thus&amp;nbsp;identifying classes from
+        the use cases' flows of events.
+    &lt;/li&gt;
+    &lt;li&gt;
+        By &lt;strong&gt;testers&lt;/strong&gt; as a basis from which to identifying a subset of the required test cases.
+    &lt;/li&gt;
+    &lt;li&gt;
+        By &lt;b&gt;managers&lt;/b&gt; to plan and assess the work for each iteration.
+    &lt;/li&gt;
+    &lt;li&gt;
+        By those who write user documentation, so they can&amp;nbsp;understand the system behavior from the perspective of the
+        sequence of use that should be described in the documentation.
+    &lt;/li&gt;
+&lt;/ul&gt;</purpose>
+  <representationOptions>&lt;p&gt;
+
+    Decide the extent to which Use Cases will be elaborated:
+
+&lt;/p&gt;
+
+&lt;ul&gt;
+
+    &lt;li&gt;
+
+        describe only major flows?
+
+    &lt;/li&gt;
+
+    &lt;li&gt;
+
+        describe only the most important use cases?
+
+    &lt;/li&gt;
+
+    &lt;li&gt;
+
+        fully describe preconditions and postconditions?
+
+    &lt;/li&gt;
+
+    &lt;li&gt;
+
+        describe scenarios first and then rise the level of abstraction by writing the use case flows?
+
+    &lt;/li&gt;
+
+&lt;/ul&gt;
+
+&lt;p&gt;
+
+    Some projects apply use cases informally to discover requirements, but document and maintain these
+
+    requirements in another form. How you tailor Use Cases may depend on project size, team experience, your
+
+    tool set, customer relationship, and so forth. See &lt;u&gt;Work Product Guideline: Use Case&lt;/u&gt; for guidance
+
+    related to Use Case tailoring.
+
+&lt;/p&gt;</representationOptions>
+</com.ibm.uma:ArtifactDescription>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<com.ibm.uma:ContentDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:com.ibm.uma="http://www.ibm.com/uma/1.0.2/uma.ecore" xmi:id="-FD4UbInbyzlaGxB9oPHdcg" name="composite_role,_P9gp0BtHEdqSLrJ4Ij2LVA" guid="-FD4UbInbyzlaGxB9oPHdcg" changeDate="2005-09-01T17:19:52.101-0700">
+  <mainDescription>&lt;p&gt;
+    A Composite Role is a grouping of Roles that can be used in an Activity or Process to reduce the number of Roles. A
+    Composite Role is thus for the Tasks and Work Products defined for the Roles it refers to. A typical use of this
+    construct occurs within a Process designed for a small team in which multiple standard Roles from the Method Content
+    are assigned to a single resource. By using a Composite Role the Process suggests a typical clustering of Roles to
+    Resources.&lt;br /&gt;
+&lt;/p&gt;
+&lt;p&gt;
+    A simple example is a Composite Role named &lt;em&gt;&lt;strong&gt;Developer&lt;/strong&gt;&lt;/em&gt; that groups together the
+    &lt;em&gt;&lt;strong&gt;Implementer&lt;/strong&gt;&lt;/em&gt; and &lt;em&gt;&lt;strong&gt;Tester&lt;/strong&gt;&lt;/em&gt; Roles. Now, every time one of the Roles
+    Implementer or Tester would normally be used within the breakdown structure, Developer is used instead. Hence, if a
+    Task Descriptor is added to the Process, that has Implementer or Tester as the primary performer, this Role would be
+    automatically be substituted by&amp;nbsp;the Composite Role instance Developer that links back to either Tester or
+    Implementer (or both if both were listed as the Task performers).
+&lt;/p&gt;</mainDescription>
+</com.ibm.uma:ContentDescription>

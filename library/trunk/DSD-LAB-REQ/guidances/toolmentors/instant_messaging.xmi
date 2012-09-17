@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<com.ibm.uma:ContentDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:com.ibm.uma="http://www.ibm.com/uma/1.0.2/uma.ecore" xmi:id="-l69EwSS6iwrWALbutVRWmQ" name="instant_messaging,_tvKTsNwxEdqxu_MHTiRzng" guid="-l69EwSS6iwrWALbutVRWmQ" changeDate="2006-05-06T10:53:18.937-0300">
+  <mainDescription>&lt;p&gt;
+    O uso de instant messaging no contexto de DDS é muito comum, existindo inclusive relatos de casos de sucesso no uso
+    dessa tecnologia. Segundo Herbleb \cite{Her02}, os \emph{instant messaging} ajudam as equipes distribuídas a entenderem
+    o contexto do desenvolvimento aumentando o uso da comunicação informal, dois dos roblemas que dificultam o
+    desenvolvimento distribuído.
+&lt;/p&gt;
+&lt;p&gt;
+    Durante a execução do estudo de caso, a ferramenta da Microsoft MSN-Messenger \cite{Msn06} foi utilizada. Um dos
+    fatores fundamentais para sua adoção é que todos os integrantes já possuíamum usuário cadastrado e já tinham o hábito
+    de usar a ferramenta.
+&lt;/p&gt;
+&lt;p&gt;
+    Vantagens:
+&lt;/p&gt;
+&lt;ul&gt;
+    &lt;li&gt;
+        Quantidade de usuários disponíveis;
+    &lt;/li&gt;
+    &lt;li&gt;
+        mecanismos de percepcão do status do usuário (ausente, ocupado, on-line e off-line);transferência de arquivos;
+    &lt;/li&gt;
+    &lt;li&gt;
+        realização de chat de modo texto com mais de um usuário;
+    &lt;/li&gt;
+    &lt;li&gt;
+        armazenamento de log.
+    &lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+    Desvantagens:
+&lt;/p&gt;
+&lt;ul&gt;
+    &lt;li&gt;
+        Por ser um mecanismo de comunicação de baixo contexto, resolver conflitos e explicar algumas dúvidas levam mais
+        tempo do que usando os meios de voz;
+    &lt;/li&gt;
+    &lt;li&gt;
+        uso da ferramenta para fins pessoais, indivíduo versus grupo de trabalho [Her02]. Herbleb propôs o desenvolvimento
+        de uma nova rede de instant-messaging, somente para esse fim.
+    &lt;/li&gt;
+&lt;/ul&gt;</mainDescription>
+</com.ibm.uma:ContentDescription>

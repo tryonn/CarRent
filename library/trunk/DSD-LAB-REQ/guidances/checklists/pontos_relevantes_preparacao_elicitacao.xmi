@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<com.ibm.uma:ContentDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:com.ibm.uma="http://www.ibm.com/uma/1.0.2/uma.ecore" xmi:id="-7_vJR-KIpf2f2gxqVLFESA" name="pontos_relevantes_preparacao_elicitacao,_aL29sNSSEdq90538QjPN0A" guid="-7_vJR-KIpf2f2gxqVLFESA">
+  <sections xmi:id="_-SguINtpEdqo1eLt5uqdUA" name="Ler base formal de conhecimento" guid="_-SguINtpEdqo1eLt5uqdUA"/>
+  <sections xmi:id="_A9kmMNtqEdqo1eLt5uqdUA" name="Analisar solucoes competidoras" guid="_A9kmMNtqEdqo1eLt5uqdUA"/>
+  <sections xmi:id="_EMG-wNtqEdqo1eLt5uqdUA" name="Anotar pontos relevantes para serem discutidos durante a elicitação" guid="_EMG-wNtqEdqo1eLt5uqdUA"/>
+</com.ibm.uma:ContentDescription>

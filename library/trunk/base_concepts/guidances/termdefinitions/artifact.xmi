@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<com.ibm.uma:ContentDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:com.ibm.uma="http://www.ibm.com/uma/1.0.2/uma.ecore" xmi:id="_x7cUNNnmEdmO6L4XMImrsA" name="artifact,_x7cUM9nmEdmO6L4XMImrsA" guid="_x7cUNNnmEdmO6L4XMImrsA">
+  <mainDescription>A formal &lt;a class=&quot;elementLink&quot;
+href=&quot;file://./../../../base_concepts/guidances/termdefinitions/work_product,_H4JXwB_SEdq6CKKKq4D7YA.html&quot;
+guid=&quot;_H4JXwB_SEdq6CKKKq4D7YA&quot;&gt;Work Product&lt;/a&gt;&amp;nbsp;that: 
+&lt;div style=&quot;MARGIN-LEFT: 2em&quot;&gt;
+    1) is produced, modified, or used by a &lt;a class=&quot;elementLink&quot;
+    href=&quot;file://./../../../base_concepts/guidances/termdefinitions/task,_x459ktnmEdmO6L4XMImrsA.html&quot;
+    guid=&quot;_x459ktnmEdmO6L4XMImrsA&quot;&gt;task&lt;/a&gt;,&lt;br /&gt;
+     2) defines an area of responsibility&lt;br /&gt;
+     3) is subject to version control.
+&lt;/div&gt;
+&lt;p&gt;
+    An Artifact can have multiple forms including a &lt;i&gt;&lt;a class=&quot;elementLink&quot;
+    href=&quot;base_concepts/guidances/termdefinitions/model,_yNefY9nmEdmO6L4XMImrsA.html&quot;
+    guid=&quot;_yNefY9nmEdmO6L4XMImrsA&quot;&gt;model&lt;/a&gt;&lt;/i&gt;, a &lt;i&gt;&lt;a class=&quot;elementLink&quot;
+    href=&quot;base_concepts/guidances/termdefinitions/model_element,_yNnpVdnmEdmO6L4XMImrsA.html&quot;
+    guid=&quot;_yNnpVdnmEdmO6L4XMImrsA&quot;&gt;model element&lt;/a&gt;&lt;/i&gt;, or a &lt;i&gt;&lt;a class=&quot;elementLink&quot;
+    href=&quot;base_concepts/guidances/termdefinitions/document,_yG6kY9nmEdmO6L4XMImrsA.html&quot;
+    guid=&quot;_yG6kY9nmEdmO6L4XMImrsA&quot;&gt;document&lt;/a&gt;&lt;/i&gt;.
+&lt;/p&gt;</mainDescription>
+</com.ibm.uma:ContentDescription>

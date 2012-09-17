@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<com.ibm.uma:ContentDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:com.ibm.uma="http://www.ibm.com/uma/1.0.2/uma.ecore" xmi:id="_CYRMgBEdEdqY7JB6N6CW2w" name="estimation,_CGHskBEdEdqY7JB6N6CW2w" guid="_CYRMgBEdEdqY7JB6N6CW2w" changeDate="2005-08-19T18:52:31.775-0700">
+  <mainDescription>&lt;h3&gt;
+    Estimation Approaches
+&lt;/h3&gt;
+&lt;p&gt;
+    There are mainly two approaches to do estimation:
+&lt;/p&gt;
+&lt;div style=&quot;margin-left: 2em&quot;&gt;
+    &lt;ul&gt;
+        &lt;li&gt;
+            &lt;strong&gt;Top-down:&lt;/strong&gt; where you estimate the total effort to develop the application, and then you
+            distribute this effort to the lower level task using a defined formula, like COCOMO II.
+        &lt;/li&gt;
+        &lt;li&gt;
+            &lt;strong&gt;Bottom-up:&lt;/strong&gt; where you list the different tasks that need to be performed, you estimate them and
+            by adding the different estimations you get the overall effort.
+        &lt;/li&gt;
+    &lt;/ul&gt;
+&lt;/div&gt;
+&lt;p&gt;
+    None of them is better than the other, and in fact they are complementary. Depending on the kind of estimation he will
+    like to do the project manager will be using one or the other.
+&lt;/p&gt;
+&lt;h4&gt;
+    Estimating the overall effort and duration of the project
+&lt;/h4&gt;
+&lt;p&gt;
+    At the beginning of the project, the project manager does not have a lot of details on the scope of the project. He
+    usually only knows the big picture. On such cases a &lt;strong&gt;top-down&lt;/strong&gt; approach is more useful, as with what he
+    knows about the scope he can arrive to estimate the total effort and he can then derive the ideal duration. This
+    high-level estimation will also help him defining the duration of the phases, and can even also give him a first guess
+    at the size of the team he needs to do the project.
+&lt;/p&gt;
+&lt;h4&gt;
+    Estimating an iteration
+&lt;/h4&gt;
+&lt;p&gt;
+    When he plan an iteration, the project manager will need to identify the different unitary tasks that must be performed
+    to achieve the goals of the iteration to ensure that they will be done. Is then that the &lt;strong&gt;bottom-up&lt;/strong&gt;
+    approach can be successfully used, as he has yet the different tasks. A good approach to do this kind of estimation is
+    to get it directly from the team member who will be doing the work.
+&lt;/p&gt;
+&lt;p&gt;
+    &amp;nbsp;
+&lt;/p&gt;</mainDescription>
+</com.ibm.uma:ContentDescription>

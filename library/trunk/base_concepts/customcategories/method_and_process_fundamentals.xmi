@@ -1,0 +1,79 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<com.ibm.uma:ContentDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:com.ibm.uma="http://www.ibm.com/uma/1.0.2/uma.ecore" xmi:id="_uDU1oQSEEdq61bDkWg1SXw" name="method_architecture_fundamentals,_uDU1oASEEdq61bDkWg1SXw" guid="_uDU1oQSEEdq61bDkWg1SXw" changeDate="2005-09-07T00:41:01.369-0700">
+  <mainDescription>&lt;h3&gt;
+    What is UMA?
+&lt;/h3&gt;
+&lt;p&gt;
+    UMA is a state-of-the-art architecture for the conceiving, specifying, and storing of method and process metadata
+    (a.ka. content). Its defining feature and fundamental innovation is that it achieves clear separation between generic
+    core method content and it its application in the specification of business processes.
+&lt;/p&gt;
+&lt;h3&gt;
+    Key Aspects of UMA
+&lt;/h3&gt;
+&lt;h4&gt;
+    Fundamental Elements
+&lt;/h4&gt;
+&lt;p align=&quot;center&quot;&gt;
+    &lt;font face=&quot;Arial, Helvetica, sans-serif&quot;&gt;&lt; alt=&quot;Method versus Process Content&quot;
+    src=&quot;./../guidances/concepts/resources/uma_m_vs_p.gif&quot; width=&quot;480&quot; border=&quot;0&quot; /&gt;&lt;/font&gt;
+&lt;/p&gt;
+&lt;p align=&quot;center&quot;&gt;
+    &lt;font face=&quot;Arial, Helvetica, sans-serif&quot;&gt;Overview of how the key UMA concepts positioned based on whether they
+    represent methodcontent or process&lt;/font&gt;
+&lt;/p&gt;
+&lt;!--EndFragment--&gt;
+&lt;h4&gt;
+    Separation of Concerns
+&lt;/h4&gt;
+&lt;p&gt;
+    &lt;font face=&quot;Arial, Helvetica, sans-serif&quot;&gt;Key &lt;em&gt;separations of concerns&lt;/em&gt; in the design UMA&lt;em&gt;:&lt;/em&gt;&lt;/font&gt;
+&lt;/p&gt;
+&lt;blockquote&gt;
+    &lt;p&gt;
+        &lt;font face=&quot;Arial, Helvetica, sans-serif&quot;&gt;•The separation of core method content versus the application of method
+        content in processes&lt;br /&gt;
+        •The definition of an optional extensibility mechanism in the method for large scale management of method and
+        process repositories&lt;br /&gt;
+        •Packaging and configuration of method content, processes, and plugins in method libraries&lt;br /&gt;
+        •A separation of recommended method and guidance description fields&lt;br /&gt;
+        •A separation of semantic elements from their notation in process diagrams&lt;/font&gt;
+    &lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h4&gt;
+    &lt;font face=&quot;Arial, Helvetica, sans-serif&quot;&gt;Method Content versus Process&lt;/font&gt;
+&lt;/h4&gt;
+&lt;p&gt;
+    &lt;font face=&quot;Arial, Helvetica, sans-serif&quot;&gt;The Unified Method Architecture (UMA) separates reusable core method content
+    from its application inprocesses.Methodcontent provides step-by-step explanations, describing how specific development
+    goals are achievedindependent oftheplacement of these steps within a development lifecycle. Processes take these method
+    elements and relatethemintosemi-ordered sequences that are customized to specific types of projects.&lt;br /&gt;
+    For example, a software development project that develops an application from scratch performs development
+    taskssuchas“Develop Vision” or “Use Case Design” similar to a project that extends an existing software system.
+    However,thetwoprojects will perform the Tasks at different points in time with a different emphasis, i.e. they will
+    perform thestepsofthese tasks at different point of time and perhaps apply individual variations and additions.&lt;br /&gt;
+    In contrast to other method engineering approaches, UMA’s unique solution allows each process to
+    referencecommonmethodguidance from a common method content pool, which then makes up the actual process guidance.
+    Becauseofthesereferences, changes in the methods will automatically be reflected in all processes using it.
+    However,UMAstillallows overwriting certain method related guidance within a process as well as
+    definingindividualprocess-specificrelationships for each process element (such as work breakdown and new relations to
+    work productsandroles).&lt;br /&gt;
+    Figure 4 shows the difference between method content and process by representing them as twodifferentdimensions.Method
+    content describing how development work is being performed is categorized bydisciplines.Each discipline iscomprised of
+    tasks (not visible in Figure 4) that provide step-by-step descriptions ofhow specificdevelopment goals areachieved. For
+    a process, tasks have been selected from the method content and placedintoworkflows ready forinstantiation by
+    allocating resources to perform the work and having real work products as theinputsand outputs of thetasks. As a
+    result, the workload graphs shown in Figure 4 can be computed showing work effortforeach disciplineover time (from left
+    to right).&lt;br /&gt;
+    &lt;br /&gt;
+    &lt;/font&gt;
+&lt;/p&gt;
+&lt;p align=&quot;center&quot;&gt;
+    &lt;font face=&quot;Arial, Helvetica, sans-serif&quot;&gt;&lt;img alt=&Structure of the UMA Meta-Model&quot;
+    src=&quot;./../guidances/concepts/resources/uma_hump.gif&quot; border=&quot;0&quot; /&gt;&lt;/font&gt;
+&lt;/p&gt;
+&lt;p class=&quot;picturetext&quot; align=&quot;center&quot;&gt;
+    &lt;font face=&quot;Arial, Helvetica, sans-serif&quot;&gt;Figure 4: Method Content definition versus&lt;br /&gt;
+    the application of Method Content in a Process.&lt;/font&gt;
+&lt;/p&gt;</mainDescription>
+</com.ibm.uma:ContentDescription>

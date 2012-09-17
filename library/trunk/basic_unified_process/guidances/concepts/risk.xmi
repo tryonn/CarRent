@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<com.ibm.uma:ContentDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:com.ibm.uma="http://www.ibm.com/uma/1.0.2/uma.ecore" xmi:id="_u6enMMM1EdmSIPI87WLu3g" name="risk,_0bsLgMlgEdmt3adZL5Dmdw" guid="_u6enMMM1EdmSIPI87WLu3g" changeDate="2005-07-07T17:50:12.073-0300">
+  <mainDescription>&lt;h3&gt;
+    What is a Risk?
+&lt;/h3&gt;
+&lt;p&gt;
+    In well managed projects, many decisions are driven by &lt;strong&gt;Risks&lt;/strong&gt;, or more exactly by risk mitigation. You
+    are trying to mitigate or tackle the most critical risks as earlier as possible in the project. In order to achieve
+    this you need to get a good grip on the risks the project is faced with, and have clear strategies on how to mitigate
+    or deal with them.
+&lt;/p&gt;
+&lt;p&gt;
+    In everyday life a risk is an exposure to loss or injury; a factor, thing, element, or course involving uncertain
+    danger.&amp;nbsp;Similarly, in&amp;nbsp;software development a &lt;strong&gt;risk&lt;/strong&gt; is something that can compromise the
+    success of a project.
+&lt;/p&gt;
+&lt;h3&gt;
+    Risk Attributes
+&lt;/h3&gt;
+&lt;p&gt;
+    You can record as much information as you like or need about your risks, you will find below a list of common risk
+    attributes.
+&lt;/p&gt;
+&lt;ul&gt;
+    &lt;li&gt;
+        &lt;strong&gt;Risk Description:&lt;/strong&gt; A description of the risk detailing the impact for the project if this risk
+        becomes a problem (i.e. it becomes a reality).
+    &lt;/li&gt;
+&lt;/ul&gt;
+&lt;ul&gt;
+    &lt;li&gt;
+        &lt;strong&gt;Risk Type:&lt;/strong&gt; Used to classify the risk as:
+    &lt;/li&gt;
+    &lt;li style=&quot;list-style: none&quot;&gt;
+        &lt;ul&gt;
+            &lt;li&gt;
+                &lt;strong&gt;Direct risk&lt;/strong&gt;: a risk that the project has a large degree of control over.
+            &lt;/li&gt;
+            &lt;li&gt;
+                &lt;strong&gt;Indirect risk&lt;/strong&gt;: a risk with little or no project control.
+            &lt;/li&gt;
+        &lt;/ul&gt;
+    &lt;/li&gt;
+&lt;/ul&gt;
+&lt;ul&gt;
+    &lt;li&gt;
+        &lt;strong&gt;Risk Probability&lt;/strong&gt; (of occurence): how many chances do we have that this risk will become
+        a&amp;nbsp;problem or an issue, This is usually represented as a scale of values (for example: High, Medium, Low).
+    &lt;/li&gt;
+&lt;/ul&gt;
+&lt;ul&gt;
+    &lt;li&gt;
+        &lt;strong&gt;Risk Impact&lt;/strong&gt; (level): if this risk become an problem what will be the impact&amp;nbsp;on
+        the&amp;nbsp;project. This is not the actual description of the impact but the level of impact. As the risk
+        probability, it is usually represented as a scale.&amp;nbsp;This&amp;nbsp;attribute is&amp;nbsp;also sometimes called the
+        &lt;strong&gt;severity&lt;/strong&gt; of the risk.
+    &lt;/li&gt;
+&lt;/ul&gt;
+&lt;ul&gt;
+    &lt;li&gt;
+        &lt;strong&gt;Risk Magnitude&lt;/strong&gt;: To be able to rank and to define which ones need to be mitigate first,&amp;nbsp;the
+        &lt;strong&gt;Risk Probability&amp;nbsp;&lt;/strong&gt; and &lt;strong&gt;Risk Impact&lt;/strong&gt; attributes are often combined in a
+        single&amp;nbsp;&lt;strong&gt;Risk&lt;/strong&gt; M&lt;b&gt;agnitude&lt;/b&gt; indicator represented as a scale similar to the combined
+        attributes.
+    &lt;/li&gt;
+&lt;/ul&gt;</mainDescription>
+</com.ibm.uma:ContentDescription>

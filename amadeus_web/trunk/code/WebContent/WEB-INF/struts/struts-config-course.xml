@@ -1,0 +1,374 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+
+<!DOCTYPE struts-config PUBLIC
+          "-//Apache Software Foundation//DTD Struts Configuration 1.2//EN"
+          "http://jakarta.apache.org/struts/dtds/struts-config_1_2.dtd">
+
+
+<struts-config>
+<!-- ================================================ Form Bean Definitions -->
+
+    <form-beans>
+    <!-- sample form bean descriptor for an ActionForm
+        <form-bean
+            name="inputForm"
+            type="app.InputForm"/>
+    end sample -->
+
+		<form-bean
+            name="logonCourseForm"
+            type="org.apache.struts.validator.DynaValidatorForm">
+            <form-property
+                name="login"	type="java.lang.String"/>
+            <form-property
+                name="password"	type="java.lang.String"/>
+        </form-bean>
+
+		<form-bean
+            name="logonActionForm"
+            type="org.apache.struts.validator.DynaValidatorForm">
+            <form-property
+                name="login"	type="java.lang.String"/>
+            <form-property
+                name="password"	type="java.lang.String"/>
+            <form-property
+            	name="action"	type="java.lang.String"/>
+        </form-bean>
+        
+        <form-bean
+            name="courseForm"
+            type="org.apache.struts.validator.DynaValidatorForm">
+            <form-property
+                name="id"	type="java.lang.Integer"/>
+            <form-property
+                name="name"	type="java.lang.String"/>
+            <form-property
+                name="objectives"	type="java.lang.String"/>
+            <form-property
+                name="content"		type="java.lang.String"/>
+            <form-property
+                name="students"	type="java.lang.Integer"/>
+            <form-property
+                name="initialRegistrationDay"	type="java.lang.String"/>
+            <form-property
+                name="initialRegistrationMonth"	type="java.lang.String"/>
+            <form-property
+                name="initialRegistrationYear"	type="java.lang.String"/>
+            <form-property
+                name="finalRegistrationDay"	type="java.lang.String"/>
+            <form-property
+                name="finalRegistrationMonth"	type="java.lang.String"/>
+            <form-property
+                name="finalRegistrationYear"	type="java.lang.String"/>
+            <form-property
+                name="initialCourseDay"	type="java.lang.String"/>
+            <form-property
+                name="initialCourseMonth"	type="java.lang.String"/>
+            <form-property
+                name="initialCourseYear"	type="java.lang.String"/>
+            <form-property
+                name="finalCourseDay"	type="java.lang.String"/>
+            <form-property
+                name="finalCourseMonth"	type="java.lang.String"/>
+            <form-property
+                name="finalCourseYear"	type="java.lang.String"/>
+            <form-property
+                name="keywords"			type="java.lang.String"/>
+        </form-bean>
+        
+        <form-bean
+            name="courseFormStepTwo"
+            type="org.apache.struts.validator.DynaValidatorForm">
+            <form-property
+                name="keywords"		type="java.lang.String"/>
+            <form-property
+                name="courseId"		type="java.lang.Integer"/>
+        </form-bean>
+                
+        <form-bean
+            name="searchCourseForm"
+            type="org.apache.struts.validator.DynaValidatorForm">
+            <form-property
+                name="course"		type="java.lang.String"/>
+            <form-property
+                name="type"	type="java.lang.String"/>
+        </form-bean>
+        
+        <form-bean
+            name="courseCharacteristicsForm"
+            type="org.apache.struts.validator.DynaValidatorForm">
+            <form-property
+                name="id"	type="java.lang.Integer"/>
+        </form-bean>
+
+        <form-bean
+            name="materialUploadForm"
+            type="org.apache.struts.validator.DynaValidatorForm">
+            <form-property
+                name="index"	type="java.lang.Integer"/>
+			<form-property
+                name="name"		type="java.lang.String"/>
+			<form-property
+				name="file"		type="org.apache.struts.upload.FormFile"/>
+        </form-bean>
+
+        <form-bean
+            name="deliveryUploadForm"
+            type="org.apache.struts.validator.DynaValidatorForm">
+            <form-property
+                name="moduleId"		type="java.lang.Integer"/>
+			<form-property
+                name="homeworkId"	type="java.lang.Integer"/>
+			<form-property
+				name="file"			type="org.apache.struts.upload.FormFile"/>
+        </form-bean>
+
+  </form-beans>
+
+
+<!-- ========================================= Global Exception Definitions -->
+
+    <global-exceptions>
+        <!-- sample exception handler
+        <exception
+            key="expired.password"
+            type="app.ExpiredPasswordException"
+            path="/changePassword.jsp"/>
+        end sample -->
+    </global-exceptions>
+
+
+<!-- =========================================== Global Forward Definitions -->
+
+    <global-forwards>
+		<forward
+            name="fCourse"
+            path="/fCourse.do"/>
+		<forward
+            name="fInsertCourseStepOne"
+            path="/fInsertCourseStepOne.do"/>
+		<forward
+            name="fInsertCourseStepTwo"
+            path="/fInsertCourseStepTwo.do"/>
+		<forward
+            name="fInsertCourseStepThree"
+            path="/fInsertCourseStepThree.do"/>
+		<forward
+            name="fEditCourse"
+            path="/fEditCourse.do"/>
+        <forward
+            name="fCourseNotLogged"
+            path="/fCourseNotLogged.do"/>
+      	<forward
+            name="fCourseCharacteristics"
+            path="/fCourseCharacteristics.do"/>
+      	<forward
+            name="fCourseCharacteristicsNotLogged"
+            path="/fCourseCharacteristicsNotLogged.do"/>
+      	<forward
+            name="fListCoursesNotLogged"
+            path="/fListCoursesNotLogged.do"/>
+		<forward
+			name="fContentManagement"
+			path="fContentManagement.do"/>
+                    
+    </global-forwards>
+
+
+<!-- =========================================== Action Mapping Definitions -->
+
+    <action-mappings>
+
+	<!-- <action
+			path="/validarLogin"
+			type="amadeus.struts.action.controleAcesso.usuario.UsuarioActions"
+			parameter="validarLogin"
+			name="logonForm"
+        	scope="request"
+			input="/jsp/welcome.jsp">
+			<forward name="success" path="/jsp/menu.jsp"/>
+		</action>
+		 -->	
+		 <action
+			path="/validateLoginCourse"
+			type="br.ufpe.cin.amadeus.struts.action.academic.CourseActions"
+			parameter="validateLoginCourse"
+			name="logonCourseForm"
+        	scope="request"
+			input="/jsp/amadeus/access_control/course/insertCourseStepOne.jsp">
+			<forward name="success" path="/jsp/amadeus/access_control/course/insertCourseStepOne.jsp"/>
+		</action>
+
+        <action
+            path="/fCourse"
+            type="org.apache.struts.actions.ForwardAction"
+            parameter="/jsp/amadeus/access_control/course/course.jsp"/>
+
+         <action
+            path="/fInsertCourseStepOne"
+            type="org.apache.struts.actions.ForwardAction"
+            parameter="/jsp/amadeus/access_control/course/insertCourseStepOne.jsp"/>  
+
+   		<action
+            path="/fInsertCourseStepTwo"
+            type="org.apache.struts.actions.ForwardAction"
+            parameter="/jsp/amadeus/access_control/course/insertCourseStepTwo.jsp"/>
+
+        <action
+            path="/fInsertCourseStepThree"
+            type="org.apache.struts.actions.ForwardAction"
+            parameter="/jsp/amadeus/access_control/course/insertCourseStepThree.jsp"/>
+
+        <action
+			path="/fEditCourse"
+			type="br.ufpe.cin.amadeus.struts.action.academic.CourseActions"
+			parameter="fEditCourse"
+			scope="request">
+			<forward name="success" path="/jsp/amadeus/access_control/course/editCourse.jsp"/>
+		</action>
+
+        <action
+			path="/editCourse"
+			type="br.ufpe.cin.amadeus.struts.action.academic.CourseActions"
+			parameter="editCourse"
+			name="courseForm"
+        	scope="request"
+        	input="/jsp/amadeus/access_control/course/editCourse.jsp">
+			<forward name="success"
+					 path="/jsp/menu.jsp"/>
+		</action>
+				
+        <action
+			path="/insertCourseStepOne"
+			type="br.ufpe.cin.amadeus.struts.action.academic.CourseActions"
+			parameter="insertCourseStepOne"
+			name="courseForm"
+        	scope="request"
+			input="/jsp/amadeus/access_control/course/insertCourseStepOne.jsp">
+			<forward name="success" path="/jsp/amadeus/access_control/course/insertCourseStepTwo.jsp"/>
+		</action>
+		
+		<action
+			path="/insertCourseStepTwo"
+			type="br.ufpe.cin.amadeus.struts.action.academic.CourseActions"
+			parameter="insertCourseStepTwo"
+			name="courseFormStepTwo"
+        	scope="request"
+			input="/jsp/amadeus/access_control/course/insertCourseStepTwo.jsp">
+			<forward name="success" path="/jsp/amadeus/access_control/course/insertCourseStepThree.jsp"/>
+		</action>
+		
+		<action
+            path="/fCourseNotLogged"
+            type="org.apache.struts.actions.ForwardAction"
+            parameter="/jsp/amadeus/access_control/course/courseNotLogged.jsp"/>  
+
+        <action
+            path="/fCourseCharacteristics"
+            type="org.apache.struts.actions.ForwardAction"
+            parameter="/jsp/amadeus/access_control/course/courseCharacteristics.jsp"/>
+
+        <action
+			path="/searchCourse"
+            type="br.ufpe.cin.amadeus.struts.action.academic.CourseActions"
+            parameter="searchCourse"
+            name="searchCourseForm"
+            scope="request"
+            input="/jsp/welcome.jsp">				
+            <forward name="logged"
+            		path="/jsp/amadeus/access_control/course/listCourses.jsp"/>
+            <forward name="notLogged"
+            		path="/jsp/amadeus/access_control/course/listCoursesNotLogged.jsp"/>
+		</action>
+
+        <action
+			path="/iterateSearch"
+            type="br.ufpe.cin.amadeus.struts.action.academic.CourseActions"
+            parameter="iterateSearch"
+            scope="request">
+            <forward name="logged"
+            		path="/jsp/amadeus/access_control/course/listCourses.jsp"/>
+            <forward name="notLogged"
+            		path="/jsp/amadeus/access_control/course/listCoursesNotLogged.jsp"/>
+		</action>
+		
+        <action
+        	path="/viewCourse"
+			type="br.ufpe.cin.amadeus.struts.action.academic.CourseActions"
+        	parameter="viewCourse"
+        	scope="request">
+            <forward name="logged"
+            		path="/jsp/amadeus/access_control/course/courseCharacteristics.jsp"/>
+            <forward name="notLogged"
+            		path="/jsp/amadeus/access_control/course/courseCharacteristicsNotLogged.jsp"/>
+		</action>
+
+		<action
+			path="/listParticipants"
+			type="br.ufpe.cin.amadeus.struts.action.academic.CourseActions"
+			parameter="listParticipants"
+		   	scope="request">
+		   	<forward name="logged"
+            		path="/jsp/amadeus/access_control/course/listCourseParticipants.jsp"/>
+            <forward name="notLogged"
+            		path="/jsp/amadeus/access_control/course/listCourseParticipantsNotLogged.jsp"/>
+		</action>
+        	
+        <action
+			path="/register"
+			type="br.ufpe.cin.amadeus.struts.action.academic.CourseActions"
+			parameter="register"
+			name="courseCharacteristicsForm"
+        	scope="request"
+			input="/jsp/amadeus/access_control/course/courseCharacteristics.jsp">
+			<forward name="success" path="/jsp/amadeus/access_control/course/courseContent.jsp"/>
+		</action>  
+
+		<action
+            path="/fCourseCharacteristicsNotLogged"
+            type="org.apache.struts.actions.ForwardAction"
+            parameter="/jsp/amadeus/access_control/course/courseCharacteristicsNotLogged.jsp"/>
+
+		<action
+            path="/fListCoursesNotLogged"
+            type="org.apache.struts.actions.ForwardAction"
+            parameter="/jsp/amadeus/access_control/course/listCoursesNotLogged.jsp"/>
+
+        <action
+			path="/validateLoginAction"
+			type="br.ufpe.cin.amadeus.struts.action.academic.CourseActions"
+			parameter="validateLoginAction"
+			name="logonActionForm"
+        	scope="request"/>
+            
+		<action
+			path="/uploadMaterial"
+			type="br.ufpe.cin.amadeus.struts.action.academic.UploadActions"
+			parameter="uploadMaterial"
+			name="materialUploadForm"
+        	scope="request"/>
+
+		<action
+			path="/uploadDelivery"
+			type="br.ufpe.cin.amadeus.struts.action.academic.UploadActions"
+			parameter="uploadDelivery"
+			name="deliveryUploadForm"
+        	scope="request"/>
+        	
+		<action
+			path="/downloadMaterial"
+			type="br.ufpe.cin.amadeus.struts.action.academic.MaterialDownloadAction"
+        	scope="request"/>
+
+        <action
+            path="/fContentManagement"
+            type="org.apache.struts.actions.ForwardAction"
+            parameter="/jsp/amadeus/access_control/course/insertCourseStepThree.jsp"/>
+ 		<action
+            path="/fCourseContent"
+            type="org.apache.struts.actions.ForwardAction"
+            parameter="/jsp/amadeus/access_control/course/courseContent.jsp"/>
+
+    </action-mappings>
+
+</struts-config>

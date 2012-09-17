@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<com.ibm.uma:ContentDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:com.ibm.uma="http://www.ibm.com/uma/1.0.2/uma.ecore" xmi:id="-6Lp5x1sAOIcEJoF_XpXtaQ" name="requisitos_funcionais,_8t2V8N9lEdq_r4DJMJEZ2w" guid="-6Lp5x1sAOIcEJoF_XpXtaQ" changeDate="2006-05-09T11:13:25.359-0300">
+  <mainDescription>&lt;p align=&quot;left&quot;&gt;
+    &lt;font face=&quot;Times-Roman+2&quot; size=&quot;2&quot;&gt;Os requisitos definem quais serão os serviços que o sistema deverá prover além de
+    um conjunto de restrições existentes na operação do sistema [KOT98]. Os requisitos funcionais podem ser definidos como
+    as acoes fundamentais do sistema, processando as entradas do usuarios em saidas do sistema&amp;nbsp;[IEEE98].&lt;/font&gt;
+&lt;/p&gt;
+&lt;p align=&quot;left&quot;&gt;
+    &lt;font face=&quot;Times-Roman+2&quot; size=&quot;2&quot;&gt;Dentro do projeto os requisitos funcionais sao descritos nas fases iniciais da
+    elicitacao&amp;nbsp; e possuem um alto nivel de abstracao, servindo para orientar&amp;nbsp; as fases seguintes do processo de
+    engenharia de requisitos.&lt;/font&gt;
+&lt;/p&gt;
+&lt;p align=&quot;left&quot;&gt;
+    &amp;nbsp;
+&lt;/p&gt;</mainDescription>
+</com.ibm.uma:ContentDescription>

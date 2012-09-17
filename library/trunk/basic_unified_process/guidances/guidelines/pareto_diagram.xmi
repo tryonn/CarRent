@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<com.ibm.uma:ContentDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:com.ibm.uma="http://www.ibm.com/uma/1.0.2/uma.ecore" xmi:id="-GtpeT0heQG4uxw8THKsEYQ" name="pareto_diagram,_ITlukCOsEdqwXqDBrxi05A" guid="-GtpeT0heQG4uxw8THKsEYQ" changeDate="2006-04-24T16:23:03.818-0300">
+  <mainDescription>&lt;p&gt;
+    To complement the &lt;a class=&quot;elementLinkWithType&quot; href=&quot;./../../../basic_unified_process/guidances/guidelines/fishbone_diagram,_Avm_wCOsEdqwXqDBrxi05A.html&quot; guid=&quot;_Avm_wCOsEdqwXqDBrxi05A&quot;&gt;Guideline: Fishbone Diagram&lt;/a&gt;, you can use Pareto diagrams. They focus on showing
+    relative size between contributing factors (root causes) to the problem.
+&lt;/p&gt;
+&lt;p&gt;
+    Assign percentage factors to each root cause. Draw the Pareto diagram and decide on the top 20 percent of the
+    contributing root causes.
+&lt;/p&gt;
+&lt;p align=&quot;center&quot;&gt;
+    &lt;img height=&quot;320&quot; alt=&quot;Diagram described in accompanying text.&quot; src=&quot;resources/wg_paret.gif&quot; width=&quot;462&quot; /&gt;
+&lt;/p&gt;
+&lt;p class=&quot;picturetext&quot; align=&quot;center&quot;&gt;
+    Example of a Pareto diagram for a Recycling Machine system.
+&lt;/p&gt;</mainDescription>
+</com.ibm.uma:ContentDescription>

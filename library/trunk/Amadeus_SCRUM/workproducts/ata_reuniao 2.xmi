@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<com.ibm.uma:DeliverableDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:com.ibm.uma="http://www.ibm.com/uma/1.0.2/uma.ecore" xmi:id="-d2dMucNkgqDu8wA3LqWSKg" name="new_deliverable,_mlfyMMmBEdqyX80RomEFnQ" guid="-d2dMucNkgqDu8wA3LqWSKg" changeDate="2006-04-11T14:36:22.124-0300">
+  <mainDescription>&lt;p&gt;
+    Ao final de cada reuniao presencial, e criada a ata de reuniao. Essa ata deve ser dispara por e-mail para a lista do
+    projeto de modo a documentar o que ficou decidido e acordado em reuniao.
+&lt;/p&gt;
+&lt;p&gt;
+    As dificuldades&amp;nbsp;identificadas&amp;nbsp;pela&amp;nbsp;equipe tambem devem estar expostas de modo a encontrar&amp;nbsp;soluçoes
+    futuras ou pessoas que auxiliem na atividade.&amp;nbsp;
+&lt;/p&gt;</mainDescription>
+  <purpose>&lt;p&gt;
+    Documentar andamento semanal do projeto.
+&lt;/p&gt;</purpose>
+</com.ibm.uma:DeliverableDescription>

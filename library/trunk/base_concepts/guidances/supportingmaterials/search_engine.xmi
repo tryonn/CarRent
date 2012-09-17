@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<com.ibm.uma:ContentDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:com.ibm.uma="http://www.ibm.com/uma/1.0.2/uma.ecore" xmi:id="_zZxTYtnmEdmO6L4XMImrsA" name="search_engine,3.1789140222665413E-305" guid="_zZxTYtnmEdmO6L4XMImrsA" changeDate="2005-11-09T12:02:32.459-0800">
+  <mainDescription>&lt;p&gt;
+    &lt;a id=&quot;using&quot; name=&quot;using&quot;&gt;&lt;strong&gt;Note&lt;/strong&gt;: The&amp;nbsp;Search Engine, implemented as applets, requires JRE 1.4.2 or
+    higher (you can download a JRE from&lt;/a&gt; &lt;a href=&quot;http://java.sun.com/j2se&quot; target=&quot;_blank&quot;&gt;http://java.sun.com/j2se&lt;/a&gt;&lt;a id=&quot;using&quot; name=&quot;using&quot;&gt;).&lt;/a&gt;
+&lt;/p&gt;
+&lt;h3&gt;
+    Tips on Using the Search Engine
+&lt;/h3&gt;
+&lt;p&gt;
+    The search engine allows you to search for pages in the&amp;nbsp;published&amp;nbsp;Web site in a number of ways. For example,
+    you can:
+&lt;/p&gt;
+&lt;ul&gt;
+    &lt;li&gt;
+        Search for pages that contain &lt;b&gt;all&lt;/b&gt; of the words that you have typed.
+    &lt;/li&gt;
+    &lt;li&gt;
+        Search for pages that contain &lt;b&gt;any&lt;/b&gt; of the words that you have typed.
+    &lt;/li&gt;
+    &lt;li&gt;
+        Search for pages that contain the &lt;b&gt;exact phrase&lt;/b&gt; that you have typed.
+    &lt;/li&gt;
+    &lt;li&gt;
+        Search for pages that contain &lt;b&gt;none of the words&lt;/b&gt; that you have typed.
+    &lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+    To enter a search query, type the words to be searched for in your choice of the &lt;b&gt;All the words&lt;/b&gt;, &lt;b&gt;Any word&lt;/b&gt;,
+    &lt;b&gt;Exact phrase&lt;/b&gt;, and &lt;b&gt;Without the words&lt;/b&gt; fields, and then press &lt;tt&gt;ENTER&lt;/tt&gt; or click the &lt;b&gt;Search Now&lt;/b&gt;
+    button. When the search is complete, each matching page will be listed in the &lt;b&gt;Results&lt;/b&gt; field, showing the page
+    title and a short summary of the content. Click a title to open the page in your published siteWeb browser window.
+&lt;/p&gt;
+&lt;p&gt;
+    For example, to search for pages that contain all of the words &quot;Rational&quot;, &quot;Unified&quot;, and &quot;Process&quot;, and either or both
+    of the words &quot;adopt&quot; and &quot;vision&quot;, type the words &lt;tt&gt;Rational Unified Process&lt;/tt&gt; in the &lt;b&gt;All the words&lt;/b&gt; field,
+    and &lt;tt&gt;adopt vision&lt;/tt&gt; in the &lt;b&gt;Any word&lt;/b&gt; field.
+&lt;/p&gt;
+&lt;p&gt;
+    You can select how many results per page that you want by using the &lt;b&gt;Show&lt;/b&gt; list. If the results are more than what
+    you selected to see per page, click the &lt;b&gt;next&lt;/b&gt; and &lt;b&gt;previous&lt;/b&gt; buttons to page through the results.
+&lt;/p&gt;
+&lt;p&gt;
+    You can also indicate whether you want the query to be applied against the published web-site or developerWorks. To
+    choose between the published web-site and developerWorks, click the &lt;b&gt;In section&lt;/b&gt; list, and then select the desired
+    section.
+&lt;/p&gt;
+&lt;h3&gt;
+    &lt;a id=&quot;finding&quot; name=&quot;finding&quot;&gt;Finding a Word on a Page&lt;/a&gt;
+&lt;/h3&gt;
+&lt;p&gt;
+    Once a page is displayed by the search engine, use the Web browser's search tool to find a specific word on that page.
+    Press &lt;tt&gt;CTRL+F&lt;/tt&gt; to start the Web browser's search tool.
+&lt;/p&gt;
+&lt;h3&gt;
+    &lt;a id=&quot;entering&quot; name=&quot;entering&quot;&gt;Entering a Search Query&lt;/a&gt;
+&lt;/h3&gt;
+&lt;p&gt;
+    A search query consists of one or more specified words. Boolean operators cannot be used. Instead of Boolean operators,
+    use the &lt;b&gt;All the words&lt;/b&gt;, &lt;b&gt;Any word&lt;/b&gt;, &lt;b&gt;Exact phrase&lt;/b&gt;, or &lt;b&gt;Without the word&lt;/b&gt; fields that are
+    provided. The search process is not case-sensitive, which means that &lt;font size=&quot;3&quot;&gt;&lt;tt&gt;Hello, HELLO, and
+    hElLo&lt;/tt&gt;&lt;/font&gt; are all considered the same. The wildcard symbol is not supported: &lt;font size=&quot;3&quot;&gt;&lt;tt&gt;*&lt;/tt&gt;&lt;/font&gt;.
+&lt;/p&gt;
+&lt;p&gt;
+    When more than one field is used, the query is evaluated with precedence from top to bottom. For example, the query:
+&lt;/p&gt;
+&lt;div align=&quot;center&quot;&gt;
+    &lt;table     style=&quot;BORDER-RIGHT: rgb(128,128,128) 1px solid; BORDER-TOP: rgb(128,128,128) 1px solid; BORDER-LEFT: rgb(128,128,128) 1px solid; BORDER-BOTTOM: rgb(128,128,128) 1px solid&quot;      cellspacing=&quot;4&quot; bordercolordark=&quot;#808080&quot; cellpadding=&quot;4&quot; width=&quot;350&quot; bordercolorlight=&quot;#808080&quot; border=&quot;0&quot;&gt;
+        &lt;tbody&gt;
+            &lt;tr&gt;
+                &lt;th align=&quot;left&quot; width=&quot;40%&quot;&gt;
+                    All the words:
+                &lt;/th&gt;
+                &lt;td width=&quot;60%&quot;&gt;
+                    project management
+                &lt;/td&gt;
+            &lt;/tr&gt;
+            &lt;tr&gt;
+                &lt;th align=&quot;left&quot; width=&quot;40%&quot;&gt;
+                    &lt;b&gt;Any word&lt;/b&gt;:
+                &lt;/th&gt;
+                &lt;td width=&quot;60%&quot;&gt;
+                    adopt vision
+                &lt;/td&gt;
+            &lt;/tr&gt;
+            &lt;tr&gt;
+                &lt;th align=&quot;left&quot; width=&quot;40%&quot;&gt;
+                    &lt;b&gt;Exact phrase&lt;/b&gt;:
+                &lt;/th&gt;
+                &lt;td width=&quot;60%&quot;&gt;
+                    Rational Unified Process
+                &lt;/td&gt;
+            &lt;/tr&gt;
+            &lt;tr&gt;
+                &lt;th align=&quot;left&quot; width=&quot;40%&quot;&gt;
+                    &lt;b&gt;Without the words&lt;/b&gt;:
+                &lt;/th&gt;
+                &lt;td width=&quot;60%&quot;&gt;
+                    implementation
+                &lt;/td&gt;
+            &lt;/tr&gt;
+        &lt;/tbody&gt;
+    &lt;/table&gt;
+    &lt;br /&gt;
+    &lt;br /&gt;
+&lt;/div&gt;
+&lt;p&gt;
+    This can be expressed as the following: (project AND management) AND (adopt OR vision) AND (Rational Unified Process)
+    NOT (implementation). In other words, the matching pages must contain both of the words &quot;project&quot; and &quot;management&quot;, the
+    word &quot;adopt&quot; or &quot;vision&quot;, along with the phrase &quot;Rational Unified Process&quot;. Matching pages must not contain the word
+    &quot;implementation&quot;.
+&lt;/p&gt;
+&lt;h3&gt;
+    &lt;a id=&quot;special_considerations&quot; name=&quot;special_considerations&quot;&gt;Special Considerations&lt;/a&gt;
+&lt;/h3&gt;
+&lt;ul&gt;
+    &lt;li&gt;
+        The search engine automatically excludes common words such as &quot;where&quot;, &quot;when&quot;, and &quot;the&quot; from search queries,
+        because these words are excluded during the creation of the index files on which the search operates. Excluding
+        these words improves performance of the search without impacting the precision of the results.
+    &lt;/li&gt;
+    &lt;li&gt;
+        In order for a query using the &lt;b&gt;Without the words&lt;/b&gt; field to make sense, there must be text in at least one of
+        the other search fields. In other words, unless you first specify that you want the search to find pages that
+        &lt;b&gt;do&lt;/b&gt; contain certain words or a specific phrase, the search engine cannot find pages that &lt;b&gt;do not&lt;/b&gt;
+        contain certain words.
+    &lt;/li&gt;
+    &lt;li&gt;
+        Wildcard searches using the wildcard character are not supported.
+    &lt;/li&gt;
+    &lt;li&gt;
+        Boolean operators are not supported. See the section titled &lt;a href=&quot;#entering&quot;&gt;Entering a Search Query&lt;/a&gt; for
+        instructions on how to perform searches that are equivalent to using Boolean operators.
+    &lt;/li&gt;
+    &lt;li&gt;
+        You may obtain unsatisfactory search results for queries that attempt to search for single digit numbers in their
+        numeric format, especially the numbers 0 though 9. Instead of searching for the numeric value, either omit the
+        number from the search or use the full textual spelling of the number, for example &quot;zero&quot;, &quot;six&quot;, &quot;nine&quot;, &quot;ten&quot; and
+        so forth.
+    &lt;/li&gt;
+&lt;/ul&gt;
+&lt;br /&gt;
+&lt;br /&gt;</mainDescription>
+</com.ibm.uma:ContentDescription>

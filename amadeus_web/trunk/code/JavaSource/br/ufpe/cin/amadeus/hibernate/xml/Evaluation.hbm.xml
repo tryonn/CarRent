@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE hibernate-mapping	PUBLIC 
+	"-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+    "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+
+<hibernate-mapping>
+	<class
+		name="br.ufpe.cin.amadeus.system.academic.module.evaluation.Evaluation"
+		table="evaluation">
+		<id name="id">
+			<column name="sqevaluation" not-null="true" />
+			<generator class="increment" />
+		</id>
+
+		<property name="name">
+			<column name="nm_name" />
+		</property>
+
+		<property name="beginning">
+			<column name="dt_beginning" />
+		</property>
+		
+		<property name="end">
+			<column name="dt_end" />
+		</property>
+
+		<property name="weight">
+			<column name="id_weight" />
+		</property>
+		
+		<property name="maxScore">
+			<column name="id_maxScore" />
+		</property>
+		
+		<property name="sqmodule">
+			<column name="sqmodule"/>
+		</property>
+		
+		<many-to-one name="author" 
+        	   class="br.ufpe.cin.amadeus.system.human_resources.person.Person"
+        	   cascade="none"
+        	   update="true" 
+               insert="true"
+               column="sqperson"/>
+
+		<!-- mapeando os list discoursive e objective question -->
+				
+		
+		<list name="discoursiveQuestions"
+	 		table="evaluation_discoursive_question"
+	 		lazy="true"
+	 		cascade="all-delete-orphan"
+	 		inverse="false">
+	 		<key column="sqevaluation"/>
+	 		<index column="ds_position"/>
+	 		<many-to-many class="br.ufpe.cin.amadeus.system.academic.module.evaluation.question.DiscoursiveQuestion" 
+	 			          column="sqdiscoursivequestion"/>
+ 		</list>
+					
+		
+		
+		<list name="objectiveQuestions"
+	 		table="evaluation_objective_question"
+	 		lazy="true"
+	 		cascade="all-delete-orphan"
+	 		inverse="false">
+	 		<key column="sqevaluation"/>
+	 		<index column="ds_position"/>
+	 		<many-to-many class="br.ufpe.cin.amadeus.system.academic.module.evaluation.question.ObjectiveQuestion" 
+	 			          column="sqobjectivequestion"/>
+ 		</list>
+		
+	</class>
+</hibernate-mapping>

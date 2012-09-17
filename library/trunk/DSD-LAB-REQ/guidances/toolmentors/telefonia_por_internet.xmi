@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<com.ibm.uma:ContentDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:com.ibm.uma="http://www.ibm.com/uma/1.0.2/uma.ecore" xmi:id="-zQaMW8QboXeUICMyVYx_qA" name="telefonia_por_internet,_VIaAYNwxEdqxu_MHTiRzng" guid="-zQaMW8QboXeUICMyVYx_qA" changeDate="2006-05-06T09:17:46.812-0300">
+  <mainDescription>&lt;p&gt;
+    Permitir realizar chamadas através da internet. Eh interessante que seja uma ferramenta multiplataforma para que todos
+    os envolvidos possam ter acesso a ferramenta.
+&lt;/p&gt;
+&lt;p&gt;
+    Funcionalidades necessarias da ferramenta para execucao das atividades do processo:
+&lt;/p&gt;
+&lt;ul&gt;
+    &lt;li&gt;
+        Chamadas ilimitadas para outros utilizadores do Skype de qualquer parte do mundo;
+    &lt;/li&gt;
+    &lt;li&gt;
+        Boa qualidade de som;
+    &lt;/li&gt;
+    &lt;li&gt;
+        A lista de contactos do Skype mostra-lhe quando é que os seus amigos estão online e disponíveis para falar ou
+        conversar.
+    &lt;/li&gt;
+    &lt;li&gt;
+        Um framework de segurança incorporando diversas proteçoes a ataques contra os usuários.
+    &lt;/li&gt;
+    &lt;li&gt;
+        Permitir audio conferência para até 4 usuários
+    &lt;/li&gt;
+    &lt;li&gt;
+        Permitir video-conferência entre os usuários
+    &lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+    Funcionalidades desejaveis da ferramenta para execucao das atividades do processo:
+&lt;/p&gt;
+&lt;ul&gt;
+    &lt;li&gt;
+        Prover mecanismo de gravação das conversas. Para reuniões de validação dos requisitos os usuários sentiram a
+        necessidade de gravá-las.&lt;br /&gt;
+    &lt;/li&gt;
+&lt;/ul&gt;</mainDescription>
+</com.ibm.uma:ContentDescription>

@@ -1,0 +1,407 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<com.ibm.uma:GuidanceDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:com.ibm.uma="http://www.ibm.com/uma/1.0.2/uma.ecore" xmi:id="_XjOXcMM2EdmSIPI87WLu3g" name="project_plan,_0c7hoMlgEdmt3adZL5Dmdw" guid="_XjOXcMM2EdmSIPI87WLu3g" changeDate="2005-07-07T14:06:22.685-0700">
+  <mainDescription>&lt;blockquote dir=&quot;ltr&quot; style=&quot;MARGIN-RIGHT: 0px&quot;&gt;
+    &lt;blockquote dir=&quot;ltr&quot; style=&quot;MARGIN-RIGHT: 0px&quot;&gt;
+        &lt;blockquote dir=&quot;ltr&quot; style=&quot;MARGIN-RIGHT: 0px&quot;&gt;
+            &lt;blockquote dir=&quot;ltr&quot; style=&quot;MARGIN-RIGHT: 0px&quot;&gt;
+                &lt;blockquote dir=&quot;ltr&quot; style=&quot;MARGIN-RIGHT: 0px&quot;&gt;
+                    &lt;h3 class=&quot;MsoTitle&quot; dir=&quot;ltr&quot;&gt;
+                        &amp;lt;Project Name&amp;gt;
+                    &lt;/h3&gt;
+                    &lt;blockquote dir=&quot;ltr&quot; style=&quot;MARGIN-RIGHT: 0px&quot;&gt;
+                        &lt;h3 class=&quot;Section1&quot;&gt;
+                            Project&amp;nbsp;Plan
+                        &lt;/h3&gt;
+                    &lt;/blockquote&gt;
+                &lt;/blockquote&gt;
+            &lt;/blockquote&gt;
+        &lt;/blockquote&gt;
+    &lt;/blockquote&gt;
+&lt;/blockquote&gt;
+&lt;h4&gt;
+    &lt;a id=&quot;_Toc447095880&quot; name=&quot;_Toc447095880&quot;&gt;&lt;/a&gt;&lt;a id=&quot;_Toc456598586&quot; name=&quot;_Toc456598586&quot;&gt;&lt;/a&gt;&lt;a id=&quot;_Toc456600917&quot;
+    name=&quot;_Toc456600917&quot;&gt;&lt;/a&gt;&lt;a id=&quot;_Toc524312826&quot; name=&quot;_Toc524312826&quot;&gt;&lt;/a&gt;&lt;a id=&quot;_Toc20734058&quot;
+    name=&quot;_Toc20734058&quot;&gt;1.&lt;span
+    style=&quot;FONT: 7pt 'Times New Roman'&quot;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/span&gt;
+    Introduction&lt;/a&gt;
+&lt;/h4&gt;
+&lt;h4 class=&quot;Section1&quot;&gt;
+    &lt;a id=&quot;_Toc524312837&quot; name=&quot;_Toc524312837&quot;&gt;&lt;/a&gt;&lt;a id=&quot;_Toc20734060&quot; name=&quot;_Toc20734060&quot;&gt;2.&lt;span
+    style=&quot;FONT: 7pt 'Times New Roman'&quot;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/span&gt;
+    Project Organization&lt;/a&gt;
+&lt;/h4&gt;
+&lt;h5 class=&quot;Section1&quot;&gt;
+    &lt;a id=&quot;_Toc524312838&quot; name=&quot;_Toc524312838&quot;&gt;&lt;/a&gt;&lt;a id=&quot;_Toc20734061&quot; name=&quot;_Toc20734061&quot;&gt;2.1&lt;span
+    style=&quot;FONT: 7pt 'Times New Roman'&quot;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/span&gt;
+    Organizational Structure&lt;/a&gt;
+&lt;/h5&gt;
+&lt;h4 class=&quot;Section1&quot;&gt;
+    &lt;a id=&quot;_Toc524312839&quot; name=&quot;_Toc524312839&quot;&gt;&lt;/a&gt;&lt;a id=&quot;_Toc20734062&quot; name=&quot;_Toc20734062&quot;&gt;2.2&lt;span
+    style=&quot;FONT: 7pt 'Times New Roman'&quot;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/span&gt;
+    External Interfaces&lt;/a&gt;
+&lt;/h4&gt;
+&lt;p class=&quot;InfoBlue&quot;&gt;
+    [Describe how the project interfaces with external groups. For each external group, identify the internal and external
+    contact names. This should include responsibilities related to deployment and acceptance of the product.]
+&lt;/p&gt;
+&lt;h4 class=&quot;Section1&quot;&gt;
+    &lt;a id=&quot;_Toc524312840&quot; name=&quot;_Toc524312840&quot;&gt;&lt;/a&gt;&lt;a id=&quot;_Toc20734063&quot; name=&quot;_Toc20734063&quot;&gt;2.3&lt;span
+    style=&quot;FONT: 7pt 'Times New Roman'&quot;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/span&gt;
+    Roles and Responsibilities&lt;/a&gt;
+&lt;/h4&gt;
+&lt;p class=&quot;InfoBlue&quot;&gt;
+    [Identify the people or organizational units that have a role on the project, and what role(s) they play.]
+&lt;/p&gt;
+&lt;table style=&quot;WIDTH: 517px; HEIGHT: 53px&quot; cellspacing=&quot;2&quot; cellpadding=&quot;2&quot; width=&quot;517&quot; border=&quot;1&quot;&gt;
+    &lt;tbody&gt;
+        &lt;tr&gt;
+            &lt;td&gt;
+                &lt;p class=&quot;MsoNormal&quot;&gt;
+                    &lt;b&gt;Person&lt;/b&gt;
+                &lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;
+                &lt;p class=&quot;MsoNormal&quot;&gt;
+                    &lt;b&gt;Role&lt;/b&gt;
+                &lt;/p&gt;
+            &lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+            &lt;td&gt;
+            &lt;/td&gt;
+            &lt;td&gt;
+            &lt;/td&gt;
+        &lt;/tr&gt;
+    &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;br /&gt;
+&lt;br /&gt;
+&lt;h4 class=&quot;Section1&quot;&gt;
+    &lt;a id=&quot;_Toc524312847&quot; name=&quot;_Toc524312847&quot;&gt;&lt;/a&gt;&lt;a id=&quot;_Toc20734070&quot; name=&quot;_Toc20734070&quot;&gt;3.&lt;span
+    style=&quot;FONT: 7pt 'Times New Roman'&quot;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/span&gt;
+    Project Schedule&lt;/a&gt;
+&lt;/h4&gt;
+&lt;p class=&quot;infoblue0&quot;&gt;
+    &lt;span style=&quot;FONT-FAMILY: Times&quot;&gt;[Diagrams or tables showing target dates for completion of iterations and phases,
+    release points, demos, and other milestones.] For example:&lt;/span&gt;
+&lt;/p&gt;
+&lt;div class=&quot;Section1&quot; align=&quot;center&quot;&gt;
+    &lt;table
+    style=&quot;BORDER-RIGHT: medium none; BORDER-TOP: medium none; BORDER-LEFT: medium none; BORDER-BOTTOM: medium none; BORDER-COLLAPSE: collapse&quot;
+     cellspacing=&quot;0&quot; cellpadding=&quot;0&quot; border=&quot;1&quot;&gt;
+        &lt;tbody&gt;
+            &lt;tr style=&quot;HEIGHT: 56.7pt&quot;&gt;
+                &lt;td
+                style=&quot;BORDER-RIGHT: windowtext 0.5pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: windowtext 0.5pt solid; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0in; BORDER-LEFT: windowtext 0.5pt solid; WIDTH: 72.8pt; PADDING-TOP: 0in; BORDER-BOTTOM: windowtext 0.5pt solid; HEIGHT: 56.7pt&quot;
+                 valign=&quot;bottom&quot; width=&quot;97&quot;&gt;
+                    &lt;p class=&quot;MsoNormal&quot;&gt;
+                        &lt;b&gt;Phase&lt;/b&gt;
+                    &lt;/p&gt;
+                &lt;/td&gt;
+                &lt;td
+                style=&quot;BORDER-RIGHT: windowtext 0.5pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: windowtext 0.5pt solid; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0in; BORDER-LEFT: medium none; WIDTH: 26pt; PADDING-TOP: 0in; BORDER-BOTTOM: windowtext 0.5pt solid; HEIGHT: 56.7pt&quot;
+                 valign=&quot;bottom&quot; width=&quot;35&quot;&gt;
+                    &lt;p class=&quot;MsoNormal&quot; style=&quot;MARGIN: 0in 5.65pt 0pt&quot;&gt;
+                        &lt;b&gt;Iteration&lt;/b&gt;
+                    &lt;/p&gt;
+                &lt;/td&gt;
+                &lt;td
+                style=&quot;BORDER-RIGHT: windowtext 0.5pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: windowtext 0.5pt solid; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0in; BORDER-LEFT: medium none; WIDTH: 116.25pt; PADDING-TOP: 0in; BORDER-BOTTOM: windowtext 0.5pt solid; HEIGHT: 56.7pt&quot;
+                 valign=&quot;bottom&quot; width=&quot;155&quot;&gt;
+                    &lt;p class=&quot;MsoNormal&quot;&gt;
+                        &lt;b&gt;Primary Objective (risks/work addressed)&lt;/b&gt;
+                    &lt;/p&gt;
+                &lt;/td&gt;
+                &lt;td
+                style=&quot;BORDER-RIGHT: windowtext 0.5pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: windowtext 0.5pt solid; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0in; BORDER-LEFT: medium none; WIDTH: 80.4pt; PADDING-TOP: 0in; BORDER-BOTTOM: windowtext 0.5pt solid; HEIGHT: 56.7pt&quot;
+                 valign=&quot;bottom&quot; width=&quot;107&quot;&gt;
+                    &lt;p class=&quot;MsoNormal&quot;&gt;
+                        &lt;b&gt;Scheduled Start/Stop&lt;/b&gt;
+                    &lt;/p&gt;
+                &lt;/td&gt;
+                &lt;td
+                style=&quot;BORDER-RIGHT: windowtext 0.5pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: windowtext 0.5pt solid; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0in; BORDER-LEFT: medium none; WIDTH: 94.25pt; PADDING-TOP: 0in; BORDER-BOTTOM: windowtext 0.5pt solid; HEIGHT: 56.7pt&quot;
+                 valign=&quot;bottom&quot; width=&quot;126&quot;&gt;
+                    &lt;p class=&quot;MsoNormal&quot;&gt;
+                        &lt;b&gt;Effort Estimate (person days)&lt;/b&gt;
+                    &lt;/p&gt;
+                &lt;/td&gt;
+            &lt;/tr&gt;
+            &lt;tr&gt;
+                &lt;td
+                style=&quot;BORDER-RIGHT: windowtext 0.5pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0in; BORDER-LEFT: windowtext 0.5pt solid; WIDTH: 72.8pt; PADDING-TOP: 0in; BORDER-BOTTOM: windowtext 0.5pt solid&quot;
+                 valign=&quot;top&quot; width=&quot;97&quot;&gt;
+                    &lt;p class=&quot;MsoNormal&quot;&gt;
+                        Inception
+                    &lt;/p&gt;
+                &lt;/td&gt;
+                &lt;td
+                style=&quot;BORDER-RIGHT: windowtext 0.5pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0in; BORDER-LEFT: medium none; WIDTH: 26pt; PADDING-TOP: 0in; BORDER-BOTTOM: windowtext 0.5pt solid&quot;
+                 valign=&quot;top&quot; width=&quot;35&quot;&gt;
+                    &lt;p class=&quot;MsoNormal&quot;&gt;
+                        I1
+                    &lt;/p&gt;
+                &lt;/td&gt;
+                &lt;td
+                style=&quot;BORDER-RIGHT: windowtext 0.5pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0in; BORDER-LEFT: medium none; WIDTH: 116.25pt; PADDING-TOP: 0in; BORDER-BOTTOM: windowtext 0.5pt solid&quot;
+                 valign=&quot;top&quot; width=&quot;155&quot;&gt;
+                &lt;/td&gt;
+                &lt;td
+                style=&quot;BORDER-RIGHT: windowtext 0.5pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0in; BORDER-LEFT: medium none; WIDTH: 80.4pt; PADDING-TOP: 0in; BORDER-BOTTOM: windowtext 0.5pt solid&quot;
+                 valign=&quot;top&quot; width=&quot;107&quot;&gt;
+                &lt;/td&gt;
+                &lt;td
+                style=&quot;BORDER-RIGHT: windowtext 0.5pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0in; BORDER-LEFT: medium none; WIDTH: 94.25pt; PADDING-TOP: 0in; BORDER-BOTTOM: windowtext 0.5pt solid&quot;
+                 valign=&quot;top&quot; width=&quot;126&quot;&gt;
+                &lt;/td&gt;
+            &lt;/tr&gt;
+            &lt;tr&gt;
+                &lt;td
+                style=&quot;BORDER-RIGHT: windowtext 0.5pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0in; BORDER-LEFT: windowtext 0.5pt solid; WIDTH: 72.8pt; PADDING-TOP: 0in; BORDER-BOTTOM: windowtext 0.5pt solid&quot;
+                 valign=&quot;top&quot; width=&quot;97&quot;&gt;
+                    &lt;p class=&quot;MsoNormal&quot;&gt;
+                        Elaboration
+                    &lt;/p&gt;
+                &lt;/td&gt;
+                &lt;td
+                style=&quot;BORDER-RIGHT: windowtext 0.5pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0in; BORDER-LEFT: medium none; WIDTH: 26pt; PADDING-TOP: 0in; BORDER-BOTTOM: windowtext 0.5pt solid&quot;
+                 valign=&quot;top&quot; width=&quot;35&quot;&gt;
+                    &lt;p class=&quot;MsoNormal&quot;&gt;
+                        E1
+                    &lt;/p&gt;
+                &lt;/td&gt;
+                &lt;td
+                style=&quot;BORDER-RIGHT: windowtext 0.5pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0in; BORDER-LEFT: medium none; WIDTH: 116.25pt; PADDING-TOP: 0in; BORDER-BOTTOM: windowtext 0.5pt solid&quot;
+                 valign=&quot;top&quot; width=&quot;155&quot;&gt;
+                &lt;/td&gt;
+                &lt;td
+                style=&quot;BORDER-RIGHT: windowtext 0.5pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0in; BORDER-LEFT: medium none; WIDTH: 80.4pt; PADDING-TOP: 0in; BORDER-BOTTOM: windowtext 0.5pt solid&quot;
+                 valign=&quot;top&quot; width=&quot;107&quot;&gt;
+                &lt;/td&gt;
+                &lt;td
+                style=&quot;BORDER-RIGHT: windowtext 0.5pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0in; BORDER-LEFT: medium none; WIDTH: 94.25pt; PADDING-TOP: 0in; BORDER-BOTTOM: windowtext 0.5pt solid&quot;
+                 valign=&quot;top&quot; width=&quot;126&quot;&gt;
+                &lt;/td&gt;
+            &lt;/tr&gt;
+            &lt;tr&gt;
+                &lt;td
+                style=&quot;BORDER-RIGHT: windowtext 0.5pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0in; BORDER-LEFT: windowtext 0.5pt solid; WIDTH: 72.8pt; PADDING-TOP: 0in; BORDER-BOTTOM: windowtext 0.5pt solid&quot;
+                 valign=&quot;top&quot; width=&quot;97&quot;&gt;
+                    &lt;p class=&quot;MsoNormal&quot;&gt;
+                        Construction
+                    &lt;/p&gt;
+                &lt;/td&gt;
+                &lt;td
+                style=&quot;BORDER-RIGHT: windowtext 0.5pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0in; BORDER-LEFT: medium none; WIDTH: 26pt; PADDING-TOP: 0in; BORDER-BOTTOM: windowtext 0.5pt solid&quot;
+                 valign=&quot;top&quot; width=&quot;35&quot;&gt;
+                    &lt;p class=&quot;MsoNormal&quot;&gt;
+                        C1
+                    &lt;/p&gt;
+                &lt;/td&gt;
+                &lt;td
+                style=&quot;BORDER-RIGHT: windowtext 0.5pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0in; BORDER-LEFT: medium none; WIDTH: 116.25pt; PADDING-TOP: 0in; BORDER-BOTTOM: windowtext 0.5pt solid&quot;
+                 valign=&quot;top&quot; width=&quot;155&quot;&gt;
+                &lt;/td&gt;
+                &lt;td
+                style=&quot;BORDER-RIGHT: windowtext 0.5pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0in; BORDER-LEFT: medium none; WIDTH: 80.4pt; PADDING-TOP: 0in; BORDER-BOTTOM: windowtext 0.5pt solid&quot;
+                 valign=&quot;top&quot; width=&quot;107&quot;&gt;
+                &lt;/td&gt;
+                &lt;td
+                style=&quot;BORDER-RIGHT: windowtext 0.5pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0in; BORDER-LEFT: medium none; WIDTH: 94.25pt; PADDING-TOP: 0in; BORDER-BOTTOM: windowtext 0.5pt solid&quot;
+                 valign=&quot;top&quot; width=&quot;126&quot;&gt;
+                &lt;/td&gt;
+            &lt;/tr&gt;
+            &lt;tr&gt;
+                &lt;td
+                style=&quot;BORDER-RIGHT: windowtext 0.5pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0in; BORDER-LEFT: windowtext 0.5pt solid; WIDTH: 72.8pt; PADDING-TOP: 0in; BORDER-BOTTOM: windowtext 0.5pt solid&quot;
+                 valign=&quot;top&quot; width=&quot;97&quot;&gt;
+                &lt;/td&gt;
+                &lt;td
+                style=&quot;BORDER-RIGHT: windowtext 0.5pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0in; BORDER-LEFT: medium none; WIDTH: 26pt; PADDING-TOP: 0in; BORDER-BOTTOM: windowtext 0.5pt solid&quot;
+                 valign=&quot;top&quot; width=&quot;35&quot;&gt;
+                    &lt;p class=&quot;MsoNormal&quot;&gt;
+                        C2
+                    &lt;/p&gt;
+                &lt;/td&gt;
+                &lt;td
+                style=&quot;BORDER-RIGHT: windowtext 0.5pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0in; BORDER-LEFT: medium none; WIDTH: 116.25pt; PADDING-TOP: 0in; BORDER-BOTTOM: windowtext 0.5pt solid&quot;
+                 valign=&quot;top&quot; width=&quot;155&quot;&gt;
+                &lt;/td&gt;
+                &lt;td
+                style=&quot;BORDER-RIGHT: windowtext 0.5pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0in; BORDER-LEFT: medium none; WIDTH: 80.4pt; PADDING-TOP: 0in; BORDER-BOTTOM: windowtext 0.5pt solid&quot;
+                 valign=&quot;top&quot; width=&quot;107&quot;&gt;
+                &lt;/td&gt;
+                &lt;td
+                style=&quot;BORDER-RIGHT: windowtext 0.5pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0in; BORDER-LEFT: medium none; WIDTH: 94.25pt; PADDING-TOP: 0in; BORDER-BOTTOM: windowtext 0.5pt solid&quot;
+                 valign=&quot;top&quot; width=&quot;126&quot;&gt;
+                &lt;/td&gt;
+            &lt;/tr&gt;
+            &lt;tr&gt;
+                &lt;td
+                style=&quot;BORDER-RIGHT: windowtext 0.5pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0in; BORDER-LEFT: windowtext 0.5pt solid; WIDTH: 72.8pt; PADDING-TOP: 0in; BORDER-BOTTOM: windowtext 0.5pt solid&quot;
+                 valign=&quot;top&quot; width=&quot;97&quot;&gt;
+                    &lt;p class=&quot;MsoNormal&quot;&gt;
+                        Transition
+                    &lt;/p&gt;
+                &lt;/td&gt;
+                &lt;td
+                style=&quot;BORDER-RIGHT: windowtext 0.5pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0in; BORDER-LEFT: medium none; WIDTH: 26pt; PADDING-TOP: 0in; BORDER-BOTTOM: windowtext 0.5pt solid&quot;
+                 valign=&quot;top&quot; width=&quot;35&quot;&gt;
+                    &lt;p class=&quot;MsoNormal&quot;&gt;
+                        T1
+                    &lt;/p&gt;
+                &lt;/td&gt;
+                &lt;td
+                style=&quot;BORDER-RIGHT: windowtext 0.5pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0in; BORDER-LEFT: medium none; WIDTH: 116.25pt; PADDING-TOP: 0in; BORDER-BOTTOM: windowtext 0.5pt solid&quot;
+                 valign=&quot;top&quot; width=&quot;155&quot;&gt;
+                &lt;/td&gt;
+                &lt;td
+                style=&quot;BORDER-RIGHT: windowtext 0.5pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0in; BORDER-LEFT: medium none; WIDTH: 80.4pt; PADDING-TOP: 0in; BORDER-BOTTOM: windowtext 0.5pt solid&quot;
+                 valign=&quot;top&quot; width=&quot;107&quot;&gt;
+                &lt;/td&gt;
+                &lt;td
+                style=&quot;BORDER-RIGHT: windowtext 0.5pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0in; BORDER-LEFT: medium none; WIDTH: 94.25pt; PADDING-TOP: 0in; BORDER-BOTTOM: windowtext 0.5pt solid&quot;
+                 valign=&quot;top&quot; width=&quot;126&quot;&gt;
+                &lt;/td&gt;
+            &lt;/tr&gt;
+            &lt;tr&gt;
+                &lt;td
+                style=&quot;BORDER-RIGHT: windowtext 0.5pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0in; BORDER-LEFT: windowtext 0.5pt solid; WIDTH: 72.8pt; PADDING-TOP: 0in; BORDER-BOTTOM: windowtext 0.5pt solid&quot;
+                 valign=&quot;top&quot; width=&quot;97&quot;&gt;
+                &lt;/td&gt;
+                &lt;td
+                style=&quot;BORDER-RIGHT: windowtext 0.5pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0in; BORDER-LEFT: medium none; WIDTH: 26pt; PADDING-TOP: 0in; BORDER-BOTTOM: windowtext 0.5pt solid&quot;
+                 valign=&quot;top&quot; width=&quot;35&quot;&gt;
+                    &lt;p class=&quot;MsoNormal&quot;&gt;
+                        T2
+                    &lt;/p&gt;
+                &lt;/td&gt;
+                &lt;td
+                style=&quot;BORDER-RIGHT: windowtext 0.5pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0in; BORDER-LEFT: medium none; WIDTH: 116.25pt; PADDING-TOP: 0in; BORDER-BOTTOM: windowtext 0.5pt solid&quot;
+                 valign=&quot;top&quot; width=&quot;155&quot;&gt;
+                &lt;/td&gt;
+                &lt;td
+                style=&quot;BORDER-RIGHT: windowtext 0.5pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0in; BORDER-LEFT: medium none; WIDTH: 80.4pt; PADDING-TOP: 0in; BORDER-BOTTOM: windowtext 0.5pt solid&quot;
+                 valign=&quot;top&quot; width=&quot;107&quot;&gt;
+                &lt;/td&gt;
+                &lt;td
+                style=&quot;BORDER-RIGHT: windowtext 0.5pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0in; BORDER-LEFT: medium none; WIDTH: 94.25pt; PADDING-TOP: 0in; BORDER-BOTTOM: windowtext 0.5pt solid&quot;
+                 valign=&quot;top&quot; width=&quot;126&quot;&gt;
+                &lt;/td&gt;
+            &lt;/tr&gt;
+        &lt;/tbody&gt;
+    &lt;/table&gt;
+&lt;/div&gt;
+&lt;h4&gt;
+    &lt;a id=&quot;_Toc20734071&quot; name=&quot;_Toc20734071&quot;&gt;4.&lt;span
+    style=&quot;FONT: 7pt 'Times New Roman'&quot;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/span&gt;
+    Project Resourcing&lt;/a&gt;
+&lt;/h4&gt;
+&lt;p class=&quot;infoblue0&quot;&gt;
+    &lt;span style=&quot;FONT-FAMILY: Times&quot;&gt;&amp;nbsp;[Identify the numbers and type of staff required here, including any special
+    skills or experience, scheduled by project phase or iteration.&lt;/span&gt;
+&lt;/p&gt;
+&lt;p class=&quot;infoblue0&quot;&gt;
+    &lt;span style=&quot;FONT-FAMILY: Times&quot;&gt;&amp;nbsp;Describe how you will approach finding and acquiring the staff needed for the
+    project.&lt;/span&gt;
+&lt;/p&gt;
+&lt;p class=&quot;infoblue0&quot;&gt;
+    &lt;span style=&quot;FONT-FAMILY: Times&quot;&gt;&amp;nbsp;List any special training project team members will require, with target dates
+    for when this training should be completed.]&lt;/span&gt;
+&lt;/p&gt;
+&lt;h4&gt;
+    &lt;a id=&quot;_Toc20734072&quot; name=&quot;_Toc20734072&quot;&gt;&lt;/a&gt;&lt;a id=&quot;_Toc447095892&quot; name=&quot;_Toc447095892&quot;&gt;&lt;/a&gt;&lt;a id=&quot;_Toc512930361&quot;
+    name=&quot;_Toc512930361&quot;&gt;&lt;/a&gt;&lt;a id=&quot;_Toc447095893&quot; name=&quot;_Toc447095893&quot;&gt;&lt;/a&gt;&lt;a id=&quot;_Toc512930362&quot;
+    name=&quot;_Toc512930362&quot;&gt;&lt;/a&gt;&lt;a id=&quot;_Toc430447687&quot; name=&quot;_Toc430447687&quot;&gt;&lt;/a&gt;&lt;a id=&quot;_Toc447095894&quot;
+    name=&quot;_Toc447095894&quot;&gt;&lt;/a&gt;&lt;a id=&quot;_Toc512930363&quot; name=&quot;_Toc512930363&quot;&gt;&lt;/a&gt;&lt;a id=&quot;_Toc430447688&quot;
+    name=&quot;_Toc430447688&quot;&gt;&lt;/a&gt;&lt;a id=&quot;_Toc430447689&quot; name=&quot;_Toc430447689&quot;&gt;&lt;/a&gt;&lt;a id=&quot;_Toc447095895&quot;
+    name=&quot;_Toc447095895&quot;&gt;&lt;/a&gt;&lt;a id=&quot;_Toc512930364&quot; name=&quot;_Toc512930364&quot;&gt;&lt;/a&gt;&lt;a id=&quot;_Toc430447690&quot;
+    name=&quot;_Toc430447690&quot;&gt;&lt;/a&gt;&lt;a id=&quot;_Toc447095896&quot; name=&quot;_Toc447095896&quot;&gt;&lt;/a&gt;&lt;a id=&quot;_Toc512930365&quot;
+    name=&quot;_Toc512930365&quot;&gt;&lt;/a&gt;&lt;a id=&quot;_Toc447095897&quot; name=&quot;_Toc447095897&quot;&gt;&lt;/a&gt;&lt;a id=&quot;_Toc512930366&quot;
+    name=&quot;_Toc512930366&quot;&gt;&lt;/a&gt;&lt;a id=&quot;_Toc430447691&quot; name=&quot;_Toc430447691&quot;&gt;&lt;/a&gt;&lt;a id=&quot;_Toc447095898&quot;
+    name=&quot;_Toc447095898&quot;&gt;&lt;/a&gt;&lt;a id=&quot;_Toc512930367&quot; name=&quot;_Toc512930367&quot;&gt;&lt;/a&gt;&lt;a id=&quot;_Toc447095908&quot;
+    name=&quot;_Toc447095908&quot;&gt;&lt;/a&gt;&lt;a id=&quot;_Toc512930368&quot; name=&quot;_Toc512930368&quot;&gt;&lt;/a&gt;5.&lt;span
+    style=&quot;FONT: 7pt 'Times New Roman'&quot;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/span&gt;
+    Budget
+&lt;/h4&gt;
+&lt;p class=&quot;infoblue0&quot;&gt;
+    &lt;a id=&quot;_Toc447095909&quot; name=&quot;_Toc447095909&quot;&gt;&lt;span style=&quot;FONT-FAMILY: Times&quot;&gt;[Describe the size of the budget, how it is
+    allocated, and how it will be monitored.]&lt;/span&gt;&lt;/a&gt;
+&lt;/p&gt;
+&lt;h4&gt;
+    6.&lt;span
+    style=&quot;FONT: 7pt 'Times New Roman'&quot;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/span&gt;
+    Risk List
+&lt;/h4&gt;
+&lt;p class=&quot;infoblue0&quot;&gt;
+    &lt;a id=&quot;_Toc447095909&quot; name=&quot;_Toc447095909&quot;&gt;&lt;span style=&quot;FONT-FAMILY: Times&quot;&gt;[Describe and revisit periodically the
+    risks associated to this project.&lt;/span&gt;&lt;/a&gt;&lt;span style=&quot;FONT-FAMILY: Times&quot;&gt;]&lt;/span&gt;
+&lt;/p&gt;
+&lt;table style=&quot;WIDTH: 536px; HEIGHT: 76px&quot; cellspacing=&quot;2&quot; cellpadding=&quot;2&quot; width=&quot;536&quot; border=&quot;1&quot;&gt;
+    &lt;tbody&gt;
+        &lt;tr&gt;
+            &lt;td&gt;
+                &lt;strong&gt;Description&lt;/strong&gt; 
+            &lt;/td&gt;
+            &lt;td&gt;
+                &lt;p&gt;
+                    &lt;strong&gt;Type&lt;/strong&gt;
+                &lt;/p&gt;
+                &lt;p&gt;
+                    (direct/indirect)
+                &lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;
+                &lt;p&gt;
+                    &lt;strong&gt;Probability&lt;/strong&gt;
+                &lt;/p&gt;
+                &lt;p&gt;
+                    (H/M/L)
+                &lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;
+                &lt;p&gt;
+                    &lt;strong&gt;Impact&lt;/strong&gt;
+                &lt;/p&gt;
+                &lt;p&gt;
+                    (H/M/L)
+                &lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;
+                &lt;p&gt;
+                    &lt;strong&gt;Magnitude&lt;/strong&gt;
+                &lt;/p&gt;
+                &lt;p&gt;
+                    (H/M/L)
+                &lt;/p&gt;
+            &lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+            &lt;td&gt;
+            &lt;/td&gt;
+            &lt;td&gt;
+            &lt;/td&gt;
+            &lt;td&gt;
+            &lt;/td&gt;
+            &lt;td&gt;
+            &lt;/td&gt;
+            &lt;td&gt;
+            &lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+            &lt;td&gt;
+            &lt;/td&gt;
+            &lt;td&gt;
+            &lt;/td&gt;
+            &lt;td&gt;
+            &lt;/td&gt;
+            &lt;td&gt;
+            &lt;/td&gt;
+            &lt;td&gt;
+            &lt;/td&gt;
+        &lt;/tr&gt;
+    &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;br /&gt;
+&lt;br /&gt;</mainDescription>
+</com.ibm.uma:GuidanceDescription>

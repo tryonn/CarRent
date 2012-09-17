@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE hibernate-mapping	PUBLIC 
+	"-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+    "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+
+<hibernate-mapping>
+ <class name="br.ufpe.cin.amadeus.system.human_resources.resume.Resume" table="resume">
+ 	<id name="idResume">
+ 		<column name="sqResume" not-null="true" unique="true"/>
+ 		<generator class="increment"/>
+ 	</id>
+ 	<property name="degree">
+ 		<column name="dsdegree" length="30" />
+ 	</property>
+ 	
+ 	<property name="year">
+ 		<column name="dtYear" />
+ 	</property>
+ 	
+ 	<property name="institution">
+ 		<column name="nmInstitution" length="100" />
+ 	</property> 
+ 	
+ 	<property name="description">
+ 		<column name="dsDescription" />
+ 	</property> 
+ 	
+ 	<many-to-one name="person"
+ 		class="br.ufpe.cin.amadeus.system.human_resources.person.Person"
+ 		column="sqPerson" cascade="all" unique="true" lazy="false" />
+ 	
+ </class>
+ </hibernate-mapping>
+ 	

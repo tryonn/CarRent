@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<com.ibm.uma:ContentDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:com.ibm.uma="http://www.ibm.com/uma/1.0.2/uma.ecore" xmi:id="-G5kN9IUns9GPxohNmAeeyw" name="method_package,_R5Vk4BtpEdqSLrJ4Ij2LVA" guid="-G5kN9IUns9GPxohNmAeeyw" changeDate="2005-10-27T14:50:07.109-0700">
+  <mainDescription>&lt;p&gt;
+    Method Packages physically organize Method Elements&amp;nbsp;into package hierarchies. All Method Elements are located in
+    exactly one Method Package.
+&lt;/p&gt;
+&lt;p&gt;
+    There are two type of Method Package:
+&lt;/p&gt;
+&lt;ul&gt;
+    &lt;li&gt;
+        &lt;a class=&quot;elementLink&quot; href=&quot;./../../base_concepts/guidances/concepts/content_package,_49a10BUFEdqrUt4zetC1gg.html&quot; guid=&quot;_49a10BUFEdqrUt4zetC1gg&quot;&gt;Content Package&lt;/a&gt;
+    &lt;/li&gt;
+    &lt;li&gt;
+        &lt;a class=&quot;elementLink&quot; href=&quot;./../../base_concepts/guidances/concepts/process_package,_MT6U8BneEdqYreeU3jqaDQ.html&quot; guid=&quot;_MT6U8BneEdqYreeU3jqaDQ&quot;&gt;Process Package&lt;/a&gt;
+    &lt;/li&gt;
+&lt;/ul&gt;</mainDescription>
+</com.ibm.uma:ContentDescription>

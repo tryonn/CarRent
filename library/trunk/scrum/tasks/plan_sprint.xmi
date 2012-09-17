@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<com.ibm.uma:TaskDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:com.ibm.uma="http://www.ibm.com/uma/1.0.2/uma.ecore" xmi:id="-bnmc9emjGKoN-Hv97kkILQ" name="plan_sprint,_RBBNECogEdqHVICqX5k_yQ" guid="-bnmc9emjGKoN-Hv97kkILQ" changeDate="2005-09-20T14:48:28.567-0700">
+  <sections xmi:id="_u9K6sCrDEdqH4vKIfGrMhg" name="Present the top priority Product Backlog" guid="_u9K6sCrDEdqH4vKIfGrMhg">
+    <sectionDescription>&lt;p&gt;
+    Prioritization of product backlog should've already happened (PO and customers/users)&amp;nbsp;
+&lt;/p&gt;
+&lt;p&gt;
+    PO presents it to management, scrum team and scrum master
+&lt;/p&gt;</sectionDescription>
+  </sections>
+  <sections xmi:id="_uE3PICrCEdqH4vKIfGrMhg" name="Decide what functionality to build" guid="_uE3PICrCEdqH4vKIfGrMhg">
+    <sectionDescription>&lt;p&gt;
+    team decides with PO and SM what to build next
+&lt;/p&gt;
+&lt;p&gt;
+    Sprint goal is defined
+&lt;/p&gt;</sectionDescription>
+  </sections>
+  <sections xmi:id="_T02CgCrDEdqH4vKIfGrMhg" name="Decide how to build functionality" guid="_T02CgCrDEdqH4vKIfGrMhg">
+    <sectionDescription>&lt;p&gt;
+    team works by itself to figure out how to build this functionality into a product increment during the Sprint
+&lt;/p&gt;
+&lt;p&gt;
+    team defines Sprint backlog -- work (list of tasks) to be done to meet Sprint goal
+&lt;/p&gt;
+&lt;p&gt;
+    individuals sign up for tasks
+&lt;/p&gt;
+&lt;p&gt;
+    individuals estimate their tasks (in hours)
+&lt;/p&gt;</sectionDescription>
+  </sections>
+</com.ibm.uma:TaskDescription>

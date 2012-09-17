@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<com.ibm.uma:ArtifactDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:com.ibm.uma="http://www.ibm.com/uma/1.0.2/uma.ecore" xmi:id="-ogdWFs78mA4MG8sxznQsew" name="product_increment,_eRY54CrDEdqH4vKIfGrMhg" guid="-ogdWFs78mA4MG8sxznQsew" changeDate="2006-04-11T13:58:01.783-0300">
+  <mainDescription>&lt;p&gt;
+    O Product Increment eh responsavel por demonstrar para usuarios, clientes e stakeholders o que foi desenvolvido durante
+    o Sprint. Estao inclusos: storyboards, documentos e a propria aplicaçao.
+&lt;/p&gt;
+&lt;p&gt;
+    Uma das dificuldades encontradas eh testar tudo que foi construido durante o Sprint e corrigir todos os bugs
+    encontrados antes da revisao do Sprint.
+&lt;/p&gt;
+&lt;p&gt;
+    O objetivo dessa fase e assegurar que as tarefas desenvolvidas estao funcionando com sucesso e atacar pequenas
+    funcionalidades que venham a ter problemas durante os testes.
+&lt;/p&gt;
+&lt;br /&gt;</mainDescription>
+  <purpose>&lt;p&gt;
+    Demonstrar a todos os envolvidos no projeto o que foi desenvolvido no Sprint.
+&lt;/p&gt;</purpose>
+</com.ibm.uma:ArtifactDescription>

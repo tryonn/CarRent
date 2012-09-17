@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jardesc>
+<jar path="WorkGroupServer/bin/WorkGroupServer-2.0.jar"/>
+<options buildIfNeeded="true" compress="true" descriptionLocation="/WorkGroupServer/geraJAR.jardesc" exportErrors="true" exportWarnings="true" includeDirectoryEntries="false" overwrite="false" saveDescription="true" useSourceFolders="false"/>
+<manifest generateManifest="false" mainClassHandleIdentifier="=WorkGroupServer/src&lt;workgroup.server{PlattusServer.java[PlattusServer" manifestLocation="/WorkGroupServer/Manifest.txt" manifestVersion="1.0" reuseManifest="true" saveManifest="true" usesManifest="true">
+<sealing sealJar="false">
+<packagesToSeal/>
+<packagesToUnSeal/>
+</sealing>
+</manifest>
+<selectedElements exportClassFiles="true" exportJavaFiles="false" exportOutputFolder="false">
+<javaElement handleIdentifier="=WorkGroupServer/src&lt;workgroup.server.services"/>
+<file path="/WorkGroupServer/src/workgroup/ui/images/usergreen.png"/>
+<javaElement handleIdentifier="=WorkGroupServer/src&lt;workgroup.handler"/>
+<javaElement handleIdentifier="=WorkGroupServer/src&lt;workgroup.server"/>
+<file path="/WorkGroupServer/src/workgroup/ui/images/userred.png"/>
+<javaElement handleIdentifier="=WorkGroupServer/src&lt;workgroup.ui"/>
+<javaElement handleIdentifier="=WorkGroupServer/src&lt;workgroup.handler.message"/>
+<javaElement handleIdentifier="=WorkGroupServer/src&lt;workgroup.admin"/>
+<javaElement handleIdentifier="=WorkGroupServer/src&lt;workgroup.message"/>
+<javaElement handleIdentifier="=WorkGroupServer/src&lt;workgroup"/>
+<javaElement handleIdentifier="=WorkGroupServer/src&lt;workgroup.teste"/>
+<javaElement handleIdentifier="=WorkGroupServer/src&lt;workgroup.server.util"/>
+<javaElement handleIdentifier="=WorkGroupServer/src&lt;workgroup.client"/>
+<javaElement handleIdentifier="=WorkGroupServer/src&lt;workgroup.exception"/>
+<javaElement handleIdentifier="=WorkGroupServer/src&lt;workgroup.group"/>
+<file path="/WorkGroupServer/src/workgroup/ui/images/userblue.png"/>
+<javaElement handleIdentifier="=WorkGroupServer/src&lt;workgroup.server.admin"/>
+</selectedElements>
+</jardesc>

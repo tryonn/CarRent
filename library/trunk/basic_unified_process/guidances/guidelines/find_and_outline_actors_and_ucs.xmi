@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<com.ibm.uma:ContentDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:com.ibm.uma="http://www.ibm.com/uma/1.0.2/uma.ecore" xmi:id="-Rcm_MlViENAvFFyIe9V3dQ" name="find_and_outline_actors_and_ucs,_eyL0wCu-EdqSxKAVa9kmvA" guid="-Rcm_MlViENAvFFyIe9V3dQ" changeDate="2005-11-16T11:39:51.131-0800">
+  <mainDescription>&lt;H4&gt;Finding Actors&lt;/H4&gt;
+&lt;P&gt;&lt;SPAN style=&quot;FONT-SIZE: 10pt; FONT-FAMILY: Arial&quot;&gt;Find the external phenomenon with which the system must interact. Candidate are not only external hardware and software the system will interact with, but also groups of users who will require help from the system to perform their tasks and execute the system's (primary or secondary) functions.&lt;?xml:namespace prefix = o ns = &quot;urn:schemas-microsoft-com:office:office&quot; /&gt;&lt;o:p&gt;&lt;/o:p&gt;&lt;/SPAN&gt;&lt;/P&gt;
+&lt;P&gt;&lt;SPAN style=&quot;FONT-SIZE: 10pt; FONT-FAMILY: Arial&quot;&gt;Define each actor by naming it and writing a brief description that includes the actor's area of responsibility, and what the actor needs the system for.&lt;/SPAN&gt;&lt;/P&gt;
+&lt;H4&gt;&lt;SPAN style=&quot;FONT-SIZE: 10pt; FONT-FAMILY: Arial&quot;&gt;
+&lt;H4&gt;Finding Use Cases&lt;/H4&gt;&lt;/SPAN&gt;&lt;/H4&gt;&lt;SPAN style=&quot;FONT-SIZE: 10pt; FONT-FAMILY: Arial&quot;&gt;
+&lt;P class=MsoNormal style=&quot;MARGIN: 0in 0in 0pt&quot;&gt;The best way to find use cases is to consider what each actor requires of the system. For each actor, human or not, ask:&lt;/P&gt;
+&lt;UL&gt;
+&lt;LI&gt;
+&lt;DIV class=MsoNormal style=&quot;MARGIN: 0in 0in 0pt&quot;&gt;What are the primary tasks the actor wants the system to perform? &lt;o:p&gt;&lt;/o:p&gt;&lt;/DIV&gt;
+&lt;LI&gt;
+&lt;DIV class=MsoNormal style=&quot;MARGIN: 0in 0in 0pt&quot;&gt;Will the actor create, store, change, remove, or read data in the system? &lt;o:p&gt;&lt;/o:p&gt;&lt;/DIV&gt;
+&lt;LI&gt;
+&lt;DIV class=MsoNormal style=&quot;MARGIN: 0in 0in 0pt&quot;&gt;Will the actor need to inform the system about sudden, external changes? &lt;o:p&gt;&lt;/o:p&gt;&lt;/DIV&gt;
+&lt;LI&gt;
+&lt;DIV class=MsoNormal style=&quot;MARGIN: 0in 0in 0pt&quot;&gt;Does the actor need to be informed about certain occurrences in the system? &lt;o:p&gt;&lt;/o:p&gt;&lt;/DIV&gt;
+&lt;LI&gt;
+&lt;DIV class=MsoNormal style=&quot;MARGIN: 0in 0in 0pt&quot;&gt;Will the actor perform a system start-up or shutdown? &lt;/DIV&gt;&lt;/LI&gt;&lt;/UL&gt;
+&lt;P class=MsoNormal style=&quot;MARGIN: 0in 0in 0pt&quot;&gt;Understanding how your organization works and how this information system might be incorporated into existing operations gives an idea of system's surroundings --&amp;nbsp;other candidate use cases may come from there.&lt;/P&gt;
+&lt;P class=MsoNormal style=&quot;MARGIN: 0in 0in 0pt&quot;&gt;&lt;o:p&gt;&lt;/o:p&gt;&amp;nbsp;&lt;/P&gt;
+&lt;P class=MsoNormal style=&quot;MARGIN: 0in 0in 0pt&quot;&gt;Give a unique name and brief description for each use case. Without going into details, write a first draft of the flow of events of the use cases identified as being of high priority. If applicable, identify and briefly describe one or two scenarios&amp;nbsp;for these use cases.&lt;/P&gt;
+&lt;P class=MsoNormal style=&quot;MARGIN: 0in 0in 0pt&quot;&gt;&amp;nbsp;&lt;/P&gt;
+&lt;P class=MsoNormal style=&quot;MARGIN: 0in 0in 0pt&quot;&gt;&amp;nbsp;&lt;/P&gt;
+&lt;H4 style=&quot;MARGIN: 0in 0in 0pt&quot;&gt;Representing relationship between Actors and Use Cases&lt;/H4&gt;
+&lt;P style=&quot;MARGIN: 0in 0in 0pt&quot;&gt;&amp;nbsp;&lt;/P&gt;
+&lt;P class=MsoNormal style=&quot;MARGIN: 0in 0in 0pt&quot;&gt;Use-case diagrams can be used to show how&amp;nbsp;actors and use cases&amp;nbsp;relate to each other.&amp;nbsp; &lt;/P&gt;
+&lt;P&gt;If there are too many Actors and Use Cases to represent, use-case packages can be used to divide them and simplify the maintanence of the use-case model. &lt;/P&gt;
+&lt;P&gt;Refer to&amp;nbsp;&lt;a class=elementlinkwithtype href=&quot;./../../../basic_unified_process/guidances/guidelines/uc_model,_0VAUsMlgEdmt3adZL5Dmdw.html&quot; guid=&quot;_0VAUsMlgEdmt3adZL5Dmdw&quot; href=&quot;./../../../basic_unified_process/guidances/guidelines/uc_model,_0VAUsMlgEdmt3adZL5Dmdw.html&quot;&gt;Guideline: Use-Case Model&lt;/a&gt; for more information. &lt;/P&gt;&lt;/SPAN&gt;</mainDescription>
+</com.ibm.uma:ContentDescription>

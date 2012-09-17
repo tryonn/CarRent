@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<com.ibm.uma:ContentDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:com.ibm.uma="http://www.ibm.com/uma/1.0.2/uma.ecore" xmi:id="_yWaY99nmEdmO6L4XMImrsA" name="static_work_product,_yWaY9tnmEdmO6L4XMImrsA" guid="_yWaY99nmEdmO6L4XMImrsA" changeDate="2005-09-07T12:07:47.378-0700">
+  <mainDescription>A &lt;a class=&quot;elementLink&quot; href=&quot;base_concepts/guidances/termdefinitions/work_product,_H4JXwB_SEdq6CKKKq4D7YA.html&quot;
+guid=&quot;_H4JXwB_SEdq6CKKKq4D7YA&quot;&gt;work product&lt;/a&gt;&amp;nbsp;that is used, but not changed, by a &lt;a class=&quot;elementLink&quot;
+href=&quot;base_concepts/guidances/termdefinitions/process,_yQ5m2NnmEdmO6L4XMImrsA.html&quot;
+guid=&quot;_yQ5m2NnmEdmO6L4XMImrsA&quot;&gt;process&lt;/a&gt;.</mainDescription>
+</com.ibm.uma:ContentDescription>

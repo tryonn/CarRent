@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<com.ibm.uma:TaskDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:com.ibm.uma="http://www.ibm.com/uma/1.0.2/uma.ecore" xmi:id="_5rJ78Lj3Edmy88CC3LfB_w" name="define_vision,_0fOAoMlgEdmt3adZL5Dmdw" guid="_5rJ78Lj3Edmy88CC3LfB_w" changeDate="2005-09-09T17:12:24.475-0300">
+  <sections xmi:id="_tvzDULwPEdm6DujQZORGLQ" name="Identify stakeholders" guid="_tvzDULwPEdm6DujQZORGLQ">
+    <sectionDescription>&lt;p class=&quot;MsoNormal&quot; style=&quot;MARGIN: 0in 0in 0pt&quot;&gt;
+    Identify the decision-makers, customers, potential users, partners, domain experts, industry analysts and other
+    interested parties (see&amp;nbsp;&lt;a class=&quot;elementLinkWithType&quot; href=&quot;./../../basic_unified_process/guidances/concepts/stakeholder,_EQ0bgMuuEdmuxvVERkH9_A.html&quot; guid=&quot;_EQ0bgMuuEdmuxvVERkH9_A&quot;&gt;Concept: Stakeholder&lt;/a&gt;). Develop profiles of potential (or actual) users of the
+    system, which maps to the roles of human actors of the system being developed. Document the initial information on key
+    users and their environment in the &lt;a class=&quot;elementLinkWithType&quot; href=&quot;./../../basic_unified_process/workproducts/vision,_0WVxcMlgEdmt3adZL5Dmdw.html&quot; guid=&quot;_0WVxcMlgEdmt3adZL5Dmdw&quot;&gt;Work Product: Vision&lt;/a&gt;.
+&lt;/p&gt;</sectionDescription>
+  </sections>
+  <sections xmi:id="_sa5F4LwPEdm6DujQZORGLQ" name="Gain agreement on the problem being solved" guid="_sa5F4LwPEdm6DujQZORGLQ">
+    <sectionDescription>&lt;P class=MsoNormal style=&quot;MARGIN: 0in 0in 0pt&quot;&gt;Gain agreement on the definition of the problem by asking the stakeholders what is the problem, without rushing into defining the solution. Then search for root causes, or the “problem behind the problem” (use&amp;nbsp;techniques like &lt;a class=elementlinkwithtype href=&quot;./../../basic_unified_process/guidances/guidelines/brainstorming,_FnQEICOsEdqwXqDBrxi05A.html&quot; guid=&quot;_FnQEICOsEdqwXqDBrxi05A&quot; href=&quot;./../../basic_unified_process/guidances/guidelines/brainstorming,_FnQEICOsEdqwXqDBrxi05A.html&quot;&gt;&lt;FONT color=#0000ff&gt;Guideline: Brainstorming&lt;/FONT&gt;&lt;/a&gt;, &lt;a class=elementlinkwithtype href=&quot;./../../basic_unified_process/guidances/guidelines/fishbone_diagram,_Avm_wCOsEdqwXqDBrxi05A.html&quot; guid=&quot;_Avm_wCOsEdqwXqDBrxi05A&quot; href=&quot;./../../basic_unified_process/guidances/guidelines/fishbone_diagram,_Avm_wCOsEdqwXqDBrxi05A.html&quot;&gt;&lt;FONT color=#0000ff&gt;Guideline: Fishbone Diagram&lt;/FONT&gt;&lt;/a&gt;&amp;nbsp;and &lt;a class=elementlinkwithtype href=&quot;./../../basic_unified_process/guidances/guidelines/pareto_diagram,_ITlukCOsEdqwXqDBrxi05A.html&quot; guid=&quot;_ITlukCOsEdqwXqDBrxi05A&quot; href=&quot;./../../basic_unified_process/guidances/guidelines/pareto_diagram,_ITlukCOsEdqwXqDBrxi05A.html&quot;&gt;&lt;FONT color=#0000ff&gt;Guideline: Pareto Diagram&lt;/FONT&gt;&lt;/a&gt;).&lt;/P&gt;
+&lt;P class=MsoNormal style=&quot;MARGIN: 0in 0in 0pt&quot;&gt;&lt;?xml:namespace prefix = o ns = &quot;urn:schemas-microsoft-com:office:office&quot; /&gt;&lt;o:p&gt;&lt;SPAN style=&quot;TEXT-DECORATION: none&quot;&gt;&lt;/SPAN&gt;&lt;/o:p&gt;&lt;/P&gt;
+&lt;P class=MsoNormal style=&quot;MARGIN: 0in 0in 0pt&quot;&gt;&amp;nbsp;&lt;/P&gt;
+&lt;P class=MsoNormal style=&quot;MARGIN: 0in 0in 0pt&quot;&gt;Formulate the problem statement and fill in the corresponding section found on&amp;nbsp;&lt;a class=elementlinkwithtype href=&quot;basic_unified_process/guidances/templates/vision,_0cW54MlgEdmt3adZL5Dmdw.html&quot; guid=&quot;_0cW54MlgEdmt3adZL5Dmdw&quot; href=&quot;./../../basic_unified_process/guidances/templates/vision,_0cW54MlgEdmt3adZL5Dmdw.html&quot;&gt;Template: Vision&lt;/a&gt;. The purpose of this is to help you distinguish solutions/answers from problems/questions.&lt;/P&gt;</sectionDescription>
+  </sections>
+  <sections xmi:id="_vGg-oLwPEdm6DujQZORGLQ" name="Gather stakeholder requests" guid="_vGg-oLwPEdm6DujQZORGLQ">
+    <sectionDescription>&lt;p&gt;
+    Use the most appropriate method to gather information, like &lt;a class=&quot;elementLinkWithType&quot; href=&quot;./../../basic_unified_process/guidances/guidelines/interviews,_OBMCMCO6EdqwXqDBrxi05A.html&quot; guid=&quot;_OBMCMCO6EdqwXqDBrxi05A&quot;&gt;Guideline: Interviews&lt;/a&gt; or &lt;a class=&quot;elementLinkWithType&quot; href=&quot;./../../basic_unified_process/guidances/guidelines/requirements_workshop,_OnoNQNSAEdmLhZ9H5Plxyw.html&quot; guid=&quot;_OnoNQNSAEdmLhZ9H5Plxyw&quot;&gt;Guideline: Requirements Workshop&lt;/a&gt;. Each one is applicable in a particular situation
+    or type of stakeholders.
+&lt;/p&gt;
+&lt;p&gt;
+    If you can meet stakeholders in person, then an interview may be conducted. If you don't have direct access to
+    stakeholders, or they are a large and spread out number of individuals, then a questionnaire may be helpful. Besides,
+    questionnaires provide statistical data reflecting what stakeholders really need.
+&lt;/p&gt;
+&lt;p&gt;
+    For more information, see &lt;a class=&quot;elementLinkWithType&quot; href=&quot;./../../basic_unified_process/tasks/find_and_outline_requirements,_P9cMUPV_EdmdHa9MmVPgqQ.html&quot; guid=&quot;_P9cMUPV_EdmdHa9MmVPgqQ&quot;&gt;Task: Find and Outline Requirements&lt;/a&gt;.
+&lt;/p&gt;</sectionDescription>
+  </sections>
+  <sections xmi:id="_z7ZC4LwPEdm6DujQZORGLQ" name="Define the system boundaries" guid="_z7ZC4LwPEdm6DujQZORGLQ">
+    <sectionDescription>&lt;P&gt;Identify the border between the solution and the real world that surrounds the solution. Identify interfaces, as well as input and output information exchanged with users, machines or systems.&lt;FONT face=&quot;Times New Roman&quot;&gt;&lt;FONT size=3&gt;&lt;SPAN style=&quot;FONT-SIZE: 10pt; FONT-FAMILY: Arial&quot;&gt;&lt;?xml:namespace prefix = o ns = &quot;urn:schemas-microsoft-com:office:office&quot; /&gt;&lt;o:p&gt;&lt;/o:p&gt;&lt;/SPAN&gt;&lt;/FONT&gt;&lt;/FONT&gt;&lt;/P&gt;</sectionDescription>
+  </sections>
+  <sections xmi:id="_1LVn0LwPEdm6DujQZORGLQ" name="Identify constraints to be imposed on the system" guid="_1LVn0LwPEdm6DujQZORGLQ">
+    <sectionDescription>&lt;p&gt;
+    There are various sources of constraints to be considered, which can impact the design or the project itself. They are:
+&lt;/p&gt;
+&lt;p&gt;
+    &lt;span
+    style=&quot;FONT-SIZE: 10pt; FONT-FAMILY: Arial; mso-fareast-font-family: 'Times New Roman'; mso-ansi-language: EN-US; mso-fareast-language: EN-US; mso-bidi-language: AR-SA&quot;&gt;
+    Political, Economical (budget, licensing), Environmental (regulatory constraints, legal, standards), Technical
+    (platforms, technology), Feasibility (schedule, resources allocation, outsourcing) and System (solutions compatibility,
+    support to operating systems and environments).&lt;/span&gt;
+&lt;/p&gt;</sectionDescription>
+  </sections>
+  <sections xmi:id="_2VixILwPEdm6DujQZORGLQ" name="Define features of the system" guid="_2VixILwPEdm6DujQZORGLQ">
+    <sectionDescription>&lt;P&gt;&lt;SPAN style=&quot;FONT-SIZE: 10pt; FONT-FAMILY: Arial&quot;&gt;Make a list&amp;nbsp;of features that stakeholders want in the system, briefly describing them and giving attributes to help define their general state and priority in the project.&lt;?xml:namespace prefix = o ns = &quot;urn:schemas-microsoft-com:office:office&quot; /&gt;&lt;o:p&gt;&lt;/o:p&gt;&lt;/SPAN&gt;&lt;/P&gt;</sectionDescription>
+  </sections>
+  <purpose>The solution is proposed for a problem that everybody agrees on.&amp;nbsp;Stakeholders express their problems, needs and
+potential features for the system to be, so project team can better understand what has to be done.</purpose>
+</com.ibm.uma:TaskDescription>

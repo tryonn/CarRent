@@ -1,0 +1,226 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<com.ibm.uma:GuidanceDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:com.ibm.uma="http://www.ibm.com/uma/1.0.2/uma.ecore" xmi:id="_Z_bUIMM2EdmSIPI87WLu3g" name="iteration_plan,_0dBoQMlgEdmt3adZL5Dmdw" guid="_Z_bUIMM2EdmSIPI87WLu3g" changeDate="2005-07-07T14:06:06.582-0700">
+  <mainDescription>&lt;blockquote dir=&quot;ltr&quot; style=&quot;MARGIN-RIGHT: 0px&quot;&gt;
+    &lt;blockquote dir=&quot;ltr&quot; style=&quot;MARGIN-RIGHT: 0px&quot;&gt;
+        &lt;blockquote dir=&quot;ltr&quot; style=&quot;MARGIN-RIGHT: 0px&quot;&gt;
+            &lt;blockquote dir=&quot;ltr&quot; style=&quot;MARGIN-RIGHT: 0px&quot;&gt;
+                &lt;blockquote dir=&quot;ltr&quot; style=&quot;MARGIN-RIGHT: 0px&quot;&gt;
+                    &lt;h3 class=&quot;MsoTitle&quot; dir=&quot;ltr&quot;&gt;
+                        &amp;lt;Project Name&amp;gt;
+                    &lt;/h3&gt;
+                    &lt;h3 class=&quot;MsoTitle&quot; dir=&quot;ltr&quot; style=&quot;MARGIN-RIGHT: 0px&quot;&gt;
+                        &amp;nbsp;&amp;nbsp; Iteration Plan
+                    &lt;/h3&gt;
+                &lt;/blockquote&gt;
+            &lt;/blockquote&gt;
+        &lt;/blockquote&gt;
+    &lt;/blockquote&gt;
+&lt;/blockquote&gt;
+&lt;h3&gt;
+    &lt;span style=&quot;FONT-WEIGHT: normal&quot;&gt;1.&lt;span
+    style=&quot;FONT: 7pt 'Times New Roman'&quot;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/span&gt;&lt;/span&gt;
+    Key Milestones
+&lt;/h3&gt;
+&lt;p class=&quot;InfoBlue&quot;&gt;
+    [Detailed diagrams showing timelines, intermediate milestones, when testing starts, beta version, demos and so on for
+    the iteration.]
+&lt;/p&gt;
+&lt;div class=&quot;Section1&quot;&gt;
+    &lt;table
+    style=&quot;BORDER-RIGHT: medium none; BORDER-TOP: medium none; MARGIN-LEFT: 0.45in; BORDER-LEFT: medium none; WIDTH: 315pt; BORDER-BOTTOM: medium none; BORDER-COLLAPSE: collapse&quot;
+     cellspacing=&quot;0&quot; cellpadding=&quot;0&quot; width=&quot;420&quot; border=&quot;1&quot;&gt;
+        &lt;tbody&gt;
+            &lt;tr&gt;
+                &lt;td
+                style=&quot;BORDER-RIGHT: windowtext 0.5pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: windowtext 0.5pt solid; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0in; BORDER-LEFT: windowtext 0.5pt solid; WIDTH: 221.4pt; PADDING-TOP: 0in; BORDER-BOTTOM: windowtext 0.5pt solid&quot;
+                 valign=&quot;top&quot; width=&quot;295&quot;&gt;
+                    &lt;p class=&quot;MsoNormal&quot;&gt;
+                        &lt;b&gt;Milestone&lt;/b&gt;
+                    &lt;/p&gt;
+                &lt;/td&gt;
+                &lt;td
+                style=&quot;BORDER-RIGHT: windowtext 0.5pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: windowtext 0.5pt solid; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0in; BORDER-LEFT: medium none; WIDTH: 1.3in; PADDING-TOP: 0in; BORDER-BOTTOM: windowtext 0.5pt solid&quot;
+                 valign=&quot;top&quot; width=&quot;125&quot;&gt;
+                    &lt;p class=&quot;MsoNormal&quot;&gt;
+                        &lt;b&gt;Date&lt;/b&gt;
+                    &lt;/p&gt;
+                &lt;/td&gt;
+            &lt;/tr&gt;
+            &lt;tr&gt;
+                &lt;td
+                style=&quot;BORDER-RIGHT: windowtext 0.5pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0in; BORDER-LEFT: windowtext 0.5pt solid; WIDTH: 221.4pt; PADDING-TOP: 0in; BORDER-BOTTOM: windowtext 0.5pt solid&quot;
+                 valign=&quot;top&quot; width=&quot;295&quot;&gt;
+                    &lt;p class=&quot;MsoNormal&quot;&gt;
+                        Iteration Start
+                    &lt;/p&gt;
+                &lt;/td&gt;
+                &lt;td
+                style=&quot;BORDER-RIGHT: windowtext 0.5pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0in; BORDER-LEFT: medium none; WIDTH: 1.3in; PADDING-TOP: 0in; BORDER-BOTTOM: windowtext 0.5pt solid&quot;
+                 valign=&quot;top&quot; width=&quot;125&quot;&gt;
+                &lt;/td&gt;
+            &lt;/tr&gt;
+            &lt;tr&gt;
+                &lt;td
+                style=&quot;BORDER-RIGHT: windowtext 0.5pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0in; BORDER-LEFT: windowtext 0.5pt solid; WIDTH: 221.4pt; PADDING-TOP: 0in; BORDER-BOTTOM: windowtext 0.5pt solid&quot;
+                 valign=&quot;top&quot; width=&quot;295&quot;&gt;
+                &lt;/td&gt;
+                &lt;td
+                style=&quot;BORDER-RIGHT: windowtext 0.5pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0in; BORDER-LEFT: medium none; WIDTH: 1.3in; PADDING-TOP: 0in; BORDER-BOTTOM: windowtext 0.5pt solid&quot;
+                 valign=&quot;top&quot; width=&quot;125&quot;&gt;
+                &lt;/td&gt;
+            &lt;/tr&gt;
+            &lt;tr&gt;
+                &lt;td
+                style=&quot;BORDER-RIGHT: windowtext 0.5pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0in; BORDER-LEFT: windowtext 0.5pt solid; WIDTH: 221.4pt; PADDING-TOP: 0in; BORDER-BOTTOM: windowtext 0.5pt solid&quot;
+                 valign=&quot;top&quot; width=&quot;295&quot;&gt;
+                &lt;/td&gt;
+                &lt;td
+                style=&quot;BORDER-RIGHT: windowtext 0.5pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0in; BORDER-LEFT: medium none; WIDTH: 1.3in; PADDING-TOP: 0in; BORDER-BOTTOM: windowtext 0.5pt solid&quot;
+                 valign=&quot;top&quot; width=&quot;125&quot;&gt;
+                &lt;/td&gt;
+            &lt;/tr&gt;
+            &lt;tr&gt;
+                &lt;td
+                style=&quot;BORDER-RIGHT: windowtext 0.5pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0in; BORDER-LEFT: windowtext 0.5pt solid; WIDTH: 221.4pt; PADDING-TOP: 0in; BORDER-BOTTOM: windowtext 0.5pt solid&quot;
+                 valign=&quot;top&quot; width=&quot;295&quot;&gt;
+                    &lt;p class=&quot;MsoNormal&quot;&gt;
+                        Iteration Stop
+                    &lt;/p&gt;
+                &lt;/td&gt;
+                &lt;td
+                style=&quot;BORDER-RIGHT: windowtext 0.5pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0in; BORDER-LEFT: medium none; WIDTH: 1.3in; PADDING-TOP: 0in; BORDER-BOTTOM: windowtext 0.5pt solid&quot;
+                 valign=&quot;top&quot; width=&quot;125&quot;&gt;
+                &lt;/td&gt;
+            &lt;/tr&gt;
+        &lt;/tbody&gt;
+    &lt;/table&gt;
+&lt;/div&gt;
+&lt;h3&gt;
+    &lt;span style=&quot;FONT-WEIGHT: normal&quot;&gt;2.&lt;span
+    style=&quot;FONT: 7pt 'Times New Roman'&quot;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/span&gt;&lt;/span&gt;
+    Iteration Objectives
+&lt;/h3&gt;
+&lt;p class=&quot;InfoBlue&quot;&gt;
+    [Objectives/tasks assigned as part of this iteration and assignment to persons responsible]
+&lt;/p&gt;
+&lt;p class=&quot;infoblue0&quot;&gt;
+    &lt;span style=&quot;FONT-FAMILY: Times&quot;&gt;[Objectives may include creating or refining specific artifacts, addressing risks, or
+    implementing specific requirements, or performing supporting tasks. Some example objectives are listed below]&lt;/span&gt;
+&lt;/p&gt;
+&lt;div class=&quot;Section1&quot;&gt;
+    &lt;table
+    style=&quot;BORDER-RIGHT: medium none; BORDER-TOP: medium none; MARGIN-LEFT: 0.45in; BORDER-LEFT: medium none; BORDER-BOTTOM: medium none; BORDER-COLLAPSE: collapse&quot;
+     cellspacing=&quot;0&quot; cellpadding=&quot;0&quot; border=&quot;1&quot;&gt;
+        &lt;tbody&gt;
+            &lt;tr&gt;
+                &lt;td
+                style=&quot;BORDER-RIGHT: windowtext 0.5pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: windowtext 0.5pt solid; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0in; BORDER-LEFT: windowtext 0.5pt solid; WIDTH: 189pt; PADDING-TOP: 0in; BORDER-BOTTOM: windowtext 0.5pt solid&quot;
+                 valign=&quot;top&quot; width=&quot;252&quot;&gt;
+                    &lt;p class=&quot;MsoNormal&quot;&gt;
+                        &lt;b&gt;Objective/Task&lt;/b&gt;
+                    &lt;/p&gt;
+                &lt;/td&gt;
+                &lt;td
+                style=&quot;BORDER-RIGHT: windowtext 0.5pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: windowtext 0.5pt solid; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0in; BORDER-LEFT: medium none; WIDTH: 137.15pt; PADDING-TOP: 0in; BORDER-BOTTOM: windowtext 0.5pt solid&quot;
+                 valign=&quot;top&quot; width=&quot;183&quot;&gt;
+                    &lt;p class=&quot;MsoNormal&quot;&gt;
+                        &lt;b&gt;Assigned to&lt;/b&gt;
+                    &lt;/p&gt;
+                &lt;/td&gt;
+            &lt;/tr&gt;
+            &lt;tr&gt;
+                &lt;td
+                style=&quot;BORDER-RIGHT: windowtext 0.5pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0in; BORDER-LEFT: windowtext 0.5pt solid; WIDTH: 189pt; PADDING-TOP: 0in; BORDER-BOTTOM: windowtext 0.5pt solid&quot;
+                 valign=&quot;top&quot; width=&quot;252&quot;&gt;
+                    &lt;p class=&quot;infoblue0&quot; style=&quot;MARGIN-LEFT: 0in&quot;&gt;
+                        &lt;span style=&quot;FONT-STYLE: normal&quot;&gt;Implement Use Case: Register for Course, Basic flow, Alternatve 1,
+                        Alternate 2&lt;/span&gt;
+                    &lt;/p&gt;
+                &lt;/td&gt;
+                &lt;td
+                style=&quot;BORDER-RIGHT: windowtext 0.5pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0in; BORDER-LEFT: medium none; WIDTH: 137.15pt; PADDING-TOP: 0in; BORDER-BOTTOM: windowtext 0.5pt solid&quot;
+                 valign=&quot;top&quot; width=&quot;183&quot;&gt;
+                    &lt;p class=&quot;infoblue0&quot; style=&quot;MARGIN-LEFT: 0in&quot;&gt;
+                        &lt;span style=&quot;FONT-STYLE: normal&quot;&gt;Fred&lt;/span&gt;
+                    &lt;/p&gt;
+                &lt;/td&gt;
+            &lt;/tr&gt;
+            &lt;tr&gt;
+                &lt;td
+                style=&quot;BORDER-RIGHT: windowtext 0.5pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0in; BORDER-LEFT: windowtext 0.5pt solid; WIDTH: 189pt; PADDING-TOP: 0in; BORDER-BOTTOM: windowtext 0.5pt solid&quot;
+                 valign=&quot;top&quot; width=&quot;252&quot;&gt;
+                    &lt;p class=&quot;infoblue0&quot; style=&quot;MARGIN-LEFT: 0in&quot;&gt;
+                        &lt;span style=&quot;FONT-STYLE: normal&quot;&gt;Complete Vision&lt;/span&gt;
+                    &lt;/p&gt;
+                &lt;/td&gt;
+                &lt;td
+                style=&quot;BORDER-RIGHT: windowtext 0.5pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0in; BORDER-LEFT: medium none; WIDTH: 137.15pt; PADDING-TOP: 0in; BORDER-BOTTOM: windowtext 0.5pt solid&quot;
+                 valign=&quot;top&quot; width=&quot;183&quot;&gt;
+                    &lt;p class=&quot;infoblue0&quot; style=&quot;MARGIN-LEFT: 0in&quot;&gt;
+                        &lt;span style=&quot;FONT-STYLE: normal&quot;&gt;Jill&lt;/span&gt;
+                    &lt;/p&gt;
+                &lt;/td&gt;
+            &lt;/tr&gt;
+            &lt;tr&gt;
+                &lt;td
+                style=&quot;BORDER-RIGHT: windowtext 0.5pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0in; BORDER-LEFT: windowtext 0.5pt solid; WIDTH: 189pt; PADDING-TOP: 0in; BORDER-BOTTOM: windowtext 0.5pt solid&quot;
+                 valign=&quot;top&quot; width=&quot;252&quot;&gt;
+                    &lt;p class=&quot;infoblue0&quot; style=&quot;MARGIN-LEFT: 0in&quot;&gt;
+                        &lt;span style=&quot;FONT-STYLE: normal&quot;&gt;Detail UC3: Publish Calendar&lt;/span&gt;
+                    &lt;/p&gt;
+                &lt;/td&gt;
+                &lt;td
+                style=&quot;BORDER-RIGHT: windowtext 0.5pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0in; BORDER-LEFT: medium none; WIDTH: 137.15pt; PADDING-TOP: 0in; BORDER-BOTTOM: windowtext 0.5pt solid&quot;
+                 valign=&quot;top&quot; width=&quot;183&quot;&gt;
+                    &lt;p class=&quot;infoblue0&quot; style=&quot;MARGIN-LEFT: 0in&quot;&gt;
+                        &lt;span style=&quot;FONT-STYLE: normal&quot;&gt;John&lt;/span&gt;
+                    &lt;/p&gt;
+                &lt;/td&gt;
+            &lt;/tr&gt;
+            &lt;tr&gt;
+                &lt;td
+                style=&quot;BORDER-RIGHT: windowtext 0.5pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0in; BORDER-LEFT: windowtext 0.5pt solid; WIDTH: 189pt; PADDING-TOP: 0in; BORDER-BOTTOM: windowtext 0.5pt solid&quot;
+                 valign=&quot;top&quot; width=&quot;252&quot;&gt;
+                    &lt;p class=&quot;infoblue0&quot; style=&quot;MARGIN-LEFT: 0in&quot;&gt;
+                        &lt;span style=&quot;FONT-STYLE: normal&quot;&gt;Test all developed requirements&lt;/span&gt;
+                    &lt;/p&gt;
+                &lt;/td&gt;
+                &lt;td
+                style=&quot;BORDER-RIGHT: windowtext 0.5pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0in; BORDER-LEFT: medium none; WIDTH: 137.15pt; PADDING-TOP: 0in; BORDER-BOTTOM: windowtext 0.5pt solid&quot;
+                 valign=&quot;top&quot; width=&quot;183&quot;&gt;
+                    &lt;p class=&quot;infoblue0&quot; style=&quot;MARGIN-LEFT: 0in&quot;&gt;
+                        &lt;span style=&quot;FONT-STYLE: normal&quot;&gt;Lance&lt;/span&gt;
+                    &lt;/p&gt;
+                &lt;/td&gt;
+            &lt;/tr&gt;
+            &lt;tr&gt;
+                &lt;td
+                style=&quot;BORDER-RIGHT: windowtext 0.5pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0in; BORDER-LEFT: windowtext 0.5pt solid; WIDTH: 189pt; PADDING-TOP: 0in; BORDER-BOTTOM: windowtext 0.5pt solid&quot;
+                 valign=&quot;top&quot; width=&quot;252&quot;&gt;
+                    &lt;p class=&quot;infoblue0&quot; style=&quot;MARGIN-LEFT: 0in&quot;&gt;
+                        &lt;span style=&quot;FONT-STYLE: normal&quot;&gt;Create plan for next iteration&lt;/span&gt;
+                    &lt;/p&gt;
+                &lt;/td&gt;
+                &lt;td
+                style=&quot;BORDER-RIGHT: windowtext 0.5pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0in; BORDER-LEFT: medium none; WIDTH: 137.15pt; PADDING-TOP: 0in; BORDER-BOTTOM: windowtext 0.5pt solid&quot;
+                 valign=&quot;top&quot; width=&quot;183&quot;&gt;
+                    &lt;p class=&quot;infoblue0&quot; style=&quot;MARGIN-LEFT: 0in&quot;&gt;
+                        &lt;span style=&quot;FONT-STYLE: normal&quot;&gt;Jill&lt;/span&gt;
+                    &lt;/p&gt;
+                &lt;/td&gt;
+            &lt;/tr&gt;
+            &lt;tr&gt;
+                &lt;td
+                style=&quot;BORDER-RIGHT: windowtext 0.5pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0in; BORDER-LEFT: windowtext 0.5pt solid; WIDTH: 189pt; PADDING-TOP: 0in; BORDER-BOTTOM: windowtext 0.5pt solid&quot;
+                 valign=&quot;top&quot; width=&quot;252&quot;&gt;
+                &lt;/td&gt;
+                &lt;td
+                style=&quot;BORDER-RIGHT: windowtext 0.5pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0in; BORDER-LEFT: medium none; WIDTH: 137.15pt; PADDING-TOP: 0in; BORDER-BOTTOM: windowtext 0.5pt solid&quot;
+                 valign=&quot;top&quot; width=&quot;183&quot;&gt;
+                &lt;/td&gt;
+            &lt;/tr&gt;
+        &lt;/tbody&gt;
+    &lt;/table&gt;
+    &amp;nbsp;
+&lt;/div&gt;</mainDescription>
+</com.ibm.uma:GuidanceDescription>

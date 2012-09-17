@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:com.ibm.uma="http://www.ibm.com/uma/1.0.2/uma.ecore">
+  <com.ibm.uma:ActivityDescription xmi:id="_mtb_BfL5Edm6Nvont3uinw" guid="_mtb_BfL5Edm6Nvont3uinw"/>
+  <com.ibm.uma:ActivityDescription xmi:id="_mtb_B_L5Edm6Nvont3uinw" guid="_mtb_B_L5Edm6Nvont3uinw"/>
+  <com.ibm.uma:ActivityDescription xmi:id="_mtb_CfL5Edm6Nvont3uinw" guid="_mtb_CfL5Edm6Nvont3uinw"/>
+  <com.ibm.uma:ActivityDescription xmi:id="_mtb_CvL5Edm6Nvont3uinw" guid="_mtb_CvL5Edm6Nvont3uinw"/>
+  <com.ibm.uma:ActivityDescription xmi:id="_mtb_BvL5Edm6Nvont3uinw" guid="_mtb_BvL5Edm6Nvont3uinw"/>
+  <com.ibm.uma:ActivityDescription xmi:id="_mtb_C_L5Edm6Nvont3uinw" guid="_mtb_C_L5Edm6Nvont3uinw"/>
+  <com.ibm.uma:ProcessDescription xmi:id="_mtb_BPL5Edm6Nvont3uinw" guid="_mtb_BPL5Edm6Nvont3uinw"/>
+</xmi:XMI>

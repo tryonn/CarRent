@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE hibernate-mapping	PUBLIC 
+	"-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+    "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+
+<hibernate-mapping>
+	<class name="br.ufpe.cin.amadeus.system.human_resources.person.PersonRoleCourse" table="Person_Role_Course">
+		<composite-id>
+			<key-many-to-one name="person" class="br.ufpe.cin.amadeus.system.human_resources.person.Person" column="sqPerson" />
+			<key-many-to-one name="role" class="br.ufpe.cin.amadeus.system.academic.role.Role" column="sqRole" />
+			<key-many-to-one name="course" class="br.ufpe.cin.amadeus.system.academic.course.Course" column="sqCourse" />
+		</composite-id>
+		
+		<property name="date">
+			<column name="dtdate" not-null="true" />
+		</property>
+		
+		<many-to-one name="person"
+					 class="br.ufpe.cin.amadeus.system.human_resources.person.Person"
+					 column="sqPerson" cascade="none" insert="false" update="false" />
+					 
+		<many-to-one name="role"
+					 class="br.ufpe.cin.amadeus.system.academic.role.Role"
+					 column="sqRole" cascade="none" insert="false" update="false" />
+					 
+		<many-to-one name="course"
+					 class="br.ufpe.cin.amadeus.system.academic.course.Course"
+					 column="sqCourse" cascade="none"  insert="false" update="false"/>		
+	
+	</class>
+</hibernate-mapping>
+			

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<com.ibm.uma:ContentDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:com.ibm.uma="http://www.ibm.com/uma/1.0.2/uma.ecore" xmi:id="_yGUuitnmEdmO6L4XMImrsA" name="discipline,_yGUuidnmEdmO6L4XMImrsA" guid="_yGUuitnmEdmO6L4XMImrsA">
+  <mainDescription>A&amp;nbsp;collection of related &lt;a class=&quot;elementLink&quot;
+href=&quot;file://./../../../base_concepts/guidances/termdefinitions/task,_x459ktnmEdmO6L4XMImrsA.html&quot;
+guid=&quot;_x459ktnmEdmO6L4XMImrsA&quot;&gt;task&lt;/a&gt;s&amp;nbsp;that define&amp;nbsp;a major 'area of concern'. In
+software engineering, Disciplines include: &lt;i&gt;Business Modeling, Requirements, Analysis &amp;amp; Design, Implementation,Test,
+Deployment, Configuration &amp;amp; Change Management, Project Management, Environment&lt;/i&gt;.</mainDescription>
+</com.ibm.uma:ContentDescription>

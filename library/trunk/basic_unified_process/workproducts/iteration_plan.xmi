@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<com.ibm.uma:ArtifactDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:com.ibm.uma="http://www.ibm.com/uma/1.0.2/uma.ecore" xmi:id="_BcBR8KX5EdmvhNXG0Oc2uA" name="iteration_plan,_0aQBEslgEdmt3adZL5Dmdw" guid="_BcBR8KX5EdmvhNXG0Oc2uA" changeDate="2005-09-22T15:39:55.495-0700">
+  <purpose>&lt;p&gt;
+    Facilitating the communication of the goals, objectives, tasks and assignment for a given iteration.
+&lt;/p&gt;</purpose>
+  <representationOptions>&lt;p&gt;
+    The main objectives of the iteration plan&amp;nbsp;are to help the Project Manager to monitor the progress of the iteration
+    and to communicate the iteration objectives to the team members.
+&lt;/p&gt;
+&lt;p&gt;
+    The level of detail/formality of the plan must be adapted to what you need to successfully meet these objectives. It
+    could be just a one page document listing the objectives and evaluation criteria of the iteration, or it could be a
+    more complex document including a project planning tool.
+&lt;/p&gt;</representationOptions>
+</com.ibm.uma:ArtifactDescription>

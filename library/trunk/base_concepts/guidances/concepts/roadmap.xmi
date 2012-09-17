@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<com.ibm.uma:ContentDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:com.ibm.uma="http://www.ibm.com/uma/1.0.2/uma.ecore" xmi:id="_JCivABnXEdqYreeU3jqaDQ" name="roadmap,_JCQbIBnXEdqYreeU3jqaDQ" guid="_JCivABnXEdqYreeU3jqaDQ" changeDate="2005-10-07T18:47:16.384-0700">
+  <mainDescription>&lt;p&gt;
+    An instance of a Roadmap represents important documentation for the Activity or Process it is related to. Often a
+    complex Activity such as a Process can be much easier understood by providing a walkthrough with a linear thread of a
+    typical instantiation of this Activity.
+&lt;/p&gt;
+&lt;p&gt;
+    In addition to making the process practitioner understand how work in the process is being performed, a Roadmap
+    provides additional information about how Activities and Tasks relate to each other over time. Roadmaps are also used
+    to show how specific aspects are distributed over a whole process providing a kind of filter on the Process for this
+    information.
+&lt;/p&gt;</mainDescription>
+</com.ibm.uma:ContentDescription>

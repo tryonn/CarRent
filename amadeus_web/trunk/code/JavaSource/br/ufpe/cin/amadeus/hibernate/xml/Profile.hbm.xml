@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE hibernate-mapping	PUBLIC 
+	"-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+    "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+
+<hibernate-mapping>
+ <class name="br.ufpe.cin.amadeus.system.human_resources.profile.Profile" table="profile">
+ 	<id name="id">
+ 		<column name="sqProfile" not-null="true" unique="true"/>
+ 		<generator class="increment"/>
+ 	</id>
+ 	<property name="name">
+ 		<column name="nmProfile" length="30" not-null="true" />
+ 	</property>
+ 	
+ 	<property name="intern">
+ 		<column name="inIntern" length="1" not-null="true" />
+ 	</property>
+ 	
+ 	<property name="constantProfile">
+ 		<column name="idprofile" unique="true" />
+ 	</property>
+ 	
+	<set name="permissions"
+ 		table="PROFILE_PERMISSION"
+ 		lazy="false"
+ 		cascade="all">
+ 		<key column="sqProfile"/>
+ 		<many-to-many class="br.ufpe.cin.amadeus.system.human_resources.permission.Permission" column="sqPermission"/>
+ 	</set>
+ 
+ </class>
+</hibernate-mapping>

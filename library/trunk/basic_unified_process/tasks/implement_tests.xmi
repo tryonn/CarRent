@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<com.ibm.uma:TaskDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:com.ibm.uma="http://www.ibm.com/uma/1.0.2/uma.ecore" xmi:id="_NrbRUKeqEdmKDbQuyzCoqQ" name="implement_tests,_0jO98MlgEdmt3adZL5Dmdw" guid="_NrbRUKeqEdmKDbQuyzCoqQ" changeDate="2005-07-07T14:45:48.334-0700">
+  <sections xmi:id="_S8JzsKuSEdmhFZtkg1nakg" name="Select appropriate implementation technique" guid="_S8JzsKuSEdmhFZtkg1nakg"/>
+  <sections xmi:id="_VN5M0KuSEdmhFZtkg1nakg" name="Implement the Test" guid="_VN5M0KuSEdmhFZtkg1nakg"/>
+  <sections xmi:id="_WvBoYKuSEdmhFZtkg1nakg" name="Establish external data sets" guid="_WvBoYKuSEdmhFZtkg1nakg"/>
+  <sections xmi:id="_X0dmcKuSEdmhFZtkg1nakg" name="Verify Test implementation" guid="_X0dmcKuSEdmhFZtkg1nakg"/>
+  <sections xmi:id="_Y-ABYKuSEdmhFZtkg1nakg" name="Organize tests into Test Suites" guid="_Y-ABYKuSEdmhFZtkg1nakg"/>
+  <sections xmi:id="_bGqXAKuSEdmhFZtkg1nakg" name="Evaluate and verify your results" guid="_bGqXAKuSEdmhFZtkg1nakg"/>
+</com.ibm.uma:TaskDescription>

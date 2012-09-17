@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<com.ibm.uma:TaskDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:com.ibm.uma="http://www.ibm.com/uma/1.0.2/uma.ecore" xmi:id="-zB69soYYmTl7Y9a0t6Mg8w" name="conduct_daily_scrums,_hFEfgCogEdqHVICqX5k_yQ" guid="-zB69soYYmTl7Y9a0t6Mg8w" changeDate="2005-09-21T17:53:55.055-0300">
+  <sections xmi:id="_grj4MMoiEdqL3LkYAkf7Sw" name="Criar Pauta" guid="_grj4MMoiEdqL3LkYAkf7Sw">
+    <sectionDescription>&lt;p&gt;
+    A pauta sera criada pelo comite_set.
+&lt;/p&gt;
+&lt;br /&gt;</sectionDescription>
+  </sections>
+  <sections xmi:id="_11jskMopEdqL3LkYAkf7Sw" name="Enviar Pauta para Lista" guid="_11jskMopEdqL3LkYAkf7Sw">
+    <sectionDescription>&lt;p&gt;
+    A pauta criada e enviada para a lista de discussao do grupo de modo a deixar todos os envolvidos informados do
+    andamento das atividades.
+&lt;/p&gt;</sectionDescription>
+  </sections>
+  <sections xmi:id="_-COMAMopEdqL3LkYAkf7Sw" name="Realização da Reunião" guid="_-COMAMopEdqL3LkYAkf7Sw">
+    <sectionDescription>O scrum_team que estao na mesmo localidade participam da reuniao</sectionDescription>
+  </sections>
+  <sections xmi:id="_IpH5QMoqEdqL3LkYAkf7Sw" name="Seguimento da Pauta" guid="_IpH5QMoqEdqL3LkYAkf7Sw">
+    <sectionDescription>&lt;p&gt;
+    A pauta eh exposta aos participantes da reuniao e eh seguida de modo a nao perder o foco da reuniao.
+&lt;/p&gt;</sectionDescription>
+  </sections>
+  <sections xmi:id="_THYA0MoqEdqL3LkYAkf7Sw" name="Acompanhamento das Atividades" guid="_THYA0MoqEdqL3LkYAkf7Sw">
+    <sectionDescription>&lt;p&gt;
+    Sao informados aos integrantes as atividades realizadas e problemas ocorridos caso nao tenham conseguido executa-las
+&lt;/p&gt;
+&lt;br /&gt;</sectionDescription>
+  </sections>
+  <sections xmi:id="_ZbC-UMoqEdqL3LkYAkf7Sw" name="Atividades Futuras" guid="_ZbC-UMoqEdqL3LkYAkf7Sw">
+    <sectionDescription>Sao informados aos participantes as proximas metas para que isso fique acordado com todos os membros.</sectionDescription>
+  </sections>
+</com.ibm.uma:TaskDescription>

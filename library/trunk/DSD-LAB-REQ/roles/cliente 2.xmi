@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<com.ibm.uma:RoleDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:com.ibm.uma="http://www.ibm.com/uma/1.0.2/uma.ecore" xmi:id="-UDjdtvOAU9RVb6rF1jo44A" name="new_role,_bZQ-wN-EEdq16uWWdR91fg" guid="-UDjdtvOAU9RVb6rF1jo44A" changeDate="2006-05-09T15:01:37.671-0300">
+  <mainDescription>&lt;p align=&quot;left&quot;&gt;
+    &lt;font face=&quot;TimesNewRoman&quot; size=&quot;2&quot;&gt;&lt;font face=&quot;TimesNewRoman&quot; size=&quot;2&quot;&gt;E responsavel por prover os recursos
+    financeiros alem de dedecidir o que sera desenvolvido durate a duracao do projeto. Saol importantes fontes de
+    informacao para a especificacao do software.&lt;/font&gt;&lt;/font&gt;
+&lt;/p&gt;</mainDescription>
+</com.ibm.uma:RoleDescription>

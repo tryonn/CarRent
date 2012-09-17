@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE dwr
+  PUBLIC "-//GetAhead Limited//DTD Direct Web Remoting 1.0//EN"
+  "http://www.getahead.ltd.uk/dwr/dwr10.dtd">
+
+<dwr>
+  <allow>
+    <create creator="new" javascript="Module" scope="session">
+      <param name="class" value="br.ufpe.cin.amadeus.dwr.academic.ModuleDWR"/>
+    </create>
+    <create creator="new" javascript="Materials" scope="session">
+      <param name="class" value="br.ufpe.cin.amadeus.dwr.academic.MaterialsDWR"/>
+    </create>
+    <create creator="new" javascript="Activities" scope="session">
+      <param name="class" value="br.ufpe.cin.amadeus.dwr.academic.ActivitiesDWR"/>
+    </create>
+    <create creator="new" javascript="ContManag" scope="session">
+      <param name="class" value="br.ufpe.cin.amadeus.dwr.academic.ContentManagement"/>
+    </create>
+
+    <convert converter="bean"
+        match="br.ufpe.cin.amadeus.dwr.academic.bean.ForumJSBean"/>
+    <convert converter="bean"
+        match="br.ufpe.cin.amadeus.dwr.academic.bean.MessageJSBean"/>
+
+    <create creator="new" javascript="RequestValidation" scope="request">
+      <param name="class" value="br.ufpe.cin.amadeus.dwr.access_control.RequestValidation"/>
+    </create>
+  </allow>
+</dwr>

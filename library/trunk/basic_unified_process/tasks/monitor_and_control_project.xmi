@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<com.ibm.uma:TaskDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:com.ibm.uma="http://www.ibm.com/uma/1.0.2/uma.ecore" xmi:id="-PbfqVxB_j9KN-Jx39_pEUA" name="monitor_and_control_project,_8S2aICbYEdqh1LYUOGRh2A" guid="-PbfqVxB_j9KN-Jx39_pEUA" changeDate="2005-09-22T14:32:45.189-0700">
+  <sections xmi:id="_OE65ICuxEdqTIKp3l5PtzQ" name="Conduct regular meetings" guid="_OE65ICuxEdqTIKp3l5PtzQ">
+    <sectionDescription>&lt;p&gt;
+    Project manager tracks project progress to be able to react as soon as possible to any change, and to communicate the
+    status to the project team and to the stakeholders.
+&lt;/p&gt;
+&lt;h4&gt;
+    Capturing project status
+&lt;/h4&gt;
+&lt;p&gt;
+    The project manager needs to frequently monitor the project to ensure its appropriate progress.
+&lt;/p&gt;
+&lt;p&gt;
+    The method used to determine the project status depends on the project manager's management style and the project
+    itself.
+&lt;/p&gt;
+&lt;p&gt;
+    For example, on a&amp;nbsp;relatively informal project, the project&amp;nbsp;manager can monitor the progress through quick,
+    daily meetings with the project team. Those meetings are also called &quot;scrum meetings.&quot; See &lt;a
+    class=&quot;elementLinkWithUserText&quot; href=&quot;resources/references,_9ToeIB83Edqsvps02rpOOg.html&quot;
+    guid=&quot;_9ToeIB83Edqsvps02rpOOg&quot;&gt;&lt;font color=&quot;#0000ff&quot;&gt;[SCH04]&lt;/font&gt;&lt;/a&gt;&amp;nbsp;for guidance on scrum meetings. The
+    project manager&amp;nbsp;can use tools or procedures to automatically capture measures to help track the project's progress
+&lt;/p&gt;
+&lt;h4&gt;
+    Communicating status
+&lt;/h4&gt;
+&lt;p&gt;
+    Communicating project status is as important as gathering it. Communication is usually done at two levels: the project
+    team and the stakeholders.
+&lt;/p&gt;
+&lt;ul&gt;
+    &lt;li&gt;
+        &lt;strong&gt;To the project team:&lt;/strong&gt; status can be communicated through quick, daily meetings. A common practice
+        is to communicate to-date status in the meeting when there is a daily status update.
+    &lt;/li&gt;
+    &lt;li&gt;
+        &lt;strong&gt;To the stakeholders:&lt;/strong&gt; status is usually communicated through core metrics rather than detailed
+        information. This can be done through meetings, e-mail, or Web publishing.
+    &lt;/li&gt;
+&lt;/ul&gt;
+&lt;!--EndFragment--&gt;&lt;!--EndFragment--&gt;&lt;!--EndFragment--&gt;&lt;!--EndFragment--&gt;</sectionDescription>
+  </sections>
+  <sections xmi:id="_ztF0UCuxEdqTIKp3l5PtzQ" name="Derive metrics" guid="_ztF0UCuxEdqTIKp3l5PtzQ">
+    <sectionDescription>&lt;p&gt;
+    The basic metric is to compare actual effort spent with planned effort. A trend chart, such as a &quot;burn-down&quot; chart, can
+    be useful (see &lt;a class=&quot;elementLinkWithUserText&quot; href=&quot;./../../basic_unified_process/guidances/supportingmaterials/references,_9ToeIB83Edqsvps02rpOOg.html&quot; guid=&quot;_9ToeIB83Edqsvps02rpOOg&quot;&gt;&lt;font color=&quot;#0000ff&quot;&gt;[SCH04]&lt;/font&gt;&lt;/a&gt;&amp;nbsp;for guidance on burn-down charts). See
+    also &lt;a class=&quot;elementLinkWithType&quot; href=&quot;./../../basic_unified_process/guidances/concepts/metrics,_0mYYkMlgEdmt3adZL5Dmdw.html&quot; guid=&quot;_0mYYkMlgEdmt3adZL5Dmdw&quot;&gt;Concept: Metrics&lt;/a&gt;&amp;nbsp;for more information.
+&lt;/p&gt;</sectionDescription>
+  </sections>
+  <sections xmi:id="_oIZdkCbZEdqh1LYUOGRh2A" name="Handle exceptions and problems" guid="_oIZdkCbZEdqh1LYUOGRh2A">
+    <sectionDescription>&lt;p&gt;
+    One of the project manager's key tasks is to know about the project team's problems and issues. The manager needs to
+    focus on&amp;nbsp;problems that are blocking progress. A quick, daily meeting is usually a good way to monitor those
+    problems and issues.
+&lt;/p&gt;
+&lt;p&gt;
+    Identify the cause and impact of problems and exceptions as they arise. Identify possible solutions for problems that
+    have an immediate impact on the&amp;nbsp;short-term goals and objectives and identify who needs to be involved in that
+    implenting the solution. Then, define the corrective actions and implement them.
+&lt;/p&gt;
+&lt;p&gt;
+    Determine the corrective actions to be performed. If the problem resolution is outside your control, you may need to
+    communicate with other stakeholders to ensure that they are aware of the problem and work with them to find the best
+    solution. If the problem resolution is under your control, identify tasks needed to implement it and integrate them
+    into the plans. If it is critical to solve the problem during the current iteration, revise the iteration plan and, as
+    necessary, reduce the emphasis on less critical tasks.
+&lt;/p&gt;
+&lt;!-- END:sectionDescription,_qX8bsMMrEdmdo9HxCRR_Gw --&gt;</sectionDescription>
+  </sections>
+  <sections xmi:id="_xiFJwCbZEdqh1LYUOGRh2A" name="Identify and manage risks" guid="_xiFJwCbZEdqh1LYUOGRh2A">
+    <sectionDescription>&lt;H4&gt;Identify&amp;nbsp;risks &lt;/H4&gt;
+&lt;P&gt;Identify risks as soon as the project starts and continue identifying risks throughout the project. A common mistake is to identify risks only at the beginning of the project and&amp;nbsp;then only track the status of these initial risks. The risk list should be revisited once per iteration or even weekly to add any&amp;nbsp;newly discovered risk. &lt;/P&gt;
+&lt;P&gt;Consider recording the following information (see &lt;A class=elementlinkwithtype href=&quot;resources/risk,_0bsLgMlgEdmt3adZL5Dmdw.html&quot; guid=&quot;_0bsLgMlgEdmt3adZL5Dmdw&quot;&gt;Concept: Risk&lt;/A&gt;&amp;nbsp;and &lt;A class=elementlinkwithtype href=&quot;resources/risk_list,_45e7gCbhEdqh1LYUOGRh2A.html&quot; guid=&quot;_45e7gCbhEdqh1LYUOGRh2A&quot;&gt;Guideline: Risk List - Informal Representation&lt;/A&gt;&amp;nbsp;for more details): &lt;/P&gt;
+&lt;UL&gt;
+&lt;LI&gt;&lt;!-- STRONG--&gt;Risk Description 
+&lt;LI&gt;&lt;!-- STRONG--&gt;Risk Type 
+&lt;LI&gt;&lt;!-- STRONG--&gt;Risk Probability 
+&lt;LI&gt;&lt;!-- STRONG--&gt;Risk Impact &lt;/LI&gt;&lt;/UL&gt;
+&lt;H4&gt;Prioritize risks &lt;/H4&gt;
+&lt;P&gt;A good approach for prioritizing risks is to&amp;nbsp;have an attribute called&amp;nbsp;&lt;STRONG&gt;risk magnitude,&amp;nbsp;&lt;/STRONG&gt;a combination of the risk&amp;nbsp;probability and the risk impact. The table below gives an example on how to calculate the risk magnitude&lt;/P&gt;
+&lt;P&gt;
+&lt;TABLE class=MsoTableGrid style=&quot;BORDER-RIGHT: medium none; BORDER-TOP: medium none; BORDER-LEFT: medium none; BORDER-BOTTOM: medium none; BORDER-COLLAPSE: collapse; mso-border-alt: solid windowtext .5pt; mso-yfti-tbllook: 480; mso-padding-alt: 0in 5.4pt 0in 5.4pt; mso-border-insideh: .5pt solid windowtext; mso-border-insidev: .5pt solid windowtext&quot; cellSpacing=0 cellPadding=0 border=1&gt;
+&lt;TBODY&gt;
+&lt;TR style=&quot;mso-yfti-irow: 0&quot;&gt;
+&lt;TD style=&quot;BORDER-RIGHT: windowtext 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: windowtext 1pt solid; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0in; BORDER-LEFT: windowtext 1pt solid; WIDTH: 1.2in; PADDING-TOP: 0in; BORDER-BOTTOM: windowtext 1pt solid; BACKGROUND-COLOR: transparent; mso-border-alt: solid windowtext .5pt&quot; vAlign=top width=115&gt;
+&lt;P class=MsoNormal style=&quot;MARGIN: 0in 0in 0pt; TEXT-ALIGN: right&quot; align=right&gt;&lt;B style=&quot;mso-bidi-font-weight: normal&quot;&gt;&lt;FONT size=3&gt;&lt;FONT face=&quot;Times New Roman&quot;&gt;&amp;nbsp;Impact&lt;/FONT&gt;&lt;/FONT&gt;&lt;/B&gt;&lt;/P&gt;
+&lt;P class=MsoNormal style=&quot;MARGIN: 0in 0in 0pt&quot;&gt;&lt;B style=&quot;mso-bidi-font-weight: normal&quot;&gt;&lt;FONT size=3&gt;&lt;FONT face=&quot;Times New Roman&quot;&gt;Probability&lt;?xml:namespace prefix = o /&gt;&lt;o:p&gt;&lt;/o:p&gt;&lt;/FONT&gt;&lt;/FONT&gt;&lt;/B&gt;&lt;/P&gt;&lt;/TD&gt;
+&lt;TD style=&quot;BORDER-RIGHT: windowtext 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: windowtext 1pt solid; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0in; BORDER-LEFT: #e0dfe3; WIDTH: 0.75in; PADDING-TOP: 0in; BORDER-BOTTOM: windowtext 1pt solid; BACKGROUND-COLOR: transparent; mso-border-alt: solid windowtext .5pt; mso-border-left-alt: solid windowtext .5pt&quot; vAlign=top width=72&gt;
+&lt;P class=MsoNormal style=&quot;MARGIN: 0in 0in 0pt&quot;&gt;&lt;B style=&quot;mso-bidi-font-weight: normal&quot;&gt;&lt;FONT size=3&gt;&lt;FONT face=&quot;Times New Roman&quot;&gt;High&lt;o:p&gt;&lt;/o:p&gt;&lt;/FONT&gt;&lt;/FONT&gt;&lt;/B&gt;&lt;/P&gt;&lt;/TD&gt;
+&lt;TD style=&quot;BORDER-RIGHT: windowtext 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: windowtext 1pt solid; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0in; BORDER-LEFT: #e0dfe3; WIDTH: 0.75in; PADDING-TOP: 0in; BORDER-BOTTOM: windowtext 1pt solid; BACKGROUND-COLOR: transparent; mso-border-alt: solid windowtext .5pt; mso-border-left-alt: solid windowtext .5pt&quot; vAlign=top width=72&gt;
+&lt;P class=MsoNormal style=&quot;MARGIN: 0in 0in 0pt&quot;&gt;&lt;B style=&quot;mso-bidi-font-weight: normal&quot;&gt;&lt;FONT size=3&gt;&lt;FONT face=&quot;Times New Roman&quot;&gt;Medium&lt;o:p&gt;&lt;/o:p&gt;&lt;/FONT&gt;&lt;/FONT&gt;&lt;/B&gt;&lt;/P&gt;&lt;/TD&gt;
+&lt;TD style=&quot;BORDER-RIGHT: windowtext 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: windowtext 1pt solid; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0in; BORDER-LEFT: #e0dfe3; WIDTH: 0.75in; PADDING-TOP: 0in; BORDER-BOTTOM: windowtext 1pt solid; BACKGROUND-COLOR: transparent; mso-border-alt: solid windowtext .5pt; mso-border-left-alt: solid windowtext .5pt&quot; vAlign=top width=72&gt;
+&lt;P class=MsoNormal style=&quot;MARGIN: 0in 0in 0pt&quot;&gt;&lt;B style=&quot;mso-bidi-font-weight: normal&quot;&gt;&lt;FONT size=3&gt;&lt;FONT face=&quot;Times New Roman&quot;&gt;Low&lt;o:p&gt;&lt;/o:p&gt;&lt;/FONT&gt;&lt;/FONT&gt;&lt;/B&gt;&lt;/P&gt;&lt;/TD&gt;&lt;/TR&gt;
+&lt;TR style=&quot;mso-yfti-irow: 1&quot;&gt;
+&lt;TD style=&quot;BORDER-RIGHT: windowtext 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: #e0dfe3; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0in; BORDER-LEFT: windowtext 1pt solid; WIDTH: 1.2in; PADDING-TOP: 0in; BORDER-BOTTOM: windowtext 1pt solid; BACKGROUND-COLOR: transparent; mso-border-alt: solid windowtext .5pt; mso-border-top-alt: solid windowtext .5pt&quot; vAlign=top width=115&gt;
+&lt;P class=MsoNormal style=&quot;MARGIN: 0in 0in 0pt&quot;&gt;&lt;B style=&quot;mso-bidi-font-weight: normal&quot;&gt;&lt;FONT size=3&gt;&lt;FONT face=&quot;Times New Roman&quot;&gt;High&lt;o:p&gt;&lt;/o:p&gt;&lt;/FONT&gt;&lt;/FONT&gt;&lt;/B&gt;&lt;/P&gt;&lt;/TD&gt;
+&lt;TD style=&quot;BORDER-RIGHT: windowtext 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: #e0dfe3; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0in; BORDER-LEFT: #e0dfe3; WIDTH: 0.75in; PADDING-TOP: 0in; BORDER-BOTTOM: windowtext 1pt solid; BACKGROUND-COLOR: transparent; mso-border-alt: solid windowtext .5pt; mso-border-left-alt: solid windowtext .5pt; mso-border-top-alt: solid windowtext .5pt&quot; vAlign=top width=72&gt;
+&lt;P class=MsoNormal style=&quot;MARGIN: 0in 0in 0pt&quot;&gt;&lt;FONT size=3&gt;&lt;FONT face=&quot;Times New Roman&quot;&gt;High&lt;o:p&gt;&lt;/o:p&gt;&lt;/FONT&gt;&lt;/FONT&gt;&lt;/P&gt;&lt;/TD&gt;
+&lt;TD style=&quot;BORDER-RIGHT: windowtext 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: #e0dfe3; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0in; BORDER-LEFT: #e0dfe3; WIDTH: 0.75in; PADDING-TOP: 0in; BORDER-BOTTOM: windowtext 1pt solid; BACKGROUND-COLOR: transparent; mso-border-alt: solid windowtext .5pt; mso-border-left-alt: solid windowtext .5pt; mso-border-top-alt: solid windowtext .5pt&quot; vAlign=top width=72&gt;
+&lt;P class=MsoNormal style=&quot;MARGIN: 0in 0in 0pt&quot;&gt;&lt;FONT size=3&gt;&lt;FONT face=&quot;Times New Roman&quot;&gt;High&lt;o:p&gt;&lt;/o:p&gt;&lt;/FONT&gt;&lt;/FONT&gt;&lt;/P&gt;&lt;/TD&gt;
+&lt;TD style=&quot;BORDER-RIGHT: windowtext 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: #e0dfe3; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0in; BORDER-LEFT: #e0dfe3; WIDTH: 0.75in; PADDING-TOP: 0in; BORDER-BOTTOM: windowtext 1pt solid; BACKGROUND-COLOR: transparent; mso-border-alt: solid windowtext .5pt; mso-border-left-alt: solid windowtext .5pt; mso-border-top-alt: solid windowtext .5pt&quot; vAlign=top width=72&gt;
+&lt;P class=MsoNormal style=&quot;MARGIN: 0in 0in 0pt&quot;&gt;&lt;FONT size=3&gt;&lt;FONT face=&quot;Times New Roman&quot;&gt;Medium&lt;o:p&gt;&lt;/o:p&gt;&lt;/FONT&gt;&lt;/FONT&gt;&lt;/P&gt;&lt;/TD&gt;&lt;/TR&gt;
+&lt;TR style=&quot;mso-yfti-irow: 2&quot;&gt;
+&lt;TD style=&quot;BORDER-RIGHT: windowtext 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: #e0dfe3; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0in; BORDER-LEFT: windowtext 1pt solid; WIDTH: 1.2in; PADDING-TOP: 0in; BORDER-BOTTOM: windowtext 1pt solid; BACKGROUND-COLOR: transparent; mso-border-alt: solid windowtext .5pt; mso-border-top-alt: solid windowtext .5pt&quot; vAlign=top width=115&gt;
+&lt;P class=MsoNormal style=&quot;MARGIN: 0in 0in 0pt&quot;&gt;&lt;B style=&quot;mso-bidi-font-weight: normal&quot;&gt;&lt;FONT size=3&gt;&lt;FONT face=&quot;Times New Roman&quot;&gt;Medium&lt;o:p&gt;&lt;/o:p&gt;&lt;/FONT&gt;&lt;/FONT&gt;&lt;/B&gt;&lt;/P&gt;&lt;/TD&gt;
+&lt;TD style=&quot;BORDER-RIGHT: windowtext 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: #e0dfe3; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0in; BORDER-LEFT: #e0dfe3; WIDTH: 0.75in; PADDING-TOP: 0in; BORDER-BOTTOM: windowtext 1pt solid; BACKGROUND-COLOR: transparent; mso-border-alt: solid windowtext .5pt; mso-border-left-alt: solid windowtext .5pt; mso-border-top-alt: solid windowtext .5pt&quot; vAlign=top width=72&gt;
+&lt;P class=MsoNormal style=&quot;MARGIN: 0in 0in 0pt&quot;&gt;&lt;FONT size=3&gt;&lt;FONT face=&quot;Times New Roman&quot;&gt;High&lt;o:p&gt;&lt;/o:p&gt;&lt;/FONT&gt;&lt;/FONT&gt;&lt;/P&gt;&lt;/TD&gt;
+&lt;TD style=&quot;BORDER-RIGHT: windowtext 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: #e0dfe3; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0in; BORDER-LEFT: #e0dfe3; WIDTH: 0.75in; PADDING-TOP: 0in; BORDER-BOTTOM: windowtext 1pt solid; BACKGROUND-COLOR: transparent; mso-border-alt: solid windowtext .5pt; mso-border-left-alt: solid windowtext .5pt; mso-border-top-alt: solid windowtext .5pt&quot; vAlign=top width=72&gt;
+&lt;P class=MsoNormal style=&quot;MARGIN: 0in 0in 0pt&quot;&gt;&lt;FONT size=3&gt;&lt;FONT face=&quot;Times New Roman&quot;&gt;Medium&lt;o:p&gt;&lt;/o:p&gt;&lt;/FONT&gt;&lt;/FONT&gt;&lt;/P&gt;&lt;/TD&gt;
+&lt;TD style=&quot;BORDER-RIGHT: windowtext 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: #e0dfe3; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0in; BORDER-LEFT: #e0dfe3; WIDTH: 0.75in; PADDING-TOP: 0in; BORDER-BOTTOM: windowtext 1pt solid; BACKGROUND-COLOR: transparent; mso-border-alt: solid windowtext .5pt; mso-border-left-alt: solid windowtext .5pt; mso-border-top-alt: solid windowtext .5pt&quot; vAlign=top width=72&gt;
+&lt;P class=MsoNormal style=&quot;MARGIN: 0in 0in 0pt&quot;&gt;&lt;FONT size=3&gt;&lt;FONT face=&quot;Times New Roman&quot;&gt;Low&lt;o:p&gt;&lt;/o:p&gt;&lt;/FONT&gt;&lt;/FONT&gt;&lt;/P&gt;&lt;/TD&gt;&lt;/TR&gt;
+&lt;TR style=&quot;mso-yfti-irow: 3; mso-yfti-lastrow: yes&quot;&gt;
+&lt;TD style=&quot;BORDER-RIGHT: windowtext 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: #e0dfe3; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0in; BORDER-LEFT: windowtext 1pt solid; WIDTH: 1.2in; PADDING-TOP: 0in; BORDER-BOTTOM: windowtext 1pt solid; BACKGROUND-COLOR: transparent; mso-border-alt: solid windowtext .5pt; mso-border-top-alt: solid windowtext .5pt&quot; vAlign=top width=115&gt;
+&lt;P class=MsoNormal style=&quot;MARGIN: 0in 0in 0pt&quot;&gt;&lt;B style=&quot;mso-bidi-font-weight: normal&quot;&gt;&lt;FONT size=3&gt;&lt;FONT face=&quot;Times New Roman&quot;&gt;Low&lt;o:p&gt;&lt;/o:p&gt;&lt;/FONT&gt;&lt;/FONT&gt;&lt;/B&gt;&lt;/P&gt;&lt;/TD&gt;
+&lt;TD style=&quot;BORDER-RIGHT: windowtext 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: #e0dfe3; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0in; BORDER-LEFT: #e0dfe3; WIDTH: 0.75in; PADDING-TOP: 0in; BORDER-BOTTOM: windowtext 1pt solid; BACKGROUND-COLOR: transparent; mso-border-alt: solid windowtext .5pt; mso-border-left-alt: solid windowtext .5pt; mso-border-top-alt: solid windowtext .5pt&quot; vAlign=top width=72&gt;
+&lt;P class=MsoNormal style=&quot;MARGIN: 0in 0in 0pt&quot;&gt;&lt;FONT size=3&gt;&lt;FONT face=&quot;Times New Roman&quot;&gt;Medium&lt;o:p&gt;&lt;/o:p&gt;&lt;/FONT&gt;&lt;/FONT&gt;&lt;/P&gt;&lt;/TD&gt;
+&lt;TD style=&quot;BORDER-RIGHT: windowtext 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: #e0dfe3; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0in; BORDER-LEFT: #e0dfe3; WIDTH: 0.75in; PADDING-TOP: 0in; BORDER-BOTTOM: windowtext 1pt solid; BACKGROUND-COLOR: transparent; mso-border-alt: solid windowtext .5pt; mso-border-left-alt: solid windowtext .5pt; mso-border-top-alt: solid windowtext .5pt&quot; vAlign=top width=72&gt;
+&lt;P class=MsoNormal style=&quot;MARGIN: 0in 0in 0pt&quot;&gt;&lt;FONT size=3&gt;&lt;FONT face=&quot;Times New Roman&quot;&gt;Low&lt;o:p&gt;&lt;/o:p&gt;&lt;/FONT&gt;&lt;/FONT&gt;&lt;/P&gt;&lt;/TD&gt;
+&lt;TD style=&quot;BORDER-RIGHT: windowtext 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: #e0dfe3; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0in; BORDER-LEFT: #e0dfe3; WIDTH: 0.75in; PADDING-TOP: 0in; BORDER-BOTTOM: windowtext 1pt solid; BACKGROUND-COLOR: transparent; mso-border-alt: solid windowtext .5pt; mso-border-left-alt: solid windowtext .5pt; mso-border-top-alt: solid windowtext .5pt&quot; vAlign=top width=72&gt;
+&lt;P class=MsoNormal style=&quot;MARGIN: 0in 0in 0pt&quot;&gt;&lt;FONT size=3&gt;&lt;FONT face=&quot;Times New Roman&quot;&gt;Low&lt;o:p&gt;&lt;/o:p&gt;&lt;/FONT&gt;&lt;/FONT&gt;&lt;/P&gt;&lt;/TD&gt;&lt;/TR&gt;&lt;/TBODY&gt;&lt;/TABLE&gt;&lt;/P&gt;
+&lt;P&gt;&lt;/P&gt;
+&lt;H4&gt;&lt;!--EndFragment--&gt;Define mitigation strategy and follow-up risks&lt;/H4&gt;&lt;BASE href=file://C:/cc_stg/views/rbalduino_ssview/TNG/tng_content/libraries/Beacon/basic_unified_process/tasks/&gt;
+&lt;P&gt;Once you have chosen a set of risks to focus on, choose a mitigation strategy. For more details on the different strategies, look at &lt;A class=elementlinkwithtype href=&quot;resources/managing_risk,_0bf-QMlgEdmt3adZL5Dmdw.html&quot; guid=&quot;_0bf-QMlgEdmt3adZL5Dmdw&quot;&gt;&lt;U&gt;&lt;FONT color=#0000ff&gt;Practice: Managing Risk&lt;/FONT&gt;&lt;/U&gt;&lt;/A&gt;.&lt;/P&gt;
+&lt;P&gt;Then, identify and assign tasks to apply the strategy to the given risk.&lt;/P&gt;
+&lt;P&gt;&lt;!--StartFragment --&gt;The project manager should follow up regularly on risk-mitigation actions. Try another strategy if your chosen strategy does not reduce the magnitude of a risk. &lt;/P&gt;&lt;!--EndFragment--&gt;&lt;!--EndFragment--&gt;</sectionDescription>
+  </sections>
+  <sections xmi:id="_Br6VECuxEdqTIKp3l5PtzQ" name="Reprioritize work as needed" guid="_Br6VECuxEdqTIKp3l5PtzQ">
+    <sectionDescription>&lt;p&gt;
+    TBD.
+&lt;/p&gt;
+&lt;p&gt;
+    See&amp;nbsp;&lt;a class=&quot;elementLinkWithType&quot;
+    href=&quot;./../../basic_unified_process/tasks/prioritize_work,_RnoK4CbPEdqh1LYUOGRh2A.html&quot;
+    guid=&quot;_RnoK4CbPEdqh1LYUOGRh2A&quot;&gt;&lt;u&gt;&lt;font color=&quot;#0000ff&quot;&gt;Task: Prioritize Work&lt;/font&gt;&lt;/u&gt;&lt;/a&gt;&amp;nbsp;for more information.
+&lt;/p&gt;</sectionDescription>
+  </sections>
+  <purpose>&lt;p&gt;
+    To meet with the team in order to understand what team&amp;nbsp;members have done, what they plan to do next, and if they
+    have identified any impediment for their work to continue. Tracking status periodically and identifying blocking issues
+    early is key to keep project on track.
+&lt;/p&gt;</purpose>
+</com.ibm.uma:TaskDescription>

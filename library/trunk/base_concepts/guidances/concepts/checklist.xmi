@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<com.ibm.uma:ContentDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:com.ibm.uma="http://www.ibm.com/uma/1.0.2/uma.ecore" xmi:id="_2wY3MBT9EdqrUt4zetC1gg" name="checklist,_2vVuUBT9EdqrUt4zetC1gg" guid="_2wY3MBT9EdqrUt4zetC1gg" changeDate="2005-10-21T19:21:29.297-0700">
+  <mainDescription>&lt;p&gt;
+    In UMA, a Content Element has at most one Checklist. Checklists, are useful in a number of contexts: they help you
+    decide what to do, they help doing it, they help&amp;nbsp;assess the quality of the work, and they help understand how a
+    particular Work Product relates to the rest of the process.&lt;!--EndFragment--&gt;
+&lt;/p&gt;
+&lt;p&gt;
+    Work products typically have an associated Checklist which present information on how to develop, evaluate and
+    use&amp;nbsp;them .
+&lt;/p&gt;</mainDescription>
+</com.ibm.uma:ContentDescription>

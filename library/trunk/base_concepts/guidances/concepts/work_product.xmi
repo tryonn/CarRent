@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<com.ibm.uma:ContentDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:com.ibm.uma="http://www.ibm.com/uma/1.0.2/uma.ecore" xmi:id="_zaz1MNnmEdmO6L4XMImrsA" name="work_product,4.804531471620803E-306" guid="_zaz1MNnmEdmO6L4XMImrsA" changeDate="2005-10-27T21:04:57.163-0700">
+  <mainDescription>&lt;a id=&quot;XE_ARTIFACT__KEY_CONCEPTS&quot; name=&quot;XE_artifact__key_concepts&quot;&gt;&lt;/a&gt; 
+&lt;h3&gt;
+    Work Product
+&lt;/h3&gt;
+&lt;p&gt;
+    A Work Product is a general abstraction that represents something resulting from the process.&amp;nbsp; Work Products
+    include:
+&lt;/p&gt;
+&lt;ul&gt;
+    &lt;li&gt;
+        &lt;a class=&quot;elementlink&quot; href=&quot;./../../../base_concepts/guidances/concepts/artifact,_fdRfkBUJEdqrUt4zetC1gg.html&quot; guid=&quot;_fdRfkBUJEdqrUt4zetC1gg&quot;&gt;Artifact&lt;/a&gt;
+    &lt;/li&gt;
+    &lt;li&gt;
+        &lt;a class=&quot;elementlink&quot; href=&quot;./../../../base_concepts/guidances/concepts/deliverable,_lBgkMBUJEdqrUt4zetC1gg.html&quot; guid=&quot;_lBgkMBUJEdqrUt4zetC1gg&quot;&gt;Deliverable&lt;/a&gt;
+    &lt;/li&gt;
+    &lt;li&gt;
+        &lt;a class=&quot;elementlink&quot; href=&quot;./../../../base_concepts/guidances/concepts/outcome,_pROF4BUJEdqrUt4zetC1gg.html&quot; guid=&quot;_pROF4BUJEdqrUt4zetC1gg&quot;&gt;Outcome&lt;/a&gt;
+    &lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+    Tasks have input and output Work Products. Roles use Work Products to perform Tasks, and produce other Work Products in
+    the course of performing Tasks. Work Products are the responsibility of a single Role, making responsibility easy to
+    identify and understand, and promoting the idea that every piece of information produced in the process requires the
+    appropriate set of skills. Even though one Role may &quot;own&quot; the Work Product, other Roles will use the Work Product,
+    perhaps even updating it if the Role has been given permission to do so.
+&lt;/p&gt;
+&lt;p align=&quot;center&quot;&gt;
+    &lt;map id=&quot;FPMap1&quot; name=&quot;FPMap1&quot;&gt;
+    &lt;/map&gt;&lt;img height=&quot;569&quot; alt=&quot;Major Artifacts and information flow in the Rational Unified Process&quot;     src=&quot;resources/overview.gif&quot; width=&quot;536&quot; usemap=&quot;#FPMap1&quot; border=&quot;0&quot; /&gt;
+&lt;/p&gt;
+&lt;p class=&quot;picturetext&quot; align=&quot;center&quot;&gt;
+    Popular Work Products in Software Development, and the approximate dependency relationships between them.
+&lt;/p&gt;
+&lt;p&gt;
+    Note that &quot;&lt;b&gt;Work Product&lt;/b&gt; &quot; is the term used to describe what other processes denote using terms such as
+    &lt;b&gt;Artifact&lt;/b&gt;, &lt;b&gt;work unit&lt;/b&gt;, and so on. In UMA, &lt;b&gt;Deliverables&lt;/b&gt; are only considered to be the subset of all
+    Work Products that will end up being delivered into the hands of the customers and users, usually as part of a formal
+    or contractually agreed hand-over.
+&lt;/p&gt;</mainDescription>
+</com.ibm.uma:ContentDescription>

@@ -1,0 +1,95 @@
+body{
+	background-color: #FFF;
+	font-family: "Trebuchet MS";
+	margin: 2px;
+	padding: 5px;
+}
+
+td{
+		padding : 2px;
+		margin: 1px;
+		font-size: 11px;
+}
+
+.tableDescripCur{
+	border-collapse : collapse;
+	border: 1px solid #006633;;
+	background: url(imgs/bg-mod.png);
+	background-repeat : repeat-x; 
+	margin-bottom : 8px;
+	width : 300px;
+}
+
+.tableMod{
+	border-collapse : collapse;
+	border: 1px solid #006633;
+	background: url(imgs/bg-mod.png);
+	background-repeat : repeat-x; 
+	margin-bottom : 4px;
+	margin-top : 4px;
+	width : 300px;
+}
+
+.tableMod select{
+	background-color : #eee;
+	border: 1px solid #999;
+	padding: 1px
+}
+
+.alert{
+	color: red;
+}
+
+.tableMod input{
+	background-color : #eee;
+	border: 1px solid #999;
+	padding: 1px
+}
+
+.headTab{
+	font-weight: bold;
+	padding : 2px;
+	border-bottom: 1px solid #999;
+}
+
+.headTab2{
+	font-weight: bold;
+	padding : 2px;
+}
+
+.modDescrip{
+	padding: 8px;
+	font-style: oblique;
+	border-bottom: 1px solid #666;
+}
+
+.modDescriptTextarea{
+	width : 270px;
+	height: 90px;
+	background-color : #ECFFF0;
+	border: 1px solid #999;
+}
+
+.ativDescriptTextarea{
+	width : 270px;
+	height: 90px;
+	background-color : #eee;
+	border: 1px solid #999;
+}
+
+.tableinterna{
+       /* border: 1px solid #f00;*/
+    width : 298px;
+    margin: 0px 1px 0px 0px;
+    background-color: #fff;
+}
+
+.cont-tableinterna{
+	padding: 0px;
+	margin: 0px;
+	background-color : #eee;
+}
+
+.textWidth {
+	width: 285px;
+}

@@ -1,0 +1,247 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:com.ibm.uma="http://www.ibm.com/uma/1.0.2/uma.ecore" xmlns:com.ibm.uma.resourcemanager="http:///com/ibm/uma/resourcemanager.ecore">
+  <com.ibm.uma.resourcemanager:ResourceManager xmi:id="_nLga8vL5Edm6Nvont3uinw" guid="_nLga8vL5Edm6Nvont3uinw">
+    <resourceDescriptors xmi:id="_nLga8fL5Edm6Nvont3uinw" id="_mtb_DvL5Edm6Nvont3uinw" uri="content.xmi"/>
+  </com.ibm.uma.resourcemanager:ResourceManager>
+  <com.ibm.uma:ProcessComponent xmi:id="_0sx7iclgEdmt3adZL5Dmdw" name="define_architecture" guid="_0sx7iclgEdmt3adZL5Dmdw">
+    <processElements xsi:type="com.ibm.uma:WorkProductDescriptor" xmi:id="_0s4CJMlgEdmt3adZL5Dmdw" name="Supplemental Requirement" guid="_0s4CJMlgEdmt3adZL5Dmdw" presentationName="Supplemental Requirement" superActivities="_0sx7islgEdmt3adZL5Dmdw">
+      <WorkProduct xsi:type="com.ibm.uma:Artifact" href="uma://_0TLvwMlgEdmt3adZL5Dmdw#_0VSokMlgEdmt3adZL5Dmdw"/>
+    </processElements>
+    <processElements xsi:type="com.ibm.uma:WorkProductDescriptor" xmi:id="_MDDhMAOzEdqsKb2MZQ4Q8w" name="risk_list" guid="_MDDhMAOzEdqsKb2MZQ4Q8w" presentationName="Risk List" superActivities="_0sx7islgEdmt3adZL5Dmdw">
+      <WorkProduct xsi:type="com.ibm.uma:Artifact" href="uma://_0TLvwMlgEdmt3adZL5Dmdw#_0bNDUMlgEdmt3adZL5Dmdw"/>
+    </processElements>
+    <processElements xsi:type="com.ibm.uma:TaskDescriptor" xmi:id="_d5yaAFY4EdqI9sTOt2pjHw" name="analyze_architecture" guid="_d5yaAFY4EdqI9sTOt2pjHw" presentationName="Analyze the Architecture" isPlanned="false" superActivities="_0sx7islgEdmt3adZL5Dmdw" mandatoryInput="_d6Et4FY4EdqI9sTOt2pjHw" optionalInput="_d6Q7IFY4EdqI9sTOt2pjHw _d6Q7IVY4EdqI9sTOt2pjHw _d6XBwFY4EdqI9sTOt2pjHw _d6dIYFY4EdqI9sTOt2pjHw" output="_d6Q7IVY4EdqI9sTOt2pjHw _d6Q7IFY4EdqI9sTOt2pjHw" performedPrimarilyBy="_d5-nQFY4EdqI9sTOt2pjHw">
+      <Task href="uma://_0TLvwMlgEdmt3adZL5Dmdw#_0f-1oMlgEdmt3adZL5Dmdw"/>
+      <selectedSteps href="uma://_qDRSULBKEdm7Eph_l9Cn9w#_9o6Z4CSCEdqDjNgZyGMf5w"/>
+      <selectedSteps href="uma://_qDRSULBKEdm7Eph_l9Cn9w#_B899cMP2EdmWKcx6ixEiwg"/>
+      <selectedSteps href="uma://_qDRSULBKEdm7Eph_l9Cn9w#_FVrlsMP2EdmWKcx6ixEiwg"/>
+      <selectedSteps href="uma://_qDRSULBKEdm7Eph_l9Cn9w#_I32E4MP2EdmWKcx6ixEiwg"/>
+      <selectedSteps href="uma://_qDRSULBKEdm7Eph_l9Cn9w#_KBAsYMP2EdmWKcx6ixEiwg"/>
+      <selectedSteps href="uma://_qDRSULBKEdm7Eph_l9Cn9w#_xTdYACGAEdqk6N_Ot_YEvA"/>
+    </processElements>
+    <processElements xsi:type="com.ibm.uma:RoleDescriptor" xmi:id="_d5-nQFY4EdqI9sTOt2pjHw" name="architect" guid="_d5-nQFY4EdqI9sTOt2pjHw" presentationName="Architect" superActivities="_0sx7islgEdmt3adZL5Dmdw" performsAsOwner="_d5yaAFY4EdqI9sTOt2pjHw _eTAyUFY4EdqI9sTOt2pjHw" responsibleFor="_d6Q7IVY4EdqI9sTOt2pjHw _d6dIYFY4EdqI9sTOt2pjHw">
+      <Role href="uma://_0TLvwMlgEdmt3adZL5Dmdw#_0X9iEMlgEdmt3adZL5Dmdw"/>
+    </processElements>
+    <processElements xsi:type="com.ibm.uma:WorkProductDescriptor" xmi:id="_d6Et4FY4EdqI9sTOt2pjHw" name="vision" guid="_d6Et4FY4EdqI9sTOt2pjHw" presentationName="Vision" superActivities="_0sx7islgEdmt3adZL5Dmdw" mandatoryInputTo="_d5yaAFY4EdqI9sTOt2pjHw">
+      <WorkProduct xsi:type="com.ibm.uma:Artifact" href="uma://_0TLvwMlgEdmt3adZL5Dmdw#_0WVxcMlgEdmt3adZL5Dmdw"/>
+    </processElements>
+    <processElements xsi:type="com.ibm.uma:WorkProductDescriptor" xmi:id="_d6Q7IFY4EdqI9sTOt2pjHw" name="design" guid="_d6Q7IFY4EdqI9sTOt2pjHw" presentationName="Design" superActivities="_0sx7islgEdmt3adZL5Dmdw" mandatoryInputTo="_eTAyUFY4EdqI9sTOt2pjHw" OptionalInputTo="_d5yaAFY4EdqI9sTOt2pjHw" outputFrom="_d5yaAFY4EdqI9sTOt2pjHw _eTAyUFY4EdqI9sTOt2pjHw">
+      <WorkProduct xsi:type="com.ibm.uma:Artifact" href="uma://_0TLvwMlgEdmt3adZL5Dmdw#_0WuL8slgEdmt3adZL5Dmdw"/>
+    </processElements>
+    <processElements xsi:type="com.ibm.uma:WorkProductDescriptor" xmi:id="_d6Q7IVY4EdqI9sTOt2pjHw" name="architecture" guid="_d6Q7IVY4EdqI9sTOt2pjHw" presentationName="Architecture" superActivities="_0sx7islgEdmt3adZL5Dmdw" mandatoryInputTo="_eTAyUFY4EdqI9sTOt2pjHw" OptionalInputTo="_d5yaAFY4EdqI9sTOt2pjHw" outputFrom="_d5yaAFY4EdqI9sTOt2pjHw _eTAyUFY4EdqI9sTOt2pjHw" responsibleRole="_d5-nQFY4EdqI9sTOt2pjHw">
+      <WorkProduct xsi:type="com.ibm.uma:Artifact" href="uma://_0TLvwMlgEdmt3adZL5Dmdw#_0XAf0MlgEdmt3adZL5Dmdw"/>
+    </processElements>
+    <processElements xsi:type="com.ibm.uma:WorkProductDescriptor" xmi:id="_d6XBwFY4EdqI9sTOt2pjHw" name="uc_model" guid="_d6XBwFY4EdqI9sTOt2pjHw" presentationName="Use-Case Model" superActivities="_0sx7islgEdmt3adZL5Dmdw" OptionalInputTo="_d5yaAFY4EdqI9sTOt2pjHw">
+      <WorkProduct xsi:type="com.ibm.uma:Artifact" href="uma://_0TLvwMlgEdmt3adZL5Dmdw#_0UCrZclgEdmt3adZL5Dmdw"/>
+    </processElements>
+    <processElements xsi:type="com.ibm.uma:WorkProductDescriptor" xmi:id="_d6dIYFY4EdqI9sTOt2pjHw" name="arch_poc" guid="_d6dIYFY4EdqI9sTOt2pjHw" presentationName="Architectural Proof-of-Concept" superActivities="_0sx7islgEdmt3adZL5Dmdw" OptionalInputTo="_d5yaAFY4EdqI9sTOt2pjHw" responsibleRole="_d5-nQFY4EdqI9sTOt2pjHw">
+      <WorkProduct xsi:type="com.ibm.uma:Artifact" href="uma://_0TLvwMlgEdmt3adZL5Dmdw#_PoDR0NbYEdmlO4WLYHrJaQ"/>
+    </processElements>
+    <processElements xsi:type="com.ibm.uma:TaskDescriptor" xmi:id="_eTAyUFY4EdqI9sTOt2pjHw" name="refine_architecture" guid="_eTAyUFY4EdqI9sTOt2pjHw" presentationName="Refine the Architecture" isPlanned="false" superActivities="_0sx7islgEdmt3adZL5Dmdw" additionallyPerformedBy="_eTTGMFY4EdqI9sTOt2pjHw" mandatoryInput="_d6Q7IFY4EdqI9sTOt2pjHw _d6Q7IVY4EdqI9sTOt2pjHw" output="_d6Q7IFY4EdqI9sTOt2pjHw _eTfTcFY4EdqI9sTOt2pjHw _d6Q7IVY4EdqI9sTOt2pjHw _eTrgsFY4EdqI9sTOt2pjHw" performedPrimarilyBy="_d5-nQFY4EdqI9sTOt2pjHw">
+      <Task href="uma://_0TLvwMlgEdmt3adZL5Dmdw#_0gRJgMlgEdmt3adZL5Dmdw"/>
+      <selectedSteps href="uma://_rUis8LBKEdm7Eph_l9Cn9w#_P28vkMP3EdmWKcx6ixEiwg"/>
+      <selectedSteps href="uma://_rUis8LBKEdm7Eph_l9Cn9w#_SN28kMP3EdmWKcx6ixEiwg"/>
+      <selectedSteps href="uma://_rUis8LBKEdm7Eph_l9Cn9w#_Vdln8MP3EdmWKcx6ixEiwg"/>
+      <selectedSteps href="uma://_rUis8LBKEdm7Eph_l9Cn9w#_Xmcx4MP3EdmWKcx6ixEiwg"/>
+      <selectedSteps href="uma://_rUis8LBKEdm7Eph_l9Cn9w#_S5QfcAXhEdqypLW0yztGdw"/>
+      <selectedSteps href="uma://_rUis8LBKEdm7Eph_l9Cn9w#_Zlw-QMP3EdmWKcx6ixEiwg"/>
+      <selectedSteps href="uma://_rUis8LBKEdm7Eph_l9Cn9w#_aRCI0MP3EdmWKcx6ixEiwg"/>
+    </processElements>
+    <processElements xsi:type="com.ibm.uma:RoleDescriptor" xmi:id="_eTTGMFY4EdqI9sTOt2pjHw" name="tester" guid="_eTTGMFY4EdqI9sTOt2pjHw" presentationName="Tester" superActivities="_0sx7islgEdmt3adZL5Dmdw" performsAdditionally="_eTAyUFY4EdqI9sTOt2pjHw">
+      <Role href="uma://_0TLvwMlgEdmt3adZL5Dmdw#_0ZM4MclgEdmt3adZL5Dmdw"/>
+    </processElements>
+    <processElements xsi:type="com.ibm.uma:WorkProductDescriptor" xmi:id="_eTfTcFY4EdqI9sTOt2pjHw" name="design_component" guid="_eTfTcFY4EdqI9sTOt2pjHw" presentationName="Design Component" superActivities="_0sx7islgEdmt3adZL5Dmdw" outputFrom="_eTAyUFY4EdqI9sTOt2pjHw">
+      <WorkProduct xsi:type="com.ibm.uma:Artifact" href="uma://_0TLvwMlgEdmt3adZL5Dmdw#_0W0SkMlgEdmt3adZL5Dmdw"/>
+    </processElements>
+    <processElements xsi:type="com.ibm.uma:WorkProductDescriptor" xmi:id="_eTrgsFY4EdqI9sTOt2pjHw" name="uc_realization" guid="_eTrgsFY4EdqI9sTOt2pjHw" presentationName="Use-Case Realization" superActivities="_0sx7islgEdmt3adZL5Dmdw" outputFrom="_eTAyUFY4EdqI9sTOt2pjHw">
+      <WorkProduct xsi:type="com.ibm.uma:Artifact" href="uma://_0TLvwMlgEdmt3adZL5Dmdw#_0W6ZMMlgEdmt3adZL5Dmdw"/>
+    </processElements>
+    <diagrams xmi:id="_86XN8CC1EdqjJdiT9S-68Q" guid="_86XN8CC1EdqjJdiT9S-68Q">
+      <contained xsi:type="com.ibm.uma:GraphNode" xmi:id="_86XN8SC1EdqjJdiT9S-68Q" guid="_86XN8SC1EdqjJdiT9S-68Q">
+        <position xmi:id="_86XN8iC1EdqjJdiT9S-68Q" x="10.0" y="10.0"/>
+        <semanticModel xsi:type="com.ibm.uma:UMASemanticModelBridge" xmi:id="_86XN8yC1EdqjJdiT9S-68Q" guid="_86XN8yC1EdqjJdiT9S-68Q"/>
+        <size xmi:id="_86XN9CC1EdqjJdiT9S-68Q" width="-1.0" height="-1.0"/>
+      </contained>
+      <contained xsi:type="com.ibm.uma:GraphNode" xmi:id="_86XN9SC1EdqjJdiT9S-68Q" guid="_86XN9SC1EdqjJdiT9S-68Q">
+        <position xmi:id="_86XN9iC1EdqjJdiT9S-68Q" x="134.0" y="10.0"/>
+        <semanticModel xsi:type="com.ibm.uma:UMASemanticModelBridge" xmi:id="_86XN9yC1EdqjJdiT9S-68Q" guid="_86XN9yC1EdqjJdiT9S-68Q"/>
+        <size xmi:id="_86XN-CC1EdqjJdiT9S-68Q" width="-1.0" height="-1.0"/>
+      </contained>
+      <contained xsi:type="com.ibm.uma:GraphNode" xmi:id="_86XN-SC1EdqjJdiT9S-68Q" guid="_86XN-SC1EdqjJdiT9S-68Q">
+        <position xmi:id="_86XN-iC1EdqjJdiT9S-68Q" x="250.0" y="10.0"/>
+        <semanticModel xsi:type="com.ibm.uma:UMASemanticModelBridge" xmi:id="_86XN-yC1EdqjJdiT9S-68Q" guid="_86XN-yC1EdqjJdiT9S-68Q" element="_0s4CJMlgEdmt3adZL5Dmdw"/>
+        <size xmi:id="_86XN_CC1EdqjJdiT9S-68Q" width="-1.0" height="-1.0"/>
+      </contained>
+      <contained xsi:type="com.ibm.uma:GraphNode" xmi:id="_86XN_SC1EdqjJdiT9S-68Q" guid="_86XN_SC1EdqjJdiT9S-68Q">
+        <position xmi:id="_86XN_iC1EdqjJdiT9S-68Q" x="447.0" y="10.0"/>
+        <semanticModel xsi:type="com.ibm.uma:UMASemanticModelBridge" xmi:id="_86XN_yC1EdqjJdiT9S-68Q" guid="_86XN_yC1EdqjJdiT9S-68Q"/>
+        <size xmi:id="_86XOACC1EdqjJdiT9S-68Q" width="113.0" height="-1.0"/>
+      </contained>
+      <contained xsi:type="com.ibm.uma:GraphNode" xmi:id="_86XOASC1EdqjJdiT9S-68Q" guid="_86XOASC1EdqjJdiT9S-68Q">
+        <position xmi:id="_86XOAiC1EdqjJdiT9S-68Q" x="340.0" y="146.0"/>
+        <semanticModel xsi:type="com.ibm.uma:UMASemanticModelBridge" xmi:id="_86XOAyC1EdqjJdiT9S-68Q" guid="_86XOAyC1EdqjJdiT9S-68Q"/>
+        <size xmi:id="_86XOBCC1EdqjJdiT9S-68Q" width="76.0" height="-1.0"/>
+      </contained>
+      <contained xsi:type="com.ibm.uma:GraphNode" xmi:id="_86XOBSC1EdqjJdiT9S-68Q" guid="_86XOBSC1EdqjJdiT9S-68Q">
+        <position xmi:id="_86XOBiC1EdqjJdiT9S-68Q" x="-1.0" y="-1.0"/>
+        <semanticModel xsi:type="com.ibm.uma:UMASemanticModelBridge" xmi:id="_86XOByC1EdqjJdiT9S-68Q" guid="_86XOByC1EdqjJdiT9S-68Q"/>
+        <size xmi:id="_86XOCCC1EdqjJdiT9S-68Q" width="-1.0" height="-1.0"/>
+      </contained>
+      <contained xsi:type="com.ibm.uma:GraphNode" xmi:id="_86XOCSC1EdqjJdiT9S-68Q" guid="_86XOCSC1EdqjJdiT9S-68Q">
+        <position xmi:id="_86XOCiC1EdqjJdiT9S-68Q" x="10.0" y="145.0"/>
+        <semanticModel xsi:type="com.ibm.uma:UMASemanticModelBridge" xmi:id="_86XOCyC1EdqjJdiT9S-68Q" guid="_86XOCyC1EdqjJdiT9S-68Q" element="_MDDhMAOzEdqsKb2MZQ4Q8w"/>
+        <size xmi:id="_86XODCC1EdqjJdiT9S-68Q" width="-1.0" height="-1.0"/>
+      </contained>
+      <contained xsi:type="com.ibm.uma:GraphNode" xmi:id="_86XODSC1EdqjJdiT9S-68Q" guid="_86XODSC1EdqjJdiT9S-68Q">
+        <position xmi:id="_86XODiC1EdqjJdiT9S-68Q" x="126.0" y="145.0"/>
+        <semanticModel xsi:type="com.ibm.uma:UMASemanticModelBridge" xmi:id="_86XODyC1EdqjJdiT9S-68Q" guid="_86XODyC1EdqjJdiT9S-68Q"/>
+        <size xmi:id="_86XOECC1EdqjJdiT9S-68Q" width="-1.0" height="-1.0"/>
+      </contained>
+      <contained xsi:type="com.ibm.uma:GraphNode" xmi:id="_86XOESC1EdqjJdiT9S-68Q" guid="_86XOESC1EdqjJdiT9S-68Q">
+        <position xmi:id="_86XOEiC1EdqjJdiT9S-68Q" x="-1.0" y="-1.0"/>
+        <semanticModel xsi:type="com.ibm.uma:UMASemanticModelBridge" xmi:id="_86XOEyC1EdqjJdiT9S-68Q" guid="_86XOEyC1EdqjJdiT9S-68Q"/>
+        <size xmi:id="_86XOFCC1EdqjJdiT9S-68Q" width="-1.0" height="-1.0"/>
+      </contained>
+      <contained xsi:type="com.ibm.uma:GraphNode" xmi:id="_86XOFSC1EdqjJdiT9S-68Q" guid="_86XOFSC1EdqjJdiT9S-68Q">
+        <position xmi:id="_86XOFiC1EdqjJdiT9S-68Q" x="-1.0" y="-1.0"/>
+        <semanticModel xsi:type="com.ibm.uma:UMASemanticModelBridge" xmi:id="_86XOFyC1EdqjJdiT9S-68Q" guid="_86XOFyC1EdqjJdiT9S-68Q"/>
+        <size xmi:id="_86XOGCC1EdqjJdiT9S-68Q" width="-1.0" height="-1.0"/>
+      </contained>
+      <semanticModel xsi:type="com.ibm.uma:UMASemanticModelBridge" xmi:id="_86XOGSC1EdqjJdiT9S-68Q" guid="_86XOGSC1EdqjJdiT9S-68Q" presentation="Work Product Dependency" element="_0sx7islgEdmt3adZL5Dmdw"/>
+    </diagrams>
+    <diagrams xmi:id="_1yiUoFY0EdqI9sTOt2pjHw" guid="_1yiUoFY0EdqI9sTOt2pjHw">
+      <contained xsi:type="com.ibm.uma:GraphNode" xmi:id="_1yiUoVY0EdqI9sTOt2pjHw" guid="_1yiUoVY0EdqI9sTOt2pjHw">
+        <position xmi:id="_1yiUolY0EdqI9sTOt2pjHw" x="30.0" y="342.0"/>
+        <semanticModel xsi:type="com.ibm.uma:UMASemanticModelBridge" xmi:id="_1yiUo1Y0EdqI9sTOt2pjHw" guid="_1yiUo1Y0EdqI9sTOt2pjHw"/>
+        <size xmi:id="_1yiUpFY0EdqI9sTOt2pjHw" width="367.0" height="53.0"/>
+      </contained>
+      <contained xsi:type="com.ibm.uma:GraphNode" xmi:id="_1yiUpVY0EdqI9sTOt2pjHw" guid="_1yiUpVY0EdqI9sTOt2pjHw">
+        <position xmi:id="_1yiUplY0EdqI9sTOt2pjHw" x="-1.0" y="-1.0"/>
+        <semanticModel xsi:type="com.ibm.uma:UMASemanticModelBridge" xmi:id="_1yiUp1Y0EdqI9sTOt2pjHw" guid="_1yiUp1Y0EdqI9sTOt2pjHw"/>
+        <size xmi:id="_1yiUqFY0EdqI9sTOt2pjHw" width="-1.0" height="-1.0"/>
+      </contained>
+      <contained xsi:type="com.ibm.uma:GraphNode" xmi:id="_1yiUqVY0EdqI9sTOt2pjHw" guid="_1yiUqVY0EdqI9sTOt2pjHw">
+        <position xmi:id="_1yiUqlY0EdqI9sTOt2pjHw" x="-1.0" y="-1.0"/>
+        <semanticModel xsi:type="com.ibm.uma:UMASemanticModelBridge" xmi:id="_1yiUq1Y0EdqI9sTOt2pjHw" guid="_1yiUq1Y0EdqI9sTOt2pjHw"/>
+        <size xmi:id="_1yiUrFY0EdqI9sTOt2pjHw" width="-1.0" height="-1.0"/>
+      </contained>
+      <contained xsi:type="com.ibm.uma:GraphNode" xmi:id="_1yiUrVY0EdqI9sTOt2pjHw" guid="_1yiUrVY0EdqI9sTOt2pjHw">
+        <position xmi:id="_1yiUrlY0EdqI9sTOt2pjHw" x="-1.0" y="-1.0"/>
+        <semanticModel xsi:type="com.ibm.uma:UMASemanticModelBridge" xmi:id="_1yiUr1Y0EdqI9sTOt2pjHw" guid="_1yiUr1Y0EdqI9sTOt2pjHw" element="_0s4CJMlgEdmt3adZL5Dmdw"/>
+        <size xmi:id="_1yiUsFY0EdqI9sTOt2pjHw" width="-1.0" height="-1.0"/>
+      </contained>
+      <contained xsi:type="com.ibm.uma:GraphNode" xmi:id="_1yiUsVY0EdqI9sTOt2pjHw" guid="_1yiUsVY0EdqI9sTOt2pjHw">
+        <position xmi:id="_1yiUslY0EdqI9sTOt2pjHw" x="-1.0" y="-1.0"/>
+        <semanticModel xsi:type="com.ibm.uma:UMASemanticModelBridge" xmi:id="_1yiUs1Y0EdqI9sTOt2pjHw" guid="_1yiUs1Y0EdqI9sTOt2pjHw"/>
+        <size xmi:id="_1yiUtFY0EdqI9sTOt2pjHw" width="-1.0" height="-1.0"/>
+      </contained>
+      <contained xsi:type="com.ibm.uma:GraphNode" xmi:id="_1yiUtVY0EdqI9sTOt2pjHw" guid="_1yiUtVY0EdqI9sTOt2pjHw">
+        <position xmi:id="_1yiUtlY0EdqI9sTOt2pjHw" x="-1.0" y="-1.0"/>
+        <semanticModel xsi:type="com.ibm.uma:UMASemanticModelBridge" xmi:id="_1yiUt1Y0EdqI9sTOt2pjHw" guid="_1yiUt1Y0EdqI9sTOt2pjHw"/>
+        <size xmi:id="_1yiUuFY0EdqI9sTOt2pjHw" width="-1.0" height="-1.0"/>
+      </contained>
+      <contained xsi:type="com.ibm.uma:GraphNode" xmi:id="_1yiUuVY0EdqI9sTOt2pjHw" guid="_1yiUuVY0EdqI9sTOt2pjHw">
+        <position xmi:id="_1yiUulY0EdqI9sTOt2pjHw" x="-1.0" y="-1.0"/>
+        <semanticModel xsi:type="com.ibm.uma:UMASemanticModelBridge" xmi:id="_1yiUu1Y0EdqI9sTOt2pjHw" guid="_1yiUu1Y0EdqI9sTOt2pjHw"/>
+        <size xmi:id="_1yiUvFY0EdqI9sTOt2pjHw" width="-1.0" height="-1.0"/>
+      </contained>
+      <contained xsi:type="com.ibm.uma:GraphNode" xmi:id="_1yiUvVY0EdqI9sTOt2pjHw" guid="_1yiUvVY0EdqI9sTOt2pjHw">
+        <position xmi:id="_1yiUvlY0EdqI9sTOt2pjHw" x="-1.0" y="-1.0"/>
+        <semanticModel xsi:type="com.ibm.uma:UMASemanticModelBridge" xmi:id="_1yiUv1Y0EdqI9sTOt2pjHw" guid="_1yiUv1Y0EdqI9sTOt2pjHw"/>
+        <size xmi:id="_1yiUwFY0EdqI9sTOt2pjHw" width="-1.0" height="-1.0"/>
+      </contained>
+      <contained xsi:type="com.ibm.uma:GraphNode" xmi:id="_1yiUwVY0EdqI9sTOt2pjHw" guid="_1yiUwVY0EdqI9sTOt2pjHw">
+        <position xmi:id="_1yiUwlY0EdqI9sTOt2pjHw" x="-1.0" y="-1.0"/>
+        <semanticModel xsi:type="com.ibm.uma:UMASemanticModelBridge" xmi:id="_1yiUw1Y0EdqI9sTOt2pjHw" guid="_1yiUw1Y0EdqI9sTOt2pjHw" element="_MDDhMAOzEdqsKb2MZQ4Q8w"/>
+        <size xmi:id="_1yiUxFY0EdqI9sTOt2pjHw" width="-1.0" height="-1.0"/>
+      </contained>
+      <contained xsi:type="com.ibm.uma:GraphNode" xmi:id="_1yiUxVY0EdqI9sTOt2pjHw" guid="_1yiUxVY0EdqI9sTOt2pjHw">
+        <position xmi:id="_1yiUxlY0EdqI9sTOt2pjHw" x="-1.0" y="-1.0"/>
+        <semanticModel xsi:type="com.ibm.uma:UMASemanticModelBridge" xmi:id="_1yiUx1Y0EdqI9sTOt2pjHw" guid="_1yiUx1Y0EdqI9sTOt2pjHw"/>
+        <size xmi:id="_1yiUyFY0EdqI9sTOt2pjHw" width="-1.0" height="-1.0"/>
+      </contained>
+      <contained xsi:type="com.ibm.uma:GraphNode" xmi:id="_1yiUyVY0EdqI9sTOt2pjHw" guid="_1yiUyVY0EdqI9sTOt2pjHw">
+        <position xmi:id="_1yiUylY0EdqI9sTOt2pjHw" x="-1.0" y="-1.0"/>
+        <semanticModel xsi:type="com.ibm.uma:UMASemanticModelBridge" xmi:id="_1yiUy1Y0EdqI9sTOt2pjHw" guid="_1yiUy1Y0EdqI9sTOt2pjHw"/>
+        <size xmi:id="_1yiUzFY0EdqI9sTOt2pjHw" width="-1.0" height="-1.0"/>
+      </contained>
+      <contained xsi:type="com.ibm.uma:GraphNode" xmi:id="_1yiUzVY0EdqI9sTOt2pjHw" guid="_1yiUzVY0EdqI9sTOt2pjHw">
+        <position xmi:id="_1yiUzlY0EdqI9sTOt2pjHw" x="-1.0" y="-1.0"/>
+        <semanticModel xsi:type="com.ibm.uma:UMASemanticModelBridge" xmi:id="_1yiUz1Y0EdqI9sTOt2pjHw" guid="_1yiUz1Y0EdqI9sTOt2pjHw"/>
+        <size xmi:id="_1yiU0FY0EdqI9sTOt2pjHw" width="-1.0" height="-1.0"/>
+      </contained>
+      <contained xsi:type="com.ibm.uma:GraphNode" xmi:id="_1yiU0VY0EdqI9sTOt2pjHw" guid="_1yiU0VY0EdqI9sTOt2pjHw">
+        <position xmi:id="_1yiU0lY0EdqI9sTOt2pjHw" x="-1.0" y="-1.0"/>
+        <semanticModel xsi:type="com.ibm.uma:UMASemanticModelBridge" xmi:id="_1yiU01Y0EdqI9sTOt2pjHw" guid="_1yiU01Y0EdqI9sTOt2pjHw"/>
+        <size xmi:id="_1yiU1FY0EdqI9sTOt2pjHw" width="-1.0" height="-1.0"/>
+      </contained>
+      <contained xsi:type="com.ibm.uma:GraphNode" xmi:id="_1zNDAFY0EdqI9sTOt2pjHw" guid="_1zNDAFY0EdqI9sTOt2pjHw">
+        <property xmi:id="_1zNDAVY0EdqI9sTOt2pjHw" guid="_1zNDAVY0EdqI9sTOt2pjHw" key="wpCompositeType" value="1"/>
+        <position xmi:id="_1zNDAlY0EdqI9sTOt2pjHw" x="117.0" y="1.0"/>
+        <contained xsi:type="com.ibm.uma:GraphEdge" xmi:id="_1zNDFVY0EdqI9sTOt2pjHw" guid="_1zNDFVY0EdqI9sTOt2pjHw" anchor="_1zNDFFY0EdqI9sTOt2pjHw"/>
+        <anchorage xmi:id="_1zNDFFY0EdqI9sTOt2pjHw" guid="_1zNDFFY0EdqI9sTOt2pjHw" graphEdge="_1zNDFVY0EdqI9sTOt2pjHw"/>
+        <semanticModel xsi:type="com.ibm.uma:UMASemanticModelBridge" xmi:id="_1zNDA1Y0EdqI9sTOt2pjHw" guid="_1zNDA1Y0EdqI9sTOt2pjHw"/>
+        <size xmi:id="_1zNDBFY0EdqI9sTOt2pjHw" width="95.0" height="321.0"/>
+      </contained>
+      <contained xsi:type="com.ibm.uma:GraphNode" xmi:id="_1zNDBVY0EdqI9sTOt2pjHw" guid="_1zNDBVY0EdqI9sTOt2pjHw">
+        <property xmi:id="_1zNDBlY0EdqI9sTOt2pjHw" guid="_1zNDBlY0EdqI9sTOt2pjHw" key="wpCompositeType" value="2"/>
+        <position xmi:id="_1zNDB1Y0EdqI9sTOt2pjHw" x="119.0" y="415.0"/>
+        <semanticModel xsi:type="com.ibm.uma:UMASemanticModelBridge" xmi:id="_1zNDCFY0EdqI9sTOt2pjHw" guid="_1zNDCFY0EdqI9sTOt2pjHw"/>
+        <size xmi:id="_1zNDCVY0EdqI9sTOt2pjHw" width="90.0" height="106.0"/>
+      </contained>
+      <contained xsi:type="com.ibm.uma:GraphNode" xmi:id="_1zNDClY0EdqI9sTOt2pjHw" guid="_1zNDClY0EdqI9sTOt2pjHw">
+        <property xmi:id="_1zNDC1Y0EdqI9sTOt2pjHw" guid="_1zNDC1Y0EdqI9sTOt2pjHw" key="wpCompositeType" value="1"/>
+        <position xmi:id="_1zNDDFY0EdqI9sTOt2pjHw" x="256.0" y="216.0"/>
+        <contained xsi:type="com.ibm.uma:GraphEdge" xmi:id="_1zNDF1Y0EdqI9sTOt2pjHw" guid="_1zNDF1Y0EdqI9sTOt2pjHw" anchor="_1zNDFlY0EdqI9sTOt2pjHw"/>
+        <anchorage xmi:id="_1zNDFlY0EdqI9sTOt2pjHw" guid="_1zNDFlY0EdqI9sTOt2pjHw" graphEdge="_1zNDF1Y0EdqI9sTOt2pjHw"/>
+        <semanticModel xsi:type="com.ibm.uma:UMASemanticModelBridge" xmi:id="_1zNDDVY0EdqI9sTOt2pjHw" guid="_1zNDDVY0EdqI9sTOt2pjHw"/>
+        <size xmi:id="_1zNDDlY0EdqI9sTOt2pjHw" width="90.0" height="106.0"/>
+      </contained>
+      <contained xsi:type="com.ibm.uma:GraphNode" xmi:id="_1zNDD1Y0EdqI9sTOt2pjHw" guid="_1zNDD1Y0EdqI9sTOt2pjHw">
+        <property xmi:id="_1zNDEFY0EdqI9sTOt2pjHw" guid="_1zNDEFY0EdqI9sTOt2pjHw" key="wpCompositeType" value="2"/>
+        <position xmi:id="_1zNDEVY0EdqI9sTOt2pjHw" x="256.0" y="415.0"/>
+        <semanticModel xsi:type="com.ibm.uma:UMASemanticModelBridge" xmi:id="_1zNDElY0EdqI9sTOt2pjHw" guid="_1zNDElY0EdqI9sTOt2pjHw"/>
+        <size xmi:id="_1zNDE1Y0EdqI9sTOt2pjHw" width="90.0" height="254.0"/>
+      </contained>
+      <contained xsi:type="com.ibm.uma:GraphNode" xmi:id="_e3CFYFY4EdqI9sTOt2pjHw" guid="_e3CFYFY4EdqI9sTOt2pjHw">
+        <property xmi:id="_e3CFYVY4EdqI9sTOt2pjHw" guid="_e3CFYVY4EdqI9sTOt2pjHw" key="wpCompositeType" value="1"/>
+        <position xmi:id="_e3CFYlY4EdqI9sTOt2pjHw" x="134.0" y="54.0"/>
+        <contained xsi:type="com.ibm.uma:GraphEdge" xmi:id="_e3CFeVY4EdqI9sTOt2pjHw" guid="_e3CFeVY4EdqI9sTOt2pjHw" anchor="_e3CFeFY4EdqI9sTOt2pjHw"/>
+        <anchorage xmi:id="_e3CFeFY4EdqI9sTOt2pjHw" guid="_e3CFeFY4EdqI9sTOt2pjHw" graphEdge="_e3CFeVY4EdqI9sTOt2pjHw"/>
+        <semanticModel xsi:type="com.ibm.uma:UMASemanticModelBridge" xmi:id="_e3CFY1Y4EdqI9sTOt2pjHw" guid="_e3CFY1Y4EdqI9sTOt2pjHw" element="_d5yaAFY4EdqI9sTOt2pjHw"/>
+        <size xmi:id="_e3CFZFY4EdqI9sTOt2pjHw" width="60.0" height="53.0"/>
+      </contained>
+      <contained xsi:type="com.ibm.uma:GraphNode" xmi:id="_e3CFZVY4EdqI9sTOt2pjHw" guid="_e3CFZVY4EdqI9sTOt2pjHw">
+        <property xmi:id="_e3CFZlY4EdqI9sTOt2pjHw" guid="_e3CFZlY4EdqI9sTOt2pjHw" key="wpCompositeType" value="2"/>
+        <position xmi:id="_e3CFZ1Y4EdqI9sTOt2pjHw" x="119.0" y="200.0"/>
+        <semanticModel xsi:type="com.ibm.uma:UMASemanticModelBridge" xmi:id="_e3CFaFY4EdqI9sTOt2pjHw" guid="_e3CFaFY4EdqI9sTOt2pjHw" element="_d5yaAFY4EdqI9sTOt2pjHw"/>
+        <size xmi:id="_e3CFaVY4EdqI9sTOt2pjHw" width="90.0" height="106.0"/>
+      </contained>
+      <contained xsi:type="com.ibm.uma:GraphNode" xmi:id="_e3CFalY4EdqI9sTOt2pjHw" guid="_e3CFalY4EdqI9sTOt2pjHw">
+        <property xmi:id="_e3CFa1Y4EdqI9sTOt2pjHw" guid="_e3CFa1Y4EdqI9sTOt2pjHw" key="wpCompositeType" value="1"/>
+        <position xmi:id="_e3CFbFY4EdqI9sTOt2pjHw" x="256.0" y="1.0"/>
+        <contained xsi:type="com.ibm.uma:GraphEdge" xmi:id="_e3CFe1Y4EdqI9sTOt2pjHw" guid="_e3CFe1Y4EdqI9sTOt2pjHw" anchor="_e3CFelY4EdqI9sTOt2pjHw"/>
+        <anchorage xmi:id="_e3CFelY4EdqI9sTOt2pjHw" guid="_e3CFelY4EdqI9sTOt2pjHw" graphEdge="_e3CFe1Y4EdqI9sTOt2pjHw"/>
+        <semanticModel xsi:type="com.ibm.uma:UMASemanticModelBridge" xmi:id="_e3CFbVY4EdqI9sTOt2pjHw" guid="_e3CFbVY4EdqI9sTOt2pjHw" element="_eTAyUFY4EdqI9sTOt2pjHw"/>
+        <size xmi:id="_e3CFblY4EdqI9sTOt2pjHw" width="90.0" height="106.0"/>
+      </contained>
+      <contained xsi:type="com.ibm.uma:GraphNode" xmi:id="_e3CFb1Y4EdqI9sTOt2pjHw" guid="_e3CFb1Y4EdqI9sTOt2pjHw">
+        <property xmi:id="_e3CFcFY4EdqI9sTOt2pjHw" guid="_e3CFcFY4EdqI9sTOt2pjHw" key="wpCompositeType" value="2"/>
+        <position xmi:id="_e3CFcVY4EdqI9sTOt2pjHw" x="256.0" y="200.0"/>
+        <semanticModel xsi:type="com.ibm.uma:UMASemanticModelBridge" xmi:id="_e3CFclY4EdqI9sTOt2pjHw" guid="_e3CFclY4EdqI9sTOt2pjHw" element="_eTAyUFY4EdqI9sTOt2pjHw"/>
+        <size xmi:id="_e3CFc1Y4EdqI9sTOt2pjHw" width="90.0" height="254.0"/>
+      </contained>
+      <contained xsi:type="com.ibm.uma:GraphNode" xmi:id="_e3CFdFY4EdqI9sTOt2pjHw" guid="_e3CFdFY4EdqI9sTOt2pjHw">
+        <position xmi:id="_e3CFdVY4EdqI9sTOt2pjHw" x="30.0" y="127.0"/>
+        <semanticModel xsi:type="com.ibm.uma:UMASemanticModelBridge" xmi:id="_e3CFdlY4EdqI9sTOt2pjHw" guid="_e3CFdlY4EdqI9sTOt2pjHw" element="_d5-nQFY4EdqI9sTOt2pjHw"/>
+        <size xmi:id="_e3CFd1Y4EdqI9sTOt2pjHw" width="367.0" height="53.0"/>
+      </contained>
+      <semanticModel xsi:type="com.ibm.uma:UMASemanticModelBridge" xmi:id="_1yiU1VY0EdqI9sTOt2pjHw" guid="_1yiU1VY0EdqI9sTOt2pjHw" presentation="Activity Detail" element="_0sx7islgEdmt3adZL5Dmdw"/>
+    </diagrams>
+    <process xsi:type="com.ibm.uma:CapabilityPattern" xmi:id="_0sx7islgEdmt3adZL5Dmdw" name="define_architecture" guid="_0sx7islgEdmt3adZL5Dmdw" briefDescription="Define the architecture, including the main components and patterns of the solution." presentationName="Define the Architecture" breakdownElements="_0s4CJMlgEdmt3adZL5Dmdw _MDDhMAOzEdqsKb2MZQ4Q8w _d5yaAFY4EdqI9sTOt2pjHw _d5-nQFY4EdqI9sTOt2pjHw _d6Et4FY4EdqI9sTOt2pjHw _d6Q7IFY4EdqI9sTOt2pjHw _d6Q7IVY4EdqI9sTOt2pjHw _d6XBwFY4EdqI9sTOt2pjHw _d6dIYFY4EdqI9sTOt2pjHw _eTAyUFY4EdqI9sTOt2pjHw _eTTGMFY4EdqI9sTOt2pjHw _eTfTcFY4EdqI9sTOt2pjHw _eTrgsFY4EdqI9sTOt2pjHw">
+      <presentation xsi:type="com.ibm.uma:ProcessDescription" xmi:id="_mtb_DvL5Edm6Nvont3uinw" href="uma://_mtb_DvL5Edm6Nvont3uinw#_mtb_DvL5Edm6Nvont3uinw"/>
+      <defaultContext href="uma://_y62TUKVPEdmMZJIzZ1W7Pw#_0u-T4clgEdmt3adZL5Dmdw"/>
+      <validContext href="uma://_y62TUKVPEdmMZJIzZ1W7Pw#_0u-T4clgEdmt3adZL5Dmdw"/>
+    </process>
+  </com.ibm.uma:ProcessComponent>
+</xmi:XMI>

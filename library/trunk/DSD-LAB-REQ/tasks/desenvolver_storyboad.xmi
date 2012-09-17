@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<com.ibm.uma:TaskDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:com.ibm.uma="http://www.ibm.com/uma/1.0.2/uma.ecore" xmi:id="-0sKf0BrWNs5QcVitD7fFMA" name="desenvolver_storyboad,_EbzTENSEEdq90538QjPN0A" guid="-0sKf0BrWNs5QcVitD7fFMA" changeDate="2006-05-10T15:29:05.000-0300">
+  <mainDescription>&lt;p class=&quot;first-para&quot;&gt;
+    Most functionality is expressed in terms of what the interface does, rather than how it looks while it's doing it or
+    the specific interaction methods used (although there could be exceptions to this rule). But it's pretty much a
+    no-brainer that if you've built the wrong thing, it's going to fail with its intended audience. Ideally, you should
+    have a decent understanding of user requirements and functionality before you begin the design of the interface. But if
+    you've missed a requirement or gotten one wrong, a paper prototype can help you find it.
+&lt;/p&gt;</mainDescription>
+  <sections xmi:id="_lmy7QNUnEdqeD-T9MUVwYA" name="Analisar o esboço do storyboard" guid="_lmy7QNUnEdqeD-T9MUVwYA"/>
+  <sections xmi:id="_qVlloNUnEdqeD-T9MUVwYA" name="Avaliar os requisitos funcionais" guid="_qVlloNUnEdqeD-T9MUVwYA"/>
+  <sections xmi:id="_sTgD0NUnEdqeD-T9MUVwYA" name="Seguir padroes de usabilidade" guid="_sTgD0NUnEdqeD-T9MUVwYA"/>
+  <sections xmi:id="_vHgcgNUnEdqeD-T9MUVwYA" name="Seguir padrões de interface" guid="_vHgcgNUnEdqeD-T9MUVwYA"/>
+</com.ibm.uma:TaskDescription>

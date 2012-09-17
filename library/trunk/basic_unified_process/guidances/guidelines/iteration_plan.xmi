@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<com.ibm.uma:ContentDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:com.ibm.uma="http://www.ibm.com/uma/1.0.2/uma.ecore" xmi:id="_71hDkMPgEdmbOvqy4O0adg" name="iteration_plan,_0auiMMlgEdmt3adZL5Dmdw" guid="_71hDkMPgEdmbOvqy4O0adg" changeDate="2005-07-07T13:46:03.478-0700">
+  <mainDescription>&lt;h3&gt;
+    &lt;a id=&quot;XE_iteration__strategies&quot; name=&quot;XE_iteration__strategies&quot;&gt;&lt;/a&gt;&lt;a id=&quot;Iteration Strategies&quot;
+    name=&quot;Iteration Strategies&quot;&gt;Iteration Strategies&lt;/a&gt; &lt;a
+    href=&quot;/C:/RUP_pub/RUP_J2EE/process/modguide/md_itpln.htm#Top&quot;&gt;&lt;/a&gt;
+&lt;/h3&gt;
+&lt;p&gt;
+    During each iteration, a subset of the total system is analyzed, designed, implemented and tested. The choice of what
+    the subset should be and how deep to delve are critical to reducing risk in subsequent iterations. There are two basic
+    strategies: Wide/Shallow and Narrow/Deep.
+&lt;/p&gt;
+&lt;h4&gt;
+    &lt;a id=&quot;Wide and Shallow&quot; name=&quot;Wide and Shallow&quot;&gt;Wide and Shallow&lt;/a&gt; &lt;a
+    href=&quot;/C:/RUP_pub/RUP_J2EE/process/modguide/md_itpln.htm#Top&quot;&gt;&lt;/a&gt;
+&lt;/h4&gt;
+&lt;p&gt;
+    In the Wide/Shallow strategy, the entire problem domain is analyzed, but only the surface details are considered. All
+    scenarios are idenfied but they are only outlined and&amp;nbsp;the most criticals&amp;nbsp;are fleshed-out in great detail. The
+    same thing happense for the architecture which is defined broadly; internal details are detailed only where significant
+    risk or uncertainty must be managed.&amp;nbsp;
+&lt;/p&gt;
+&lt;h4&gt;
+    &lt;a id=&quot;Narrow and Deep&quot; name=&quot;Narrow and Deep&quot;&gt;Narrow and Deep&lt;/a&gt;
+&lt;/h4&gt;
+&lt;p&gt;
+    In the Narrow/Deep strategy, a &lt;strong&gt;vertical slice&lt;/strong&gt;&lt;i&gt;&amp;nbsp;&lt;/i&gt;of the problem domain is analyzed
+    thoroughly. The&amp;nbsp;Scenarios related to this narrow slice are defined and fleshed-out in great detail, to get a clear
+    understanding of the problem at hand. The architecture required to support the desired behavior is defined, designed,
+    implemented and tested. Subsequent iterations focus on analyzing, designing and implementing additional vertical
+    slices.
+&lt;/p&gt;
+&lt;h3&gt;
+    Phases and Iterations
+&lt;/h3&gt;
+&lt;h4&gt;
+    Inception Iteration
+&lt;/h4&gt;
+&lt;p&gt;
+    The first iteration is usually the hardest. There are many new aspects a first iteration must achieve, like putting in
+    place the process, team-building, understanding a new domain, becoming familiar with new tools, and so on. Be
+    conservative in your expectations about how much you can achieve in this iteration. If you aim too high, you risk
+    delaying the completion of the first iteration, reducing the total number of iterations, and hence decreasing the
+    benefit of an iterative approach. The&amp;nbsp;Inception iteration should be focused on fleshing out a candidate
+    architecture and refining enough the scope to be able to go tho the next phase&amp;nbsp;.You must therefore involve the
+    architect and the analyst&amp;nbsp;&amp;nbsp;in the planning process of early iterations.
+&lt;/p&gt;
+&lt;p&gt;
+    Usually the Inception Iteration is a wide and shallow iteration.
+&lt;/p&gt;
+&lt;h4&gt;
+    Elaboration Iterations
+&lt;/h4&gt;
+&lt;p&gt;
+    In Elaboration, the iterations focus on defining a stable architecture and mitigating the&amp;nbsp;technical risks,
+    by&amp;nbsp;designing, implementing and testing&amp;nbsp;the architecturally significant scenarios. &quot;Architecturally
+    significant&quot; scenarios are&amp;nbsp;those which exercise and provide you a broad coverage of the architecture of the
+    system.
+&lt;/p&gt;
+&lt;p&gt;
+    Elaboration iterations are usually a mix between wide and shallow, and narrow and deep. The overall system is analyzed
+    following a wide and shallow strategy; the architecturally significant scenarios are tackled using a narrow and deep
+    strategy.
+&lt;/p&gt;
+&lt;h4&gt;
+    &lt;a id=&quot;XE_transition_iteration__iteration_patterns&quot; name=&quot;XE_transition_iteration__iteration_patterns&quot;&gt;&lt;/a&gt;&lt;a
+    id=&quot;XE_iteration_patterns__transition_iterations&quot; name=&quot;XE_iteration_patterns__transition_iterations&quot;&gt;&lt;/a&gt;&lt;a
+    id=&quot;XE_iteration_patterns__construction_iterations&quot; name=&quot;XE_iteration_patterns__construction_iterations&quot;&gt;&lt;/a&gt;&lt;a
+    id=&quot;Construction and Transition Iterations&quot; name=&quot;Construction and Transition Iterations&quot;&gt;Construction Iterations&lt;/a&gt;
+    &lt;a href=&quot;/C:/RUP_pub/RUP_J2EE/process/modguide/md_itpln.htm#Top&quot;&gt;&lt;/a&gt;
+&lt;/h4&gt;
+&lt;p&gt;
+    After the baseline of the architecture at the end of the Elaboration phase, the focus goes from architecturally
+    significant scenarios to customer critical scenarios. The most critical scenarios for the customer would
+    be&amp;nbsp;implemented and tested first.&amp;nbsp;
+&lt;/p&gt;
+&lt;p&gt;
+    Also, toward the end of Elaboration, and during Construction change requests begin to&amp;nbsp;arrive and they will need to
+    be balanced against the existing project plan, iteration plans, and the existing risk list.&amp;nbsp;Change
+    requests&amp;nbsp;may cause the priority of requirements to be re-evaluated, or may drive the re-prioritization of
+    risk.&amp;nbsp;However, they&amp;nbsp;must be managed carefully, lest project control be lost.
+&lt;/p&gt;
+&lt;p&gt;
+    During Construction and Transition, the focus is on fleshing-out the architecture and implementing all remaining
+    requirements.
+&lt;/p&gt;
+&lt;p&gt;
+    Usually Construction iterations are wide and shallow iterations.
+&lt;/p&gt;
+&lt;h4&gt;
+    &lt;a id=&quot;XE_transition_iteration__iteration_patterns&quot; name=&quot;XE_transition_iteration__iteration_patterns&quot;&gt;&lt;/a&gt;&lt;a
+    id=&quot;XE_iteration_patterns__transition_iterations&quot; name=&quot;XE_iteration_patterns__transition_iterations&quot;&gt;&lt;/a&gt;&lt;a
+    id=&quot;XE_iteration_patterns__construction_iterations&quot;
+    name=&quot;XE_iteration_patterns__construction_iterations&quot;&gt;&lt;/a&gt;Transition&amp;nbsp;Iteration &lt;a
+    href=&quot;/C:/RUP_pub/RUP_J2EE/process/modguide/md_itpln.htm#Top&quot;&gt;&lt;/a&gt;
+&lt;/h4&gt;
+&lt;p&gt;
+    The Transition iteration&amp;nbsp;is focused on delivering the application to the customer and reacting to the beta
+    feedback by fixing bugs and implementing small enhancement requests that fit in the Transition iteration schedule.
+    However, and more than ever, enhancement request must be managed really carefully, as you are in the final delivery
+    phase.
+&lt;/p&gt;
+&lt;p&gt;
+    As for Construction phase iterations, Transition iterations are usually wide and shallow.
+&lt;/p&gt;</mainDescription>
+</com.ibm.uma:ContentDescription>

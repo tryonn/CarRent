@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<com.ibm.uma:ContentDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:com.ibm.uma="http://www.ibm.com/uma/1.0.2/uma.ecore" xmi:id="-WtfgzgGkjBU3XbCC3AKOWw" name="new_checklist,_bHwPsNd7Edqnj4Xv32ITRA" guid="-WtfgzgGkjBU3XbCC3AKOWw">
+  <sections xmi:id="_hrXtsNd7Edqnj4Xv32ITRA" name="Padroes de interface" guid="_hrXtsNd7Edqnj4Xv32ITRA"/>
+  <sections xmi:id="_jE7hoNd7Edqnj4Xv32ITRA" name="Abrangencia dos requisitos funcionais elicitados" guid="_jE7hoNd7Edqnj4Xv32ITRA"/>
+  <sections xmi:id="_roYXANt5Edqo1eLt5uqdUA" name="Avaliar a navegabilidade" guid="_roYXANt5Edqo1eLt5uqdUA"/>
+</com.ibm.uma:ContentDescription>

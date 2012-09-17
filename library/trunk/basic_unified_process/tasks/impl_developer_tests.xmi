@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<com.ibm.uma:TaskDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:com.ibm.uma="http://www.ibm.com/uma/1.0.2/uma.ecore" xmi:id="_dWPe8KrMEdmqUqi7YGiSxw" name="impl_developer_tests,_0iL1EMlgEdmt3adZL5Dmdw" guid="_dWPe8KrMEdmqUqi7YGiSxw" changeDate="2005-07-27T10:09:15.796-0700">
+  <sections xmi:id="_2LYo8KuPEdmhFZtkg1nakg" name="Refine scope and identify the tests" guid="_2LYo8KuPEdmhFZtkg1nakg">
+    <sectionDescription>&lt;p&gt;
+    Typically,&amp;nbsp;the &lt;a class=&quot;elementLinkWithType&quot;
+    href=&quot;resources/developer,_0YDosMlgEdmt3adZL5Dmdw.html&quot; guid=&quot;_0YDosMlgEdmt3adZL5Dmdw&quot;&gt;Role:
+    Developer&lt;/a&gt;&amp;nbsp;knows what component or&amp;nbsp;group of&amp;nbsp;components are focus of his/her work in the current
+    iteration&amp;nbsp;. In general, developer tests are driven by implementation of new functionality, change requests,
+    defects fixing and so on. Some considerations when implementing developer tests are:
+&lt;/p&gt;
+&lt;ul&gt;
+    &lt;li&gt;
+        goal: component interface validation, implementation validation, reproduce a defect
+    &lt;/li&gt;
+    &lt;li&gt;
+        scope: component or group of components
+    &lt;/li&gt;
+    &lt;li&gt;
+        test type and details: black-box, white-box, pre-conditions, post-conditions, invariants, input/output and
+        execution conditions, observation/control points, clean-up actions
+    &lt;/li&gt;
+    &lt;li&gt;
+        life span of the test; for example a test built specially for fixing a defect might be a throw-away one, but one
+        that exercises the external interfaces will have the same lifecycle as the component under test
+    &lt;/li&gt;
+&lt;/ul&gt;</sectionDescription>
+  </sections>
+  <sections xmi:id="_3vYLQKuPEdmhFZtkg1nakg" name="Select appropriate implementation technique" guid="_3vYLQKuPEdmhFZtkg1nakg">
+    <sectionDescription>&lt;p&gt;
+    Consider the technique to be used when implementing a developer test -- manual or automated testing. Some automated
+    testing techniques are:&amp;nbsp;
+&lt;/p&gt;
+&lt;ul class=&quot;noindent&quot;&gt;
+    &lt;li&gt;
+        programmed tests, using either the same software programming techniques and environment as the component under
+        test, or less complex programming languages and tools ( e.g. scripting languages: tcl, shell based, etc.)
+    &lt;/li&gt;
+    &lt;li&gt;
+        recorded or captured tests, built by using test automation tools which capture the interactions between the
+        component under test and the rest of the system, and produce the basic tests
+    &lt;/li&gt;
+    &lt;li&gt;
+        generated tests: some aspects of the test, either procedural or the test data, could be automatically generated
+        using more complex test automation tools
+    &lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+    Although most of developer tests are implemented using automated testing techniques, manual tests may be more efficient
+    in some circumstances&amp;nbsp;-- GUI tests, for example, may be done manually by following a sequence of instructions that
+    have been captured in a textual description form.
+&lt;/p&gt;</sectionDescription>
+  </sections>
+  <sections xmi:id="_5WtVcKuPEdmhFZtkg1nakg" name="Implement the tests" guid="_5WtVcKuPEdmhFZtkg1nakg">
+    <sectionDescription>&lt;p&gt;
+    Implement tests for the components or group of components&amp;nbsp;in the scope of this&amp;nbsp;particular iteration.
+&lt;/p&gt;
+&lt;p&gt;
+    Detail and clearly specify the test environment pre-conditions and what are the steps to get the component under test
+    to the state where the test(s) could be conducted.
+&lt;/p&gt;
+&lt;p&gt;
+    Identify the clean-up steps to be followed in order to restore the environment to the original state.
+&lt;/p&gt;
+&lt;p&gt;
+    Pay special attention to the implementation of the observation/control points, as these aspects might need special
+    support that has to be implemented in the component under test.
+&lt;/p&gt;</sectionDescription>
+  </sections>
+  <sections xmi:id="_559McKuPEdmhFZtkg1nakg" name="Establish external data sets" guid="_559McKuPEdmhFZtkg1nakg">
+    <sectionDescription>&lt;p&gt;
+    In most of the cases, decoupling the test data from the test leads to a more maintainable solution.&amp;nbsp;Other
+    advantages are:
+&lt;/p&gt;
+&lt;ul&gt;
+    &lt;li&gt;
+        more than one test could use the same data set
+    &lt;/li&gt;
+    &lt;li&gt;
+        easy to modify and/or multiply
+    &lt;/li&gt;
+    &lt;li&gt;
+        could be used to control the conditional branching logic within the test
+    &lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+    If the test's life span is very short, hardcoding the data within the test might be more efficient.
+&lt;/p&gt;</sectionDescription>
+  </sections>
+  <sections xmi:id="_6wZFMKuPEdmhFZtkg1nakg" name="Verify tests implementation" guid="_6wZFMKuPEdmhFZtkg1nakg">
+    <sectionDescription>&lt;p&gt;
+    Verify if&amp;nbsp;tests work correctly. Check the environment setup and clean-up instructions. Run the tests,
+    observe&amp;nbsp;their behavior and fix the tests' defects.
+&lt;/p&gt;
+&lt;p&gt;
+    If&amp;nbsp;a test will be long-lived, ask a person with less inside knowledge to run it and check if there is enough
+    support information. Review it with other people within the development team and other interested parties as needed.
+&lt;/p&gt;</sectionDescription>
+  </sections>
+</com.ibm.uma:TaskDescription>

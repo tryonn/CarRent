@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE hibernate-mapping	PUBLIC 
+	"-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+    "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+
+<hibernate-mapping>
+ <class name="br.ufpe.cin.amadeus.system.human_resources.image.Image" table="image">
+ 	<id name="id">
+ 		<column name="sqImage" not-null="true" />
+ 		<generator class="increment"/>
+ 	</id>
+ 	<property name="photo" type="binary">
+ 		<column name="bbphoto"/>
+ 	</property>
+ 	<many-to-one name="person"
+ 		class="br.ufpe.cin.amadeus.system.human_resources.person.Person"
+ 		column="sqperson" cascade="all" unique="true" lazy="false"/>
+ </class>
+</hibernate-mapping>

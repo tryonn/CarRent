@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+
+<!DOCTYPE struts-config PUBLIC
+          "-//Apache Software Foundation//DTD Struts Configuration 1.2//EN"
+          "http://jakarta.apache.org/struts/dtds/struts-config_1_2.dtd">
+
+
+<struts-config>
+<!-- ================================================ Form Bean Definitions -->
+
+    <form-beans>
+    </form-beans>
+
+
+<!-- ========================================= Global Exception Definitions -->
+
+    <global-exceptions>
+        <!-- sample exception handler
+        <exception
+            key="expired.password"
+            type="app.ExpiredPasswordException"
+            path="/changePassword.jsp"/>
+        end sample -->
+    </global-exceptions>
+
+
+<!-- =========================================== Global Forward Definitions -->
+
+    <global-forwards>
+      
+       	 <forward
+            name="fNotAllowed"
+            path="/fNotAllowed.do"/>
+                      
+       
+    </global-forwards>
+
+
+<!-- =========================================== Action Mapping Definitions -->
+
+    <action-mappings>
+
+		<action
+			path="/fNotAllowed"
+            type="org.apache.struts.actions.ForwardAction"
+            parameter="/jsp/amadeus/access_control/util/notAllowed.jsp"/>
+            
+    </action-mappings>
+
+</struts-config>

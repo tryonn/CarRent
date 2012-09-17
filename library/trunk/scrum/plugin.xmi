@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:com.ibm.uma="http://www.ibm.com/uma/1.0.2/uma.ecore" xmlns:com.ibm.uma.resourcemanager="http:///com/ibm/uma/resourcemanager.ecore">
+  <com.ibm.uma.resourcemanager:ResourceManager xmi:id="_9S_YsCoeEdqHVICqX5k_yQ" guid="_9S_YsCoeEdqHVICqX5k_yQ">
+    <subManagers xmi:id="_HNG1MSrfEdq8PpJx7h6hmw" href="uma://_G6HAsCrfEdq8PpJx7h6hmw#_HNG1MSrfEdq8PpJx7h6hmw"/>
+    <subManagers xmi:id="_3IfsoSrfEdq8PpJx7h6hmw" href="uma://_3GloICrfEdq8PpJx7h6hmw#_3IfsoSrfEdq8PpJx7h6hmw"/>
+    <subManagers xmi:id="_vQVysSrhEdq8PpJx7h6hmw" href="uma://_vOn7cCrhEdq8PpJx7h6hmw#_vQVysSrhEdq8PpJx7h6hmw"/>
+    <subManagers xmi:id="__EekYCriEdq8PpJx7h6hmw" href="uma://__B_4ICriEdq8PpJx7h6hmw#__EekYCriEdq8PpJx7h6hmw"/>
+    <resourceDescriptors xmi:id="_9S_YsSoeEdqHVICqX5k_yQ" id="-lnoRO2IqTmMO52FIdbCiAw" uri="roles/scrum_master.xmi"/>
+    <resourceDescriptors xmi:id="__pOQQCoeEdqHVICqX5k_yQ" id="-JVUgCeq2NmawNKM5yOTppg" uri="roles/product_owner.xmi"/>
+    <resourceDescriptors xmi:id="_KTurICofEdqHVICqX5k_yQ" id="-ZM5dIlYcrGwv9lLYQJp6ow" uri="workproducts/product_backlog.xmi"/>
+    <resourceDescriptors xmi:id="_T7Fm8CofEdqHVICqX5k_yQ" id="-Z22XtTURYv6HrywRxXGU8A" uri="workproducts/sprint_backlog.xmi"/>
+    <resourceDescriptors xmi:id="_YH2iUCofEdqHVICqX5k_yQ" id="-99ZUyLBhl3REh1yTOoa3Wg" uri="tasks/create_maintain_product_backlog.xmi"/>
+    <resourceDescriptors xmi:id="_39CyQCofEdqHVICqX5k_yQ" id="-RABuqtK09rSgJ1DyLv8AUA" uri="tasks/prioritize_product_backlog.xmi"/>
+    <resourceDescriptors xmi:id="_RB4IsCogEdqHVICqX5k_yQ" id="-bnmc9emjGKoN-Hv97kkILQ" uri="tasks/plan_sprint.xmi"/>
+    <resourceDescriptors xmi:id="_V5U_0CogEdqHVICqX5k_yQ" id="-Qk6dvojf6vqKN0b25vL0Zg" uri="tasks/initiate_sprint.xmi"/>
+    <resourceDescriptors xmi:id="_a-cfgCogEdqHVICqX5k_yQ" id="-z3iiy-S7SM_KbDHSoYHzig" uri="tasks/review_sprint.xmi"/>
+    <resourceDescriptors xmi:id="_hGHoYCogEdqHVICqX5k_yQ" id="-4I6bQqnXybeAHDmrR4pHCQ" uri="tasks/conduct_daily_scrums.xmi"/>
+    <resourceDescriptors xmi:id="_imUSwCrDEdqH4vKIfGrMhg" id="-vTrAIXVJii_c3J_XONlrVw" uri="workproducts/product_increment.xmi"/>
+    <resourceDescriptors xmi:id="_rYSCMCrEEdqH4vKIfGrMhg" id="-oOJjRh8rrUhlUwhzb-U6Hg" uri="guidances/concepts/sprint.xmi"/>
+    <resourceDescriptors xmi:id="_tyPjMCrEEdqH4vKIfGrMhg" id="-QwVYRJFVSERFAETAQ0MU-g" uri="guidances/guidelines/daily_scrums.xmi"/>
+    <resourceDescriptors xmi:id="_wVLkkCrFEdqH4vKIfGrMhg" id="-UGDWG4jr_phWI62scLJhiw" uri="roles/scrum_team.xmi"/>
+    <resourceDescriptors xmi:id="_4PbggSrUEdqXYt9-ySFmlA" id="-RKqr30-erQptIVYve3dGbA" uri="roles/scrum_team.xmi"/>
+    <resourceDescriptors xmi:id="_HIn90irfEdq8PpJx7h6hmw" id="_G6HAsCrfEdq8PpJx7h6hmw" uri="deliveryprocesses/scrum_and_bup/model.xmi"/>
+    <resourceDescriptors xmi:id="_3GruwSrfEdq8PpJx7h6hmw" id="_3GloICrfEdq8PpJx7h6hmw" uri="capabilitypatterns/assess_and_plan_sprint/model.xmi"/>
+    <resourceDescriptors xmi:id="_vO0IsCrhEdq8PpJx7h6hmw" id="_vOn7cCrhEdq8PpJx7h6hmw" uri="capabilitypatterns/manage_sprint/model.xmi"/>
+    <resourceDescriptors xmi:id="__CqmgCriEdq8PpJx7h6hmw" id="__B_4ICriEdq8PpJx7h6hmw" uri="capabilitypatterns/manage_product_backlog/model.xmi"/>
+    <resourceDescriptors xmi:id="_ATNL4SrkEdq8PpJx7h6hmw" id="-snzV1tHJHhS661h_Bj0kww" uri="rolesets/scrum_roles.xmi"/>
+    <resourceDescriptors xmi:id="_hWWcsCrkEdq8PpJx7h6hmw" id="-8CRP0l5LVskfO__qtZGwUg" uri="customcategories/scrum_views.xmi"/>
+    <resourceDescriptors xmi:id="_7MxoISrkEdq8PpJx7h6hmw" id="-Jg6pkvd210yd9BhUQ7U1zg" uri="customcategories/general.xmi"/>
+    <resourceDescriptors xmi:id="_w1LswSrlEdq495G048gs4A" id="-i0L0hYAFHFgUpU0Ia7Au5w" uri="disciplines/project_management.xmi"/>
+    <resourceDescriptors xmi:id="_9AvDoSrlEdq495G048gs4A" id="-L-Mm2GBP5Nquj427m1cxzA" uri="disciplines/requirements.xmi"/>
+  </com.ibm.uma.resourcemanager:ResourceManager>
+  <com.ibm.uma:MethodPlugin xmi:id="_yCkNUCoeEdqHVICqX5k_yQ" name="scrum" guid="_yCkNUCoeEdqHVICqX5k_yQ" userChangeable="true">
+    <methodPackages xsi:type="com.ibm.uma:ContentPackage" xmi:id="_yCkNUSoeEdqHVICqX5k_yQ" name="Content" guid="_yCkNUSoeEdqHVICqX5k_yQ">
+      <childPackages xsi:type="com.ibm.uma:ContentPackage" xmi:id="_yCkNUioeEdqHVICqX5k_yQ" name="Categories" guid="_yCkNUioeEdqHVICqX5k_yQ">
+        <childPackages xsi:type="com.ibm.uma:ContentPackage" xmi:id="_yCkNUyoeEdqHVICqX5k_yQ" name="Domains" guid="_yCkNUyoeEdqHVICqX5k_yQ"/>
+        <childPackages xsi:type="com.ibm.uma:ContentPackage" xmi:id="_yCkNVCoeEdqHVICqX5k_yQ" name="Disciplines" guid="_yCkNVCoeEdqHVICqX5k_yQ">
+          <contentElements xsi:type="com.ibm.uma:Discipline" xmi:id="_qxOmQCrlEdq495G048gs4A" name="project_management" guid="_qxOmQCrlEdq495G048gs4A" presentationName="New Discipline" variabilityType="contributes" tasks="_RBBNECogEdqHVICqX5k_yQ _a9YvkCogEdqHVICqX5k_yQ _hFEfgCogEdqHVICqX5k_yQ">
+            <presentation xmi:id="-i0L0hYAFHFgUpU0Ia7Au5w" href="uma://-i0L0hYAFHFgUpU0Ia7Au5w#-i0L0hYAFHFgUpU0Ia7Au5w"/>
+            <variabilityBasedOnElement xsi:type="com.ibm.uma:Discipline" href="uma://_0TLvwMlgEdmt3adZL5Dmdw#_0TqQ4MlgEdmt3adZL5Dmdw"/>
+          </contentElements>
+          <contentElements xsi:type="com.ibm.uma:Discipline" xmi:id="_5fntUCrlEdq495G048gs4A" name="requirements" guid="_5fntUCrlEdq495G048gs4A" presentationName="Requirements" variabilityType="contributes" tasks="_YHFGQCofEdqHVICqX5k_yQ _38FwACofEdqHVICqX5k_yQ">
+            <presentation xmi:id="-L-Mm2GBP5Nquj427m1cxzA" href="uma://-L-Mm2GBP5Nquj427m1cxzA#-L-Mm2GBP5Nquj427m1cxzA"/>
+            <variabilityBasedOnElement xsi:type="com.ibm.uma:Discipline" href="uma://_0TLvwMlgEdmt3adZL5Dmdw#_0TR2ZMlgEdmt3adZL5Dmdw"/>
+          </contentElements>
+        </childPackages>
+        <childPackages xsi:type="com.ibm.uma:ContentPackage" xmi:id="_yCkNVSoeEdqHVICqX5k_yQ" name="RoleSets" guid="_yCkNVSoeEdqHVICqX5k_yQ">
+          <contentElements xsi:type="com.ibm.uma:RoleSet" xmi:id="_9N4ZsCrjEdq8PpJx7h6hmw" name="scrum_roles" guid="_9N4ZsCrjEdq8PpJx7h6hmw" presentationName="Scrum Roles" roles="_9SgQgCoeEdqHVICqX5k_yQ _6rE7QCoeEdqHVICqX5k_yQ _xNvmcCrUEdqXYt9-ySFmlA">
+            <presentation xmi:id="-snzV1tHJHhS661h_Bj0kww" href="uma://-snzV1tHJHhS661h_Bj0kww#-snzV1tHJHhS661h_Bj0kww"/>
+          </contentElements>
+        </childPackages>
+        <childPackages xsi:type="com.ibm.uma:ContentPackage" xmi:id="_yCkNVioeEdqHVICqX5k_yQ" name="WP Types" guid="_yCkNVioeEdqHVICqX5k_yQ"/>
+        <childPackages xsi:type="com.ibm.uma:ContentPackage" xmi:id="_yCkNVyoeEdqHVICqX5k_yQ" name="Tools" guid="_yCkNVyoeEdqHVICqX5k_yQ"/>
+        <childPackages xsi:type="com.ibm.uma:ContentPackage" xmi:id="_yCkNWCoeEdqHVICqX5k_yQ" name="StandardCategories" guid="_yCkNWCoeEdqHVICqX5k_yQ"/>
+        <childPackages xsi:type="com.ibm.uma:ContentPackage" xmi:id="_yCkNWSoeEdqHVICqX5k_yQ" name="CustomCategories" guid="_yCkNWSoeEdqHVICqX5k_yQ">
+          <childPackages xsi:type="com.ibm.uma:ContentPackage" xmi:id="_yCkNWioeEdqHVICqX5k_yQ" name="Hidden" guid="_yCkNWioeEdqHVICqX5k_yQ">
+            <contentElements xsi:type="com.ibm.uma:CustomCategory" xmi:id="_yCkNWyoeEdqHVICqX5k_yQ" name="Custom Categories" guid="_yCkNWyoeEdqHVICqX5k_yQ" categorizedElements="_dtmNUCrkEdq8PpJx7h6hmw"/>
+          </childPackages>
+          <contentElements xsi:type="com.ibm.uma:CustomCategory" xmi:id="_dtmNUCrkEdq8PpJx7h6hmw" name="scrum_views" guid="_dtmNUCrkEdq8PpJx7h6hmw" presentationName="Scrum Views" categorizedElements="_hVx08CrkEdq8PpJx7h6hmw">
+            <presentation xmi:id="-8CRP0l5LVskfO__qtZGwUg" href="uma://-8CRP0l5LVskfO__qtZGwUg#-8CRP0l5LVskfO__qtZGwUg"/>
+          </contentElements>
+          <contentElements xsi:type="com.ibm.uma:CustomCategory" xmi:id="_hVx08CrkEdq8PpJx7h6hmw" name="general" guid="_hVx08CrkEdq8PpJx7h6hmw" presentationName="General">
+            <presentation xmi:id="-Jg6pkvd210yd9BhUQ7U1zg" href="uma://-Jg6pkvd210yd9BhUQ7U1zg#-Jg6pkvd210yd9BhUQ7U1zg"/>
+            <categorizedElements xsi:type="com.ibm.uma:DeliveryProcess" href="uma://_G6HAsCrfEdq8PpJx7h6hmw#_G6HAsSrfEdq8PpJx7h6hmw"/>
+            <categorizedElements xsi:type="com.ibm.uma:RoleSet" href="#_9N4ZsCrjEdq8PpJx7h6hmw"/>
+            <categorizedElements xsi:type="com.ibm.uma:DisciplineGrouping" href="uma://_0TLvwMlgEdmt3adZL5Dmdw#__BZycP1UEdmek8CQTQgrOQ"/>
+            <categorizedElements xsi:type="com.ibm.uma:RoleSet" href="uma://_0TLvwMlgEdmt3adZL5Dmdw#_TZIJ0O8NEdmKSqa_gSYthg"/>
+            <categorizedElements xsi:type="com.ibm.uma:Domain" href="uma://_0TLvwMlgEdmt3adZL5Dmdw#_5pg10P1WEdmek8CQTQgrOQ"/>
+          </contentElements>
+        </childPackages>
+      </childPackages>
+      <childPackages xsi:type="com.ibm.uma:ContentPackage" xmi:id="_yCkNXCoeEdqHVICqX5k_yQ" name="CoreContent" guid="_yCkNXCoeEdqHVICqX5k_yQ">
+        <childPackages xsi:type="com.ibm.uma:ContentPackage" xmi:id="_23D3ECoeEdqHVICqX5k_yQ" name="scrum_elements" guid="_23D3ECoeEdqHVICqX5k_yQ">
+          <contentElements xsi:type="com.ibm.uma:Role" xmi:id="_6rE7QCoeEdqHVICqX5k_yQ" name="scrum_master" guid="_6rE7QCoeEdqHVICqX5k_yQ" presentationName="Scrum Master" responsibleFor="_SCdRYCofEdqHVICqX5k_yQ">
+            <presentation xsi:type="com.ibm.uma:RoleDescription" xmi:id="-lnoRO2IqTmMO52FIdbCiAw" href="uma://-lnoRO2IqTmMO52FIdbCiAw#-lnoRO2IqTmMO52FIdbCiAw"/>
+          </contentElements>
+          <contentElements xsi:type="com.ibm.uma:Role" xmi:id="_9SgQgCoeEdqHVICqX5k_yQ" name="product_owner" guid="_9SgQgCoeEdqHVICqX5k_yQ" presentationName="Product Owner" responsibleFor="_EMJB0CofEdqHVICqX5k_yQ">
+            <presentation xsi:type="com.ibm.uma:RoleDescription" xmi:id="-JVUgCeq2NmawNKM5yOTppg" href="uma://-JVUgCeq2NmawNKM5yOTppg#-JVUgCeq2NmawNKM5yOTppg"/>
+          </contentElements>
+          <contentElements xsi:type="com.ibm.uma:Artifact" xmi:id="_EMJB0CofEdqHVICqX5k_yQ" name="product_backlog" guid="_EMJB0CofEdqHVICqX5k_yQ" presentationName="Product Backlog" variabilityType="replaces">
+            <presentation xsi:type="com.ibm.uma:ArtifactDescription" xmi:id="-ZM5dIlYcrGwv9lLYQJp6ow" href="uma://-ZM5dIlYcrGwv9lLYQJp6ow#-ZM5dIlYcrGwv9lLYQJp6ow"/>
+            <variabilityBasedOnElement xsi:type="com.ibm.uma:Artifact" href="uma://_0TLvwMlgEdmt3adZL5Dmdw#_rGNWsCbSEdqh1LYUOGRh2A"/>
+          </contentElements>
+          <contentElements xsi:type="com.ibm.uma:Artifact" xmi:id="_SCdRYCofEdqHVICqX5k_yQ" name="sprint_backlog" guid="_SCdRYCofEdqHVICqX5k_yQ" presentationName="Sprint Backlog" variabilityType="replaces">
+            <presentation xsi:type="com.ibm.uma:ArtifactDescription" xmi:id="-Z22XtTURYv6HrywRxXGU8A" href="uma://-Z22XtTURYv6HrywRxXGU8A#-Z22XtTURYv6HrywRxXGU8A"/>
+            <variabilityBasedOnElement xsi:type="com.ibm.uma:Artifact" href="uma://_0TLvwMlgEdmt3adZL5Dmdw#_0aQBEslgEdmt3adZL5Dmdw"/>
+          </contentElements>
+          <contentElements xsi:type="com.ibm.uma:Task" xmi:id="_YHFGQCofEdqHVICqX5k_yQ" name="create_maintain_product_backlog" guid="_YHFGQCofEdqHVICqX5k_yQ" presentationName="Create and Maintain Product Backlog" variabilityType="extends" performedBy="_9SgQgCoeEdqHVICqX5k_yQ" mandatoryInput="_EMJB0CofEdqHVICqX5k_yQ" output="_EMJB0CofEdqHVICqX5k_yQ">
+            <presentation xsi:type="com.ibm.uma:TaskDescription" xmi:id="-99ZUyLBhl3REh1yTOoa3Wg" href="uma://-99ZUyLBhl3REh1yTOoa3Wg#-99ZUyLBhl3REh1yTOoa3Wg"/>
+            <variabilityBasedOnElement xsi:type="com.ibm.uma:Task" href="uma://_0TLvwMlgEdmt3adZL5Dmdw#_P9cMUPV_EdmdHa9MmVPgqQ"/>
+            <optionalInput xsi:type="com.ibm.uma:Artifact" href="uma://_0TLvwMlgEdmt3adZL5Dmdw#_0WVxcMlgEdmt3adZL5Dmdw"/>
+          </contentElements>
+          <contentElements xsi:type="com.ibm.uma:Task" xmi:id="_38FwACofEdqHVICqX5k_yQ" name="prioritize_product_backlog" guid="_38FwACofEdqHVICqX5k_yQ" presentationName="Prioritize Product Backlog" variabilityType="extends" performedBy="_9SgQgCoeEdqHVICqX5k_yQ" mandatoryInput="_EMJB0CofEdqHVICqX5k_yQ" output="_EMJB0CofEdqHVICqX5k_yQ">
+            <presentation xsi:type="com.ibm.uma:TaskDescription" xmi:id="-RABuqtK09rSgJ1DyLv8AUA" href="uma://-RABuqtK09rSgJ1DyLv8AUA#-RABuqtK09rSgJ1DyLv8AUA"/>
+            <variabilityBasedOnElement xsi:type="com.ibm.uma:Task" href="uma://_0TLvwMlgEdmt3adZL5Dmdw#_RnoK4CbPEdqh1LYUOGRh2A"/>
+          </contentElements>
+          <contentElements xsi:type="com.ibm.uma:Task" xmi:id="_RBBNECogEdqHVICqX5k_yQ" name="plan_sprint" guid="_RBBNECogEdqHVICqX5k_yQ" presentationName="Plan Sprint" variabilityType="replaces" conceptsAndPapers="_pWE54CrEEdqH4vKIfGrMhg" performedBy="_6rE7QCoeEdqHVICqX5k_yQ" mandatoryInput="_EMJB0CofEdqHVICqX5k_yQ _eRY54CrDEdqH4vKIfGrMhg" output="_SCdRYCofEdqHVICqX5k_yQ" additionallyPerformedBy="_9SgQgCoeEdqHVICqX5k_yQ _xNvmcCrUEdqXYt9-ySFmlA">
+            <presentation xsi:type="com.ibm.uma:TaskDescription" xmi:id="-bnmc9emjGKoN-Hv97kkILQ" href="uma://-bnmc9emjGKoN-Hv97kkILQ#-bnmc9emjGKoN-Hv97kkILQ"/>
+            <variabilityBasedOnElement xsi:type="com.ibm.uma:Task" href="uma://_0TLvwMlgEdmt3adZL5Dmdw#_0keUEMlgEdmt3adZL5Dmdw"/>
+          </contentElements>
+          <contentElements xsi:type="com.ibm.uma:Task" xmi:id="_a9YvkCogEdqHVICqX5k_yQ" name="review_sprint" guid="_a9YvkCogEdqHVICqX5k_yQ" presentationName="Review Sprint" variabilityType="replaces" performedBy="_6rE7QCoeEdqHVICqX5k_yQ" mandatoryInput="_eRY54CrDEdqH4vKIfGrMhg _SCdRYCofEdqHVICqX5k_yQ" additionallyPerformedBy="_9SgQgCoeEdqHVICqX5k_yQ _xNvmcCrUEdqXYt9-ySFmlA">
+            <presentation xsi:type="com.ibm.uma:TaskDescription" xmi:id="-z3iiy-S7SM_KbDHSoYHzig" href="uma://-z3iiy-S7SM_KbDHSoYHzig#-z3iiy-S7SM_KbDHSoYHzig"/>
+            <variabilityBasedOnElement xsi:type="com.ibm.uma:Task" href="uma://_0TLvwMlgEdmt3adZL5Dmdw#_0l53cMlgEdmt3adZL5Dmdw"/>
+          </contentElements>
+          <contentElements xsi:type="com.ibm.uma:Task" xmi:id="_hFEfgCogEdqHVICqX5k_yQ" name="conduct_daily_scrums" guid="_hFEfgCogEdqHVICqX5k_yQ" presentationName="Conduct Daily Scrums" variabilityType="extends" guidelines="_rXU_8CrEEdqH4vKIfGrMhg" performedBy="_6rE7QCoeEdqHVICqX5k_yQ" mandatoryInput="_SCdRYCofEdqHVICqX5k_yQ" additionallyPerformedBy="_xNvmcCrUEdqXYt9-ySFmlA">
+            <presentation xsi:type="com.ibm.uma:TaskDescription" xmi:id="-4I6bQqnXybeAHDmrR4pHCQ" href="uma://-4I6bQqnXybeAHDmrR4pHCQ#-4I6bQqnXybeAHDmrR4pHCQ"/>
+            <variabilityBasedOnElement xsi:type="com.ibm.uma:Task" href="uma://_0TLvwMlgEdmt3adZL5Dmdw#_8S2aICbYEdqh1LYUOGRh2A"/>
+          </contentElements>
+          <contentElements xsi:type="com.ibm.uma:Artifact" xmi:id="_eRY54CrDEdqH4vKIfGrMhg" name="product_increment" guid="_eRY54CrDEdqH4vKIfGrMhg" presentationName="Product Increment" variabilityType="extends">
+            <presentation xsi:type="com.ibm.uma:ArtifactDescription" xmi:id="-vTrAIXVJii_c3J_XONlrVw" href="uma://-vTrAIXVJii_c3J_XONlrVw#-vTrAIXVJii_c3J_XONlrVw"/>
+            <variabilityBasedOnElement xsi:type="com.ibm.uma:Artifact" href="uma://_0TLvwMlgEdmt3adZL5Dmdw#_0YuXEMlgEdmt3adZL5Dmdw"/>
+          </contentElements>
+          <contentElements xsi:type="com.ibm.uma:Concept" xmi:id="_pWE54CrEEdqH4vKIfGrMhg" name="sprint" guid="_pWE54CrEEdqH4vKIfGrMhg" presentationName="Sprint">
+            <presentation xmi:id="-oOJjRh8rrUhlUwhzb-U6Hg" href="uma://-oOJjRh8rrUhlUwhzb-U6Hg#-oOJjRh8rrUhlUwhzb-U6Hg"/>
+          </contentElements>
+          <contentElements xsi:type="com.ibm.uma:Guideline" xmi:id="_rXU_8CrEEdqH4vKIfGrMhg" name="daily_scrums" guid="_rXU_8CrEEdqH4vKIfGrMhg" presentationName="Daily Scrums">
+            <presentation xmi:id="-QwVYRJFVSERFAETAQ0MU-g" href="uma://-QwVYRJFVSERFAETAQ0MU-g#-QwVYRJFVSERFAETAQ0MU-g"/>
+          </contentElements>
+          <contentElements xsi:type="com.ibm.uma:Role" xmi:id="_xNvmcCrUEdqXYt9-ySFmlA" name="scrum_team" guid="_xNvmcCrUEdqXYt9-ySFmlA" presentationName="Scrum Team" responsibleFor="_eRY54CrDEdqH4vKIfGrMhg">
+            <presentation xsi:type="com.ibm.uma:RoleDescription" xmi:id="-RKqr30-erQptIVYve3dGbA" href="uma://-RKqr30-erQptIVYve3dGbA#-RKqr30-erQptIVYve3dGbA"/>
+          </contentElements>
+        </childPackages>
+      </childPackages>
+      <childPackages xsi:type="com.ibm.uma:ProcessPackage" xmi:id="_yCkNXSoeEdqHVICqX5k_yQ" name="CapabilityPatterns" guid="_yCkNXSoeEdqHVICqX5k_yQ">
+        <childPackages xsi:type="com.ibm.uma:ProcessPackage" xmi:id="_Hi9CACriEdq8PpJx7h6hmw" name="Scrum Building Blocks" guid="_Hi9CACriEdq8PpJx7h6hmw">
+          <childPackages xsi:type="com.ibm.uma:ProcessComponent" xmi:id="_3GloICrfEdq8PpJx7h6hmw" href="uma://_3GloICrfEdq8PpJx7h6hmw#_3GloICrfEdq8PpJx7h6hmw"/>
+          <childPackages xsi:type="com.ibm.uma:ProcessComponent" xmi:id="_vOn7cCrhEdq8PpJx7h6hmw" href="uma://_vOn7cCrhEdq8PpJx7h6hmw#_vOn7cCrhEdq8PpJx7h6hmw"/>
+          <childPackages xsi:type="com.ibm.uma:ProcessComponent" xmi:id="__B_4ICriEdq8PpJx7h6hmw" href="uma://__B_4ICriEdq8PpJx7h6hmw#__B_4ICriEdq8PpJx7h6hmw"/>
+        </childPackages>
+      </childPackages>
+    </methodPackages>
+    <methodPackages xsi:type="com.ibm.uma:ProcessPackage" xmi:id="_yCkNXioeEdqHVICqX5k_yQ" name="DeliveryProcesses" guid="_yCkNXioeEdqHVICqX5k_yQ">
+      <childPackages xsi:type="com.ibm.uma:ProcessComponent" xmi:id="_G6HAsCrfEdq8PpJx7h6hmw" href="uma://_G6HAsCrfEdq8PpJx7h6hmw#_G6HAsCrfEdq8PpJx7h6hmw"/>
+    </methodPackages>
+    <methodPackages xsi:type="com.ibm.uma:ProcessPackage" xmi:id="_yCkNXyoeEdqHVICqX5k_yQ" name="ProcessContributions" guid="_yCkNXyoeEdqHVICqX5k_yQ"/>
+    <bases href="uma://_0TLvwMlgEdmt3adZL5Dmdw#_0TLvwMlgEdmt3adZL5Dmdw"/>
+    <bases href="uma://_WCUhAO8KEdmKSqa_gSYthg#_WCUhAO8KEdmKSqa_gSYthg"/>
+  </com.ibm.uma:MethodPlugin>
+</xmi:XMI>

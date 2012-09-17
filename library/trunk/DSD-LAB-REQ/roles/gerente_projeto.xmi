@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<com.ibm.uma:RoleDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:com.ibm.uma="http://www.ibm.com/uma/1.0.2/uma.ecore" xmi:id="-8PD8Fdjcs4-mhfvFgkW4Ww" name="gerente_projeto,_5z4V8MWMEdqoWucqOCtw5Q" guid="-8PD8Fdjcs4-mhfvFgkW4Ww" changeDate="2006-05-09T17:16:52.937-0300">
+  <mainDescription>Responsavel pelo planejamento e conducao do projeto de desenvolvimento.&amp;nbsp;Eh de sua responsabilidade tambem a definicao
+e negociacao do escopo e coordenacao da equipe na realizacao das atividades.</mainDescription>
+</com.ibm.uma:RoleDescription>

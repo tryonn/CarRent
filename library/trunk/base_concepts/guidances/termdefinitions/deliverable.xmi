@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<com.ibm.uma:ContentDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:com.ibm.uma="http://www.ibm.com/uma/1.0.2/uma.ecore" xmi:id="_yFbWodnmEdmO6L4XMImrsA" name="deliverable,_yFbWoNnmEdmO6L4XMImrsA" guid="_yFbWodnmEdmO6L4XMImrsA">
+  <mainDescription>An output from a &lt;a class=&quot;elementLink&quot;
+href=&quot;file://./../../../base_concepts/guidances/termdefinitions/process,_yQ5m2NnmEdmO6L4XMImrsA.html&quot;
+guid=&quot;_yQ5m2NnmEdmO6L4XMImrsA&quot;&gt;process&lt;/a&gt; that has a value, material or otherwise, to a &lt;i&gt;&lt;a
+class=&quot;elementLink&quot; href=&quot;base_concepts/guidances/termdefinitions/customer,_yE05s9nmEdmO6L4XMImrsA.html&quot;
+guid=&quot;_yE05s9nmEdmO6L4XMImrsA&quot;&gt;customer&lt;/a&gt;&lt;/i&gt; or other &lt;i&gt;&lt;a class=&quot;elementLink&quot;
+href=&quot;base_concepts/guidances/termdefinitions/stakeholder,_yWHeDNnmEdmO6L4XMImrsA.html&quot;
+guid=&quot;_yWHeDNnmEdmO6L4XMImrsA&quot;&gt;stakeholder&lt;/a&gt;&lt;/i&gt; .</mainDescription>
+</com.ibm.uma:ContentDescription>

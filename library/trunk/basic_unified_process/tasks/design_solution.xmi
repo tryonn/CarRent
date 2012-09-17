@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<com.ibm.uma:TaskDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:com.ibm.uma="http://www.ibm.com/uma/1.0.2/uma.ecore" xmi:id="_NrC20qeqEdmKDbQuyzCoqQ" name="design_solution,_0fshwMlgEdmt3adZL5Dmdw" guid="_NrC20qeqEdmKDbQuyzCoqQ" changeDate="2005-07-22T09:39:37.593-0700">
+  <sections xmi:id="_4Z7WYKuKEdmhFZtkg1nakg" name="Understand scenario details" guid="_4Z7WYKuKEdmhFZtkg1nakg">
+    <sectionDescription>&lt;p&gt;
+    Capture additional information needed in order to understand the required internal behavior of the system that might be
+    missing from the use-case description written for the customer of the system.&amp;nbsp;
+&lt;/p&gt;
+&lt;p&gt;
+    Use-case descriptions may leave out information about what happens internally to the system, so supplementing the
+    descriptions with what the system does may help to find out analysis classes that represent the use-case behavior. It
+    is not necessary to define the elements within the system (objects) that are responsible for performing that behavior -
+    just a clear definition of what needs to be done.
+&lt;/p&gt;
+&lt;p&gt;
+    Example:
+&lt;/p&gt;
+&lt;p class=&quot;example&quot;&gt;
+    &quot;The ATM validates the Bank Customer's card.&quot;
+&lt;/p&gt;
+&lt;p class=&quot;example&quot;&gt;
+    can be more detailed as follows:
+&lt;/p&gt;
+&lt;p class=&quot;example&quot;&gt;
+    &quot;The ATM sends the customer's account number and the PIN to the ATM Network to be validated. The ATM Network returns
+    success if the customer number and the PIN match and the customer is authorized to perform transactions, otherwise the
+    ATM Network returns failure.&quot;
+&lt;/p&gt;</sectionDescription>
+  </sections>
+  <sections xmi:id="_6vrs0KuKEdmhFZtkg1nakg" name="Identify logical classes to provide behavior" guid="_6vrs0KuKEdmhFZtkg1nakg">
+    <sectionDescription>&lt;h5&gt;
+    Find analysis classes from use-case behavior
+&lt;/h5&gt;
+&lt;p&gt;
+    To identify a candidate set of analysis classes which will be capable of performing the behavior described in use
+    cases.&amp;nbsp; These classes will provide the necessary behavior to fulfill functional and non-functional
+    requirements.&amp;nbsp;
+&lt;/p&gt;
+&lt;p&gt;
+    Refer to&amp;nbsp;&lt;a class=&quot;elementLinkWithType&quot;
+    href=&quot;resources/finding_analysis_classes,_uF-QYEAhEdq_UJTvM1DM2Q.html&quot;
+    guid=&quot;_uF-QYEAhEdq_UJTvM1DM2Q&quot;&gt;Guideline: Finding Analysis Classes&lt;/a&gt; for guidance on how to identify these classes.
+    Another source for finding analysis classes are the analysis mechanisms and analysis patterns being considered for this
+    project. Once identified, then name and briefly describe&amp;nbsp;the analysis classes&amp;nbsp;in a few sentences.
+&lt;/p&gt;
+&lt;h5&gt;
+    Distribute behavior to analysis classes
+&lt;/h5&gt;
+&lt;p&gt;
+    For each scenario, express the use-case behavior in terms of collaborating analysis classes. This helps to determine
+    the responsibilities of analysis classes. You may find useful to capture the interaction between analysis classes (and
+    between classes and external entities such as actors) on diagrams like communication or sequence diagrams (tipically
+    one diagram for each scenario).
+&lt;/p&gt;
+&lt;h5&gt;
+    Describe responsibilities
+&lt;/h5&gt;
+&lt;p&gt;
+    Class responsibilities&amp;nbsp;are either actions to be performed by an object or knowledge maintained and provided to
+    other objects. Each class will typically have several responsibilities; each responsibility&amp;nbsp;will evolve into one
+    or more operations during design.&amp;nbsp;
+&lt;/p&gt;
+&lt;p&gt;
+    Responsibilities are derived from messages on interaction diagrams or from non-functional requirements that a class has
+    to convey. Document a responsibility by giving it a name, and optionally a brief description (what it does).
+&lt;/p&gt;
+&lt;h5&gt;
+    Describe attributes and associations
+&lt;/h5&gt;
+&lt;p&gt;
+    To perform their responsibilities, classes may depend on other classes to supply needed behavior. Associations in a
+    class diagram can be used to represent inter-class relationships.
+&lt;/p&gt;
+&lt;p&gt;
+    A class may have to store simple data information, like: string, integer, and the like. For such simple type of
+    information, attributes are defined for classes. For a more complex or &quot;behavioral' attribute, consider creating an
+    extra class and establish an association to it.&amp;nbsp;
+&lt;/p&gt;</sectionDescription>
+  </sections>
+  <sections xmi:id="_--6tYKuKEdmhFZtkg1nakg" name="Identify components" guid="_--6tYKuKEdmhFZtkg1nakg"/>
+  <sections xmi:id="_A_LU8KuLEdmhFZtkg1nakg" name="Determine how elements collaborate to realize the scenario" guid="_A_LU8KuLEdmhFZtkg1nakg"/>
+  <sections xmi:id="_ENwJwKuLEdmhFZtkg1nakg" name="Refine design decisions" guid="_ENwJwKuLEdmhFZtkg1nakg"/>
+  <sections xmi:id="_Gyf-cKuLEdmhFZtkg1nakg" name="Update design of individual elements" guid="_Gyf-cKuLEdmhFZtkg1nakg"/>
+  <sections xmi:id="_JrHKUKuLEdmhFZtkg1nakg" name="Refactor" guid="_JrHKUKuLEdmhFZtkg1nakg"/>
+  <sections xmi:id="_KNZYAKuLEdmhFZtkg1nakg" name="Design internals (for large or complex elements)" guid="_KNZYAKuLEdmhFZtkg1nakg"/>
+  <sections xmi:id="_OGYbwKuLEdmhFZtkg1nakg" name="Communicate the design" guid="_OGYbwKuLEdmhFZtkg1nakg"/>
+</com.ibm.uma:TaskDescription>

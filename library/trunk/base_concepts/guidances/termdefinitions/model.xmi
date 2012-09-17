@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<com.ibm.uma:ContentDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:com.ibm.uma="http://www.ibm.com/uma/1.0.2/uma.ecore" xmi:id="_yNefZNnmEdmO6L4XMImrsA" name="model,_yNefY9nmEdmO6L4XMImrsA" guid="_yNefZNnmEdmO6L4XMImrsA">
+  <mainDescription>&lt;p&gt;
+    A semantically closed abstraction of a system; a &lt;em&gt;complete&lt;/em&gt; description of a system from a particular
+    perspective (&lt;em&gt;complete&lt;/em&gt; means that no additional information is needed to understand the system from that
+    perspective); a set of model elements. Two models cannot overlap.
+&lt;/p&gt;
+&lt;p&gt;
+    &amp;nbsp;
+&lt;/p&gt;
+&lt;p&gt;
+    &amp;nbsp;
+&lt;/p&gt;
+&lt;p&gt;
+    XXXX THIS IS A TEST XXXXX
+&lt;/p&gt;</mainDescription>
+</com.ibm.uma:ContentDescription>

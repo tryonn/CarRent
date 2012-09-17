@@ -1,0 +1,406 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+
+<!DOCTYPE struts-config PUBLIC
+          "-//Apache Software Foundation//DTD Struts Configuration 1.2//EN"
+          "http://jakarta.apache.org/struts/dtds/struts-config_1_2.dtd">
+
+
+<struts-config>
+<!-- ================================================ Form Bean Definitions -->
+
+    <form-beans>
+    <!-- sample form bean descriptor for an ActionForm
+        <form-bean
+            name="inputForm"
+            type="app.InputForm"/>
+    end sample -->
+
+        <form-bean
+            name="logonForm"
+            type="org.apache.struts.validator.DynaValidatorForm">
+            <form-property
+                name="login"	type="java.lang.String"/>
+            <form-property
+                name="password"	type="java.lang.String"/>
+        </form-bean>
+        
+        <form-bean
+            name="editPasswordForm"
+            type="org.apache.struts.validator.DynaValidatorForm">
+            <form-property
+                name="currentPassword"	type="java.lang.String"/>
+            <form-property
+                name="newPassword"	type="java.lang.String"/>
+            <form-property
+                name="newPasswordConfirmation"	type="java.lang.String"/>
+        </form-bean>
+       
+        <form-bean
+            name="userForm"
+            type="org.apache.struts.validator.DynaValidatorForm">
+            <form-property
+                name="name"		type="java.lang.String"/>
+            <form-property
+                name="email"	type="java.lang.String"/>
+            <form-property
+                name="login"	type="java.lang.String"/>
+            <form-property
+                name="password"	type="java.lang.String"/>
+            <form-property
+                name="passwordConfirmation" type="java.lang.String"/>
+        </form-bean>
+        
+        <form-bean
+            name="editUserForm"
+            type="org.apache.struts.validator.DynaValidatorForm">
+            <form-property
+                name="name"		type="java.lang.String"/>
+            <form-property
+                name="cpf"	type="java.lang.String"/>
+            <form-property
+                name="cpfDigit"	type="java.lang.String"/>
+            <form-property
+                name="phoneDDD"	type="java.lang.String"/>
+            <form-property
+                name="phone" type="java.lang.String"/>
+                <form-property
+                name="gender" type="java.lang.String"/>
+            <form-property
+                name="day" type="java.lang.String"/>
+            <form-property
+                name="month" type="java.lang.String"/>
+            <form-property
+                name="year" type="java.lang.String"/>
+            <form-property
+                name="email" type="java.lang.String"/>
+            <form-property
+                name="state" type="java.lang.String"/>
+            <form-property
+                name="city" type="java.lang.String"/>
+            <form-property
+                name="picture" type="org.apache.struts.upload.FormFile"/>
+            <form-property
+                name="login" type="java.lang.String"/>
+            <form-property
+                name="password" type="java.lang.String"/>
+            <form-property
+                name="passwordConfirmation" type="java.lang.String"/>
+            <form-property
+                name="degree" type="java.lang.String"/>
+            <form-property
+                name="yearDegree" type="java.lang.Integer"/>
+            <form-property
+                name="institution" type="java.lang.String"/>
+            <form-property
+                name="curriculum" type="java.lang.String"/>
+        </form-bean>
+        
+         <form-bean
+            name="remindPasswordForm"
+            type="org.apache.struts.validator.DynaValidatorForm">
+            <form-property
+                name="email"		type="java.lang.String"/>
+        </form-bean>
+        
+        <form-bean
+            name="requestForm"
+            type="org.apache.struts.validator.DynaValidatorForm">
+            <form-property
+                name="degree"		type="java.lang.String"/>
+            <form-property
+                name="year"			type="java.lang.Integer"/>
+            <form-property
+                name="institution"	type="java.lang.String"/>
+            <form-property
+                name="description"	type="java.lang.String"/>
+            <form-property
+                name="interest"		type="java.lang.String"/>
+            <form-property
+                name="courseId"		type="java.lang.Integer"/>
+        </form-bean>
+  </form-beans>
+
+
+<!-- ========================================= Global Exception Definitions -->
+
+    <global-exceptions>
+        <!-- sample exception handler
+        <exception
+            key="expired.password"
+            type="app.ExpiredPasswordException"
+            path="/changePassword.jsp"/>
+        end sample -->
+    </global-exceptions>
+
+
+<!-- =========================================== Global Forward Definitions -->
+
+    <global-forwards>
+		<forward
+            name="fInsertUser"
+            path="/fInsertUser.do"/>
+        <forward
+        	name="fMenu"
+        	path="/fMenu.do"/>
+        <forward
+        	name="fWelcome"
+        	path="/fWelcome.do"/>
+        <forward
+            name="fProject"
+            path="/fProject.do"/> 
+        <forward
+            name="fCases"
+            path="/fCases.do"/>
+        <forward
+            name="fCCTE"
+            path="/fCCTE.do"/>
+        <forward
+            name="fReachUs"
+            path="/fReachUs.do"/>
+        <forward
+            name="fLicense"
+            path="/fLicense.do"/>
+        <forward
+            name="fEditPassword"
+            path="/fEditPassword.do"/>
+        <forward
+            name="fTeachingRequest"
+            path="/fTeachingRequest.do"/>
+         <forward
+            name="fRemindPassword"
+            path="/fRemindPassword.do"/>        
+         <forward
+            name="signOut"
+            path="/signOut.do"/>      
+       	 <forward
+            name="fAssistanceRequest"
+            path="/fAssistanceRequest.do"/>
+         <forward
+            name="fMailBox"
+            path="/fMailBox.do"/>
+         <forward
+            name="fContacts"
+            path="/fContacts.do"/>
+         <forward
+            name="fOnlineContacts"
+            path="/fOnlineContacts.do"/>
+         <forward
+            name="fClassmates"
+            path="/fClassmates.do"/>
+         <forward
+            name="fClassmates"
+            path="/fClassmates.do"/>
+    </global-forwards>
+
+
+<!-- =========================================== Action Mapping Definitions -->
+
+    <action-mappings>
+
+		<action
+			path="/validateLogin"
+			type="br.ufpe.cin.amadeus.struts.action.access_control.UserActions"
+			parameter="validateLogin"
+			name="logonForm"
+        	scope="request"
+			input="/jsp/welcome.jsp">
+			<forward name="success" path="/fMenu.do" redirect="true"/>
+		</action>
+			
+        <action
+            path="/fInsertUser"
+            type="org.apache.struts.actions.ForwardAction"
+            parameter="/jsp/amadeus/access_control/user/insertUser.jsp"/>
+            
+        <action
+            path="/fMenu"
+            type="org.apache.struts.actions.ForwardAction"
+            parameter="/jsp/menu.jsp"/>            
+        
+        <action
+            path="/fWelcome"
+            type="org.apache.struts.actions.ForwardAction"
+            parameter="/jsp/welcome.jsp"/> 
+                   
+        <action
+            path="/fProject"
+            type="org.apache.struts.actions.ForwardAction"
+            parameter="/jsp/amadeus/institutional_menu/project.jsp"/>
+               
+        <action
+            path="/fCases"
+            type="org.apache.struts.actions.ForwardAction"
+            parameter="/jsp/amadeus/institutional_menu/cases.jsp"/>
+        
+        <action
+            path="/fCCTE"
+            type="org.apache.struts.actions.ForwardAction"
+            parameter="/jsp/amadeus/institutional_menu/ccte.jsp"/>
+        
+        <action
+            path="/fReachUs"
+            type="org.apache.struts.actions.ForwardAction"
+            parameter="/jsp/amadeus/institutional_menu/reachUs.jsp"/>
+        
+        <action
+            path="/fLicense"
+            type="org.apache.struts.actions.ForwardAction"
+            parameter="/jsp/amadeus/institutional_menu/license.jsp"/>
+        
+        <action
+            path="/fEditUser"
+            type="br.ufpe.cin.amadeus.struts.action.access_control.UserActions"
+            parameter="fEditUser"
+            scope="request">
+            <forward name="success"
+            		 path="/jsp/amadeus/access_control/user/editUser.jsp"/>
+        </action>
+        
+        <action
+        	path="/editUser"
+            type="br.ufpe.cin.amadeus.struts.action.access_control.UserActions"
+        	parameter="editUser"
+        	name="editUserForm"
+        	scope="request"
+        	input="/jsp/amadeus/access_control/user/editUser.jsp">
+        	<forward name="success" path="/myProfile.do" redirect="true"/>
+       	</action>
+		
+	    <action
+            path="/fEditPassword"
+            type="org.apache.struts.actions.ForwardAction"
+            parameter="/jsp/amadeus/access_control/user/editPassword.jsp"/>
+		<action
+			path="/editPassword"
+        	type="br.ufpe.cin.amadeus.struts.action.access_control.UserActions"
+			parameter="editPassword"
+			name="editPasswordForm"
+			scope="request"
+			input="/jsp/amadeus/access_control/user/editPassword.jsp">
+			<forward name="success" path="/myProfile.do" redirect="true"/>
+		</action>
+
+        <action
+        	path="/insertUser"
+        	type="br.ufpe.cin.amadeus.struts.action.access_control.UserActions"
+        	parameter="insertUser"
+        	name="userForm"
+        	scope="request"
+        	input="/jsp/amadeus/access_control/user/insertUser.jsp">
+        	<forward name="success" path="/jsp/menu.jsp"/>
+        </action>
+        
+		<action
+            path="/photo"
+            type="org.apache.struts.actions.ForwardAction"
+            parameter="/jsp/photo.jsp"/>
+        
+        <action
+        	path="/signOut"
+            type="br.ufpe.cin.amadeus.struts.action.access_control.UserActions"
+        	parameter="signOut"
+        	scope="request">
+        	<forward name="success" path="/jsp/welcome.jsp"/>
+        </action>
+        
+        <action
+            path="/fRemindPassword"
+            type="org.apache.struts.actions.ForwardAction"
+            parameter="/jsp/amadeus/access_control/user/remindPassword.jsp"/>
+        <action
+			path="/remindPassword"
+        	type="br.ufpe.cin.amadeus.struts.action.access_control.UserActions"
+			parameter="remindPassword"
+			name="remindPasswordForm"
+			scope="request"
+			input="/jsp/amadeus/access_control/user/remindPassword.jsp">
+			<forward name="success" path="/jsp/welcome.jsp"/>
+		</action>
+
+        <action
+            path="/fTeachingRequest"
+            type="org.apache.struts.actions.ForwardAction"
+            parameter="/jsp/amadeus/access_control/user/teachingRequest.jsp"/>
+        <action
+			path="/teachingRequest"
+            type="br.ufpe.cin.amadeus.struts.action.access_control.UserActions"
+            parameter="teachingRequest"
+            name="requestForm"
+            scope="request"
+            input="/jsp/amadeus/access_control/user/teachingRequest.jsp">				
+            <forward name="success" path="/myProfile.do" redirect="true"/>
+		</action>
+
+        <action
+            path="/fAssistanceRequest"
+            type="org.apache.struts.actions.ForwardAction"
+            parameter="/jsp/amadeus/access_control/user/assistanceRequest.jsp"/>
+        <action
+			path="/assistanceRequest"
+            type="br.ufpe.cin.amadeus.struts.action.access_control.UserActions"
+            parameter="assistanceRequest"
+            name="requestForm"
+            scope="request"
+            input="/jsp/amadeus/access_control/user/assistanceRequest.jsp">				
+            <forward name="success" path="/jsp/amadeus/access_control/course/courseCharacteristics.jsp"/>
+		</action>
+
+        <action
+			path="/myProfile"
+            type="br.ufpe.cin.amadeus.struts.action.access_control.UserActions"
+            parameter="myProfile">
+            <forward name="success"
+            		 path="/jsp/amadeus/access_control/user/userPrivateData.jsp"/>
+		</action>
+
+        <action
+			path="/userPrivateData"
+            type="br.ufpe.cin.amadeus.struts.action.access_control.UserActions"
+            parameter="userPrivateData">
+            <forward name="success"
+            		 path="/jsp/amadeus/access_control/user/userPrivateData.jsp"/>
+		</action>
+
+        <action
+			path="/userPublicData"
+            type="org.apache.struts.actions.ForwardAction"
+            parameter="/jsp/amadeus/access_control/user/userPublicData.jsp"/>
+		
+        <action
+			path="/viewPendingTasks"
+			type="br.ufpe.cin.amadeus.struts.action.access_control.UserActions"
+			parameter="viewPendingTasks"
+		   	scope="request">
+		   	<forward name="admin"
+            		path="/jsp/amadeus/access_control/user/adminPendingTasks.jsp"/>
+		   	<forward name="teacher"
+            		path="/jsp/amadeus/access_control/user/teacherPendingTasks.jsp"/>
+       		<forward name="student"
+            		path="/jsp/amadeus/access_control/user/studentPendingTasks.jsp"/>
+       		<forward name="monitor"
+            		path="/jsp/amadeus/access_control/user/monitorPendingTasks.jsp"/>
+		</action>
+		
+		<action
+			path="/fMailBox"
+            type="org.apache.struts.actions.ForwardAction"
+            parameter="/jsp/amadeus/access_control/user/mailBox.jsp"/>
+		
+		<action
+			path="/fContacts"
+            type="org.apache.struts.actions.ForwardAction"
+            parameter="/jsp/amadeus/access_control/user/contacts.jsp"/>
+		
+		<action
+			path="/fOnlineContacts"
+            type="org.apache.struts.actions.ForwardAction"
+            parameter="/jsp/amadeus/access_control/user/onlineContacts.jsp"/>
+         
+         <action
+			path="/fClassmates"
+            type="org.apache.struts.actions.ForwardAction"
+            parameter="/jsp/amadeus/access_control/user/classmates.jsp"/>   
+        
+	</action-mappings>
+
+</struts-config>

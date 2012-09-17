@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<com.ibm.uma:TaskDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:com.ibm.uma="http://www.ibm.com/uma/1.0.2/uma.ecore" xmi:id="_a3uz4LBYEdm7Eph_l9Cn9w" name="assess_results,_0l53cMlgEdmt3adZL5Dmdw" guid="_a3uz4LBYEdm7Eph_l9Cn9w" changeDate="2005-08-23T19:25:47.608-0700">
+  <sections xmi:id="_o28GgMMsEdmdo9HxCRR_Gw" name="Assess results" guid="_o28GgMMsEdmdo9HxCRR_Gw">
+    <sectionDescription>&lt;p&gt;
+    The project manager needs to regularly assess the results as planned. For example, in iterative development, this will
+    be done at the end of each iteration. Even if&amp;nbsp;he or she is not&amp;nbsp;using iterative development, the manager
+    should define quantifiable goals for a given period to facilitate regular assessment of the project's progress.
+&lt;/p&gt;
+&lt;p&gt;
+    Below&amp;nbsp;are questions that project managers can ask themselves and the rest of the team to help know the project
+    status:
+&lt;/p&gt;
+&lt;div dir=&quot;ltr&quot; style=&quot;MARGIN-LEFT: 2em; MARGIN-RIGHT: 0px&quot;&gt;
+    &lt;ul&gt;
+        &lt;li&gt;
+            &amp;nbsp;Were the defined goals and objectives met?
+        &lt;/li&gt;
+        &lt;li style=&quot;LIST-STYLE-TYPE: none&quot;&gt;
+            &lt;ul&gt;
+                &lt;li&gt;
+                    Were risks reduced or eliminated?
+                &lt;/li&gt;
+                &lt;li&gt;
+                    Did the release meet its functionality and quality goals? Did the release meet performance and capacity
+                    goals?
+                &lt;/li&gt;
+            &lt;/ul&gt;
+        &lt;/li&gt;
+        &lt;li&gt;
+            Are changes to the project plan required?
+        &lt;/li&gt;
+        &lt;li&gt;
+            What portion of the current release will be baselined? What portion will need to be reworked?
+        &lt;/li&gt;
+        &lt;li&gt;
+            Have new risks been identified?
+        &lt;/li&gt;
+        &lt;li&gt;
+            Have there been external changes such as changes in the marketplace, in the user community, or in the
+            requirements?
+        &lt;/li&gt;
+    &lt;/ul&gt;
+&lt;/div&gt;
+&lt;p dir=&quot;ltr&quot;&gt;
+    One very important aspect of project assessment is to base the assessments on objective measures, as much as it is
+    possible to do so. For example, to assess that a given requirement is developed, the project manager must check that
+    the corresponding test cases were successfully run against it, rather than considering it done when the implementation
+    is done.
+&lt;/p&gt;</sectionDescription>
+  </sections>
+  <sections xmi:id="_PABe4MQIEdmaiYJe8-Eaqg" name="Gather stakeholder feedback" guid="_PABe4MQIEdmaiYJe8-Eaqg">
+    <sectionDescription>&lt;p&gt;
+    Assessing the results is also a good opportunity to get feedback from the stakeholders.
+&lt;/p&gt;
+&lt;p&gt;
+    This feedback can be gathered through ways such as giving stakeholders informal demonstrations of what's developed as
+    the project progress and sending partial deliveries to stakeholders. However the feedback is gathered, it is good to
+    record changes that could have an impact on the project's scope or duration.
+&lt;/p&gt;</sectionDescription>
+  </sections>
+  <sections xmi:id="_YdoAAM1DEdmLoKw_mVTvhQ" name="Refine project scope and duration" guid="_YdoAAM1DEdmLoKw_mVTvhQ">
+    <sectionDescription>&lt;p&gt;
+    Depending on the result assessment and the stakeholders' feedback, the project manager could need to revise the project
+    plan to adapt to those changes. If a change affects defined project milestones, the project manager should consult with
+    the stakeholders before committing to the changes.
+&lt;/p&gt;
+&lt;p&gt;
+    Necessary changes can also encompass the need to acquire new resources, to absorb an unplanned effort increase, or be
+    something specialized able to implement a specific change request.
+&lt;/p&gt;</sectionDescription>
+  </sections>
+  <sections xmi:id="_wp2CIMMsEdmdo9HxCRR_Gw" name="Close-out phase" guid="_wp2CIMMsEdmdo9HxCRR_Gw">
+    <sectionDescription>&lt;p&gt;
+    This step is optional and must be performed only when the assessed period coincide with the end of a phase.
+&lt;/p&gt;
+&lt;p&gt;
+    The end of&amp;nbsp;a phase represents a point of synchronization of technical and management expectations and closure for
+    a project. In iterative development, it coincides&amp;nbsp;with the end of an iteration. However, phase ends mark a point
+    when it is possible to consider re-scoping and even re-contracting a project. For example, the inception phase is
+    exploratory and may be appropriately performed under a time-and-materials contract or a cost-plus type of contract. The
+    elaboration phase could be done as a fixed-price contract or a cost-plus contract, depending on the extent to which the
+    development is unusual. By the construction and transition phases, enough is known about the system that fixed-price
+    contracts are more appealing to the acquirer and vendor.
+&lt;/p&gt;
+&lt;p&gt;
+    The phase end is marked by a major milestone and a corresponding milestone review. The degree of formality of
+    these&amp;nbsp;reviews depends on the project. The important thing is to take advantage&amp;nbsp;of this milestone review to
+    achieve agreement among all stakeholders on the current state of the project.
+&lt;/p&gt;</sectionDescription>
+  </sections>
+  <purpose>To assess the results of planned goals and objectives.</purpose>
+</com.ibm.uma:TaskDescription>

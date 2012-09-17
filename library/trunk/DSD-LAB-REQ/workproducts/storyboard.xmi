@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<com.ibm.uma:ArtifactDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:com.ibm.uma="http://www.ibm.com/uma/1.0.2/uma.ecore" xmi:id="-g76ybsYSBJ8cd1inYOJAOA" name="storyboard,_rRqHUNB8EdqUyPR7gE-fIQ" guid="-g76ybsYSBJ8cd1inYOJAOA" changeDate="2006-05-10T10:14:13.203-0300">
+  <mainDescription>&lt;p align=&quot;left&quot;&gt;
+    &lt;font face=&quot;CMR12&quot;&gt;Um storyboard consiste numa serie de desenhos ou imagens que representam como a interface eh
+    utilizada para desempenhar determinada tarefa. Para execucao desse processo eh desejavel que&amp;nbsp; os storyboards
+    tenham o nivel de detalhe ao ponto de incluir as representacoes da interface do usuario, ao ponto de fornecer o
+    embasamento necessario para a documentacao do &lt;strong&gt;Software Requirements Specification&amp;nbsp;&lt;/strong&gt;[Sny03].&lt;/font&gt;
+&lt;/p&gt;
+&lt;p align=&quot;left&quot;&gt;
+    Normalmente sao utilizados para demonstrar todos os passos que o usuario ira executar&amp;nbsp;na execucao de determinada
+    tarefa, oferecendo aos usuarios a possibilidade de revisao&amp;nbsp;da navegabilidade do sistema. &lt;font face=&quot;CMR12&quot;&gt;Porem
+    os usuarios nao podem interagir com os storyboads, apenas visualiza-los. Mas ao&amp;nbsp;adcionar textos aos storyboards os
+    mesmos dao grande suporte na construcao de cenarios[Sny03].&lt;/font&gt;
+&lt;/p&gt;
+&lt;p align=&quot;left&quot;&gt;
+    Dentro da engenharia de requisitos o storyboard e considerado um prototipo descartavel e segundo o [Byr94]
+    os&amp;nbsp;prototipos são úteis pelas seguintes razões:
+&lt;/p&gt;
+&lt;ul&gt;
+    &lt;li&gt;
+        &lt;div align=&quot;left&quot;&gt;
+            Os usuários podem ter uma visão mais amigável visualizando um protótipo do que lendo um SRS. Isso provê um
+            rápido &lt;strong&gt;feedback&lt;/strong&gt;.
+        &lt;/div&gt;
+    &lt;/li&gt;
+    &lt;li&gt;
+        &lt;div align=&quot;left&quot;&gt;
+            Os protótipos antecipam aspectos do comportamento do sistema. Isso produz não apenas respostas, mais sim novos
+            questionamentos. Isso auxilia na validação do SRS.
+        &lt;/div&gt;
+    &lt;/li&gt;
+    &lt;li&gt;
+        &lt;div align=&quot;left&quot;&gt;
+            Um SRS baseado em protótipos tendem a possuir menos mudanças durante o desenvolvimento, diminuindo assim o
+            tempo de desenvolvimento.
+        &lt;/div&gt;
+    &lt;/li&gt;
+&lt;/ul&gt;
+&lt;br align=&quot;left&quot; /&gt;
+&lt;br /&gt;
+&lt;p align=&quot;left&quot;&gt;
+    &lt;font face=&quot;CMR12&quot;&gt;[Sny03] Carolyn Snyder.&lt;/font&gt; &lt;font face=&quot;CMTI12&quot;&gt;Paper Prototyping: The Fast and Easy Way to
+    Design and Refine User Interfaces (The Morgan Kaufmann Series in Interactive Technologies)&lt;/font&gt;&lt;font face=&quot;CMR12&quot;&gt;.
+    Morgan Kaufmann, April 2003.&lt;/font&gt;
+&lt;/p&gt;
+&lt;p align=&quot;left&quot;&gt;
+    &lt;font face=&quot;CMR12&quot;&gt;&lt;font face=&quot;CMR12&quot;&gt;[Byr94] E. R. Byrne. IEEE Standard 830: Recommended practice for software
+    requirements specifications. In&lt;/font&gt; &lt;font face=&quot;CMTI12&quot;&gt;Proceedings: 1st International Conference on Requirements
+    Engineering&lt;/font&gt;&lt;font face=&quot;CMR12&quot;&gt;, page 58. IEEE Computer Society Press, 1994.&lt;/font&gt;&lt;/font&gt;
+&lt;/p&gt;</mainDescription>
+  <purpose>Prototipo de interface de media-fidelidade utilizada como artefato de documetacao.</purpose>
+</com.ibm.uma:ArtifactDescription>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<com.ibm.uma:RoleDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:com.ibm.uma="http://www.ibm.com/uma/1.0.2/uma.ecore" xmi:id="_Fdq-8KX4EdmvhNXG0Oc2uA" name="project_manager,_0a0o0MlgEdmt3adZL5Dmdw" guid="_Fdq-8KX4EdmvhNXG0Oc2uA" changeDate="2005-07-27T21:46:32.905-0700">
+  <skills>&lt;p&gt;
+    A person performing the&amp;nbsp;Project Manager&amp;nbsp;role needs:
+&lt;/p&gt;
+&lt;ul&gt;
+    &lt;li&gt;
+        To be a good facilitator and have&amp;nbsp;good communication (verbally and in writing) skills.
+    &lt;/li&gt;
+    &lt;li&gt;
+        To have leadership and team building capabilities
+    &lt;/li&gt;
+    &lt;li&gt;
+        To have experience in the software development lifecycle
+    &lt;/li&gt;
+    &lt;li&gt;
+        To have good presentation, communication, and negotiation skills
+    &lt;/li&gt;
+    &lt;li&gt;
+        To have conflict resolution and&amp;nbsp;problem solving skills, and to have the ability to make sound decisions under
+        stress.
+    &lt;/li&gt;
+&lt;/ul&gt;</skills>
+  <assignmentApproaches>&lt;p&gt;
+    On agile&amp;nbsp;and small projects, the project manager role is usually played by a&amp;nbsp;single person.
+&lt;/p&gt;
+&lt;p&gt;
+    It is generally a good practice for the project manager to avoid taking on development responsibilities, like the
+    architect responsibilities, in order to ensure that time pressure on management responsibilities doesn't cause
+    development tasks to suffer, and vice versa.
+&lt;/p&gt;</assignmentApproaches>
+</com.ibm.uma:RoleDescription>

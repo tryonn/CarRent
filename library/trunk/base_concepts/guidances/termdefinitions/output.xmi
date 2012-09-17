@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<com.ibm.uma:ContentDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:com.ibm.uma="http://www.ibm.com/uma/1.0.2/uma.ecore" xmi:id="_yPaZGtnmEdmO6L4XMImrsA" name="output,_yPaZGdnmEdmO6L4XMImrsA" guid="_yPaZGtnmEdmO6L4XMImrsA">
+  <mainDescription>(1) Any &lt;a class=&quot;elementLink&quot;
+href=&quot;file://./../../../base_concepts/guidances/termdefinitions/work_product,_H4JXwB_SEdq6CKKKq4D7YA.html&quot;
+guid=&quot;_H4JXwB_SEdq6CKKKq4D7YA&quot;&gt;Work Product&lt;/a&gt;&amp;nbsp;that is the result of a &lt;a
+class=&quot;elementLink&quot; href=&quot;file://./../../../base_concepts/guidances/termdefinitions/task,_x459ktnmEdmO6L4XMImrsA.html&quot;
+guid=&quot;_x459ktnmEdmO6L4XMImrsA&quot;&gt;task&lt;/a&gt;. See: &lt;i&gt;&lt;a class=&quot;elementLink&quot;
+href=&quot;base_concepts/guidances/termdefinitions/deliverable,_yFbWoNnmEdmO6L4XMImrsA.html&quot;
+guid=&quot;_yFbWoNnmEdmO6L4XMImrsA&quot;&gt;deliverable&lt;/a&gt;&lt;/i&gt;.</mainDescription>
+</com.ibm.uma:ContentDescription>

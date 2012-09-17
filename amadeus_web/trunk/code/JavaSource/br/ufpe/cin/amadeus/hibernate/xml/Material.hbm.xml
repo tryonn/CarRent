@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE hibernate-mapping	PUBLIC 
+	"-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+    "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+
+<hibernate-mapping>
+ <class name="br.ufpe.cin.amadeus.system.academic.module.material.Material" table="material">
+ 	<id name="id">
+ 		<column name="sqMaterial" not-null="true" unique="true"/>
+ 		<generator class="increment"/>
+ 	</id>
+ 	
+ 	<property name="contentType">
+ 		<column name="ds_contenttype" length="100" not-null="true" />
+ 	</property>
+ 	
+ 	<property name="postDate">
+ 		<column name="dt_postdate" not-null="true" />
+ 	</property>
+ 	
+ 	<property name="file" type="binary">
+ 		<column name="bb_file"/>
+ 	</property>
+ 	
+ 	<property name="name">
+ 		<column name="nm_material" length="100" not-null="true" />
+ 	</property>
+ 			
+ 	<many-to-one name="author"
+ 		class="br.ufpe.cin.amadeus.system.human_resources.person.Person"
+ 		column="sqPerson" cascade="none" unique="true" lazy="proxy" />
+ 		
+ 	
+ 
+ </class>
+</hibernate-mapping>

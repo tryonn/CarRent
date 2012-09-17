@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<com.ibm.uma:GuidanceDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:com.ibm.uma="http://www.ibm.com/uma/1.0.2/uma.ecore" xmi:id="_fJPGkMM2EdmSIPI87WLu3g" name="software_arch_document,_0dN1gMlgEdmt3adZL5Dmdw" guid="_fJPGkMM2EdmSIPI87WLu3g" changeDate="2006-04-25T14:20:03.265-0300">
+  <mainDescription>&lt;blockquote dir=&quot;ltr&quot; style=&quot;MARGIN-RIGHT: 0px&quot;&gt;
+    &lt;blockquote dir=&quot;ltr&quot; style=&quot;MARGIN-RIGHT: 0px&quot;&gt;
+        &lt;blockquote dir=&quot;ltr&quot; style=&quot;MARGIN-RIGHT: 0px&quot;&gt;
+            &lt;blockquote dir=&quot;ltr&quot; style=&quot;MARGIN-RIGHT: 0px&quot;&gt;
+                &lt;blockquote dir=&quot;ltr&quot; style=&quot;MARGIN-RIGHT: 0px&quot;&gt;
+                    &lt;blockquote dir=&quot;ltr&quot; style=&quot;MARGIN-RIGHT: 0px&quot;&gt;
+                        &lt;h3 class=&quot;MsoTitle&quot;&gt;
+                            &amp;lt;Project Name&amp;gt;
+                        &lt;/h3&gt;
+                    &lt;/blockquote&gt;
+                &lt;/blockquote&gt;
+                &lt;h3 class=&quot;MsoTitle&quot;&gt;
+                    Software Architecture Document
+                &lt;/h3&gt;
+            &lt;/blockquote&gt;
+        &lt;/blockquote&gt;
+    &lt;/blockquote&gt;
+&lt;/blockquote&gt;
+&lt;h3&gt;
+    &lt;a id=&quot;_Toc456598586&quot; name=&quot;_Toc456598586&quot;&gt;&lt;/a&gt;&lt;a id=&quot;_Toc492766840&quot; name=&quot;_Toc492766840&quot;&gt;1.&lt;span     style=&quot;FONT: 7pt 'Times New Roman'&quot;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/span&gt;
+    Introduction&lt;/a&gt;
+&lt;/h3&gt;
+&lt;p class=&quot;InfoBlue&quot;&gt;
+    [The introduction of the &lt;b&gt;Software Architecture Document&lt;/b&gt; provides an overview of the entire &lt;b&gt;Software
+    Architecture Document&lt;/b&gt;. It includes the purpose, scope, definitions, acronyms, abbreviations, references, and
+    overview of the &lt;b&gt;Software Architecture Document&lt;/b&gt;.]
+&lt;/p&gt;
+&lt;h3&gt;
+    &lt;a id=&quot;_Toc492766846&quot; name=&quot;_Toc492766846&quot;&gt;2.&lt;span     style=&quot;FONT: 7pt 'Times New Roman'&quot;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/span&gt;
+    Architectural Representation&lt;/a&gt;
+&lt;/h3&gt;
+&lt;p class=&quot;InfoBlue&quot;&gt;
+    [This section describes what software architecture is for the current system, and how it is represented. Of the
+    &lt;b&gt;Use-Case&lt;/b&gt;, &lt;b&gt;Logical&lt;/b&gt;, &lt;b&gt;Process&lt;/b&gt;, &lt;b&gt;Deployment&lt;/b&gt;, and &lt;b&gt;Implementation Views&lt;/b&gt;, it enumerates the
+    views that are necessary, and for each view, explains what types of model elements it contains.]
+&lt;/p&gt;
+&lt;h3&gt;
+    &lt;a id=&quot;_Toc492766847&quot; name=&quot;_Toc492766847&quot;&gt;3.&lt;span     style=&quot;FONT: 7pt 'Times New Roman'&quot;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/span&gt;
+    Architectural Goals and Constraints&lt;/a&gt;
+&lt;/h3&gt;
+&lt;p class=&quot;InfoBlue&quot;&gt;
+    [This section describes the software requirements and objectives that have some significant impact on the architecture;
+    for example, safety, security, privacy, use of an off-the-shelf product, portability, distribution, and reuse. It also
+    captures the special constraints that may apply: design and implementation strategy, development tools, team structure,
+    schedule, legacy code, and so on.]
+&lt;/p&gt;
+&lt;h3&gt;
+    &lt;a id=&quot;_Toc492766848&quot; name=&quot;_Toc492766848&quot;&gt;4.&lt;span     style=&quot;FONT: 7pt 'Times New Roman'&quot;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/span&gt;
+    Use-Case View&lt;/a&gt;
+&lt;/h3&gt;
+&lt;p class=&quot;InfoBlue&quot;&gt;
+    [This section lists use cases or scenarios from the use-case model if they represent some significant, central
+    functionality of the final system, or if they have a large architectural coverage they exercise many architectural
+    elements or if they stress or illustrate a specific, delicate point of the architecture.]
+&lt;/p&gt;
+&lt;h3&gt;
+    &lt;a id=&quot;_Toc492766850&quot; name=&quot;_Toc492766850&quot;&gt;5.&lt;span     style=&quot;FONT: 7pt 'Times New Roman'&quot;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/span&gt;
+    Logical View&lt;/a&gt;
+&lt;/h3&gt;
+&lt;p class=&quot;InfoBlue&quot;&gt;
+    [This section describes the architecturally significant parts of the design model, such as its decomposition into
+    subsystems and packages. And for each significant package, its decomposition into classes and class utilities. You
+    should introduce architecturally significant classes and describe their responsibilities, as well as a few very
+    important relationships, operations, and attributes.]
+&lt;/p&gt;
+&lt;h4&gt;
+    &lt;a id=&quot;_Toc492766851&quot; name=&quot;_Toc492766851&quot;&gt;5.1&lt;span     style=&quot;FONT: 7pt 'Times New Roman'&quot;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/span&gt;
+    Overview&lt;/a&gt;
+&lt;/h4&gt;
+&lt;p class=&quot;InfoBlue&quot;&gt;
+    [This subsection describes the overall decomposition of the design model in terms of its package hierarchy and layers.]
+&lt;/p&gt;
+&lt;h4&gt;
+    &lt;a id=&quot;_Toc492766852&quot; name=&quot;_Toc492766852&quot;&gt;5.2&lt;span     style=&quot;FONT: 7pt 'Times New Roman'&quot;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/span&gt;
+    Architecturally Significant Design Packages&lt;/a&gt;
+&lt;/h4&gt;
+&lt;p class=&quot;InfoBlue&quot;&gt;
+    [For each significant package, include a subsection with its name, its brief description, and a diagram with all
+    significant classes and packages contained within the package.
+&lt;/p&gt;
+&lt;p class=&quot;InfoBlue&quot;&gt;
+    For each significant class in the package, include its name, brief description, and, optionally, a description of some
+    of its major responsibilities, operations, and attributes.]
+&lt;/p&gt;
+&lt;h4&gt;
+    &lt;a id=&quot;_Toc492766849&quot; name=&quot;_Toc492766849&quot;&gt;5.3&lt;span     style=&quot;FONT: 7pt 'Times New Roman'&quot;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/span&gt;
+    Use-Case Realizations&lt;/a&gt;
+&lt;/h4&gt;
+&lt;p class=&quot;InfoBlue&quot;&gt;
+    [This section illustrates how the software actually works by giving a few selected use-case (or scenario) realizations,
+    and explains how the various design model elements contribute to their functionality.]
+&lt;/p&gt;
+&lt;h3&gt;
+    &lt;a id=&quot;_Toc492766853&quot; name=&quot;_Toc492766853&quot;&gt;6.&lt;span     style=&quot;FONT: 7pt 'Times New Roman'&quot;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/span&gt;
+    Process View&lt;/a&gt;
+&lt;/h3&gt;
+&lt;p class=&quot;InfoBlue&quot;&gt;
+    [This section describes the system's decomposition into lightweight processes (single threads of control) and
+    heavyweight processes (groupings of lightweight processes). Organize the section by groups of processes that
+    communicate or interact. Describe the main modes of communication between processes, such as message passing,
+    interrupts, and rendezvous.]
+&lt;/p&gt;
+&lt;h3&gt;
+    &lt;a id=&quot;_Toc492766854&quot; name=&quot;_Toc492766854&quot;&gt;7.&lt;span     style=&quot;FONT: 7pt 'Times New Roman'&quot;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/span&gt;
+    Deployment View&lt;/a&gt;
+&lt;/h3&gt;
+&lt;p class=&quot;InfoBlue&quot;&gt;
+    [This section describes one or more physical network (hardware) configurations on which the software is deployed and
+    run. It is a view of the Deployment Model. At a minimum for each configuration it should indicate the physical nodes
+    (computers, CPUs) that execute the software and their interconnections (bus, LAN, point-to-point, and so on.) Also
+    include a mapping of the processes of the &lt;b&gt;Process View&lt;/b&gt; onto the physical nodes.]
+&lt;/p&gt;
+&lt;h3&gt;
+    &lt;a id=&quot;_Toc492766855&quot; name=&quot;_Toc492766855&quot;&gt;8.&lt;span     style=&quot;FONT: 7pt 'Times New Roman'&quot;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/span&gt;
+    Implementation View&lt;/a&gt;
+&lt;/h3&gt;
+&lt;p class=&quot;InfoBlue&quot;&gt;
+    [This section describes the overall structure of the implementation model, the decomposition of the software into
+    layers and subsystems in the implementation model, and any architecturally significant components.]
+&lt;/p&gt;
+&lt;h4&gt;
+    &lt;a id=&quot;_Toc492766856&quot; name=&quot;_Toc492766856&quot;&gt;8.1&lt;span     style=&quot;FONT: 7pt 'Times New Roman'&quot;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/span&gt;
+    Overview&lt;/a&gt;
+&lt;/h4&gt;
+&lt;p class=&quot;InfoBlue&quot;&gt;
+    [This subsection names and defines the various layers and their contents, the rules that govern the inclusion to a
+    given layer, and the boundaries between layers. Include a component diagram that shows the relations between layers. ]
+&lt;/p&gt;
+&lt;h4&gt;
+    &lt;a id=&quot;_Toc492766857&quot; name=&quot;_Toc492766857&quot;&gt;8.2&lt;span     style=&quot;FONT: 7pt 'Times New Roman'&quot;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/span&gt;
+    Layers&lt;/a&gt;
+&lt;/h4&gt;
+&lt;p class=&quot;InfoBlue&quot;&gt;
+    [For each layer, include a subsection with its name, an enumeration of the subsystems located in the layer, and a
+    component diagram.]
+&lt;/p&gt;
+&lt;h3&gt;
+    &lt;a id=&quot;_Toc492766858&quot; name=&quot;_Toc492766858&quot;&gt;9.&lt;span     style=&quot;FONT: 7pt 'Times New Roman'&quot;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/span&gt;
+    Data View (optional)&lt;/a&gt;
+&lt;/h3&gt;
+&lt;p class=&quot;InfoBlue&quot;&gt;
+    [A description of the persistent data storage perspective of the system. This section is optional if there is little or
+    no persistent data, or the translation between the Design Model and the Data Model is trivial.]
+&lt;/p&gt;
+&lt;h3&gt;
+    &lt;a id=&quot;_Toc492766859&quot; name=&quot;_Toc492766859&quot;&gt;10.&lt;span     style=&quot;FONT: 7pt 'Times New Roman'&quot;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/span&gt;
+    Size and Performance&lt;/a&gt;
+&lt;/h3&gt;
+&lt;p class=&quot;InfoBlue&quot;&gt;
+    [A description of the major dimensioning characteristics of the software that impact the architecture, as well as the
+    target performance constraints.]
+&lt;/p&gt;
+&lt;h3&gt;
+    &lt;a id=&quot;_Toc492766860&quot; name=&quot;_Toc492766860&quot;&gt;11.&lt;span     style=&quot;FONT: 7pt 'Times New Roman'&quot;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/span&gt;
+    Quality&lt;/a&gt;
+&lt;/h3&gt;
+&lt;p class=&quot;InfoBlue&quot;&gt;
+    [A description of how the software architecture contributes to all capabilities (other than functionality) of the
+    system: extensibility, reliability, portability, and so on. If these characteristics have special significance, such as
+    safety, security or privacy implications, they must be clearly delineated.]
+&lt;/p&gt;
+&lt;h3&gt;
+    &lt;a id=&quot;_Toc492766860&quot; name=&quot;_Toc492766860&quot;&gt;12.&lt;span     style=&quot;FONT: 7pt 'Times New Roman'&quot;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/span&gt;
+    Test&lt;/a&gt; Architecture
+&lt;/h3&gt;
+&lt;p&gt;
+    [A description of the test approach, techniques to be used and the test automation architecture.]
+&lt;/p&gt;</mainDescription>
+</com.ibm.uma:GuidanceDescription>

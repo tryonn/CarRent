@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<com.ibm.uma:ContentDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:com.ibm.uma="http://www.ibm.com/uma/1.0.2/uma.ecore" xmi:id="_m83acBUFEdqrUt4zetC1gg" name="library,_m8lGkBUFEdqrUt4zetC1gg" guid="_m83acBUFEdqrUt4zetC1gg" changeDate="2005-09-07T03:52:29.278-0700">
+  <mainDescription>&lt;p align=&quot;center&quot;&gt;
+    &lt;font face=&quot;Arial, Helvetica, sans-serif&quot;&gt;&lt;img height=&quot;631&quot; src=&quot;resources/packaging_picl.gif&quot; width=&quot;905&quot; /&gt;&lt;/font&gt;
+&lt;/p&gt;
+&lt;p align=&quot;center&quot;&gt;
+    &lt;font face=&quot;Arial, Helvetica, sans-serif&quot;&gt;Illustration of a Library with a Method Configuration highlighted in
+    Red&lt;/font&gt;
+&lt;/p&gt;</mainDescription>
+</com.ibm.uma:ContentDescription>

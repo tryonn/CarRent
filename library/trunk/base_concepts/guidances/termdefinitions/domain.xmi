@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<com.ibm.uma:ContentDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:com.ibm.uma="http://www.ibm.com/uma/1.0.2/uma.ecore" xmi:id="_yHEVYtnmEdmO6L4XMImrsA" name="domain,_yHEVYdnmEdmO6L4XMImrsA" guid="_yHEVYtnmEdmO6L4XMImrsA">
+  <mainDescription>&lt;p&gt;
+    (1)An area of knowledge or activity characterized by a family of related values.
+&lt;/p&gt;
+&lt;p&gt;
+    (2)Refineable hierarchy grouping related &lt;a class=&quot;elementLink&quot;
+    href=&quot;file://./../../../base_concepts/guidances/termdefinitions/work_product,_H4JXwB_SEdq6CKKKq4D7YA.html&quot;
+    guid=&quot;_H4JXwB_SEdq6CKKKq4D7YA&quot;&gt;Work Product&lt;/a&gt;s.&amp;nbsp;
+&lt;/p&gt;</mainDescription>
+</com.ibm.uma:ContentDescription>

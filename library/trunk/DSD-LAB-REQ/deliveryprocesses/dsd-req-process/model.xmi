@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:com.ibm.uma="http://www.ibm.com/uma/1.0.2/uma.ecore" xmlns:com.ibm.uma.resourcemanager="http:///com/ibm/uma/resourcemanager.ecore">
+  <com.ibm.uma.resourcemanager:ResourceManager xmi:id="_VxlR4NUuEdqeD-T9MUVwYA" guid="_VxlR4NUuEdqeD-T9MUVwYA">
+    <resourceDescriptors xmi:id="_VxlR4dUuEdqeD-T9MUVwYA" id="-yIt-RSLGS4P4xFxKVnDlaw" uri="content.xmi"/>
+  </com.ibm.uma.resourcemanager:ResourceManager>
+  <com.ibm.uma:ProcessComponent xmi:id="_Vq4M8NUuEdqeD-T9MUVwYA" name="dsd-req-process" guid="_Vq4M8NUuEdqeD-T9MUVwYA">
+    <processElements xsi:type="com.ibm.uma:RoleDescriptor" xmi:id="_V77h4NVIEdqeD-T9MUVwYA" name="designer" guid="_V77h4NVIEdqeD-T9MUVwYA" presentationName="Designer" superActivities="_Vq4M8dUuEdqeD-T9MUVwYA">
+      <Role href="uma://_BWX9MMVwEdqoWucqOCtw5Q#_Pwc68MWNEdqoWucqOCtw5Q"/>
+    </processElements>
+    <processElements xsi:type="com.ibm.uma:RoleDescriptor" xmi:id="_V77h4dVIEdqeD-T9MUVwYA" name="engenheiro_requisitos" guid="_V77h4dVIEdqeD-T9MUVwYA" presentationName="Engenheiro de Requisitos" superActivities="_Vq4M8dUuEdqeD-T9MUVwYA"/>
+    <processElements xsi:type="com.ibm.uma:RoleDescriptor" xmi:id="_V77h4tVIEdqeD-T9MUVwYA" name="cliente" guid="_V77h4tVIEdqeD-T9MUVwYA" presentationName="Cliente" superActivities="_Vq4M8dUuEdqeD-T9MUVwYA"/>
+    <processElements xsi:type="com.ibm.uma:WorkProductDescriptor" xmi:id="_V8hXwNVIEdqeD-T9MUVwYA" name="storyboard" guid="_V8hXwNVIEdqeD-T9MUVwYA" presentationName="Storyboard" superActivities="_Vq4M8dUuEdqeD-T9MUVwYA">
+      <WorkProduct xsi:type="com.ibm.uma:Artifact" href="uma://_BWX9MMVwEdqoWucqOCtw5Q#_rRqHUNB8EdqUyPR7gE-fIQ"/>
+    </processElements>
+    <processElements xsi:type="com.ibm.uma:WorkProductDescriptor" xmi:id="_V8hXwdVIEdqeD-T9MUVwYA" name="requisitos_funcionais_iniciais" guid="_V8hXwdVIEdqeD-T9MUVwYA" presentationName="requisitos_funcionais" superActivities="_Vq4M8dUuEdqeD-T9MUVwYA">
+      <WorkProduct xsi:type="com.ibm.uma:Artifact" href="uma://_BWX9MMVwEdqoWucqOCtw5Q#_nYsBENPyEdqX78fvMWY_1g"/>
+    </processElements>
+    <processElements xsi:type="com.ibm.uma:WorkProductDescriptor" xmi:id="_V8hXwtVIEdqeD-T9MUVwYA" name="esboco_storyboard" guid="_V8hXwtVIEdqeD-T9MUVwYA" presentationName="Esboço para o Storyboard" superActivities="_Vq4M8dUuEdqeD-T9MUVwYA">
+      <WorkProduct xsi:type="com.ibm.uma:Artifact" href="uma://_BWX9MMVwEdqoWucqOCtw5Q#_EbJUQNB9EdqUyPR7gE-fIQ"/>
+    </processElements>
+    <processElements xsi:type="com.ibm.uma:WorkProductDescriptor" xmi:id="_V8hXw9VIEdqeD-T9MUVwYA" name="ata_reuniao_stakeholder" guid="_V8hXw9VIEdqeD-T9MUVwYA" presentationName="Ata de Reunião do Stakeholder" superActivities="_Vq4M8dUuEdqeD-T9MUVwYA">
+      <WorkProduct xsi:type="com.ibm.uma:Artifact" href="uma://_BWX9MMVwEdqoWucqOCtw5Q#_-_8P0NB8EdqUyPR7gE-fIQ"/>
+    </processElements>
+    <process xsi:type="com.ibm.uma:DeliveryProcess" xmi:id="_Vq4M8dUuEdqeD-T9MUVwYA" name="dsd-req-process" guid="_Vq4M8dUuEdqeD-T9MUVwYA" presentationName="dsd-req-process" breakdownElements="_V77h4NVIEdqeD-T9MUVwYA _V77h4dVIEdqeD-T9MUVwYA _V77h4tVIEdqeD-T9MUVwYA _V8hXwNVIEdqeD-T9MUVwYA _V8hXwdVIEdqeD-T9MUVwYA _V8hXwtVIEdqeD-T9MUVwYA _V8hXw9VIEdqeD-T9MUVwYA">
+      <presentation xsi:type="com.ibm.uma:DeliveryProcessDescription" xmi:id="-yIt-RSLGS4P4xFxKVnDlaw" href="uma://-yIt-RSLGS4P4xFxKVnDlaw#-yIt-RSLGS4P4xFxKVnDlaw"/>
+      <defaultContext href="uma://_y62TUKVPEdmMZJIzZ1W7Pw#_70ZXINUtEdqeD-T9MUVwYA"/>
+      <validContext href="uma://_y62TUKVPEdmMZJIzZ1W7Pw#_70ZXINUtEdqeD-T9MUVwYA"/>
+    </process>
+  </com.ibm.uma:ProcessComponent>
+</xmi:XMI>

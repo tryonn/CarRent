@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<com.ibm.uma:PracticeDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:com.ibm.uma="http://www.ibm.com/uma/1.0.2/uma.ecore" xmi:id="_qbcQEMM1EdmSIPI87WLu3g" name="managing_risk,_0bf-QMlgEdmt3adZL5Dmdw" guid="_qbcQEMM1EdmSIPI87WLu3g" changeDate="2005-07-07T13:55:35.814-0700">
+  <mainDescription>&lt;p&gt;
+    As life, every project contains a&amp;nbsp;part of uncertainty. The role of &lt;strong&gt;Risk Management&lt;/strong&gt; is to deal
+    with this uncertainty to try to limit its influence on the project.
+&lt;/p&gt;
+&lt;h3&gt;
+    Risk&amp;nbsp;Management Strategies
+&lt;/h3&gt;
+&lt;p&gt;
+    The project manager will not be just identifying the risks, but he will be also defining the strategy he will be using
+    to deal with each risk
+&lt;/p&gt;
+&lt;p&gt;
+    Project&amp;nbsp;managers usually use one of these&amp;nbsp;common strategies to deal with their risks:
+&lt;/p&gt;
+&lt;ul&gt;
+    &lt;li&gt;
+        &lt;b&gt;Risk avoidance&lt;/b&gt;: reorganize the project so that it cannot be affected by that risk.
+    &lt;/li&gt;
+    &lt;li style=&quot;LIST-STYLE-TYPE: none&quot;&gt;
+        &lt;ul&gt;
+            &lt;li style=&quot;LIST-STYLE-TYPE: none&quot;&gt;
+                &lt;ul&gt;
+                    &lt;li&gt;
+                        For example: you&amp;nbsp;need to use a&amp;nbsp;new framework.&amp;nbsp;A &lt;strong&gt;risk avoidance&lt;/strong&gt;
+                        strategy could be to drop this new framework and using another one that is well-known by the
+                        team.&amp;nbsp;
+                    &lt;/li&gt;
+                &lt;/ul&gt;
+            &lt;/li&gt;
+        &lt;/ul&gt;
+    &lt;/li&gt;
+    &lt;li&gt;
+        &lt;b&gt;Risk transfer&lt;/b&gt;: reorganize the project so that someone or something else bears the risk.
+    &lt;/li&gt;
+    &lt;li style=&quot;LIST-STYLE-TYPE: none&quot;&gt;
+        &lt;ul&gt;
+            &lt;li style=&quot;LIST-STYLE-TYPE: none&quot;&gt;
+                &lt;ul&gt;
+                    &lt;li&gt;
+                        For example:&amp;nbsp;the application you are developing need to&amp;nbsp;communicate with&amp;nbsp;a legacy
+                        system. Rather that taking the risk. A&amp;nbsp;&lt;strong&gt;risk transfer&lt;/strong&gt; strategy could be to
+                        make the legacy support team responsible of providing the APIs to access the legacy system.
+                    &lt;/li&gt;
+                &lt;/ul&gt;
+            &lt;/li&gt;
+        &lt;/ul&gt;
+    &lt;/li&gt;
+    &lt;li&gt;
+        &lt;strong&gt;Risk mitigation&lt;/strong&gt;: define a mitigation&amp;nbsp;plan to to reduce the probability or the impact of the
+        risk.
+    &lt;/li&gt;
+    &lt;li style=&quot;LIST-STYLE-TYPE: none&quot;&gt;
+        &lt;div style=&quot;MARGIN-LEFT: 2em&quot;&gt;
+            &lt;ul&gt;
+                &lt;li&gt;
+                    &amp;nbsp;For example: you need to use a new middleware.&amp;nbsp;A &lt;strong&gt;risk mitigation&lt;/strong&gt; strategy
+                    could be to build a prototype using this new middleware to validate that he will provide the features
+                    you need for your application.
+                &lt;/li&gt;
+            &lt;/ul&gt;
+        &lt;/div&gt;
+    &lt;/li&gt;
+    &lt;li&gt;
+        &lt;b&gt;Risk acceptance&lt;/b&gt;: decide to live with the risk, and define a&amp;nbsp;&amp;nbsp;contingency plan.
+    &lt;/li&gt;
+    &lt;li style=&quot;LIST-STYLE-TYPE: none&quot;&gt;
+        &lt;div style=&quot;MARGIN-LEFT: 2em&quot;&gt;
+            &lt;ul&gt;
+                &lt;li&gt;
+                    For example: your integrator is the only one who knows how to integrate the different&amp;nbsp;components
+                    of your applicaiton. A &lt;strong&gt;contingency plan&lt;/strong&gt;, could be to identify a resource on another
+                    project that you could bring on if your integrator is sick, leave the company, etc.
+                &lt;/li&gt;
+            &lt;/ul&gt;
+        &lt;/div&gt;
+    &lt;/li&gt;
+&lt;/ul&gt;</mainDescription>
+</com.ibm.uma:PracticeDescription>

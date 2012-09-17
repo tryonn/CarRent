@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<com.ibm.uma:TaskDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:com.ibm.uma="http://www.ibm.com/uma/1.0.2/uma.ecore" xmi:id="-YtExqQ7lWjbW8naf00v1rQ" name="retrabalho_requisitos,_vOf84Ne6Edq2GYRwhl5Hnw" guid="-YtExqQ7lWjbW8naf00v1rQ" changeDate="2006-05-09T21:19:11.375-0300">
+  <mainDescription>fs</mainDescription>
+  <sections xmi:id="_isX1wNuvEdqt8-ifsyd-Mw" name="Entender ata de inspecao dos requisitos" guid="_isX1wNuvEdqt8-ifsyd-Mw"/>
+  <sections xmi:id="_lKLU8NuvEdqt8-ifsyd-Mw" name="Resolver conflitos pedentes em ata caso existam" guid="_lKLU8NuvEdqt8-ifsyd-Mw"/>
+  <sections xmi:id="_q3GbgNuvEdqt8-ifsyd-Mw" name="Corrigir erros encontrados" guid="_q3GbgNuvEdqt8-ifsyd-Mw"/>
+  <sections xmi:id="_0ZmsgNuvEdqt8-ifsyd-Mw" name="Publicar artefato e disponibiliza-lo para a validação" guid="_0ZmsgNuvEdqt8-ifsyd-Mw"/>
+</com.ibm.uma:TaskDescription>

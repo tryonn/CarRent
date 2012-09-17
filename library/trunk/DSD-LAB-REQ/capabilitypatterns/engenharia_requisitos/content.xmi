@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:com.ibm.uma="http://www.ibm.com/uma/1.0.2/uma.ecore">
+  <com.ibm.uma:ProcessDescription xmi:id="-Mt_nd9xmrahyRYnNFlZEjA" name="elicitar_requisitos,_xyyS0dUuEdqeD-T9MUVwYA" guid="-Mt_nd9xmrahyRYnNFlZEjA">
+    <mainDescription>&lt;p&gt;
+    &lt;span lang=&quot;PT-BR&quot;&gt;O&amp;nbsp;processo de engenharia de requisitos proposto, chamado &lt;b     style=&quot;mso-bidi-font-weight: normal&quot;&gt;&lt;i style=&quot;mso-bidi-font-style: normal&quot;&gt;DSD-Req-Process (Distributed Software
+    Development Requirements Process)&lt;/i&gt;&lt;/b&gt; aborda o desenvolvimento distribuido de software, sendo guiado pela produção
+    de artefatos e um conjunto de ferramentas colaborativas que diminuam a distancia geografica entre as unidades de
+    desenvolvimento. Também são&lt;span style=&quot;mso-spacerun: yes&quot;&gt;&amp;nbsp;&lt;/span&gt; fornecidos templates auto-explicativos que
+    devem ser utilizados pelos analistas para apoiar e conduzir a realização das atividades. Com o desenvolvimento da
+    proposta, procuramos criar um processo que fosse genérico o suficiente para atender diversos domínios e tipos de
+    aplicações. Desta forma, podemos dizer que a principal contribuição deste processo é fornecer um conjunto coerente de
+    atividades e artefatos direcionados para a Engenharia de Requisitos no contexto de desenvolvimento distribuido de
+    software.&lt;/span&gt;
+&lt;/p&gt;
+&lt;p class=&quot;CorpoTexto&quot; style=&quot;MARGIN-BOTTOM: 0pt&quot;&gt;
+    &lt;span lang=&quot;PT-BR&quot;&gt;Como procuramos propor um processo completo para ser customizado a toda e qualquer aplicação, é
+    importante que a equipe de desenvolvimento faça uma análise inicial do processo como um todo e avalie que atividades e
+    artefatos devem ser instanciados para o projeto, de acordo com suas necessidades.&lt;/span&gt;
+&lt;/p&gt;
+&lt;p class=&quot;CorpoTexto&quot; style=&quot;MARGIN-BOTTOM: 0pt&quot;&gt;
+    O escopo desse processo nao consegue abranger todas as fases da engenharia de requisitos de forma distribuida. Sendo
+    assim esse processo possui duas iteracoes distintas, uma delas&amp;nbsp;a ser realizada de&amp;nbsp;forma&amp;nbsp;presencial e a
+    outra de&amp;nbsp;forma distribuida.&amp;nbsp;De maneira presencial foi tratada a elicitacao dos requisitos (Earlier
+    Requirements), pois nessa fase&amp;nbsp;o contato com o cliente deve ser o mais proximo possivel.&amp;nbsp;As fases de
+    documentacao e validacao dos requisitos (Later Requirements), ja possuem&amp;nbsp;artefatos de entrada gerados durante a
+    elicitacao o que auxilia na realizacao dessas atividades de forma distribuida. (Veja a figura)
+&lt;/p&gt;
+&lt;p class=&quot;CorpoTexto&quot; style=&quot;MARGIN-BOTTOM: 0pt&quot;&gt;
+    &lt;img height=&quot;293&quot; alt=&quot;Escopo do processo proposto&quot; src=&quot;./resources/scope_process.jpg&quot; width=&quot;496&quot; /&gt;
+&lt;/p&gt;
+&lt;br class=&quot;CorpoTexto&quot; style=&quot;MARGIN-BOTTOM: 0pt&quot; /&gt;
+&lt;p class=&quot;MsoBodyText&quot; style=&quot;TEXT-INDENT: 35.4pt; LINE-HEIGHT: 150%&quot;&gt;
+    &lt;span lang=&quot;PT-BR&quot;&gt;Uma descrição completa do processo de requisitos deve incluir as atividades que são executadas,&lt;span     style=&quot;mso-spacerun: yes&quot;&gt;&amp;nbsp;&lt;/span&gt; o responsável por cada uma das atividades, suas entradas e saídas e as
+    ferramentas usadas para suportar a engenharia de requisitos.&lt;/span&gt;
+&lt;/p&gt;
+&lt;br /&gt;</mainDescription>
+    <purpose>&lt;p&gt;
+    Fornecer diretrizes para que as etapas de documentacao e validacao dos requisitos sejam realizadas de forma efetiva em
+    ambiente distribuido de desenvolvimento.
+&lt;/p&gt;
+&lt;p&gt;
+    Permitir o entendimento dos requisitos entre as unidades distribuidas de desenvolvimento.
+&lt;/p&gt;
+&lt;p&gt;
+    Fornecer mecanismos de cooperacao tecnica entre as unidades distribuidas, no que se refere a engenharia de requisitos.
+&lt;/p&gt;</purpose>
+    <scope>&lt;p&gt;
+    Processo de Engenharia de Requisitos abrangendo as fases de &amp;nbsp;Elicitacao, Documentacao e&amp;nbsp; Validacao.
+&lt;/p&gt;
+&lt;p&gt;
+    A elicitacao e realizada de maneira presencial com o cliente e demais participantes da fase de elicitacao e a
+    documentacao e validacao, sao realizadas de maneira distribuida atraves de ferramentas colaborativas.
+&lt;/p&gt;</scope>
+  </com.ibm.uma:ProcessDescription>
+  <com.ibm.uma:ActivityDescription xmi:id="-9I_OzmgjmWs6ZpEGGY7Jdw" name="etapa_presencial,_7DWrANVJEdqeD-T9MUVwYA" guid="-9I_OzmgjmWs6ZpEGGY7Jdw">
+    <mainDescription>&lt;p&gt;
+    O objetivo dessa atividade eh elicitar os requisitos funcionais do sistema atraves de uma &lt;strong&gt;Base Formal de
+    Conhecimento&lt;/strong&gt; e com os clientes envolvidos.&lt;br /&gt;
+    &lt;font face=&quot;Times New Roman&quot; size=&quot;3&quot;&gt;O objetivo dessa atividade é definir os requisitos do sistema, juntamente com
+    os&lt;/font&gt; &lt;i&gt;&lt;font face=&quot;Times New Roman&quot; size=&quot;3&quot;&gt;stakeholders&lt;/font&gt;&lt;/i&gt; &lt;font face=&quot;Times New Roman&quot;     size=&quot;3&quot;&gt;envolvidos. Através de consultas&amp;nbsp;a base de conhecimento informal, o engenheiro de&lt;/font&gt;
+&lt;/p&gt;
+&lt;p align=&quot;left&quot;&gt;
+    &lt;font face=&quot;Times New Roman&quot; size=&quot;3&quot;&gt;requisitos pode ver quais técnicas de elicitação foram mais bem sucedidas em
+    experiências passadas, além de outras informações úteis para essa atividade. Através da base de&lt;/font&gt;
+&lt;/p&gt;
+&lt;p align=&quot;left&quot;&gt;
+    &lt;font face=&quot;Times New Roman&quot; size=&quot;3&quot;&gt;informações de negócio, podem-se visualizar todas as informações coletadas sobre
+    o projeto.&lt;/font&gt;
+&lt;/p&gt;
+&lt;p align=&quot;left&quot;&gt;
+    &lt;font face=&quot;Times New Roman&quot; size=&quot;3&quot;&gt;Durante essa atividade deve-se tentar identificar os requisitos através de
+    interações&lt;/font&gt;
+&lt;/p&gt;
+&lt;p align=&quot;left&quot;&gt;
+    &lt;font face=&quot;Times New Roman&quot; size=&quot;3&quot;&gt;com os&lt;/font&gt; &lt;i&gt;&lt;font face=&quot;Times New Roman&quot; size=&quot;3&quot;&gt;stakeholders.&lt;/font&gt;&lt;/i&gt;
+    &lt;font face=&quot;Times New Roman&quot; size=&quot;3&quot;&gt;Opcionalmente, a análise de produtos e ferramentas existentes pode ser&lt;/font&gt;
+&lt;/p&gt;
+&lt;p align=&quot;left&quot;&gt;
+    &lt;font face=&quot;Times New Roman&quot; size=&quot;3&quot;&gt;realizada. Além disso, deve-se tentar estruturar um vocabulário do domínio, para
+    o fácil&lt;/font&gt;
+&lt;/p&gt;
+&lt;p align=&quot;left&quot;&gt;
+    &lt;font face=&quot;Times New Roman&quot; size=&quot;3&quot;&gt;entendimento dos termos utilizados, e um modelo de casos de uso para auxiliar na
+    definição&lt;/font&gt;
+&lt;/p&gt;
+&lt;p align=&quot;left&quot;&gt;
+    &lt;font face=&quot;Times New Roman&quot; size=&quot;3&quot;&gt;do domínio do problema e a solução a ser adotada. Ainda, solicitações de mudança
+    podem ter&lt;/font&gt;
+&lt;/p&gt;
+&lt;p align=&quot;left&quot;&gt;
+    &lt;font face=&quot;Times New Roman&quot; size=&quot;3&quot;&gt;originado uma nova necessidade de definição de requisitos.&lt;/font&gt;
+&lt;/p&gt;
+&lt;br /&gt;
+&lt;p class=&quot;CorpoTexto&quot; style=&quot;MARGIN-BOTTOM: 0pt&quot;&gt;
+    &lt;span lang=&quot;PT-BR&quot;&gt;A atividade &lt;i&gt;Descobrir Requisitos de Interface&lt;/i&gt; é fundamental no desenvolvimento de aplicações
+    onde a interface homem-máquina deve ser bem definida, como é o caso de aplicações Web, por exemplo. Esta atividade é
+    realizada pelo Engenheiro de Requisitos em conjunto com o projetista de interface, com o objetivo de capturar as
+    informações necessárias para o projeto de interface, abrangendo questões como usabilidade, navegabilidade e projeto
+    gráfico, além de serem identificadas as necessidades tecnológicas de interface. A atividade &lt;i&gt;Encontrar Requisitos
+    Não-Funcionais&lt;/i&gt; é sugerida devido à importância que existe na identificação dos Requisitos Não-Funcionais para
+    diversos tipos de aplicações, principalmente àquelas direcionadas à Web.&lt;/span&gt;
+&lt;/p&gt;</mainDescription>
+    <purpose>Elicitar os requisitos do sistema e desenvolver e validar um prototipo (storyboard) com as funcionalidades do sistema. Esse
+prototipo servira como artefato de entrada para as demias atividades do processo de engenharia de requisitos.</purpose>
+    <howtoStaff>Reunioes</howtoStaff>
+  </com.ibm.uma:ActivityDescription>
+  <com.ibm.uma:ActivityDescription xmi:id="-5kpGYVaTLRyu82ETWgvtzQ" name="Documentação,_Hoq4cdeJEdq2GYRwhl5Hnw" guid="-5kpGYVaTLRyu82ETWgvtzQ">
+    <mainDescription>&lt;P class=p1a style=&quot;TEXT-INDENT: 14.2pt&quot;&gt;&lt;SPAN lang=PT-BR style=&quot;mso-ansi-language: PT-BR&quot;&gt;&lt;?xml:namespace prefix = o /&gt;&lt;o:p&gt;&lt;/o:p&gt;&lt;/SPAN&gt;&lt;/P&gt;
+&lt;P class=p1a style=&quot;TEXT-INDENT: 14.2pt&quot;&gt;&lt;SPAN lang=PT-BR style=&quot;mso-ansi-language: PT-BR&quot;&gt;O documento de requisitos de software - às vezes chamado de &lt;I style=&quot;mso-bidi-font-style: normal&quot;&gt;SRS&lt;/I&gt; ou especificação de requisitos de software - é a declaração oficial do que é exigido dos desenvolvedores do sistema. Ele deve incluir uma descrição detalhada dos requisitos do cliente do próprio sistema. Em alguns casos, eles são integrados em uma única descrição [Somm04].&lt;o:p&gt;&lt;/o:p&gt;&lt;/SPAN&gt;&lt;/P&gt;
+&lt;P class=p1a&gt;&lt;SPAN lang=PT-BR style=&quot;mso-ansi-language: PT-BR&quot;&gt;Um &lt;I style=&quot;mso-bidi-font-style: normal&quot;&gt;SRS&lt;/I&gt; bem documentado deve prover os seguintes benefícios [IEEE830]:&lt;o:p&gt;&lt;/o:p&gt;&lt;/SPAN&gt;&lt;/P&gt;
+&lt;P class=MsoNormal style=&quot;MARGIN-LEFT: 47.35pt; TEXT-INDENT: -18pt; mso-list: l0 level1 lfo1; tab-stops: list 47.35pt&quot;&gt;&lt;SPAN lang=PT-BR style=&quot;FONT-FAMILY: Symbol; mso-ansi-language: PT-BR; mso-fareast-font-family: Symbol; mso-bidi-font-family: Symbol&quot;&gt;&lt;SPAN style=&quot;mso-list: Ignore&quot;&gt;·&lt;SPAN style=&quot;FONT: 7pt 'Times New Roman'&quot;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; &lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;SPAN lang=PT-BR style=&quot;mso-ansi-language: PT-BR&quot;&gt;Estabelecer a concordância entre clientes e envolvidos no desenvolvimento do software, documentando o que realmente deve ser provido;&lt;o:p&gt;&lt;/o:p&gt;&lt;/SPAN&gt;&lt;/P&gt;
+&lt;P class=MsoNormal style=&quot;MARGIN-LEFT: 47.35pt; TEXT-INDENT: -18pt; TEXT-ALIGN: left; mso-list: l0 level1 lfo1; tab-stops: list 47.35pt&quot; align=left&gt;&lt;SPAN lang=PT-BR style=&quot;FONT-FAMILY: Symbol; mso-ansi-language: PT-BR; mso-fareast-font-family: Symbol; mso-bidi-font-family: Symbol&quot;&gt;&lt;SPAN style=&quot;mso-list: Ignore&quot;&gt;·&lt;SPAN style=&quot;FONT: 7pt 'Times New Roman'&quot;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; &lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;SPAN lang=PT-BR style=&quot;mso-ansi-language: PT-BR&quot;&gt;Reduzir o esforço de desenvolvimento;&lt;o:p&gt;&lt;/o:p&gt;&lt;/SPAN&gt;&lt;/P&gt;
+&lt;P class=MsoNormal style=&quot;MARGIN-LEFT: 47.35pt; TEXT-INDENT: -18pt; TEXT-ALIGN: left; mso-list: l0 level1 lfo1; tab-stops: list 47.35pt&quot; align=left&gt;&lt;SPAN lang=PT-BR style=&quot;FONT-FAMILY: Symbol; mso-ansi-language: PT-BR; mso-fareast-font-family: Symbol; mso-bidi-font-family: Symbol&quot;&gt;&lt;SPAN style=&quot;mso-list: Ignore&quot;&gt;·&lt;SPAN style=&quot;FONT: 7pt 'Times New Roman'&quot;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; &lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;SPAN lang=PT-BR style=&quot;mso-ansi-language: PT-BR&quot;&gt;Estabelecer subsídios para estimar custo e prazo;&lt;o:p&gt;&lt;/o:p&gt;&lt;/SPAN&gt;&lt;/P&gt;
+&lt;P class=MsoNormal style=&quot;MARGIN-LEFT: 47.35pt; TEXT-INDENT: -18pt; mso-list: l0 level1 lfo1; tab-stops: list 47.35pt&quot;&gt;&lt;SPAN lang=PT-BR style=&quot;FONT-FAMILY: Symbol; mso-ansi-language: PT-BR; mso-fareast-font-family: Symbol; mso-bidi-font-family: Symbol&quot;&gt;&lt;SPAN style=&quot;mso-list: Ignore&quot;&gt;·&lt;SPAN style=&quot;FONT: 7pt 'Times New Roman'&quot;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; &lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;SPAN lang=PT-BR style=&quot;mso-ansi-language: PT-BR&quot;&gt;Fornecer uma versão comum para todos os envolvidos no projeto, visando validação e verificação;&lt;o:p&gt;&lt;/o:p&gt;&lt;/SPAN&gt;&lt;/P&gt;
+&lt;P class=MsoNormal style=&quot;MARGIN-LEFT: 47.35pt; TEXT-INDENT: -18pt; TEXT-ALIGN: left; mso-list: l0 level1 lfo1; tab-stops: list 47.35pt&quot; align=left&gt;&lt;SPAN lang=PT-BR style=&quot;FONT-FAMILY: Symbol; mso-ansi-language: PT-BR; mso-fareast-font-family: Symbol; mso-bidi-font-family: Symbol&quot;&gt;&lt;SPAN style=&quot;mso-list: Ignore&quot;&gt;·&lt;SPAN style=&quot;FONT: 7pt 'Times New Roman'&quot;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; &lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;SPAN lang=PT-BR style=&quot;mso-ansi-language: PT-BR&quot;&gt;Facilitar a transferência de desenvolvimento;&lt;o:p&gt;&lt;/o:p&gt;&lt;/SPAN&gt;&lt;/P&gt;
+&lt;P class=MsoNormal style=&quot;MARGIN-LEFT: 47.35pt; TEXT-INDENT: -18pt; TEXT-ALIGN: left; mso-list: l0 level1 lfo1; tab-stops: list 47.35pt&quot; align=left&gt;&lt;SPAN lang=PT-BR style=&quot;FONT-FAMILY: Symbol; mso-ansi-language: PT-BR; mso-fareast-font-family: Symbol; mso-bidi-font-family: Symbol&quot;&gt;&lt;SPAN style=&quot;mso-list: Ignore&quot;&gt;·&lt;SPAN style=&quot;FONT: 7pt 'Times New Roman'&quot;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; &lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;SPAN lang=PT-BR style=&quot;mso-ansi-language: PT-BR&quot;&gt;Servir de base para futuras melhorias.&lt;o:p&gt;&lt;/o:p&gt;&lt;/SPAN&gt;&lt;/P&gt;
+&lt;P class=p1a&gt;&lt;SPAN lang=PT-BR style=&quot;mso-ansi-language: PT-BR&quot;&gt;Como visto nos benefícios listados pela [IEEE830], o &lt;I style=&quot;mso-bidi-font-style: normal&quot;&gt;SRS&lt;/I&gt; deve prover o suporte necessário para a validação dos requisitos entre os &lt;I style=&quot;mso-bidi-font-style: normal&quot;&gt;stakeholders&lt;/I&gt; do sistema.&lt;o:p&gt;&lt;/o:p&gt;&lt;/SPAN&gt;&lt;/P&gt;
+&lt;P class=p1a style=&quot;TEXT-INDENT: 14.2pt&quot;&gt;&amp;nbsp;&lt;/P&gt;</mainDescription>
+  </com.ibm.uma:ActivityDescription>
+  <com.ibm.uma:DescriptorDescription xmi:id="-KDI8wzkbTR4WyRQmEhLbgw" name="desenvolver_storyboad,_WFlN8NeJEdq2GYRwhl5Hnw" guid="-KDI8wzkbTR4WyRQmEhLbgw">
+    <refinedDescription>&lt;P class=p1a style=&quot;TEXT-INDENT: 14.2pt&quot;&gt;&lt;SPAN lang=PT-BR style=&quot;mso-ansi-language: PT-BR&quot;&gt;A prototipação é usualmente utilizada para verificar a interpretação do analista de sistemas, assim como elicitar novos requisitos, possibilitando ao &lt;I style=&quot;mso-bidi-font-style: normal&quot;&gt;stakeholder&lt;/I&gt; fornecer um &lt;I style=&quot;mso-bidi-font-style: normal&quot;&gt;feedback&lt;/I&gt; e sugestões de melhorias para a resolução dos problemas encontrados no protótipo [ABD+04]. Combinada com outras técnicas, uma instância de um protótipo pode ser usada para provocar discussões em grupos de elicitação [NE00].&lt;?xml:namespace prefix = o /&gt;&lt;o:p&gt;&lt;/o:p&gt;&lt;/SPAN&gt;&lt;/P&gt;
+&lt;P class=p1a style=&quot;TEXT-INDENT: 14.2pt&quot;&gt;&lt;SPAN lang=PT-BR style=&quot;mso-ansi-language: PT-BR&quot;&gt;O principal uso dos protótipos é ajudar os clientes e desenvolvedores a entenderem os requisitos do sistema, reduzindo o risco de re-trabalho [Som04]. Os desentendimentos entre usuários e desenvolvedores são expostos nos protótipos, identificando assim defeitos e confusões nos requisitos elicitados.&lt;o:p&gt;&lt;/o:p&gt;&lt;/SPAN&gt;&lt;/P&gt;
+&lt;P class=p1a style=&quot;TEXT-INDENT: 14.2pt&quot;&gt;&lt;SPAN lang=PT-BR style=&quot;mso-ansi-language: PT-BR&quot;&gt;Segundo o padrão [IEEE830], os protótipos são úteis pelas seguintes razões:&lt;o:p&gt;&lt;/o:p&gt;&lt;/SPAN&gt;&lt;/P&gt;
+&lt;P class=p1a style=&quot;MARGIN-LEFT: 36pt; TEXT-INDENT: -18pt; mso-list: l0 level1 lfo1; tab-stops: list 36.0pt&quot;&gt;&lt;SPAN lang=PT-BR style=&quot;FONT-FAMILY: Symbol; mso-ansi-language: PT-BR; mso-fareast-font-family: Symbol; mso-bidi-font-family: Symbol&quot;&gt;&lt;SPAN style=&quot;mso-list: Ignore&quot;&gt;·&lt;SPAN style=&quot;FONT: 7pt 'Times New Roman'&quot;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; &lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;SPAN lang=PT-BR style=&quot;mso-ansi-language: PT-BR&quot;&gt;Os protótipos antecipam aspectos do comportamento do sistema. Isso produz não apenas respostas, mas sim novos questionamentos;&lt;o:p&gt;&lt;/o:p&gt;&lt;/SPAN&gt;&lt;/P&gt;
+&lt;P class=p1a style=&quot;MARGIN-LEFT: 36pt; TEXT-INDENT: -18pt; mso-list: l0 level1 lfo1; tab-stops: list 36.0pt&quot;&gt;&lt;SPAN lang=PT-BR style=&quot;FONT-FAMILY: Symbol; mso-ansi-language: PT-BR; mso-fareast-font-family: Symbol; mso-bidi-font-family: Symbol&quot;&gt;&lt;SPAN style=&quot;mso-list: Ignore&quot;&gt;·&lt;SPAN style=&quot;FONT: 7pt 'Times New Roman'&quot;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; &lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;SPAN lang=PT-BR style=&quot;mso-ansi-language: PT-BR&quot;&gt;Ao visualizar um protótipo os usuários podem ter uma visão mais amigável do que através da leitura do &lt;I style=&quot;mso-bidi-font-style: normal&quot;&gt;SRS&lt;/I&gt;. Isso permite uma maior agilidade na validação;&lt;o:p&gt;&lt;/o:p&gt;&lt;/SPAN&gt;&lt;/P&gt;
+&lt;P class=p1a style=&quot;MARGIN-LEFT: 36pt; TEXT-INDENT: -18pt; TEXT-ALIGN: left; mso-list: l0 level1 lfo1; tab-stops: list 36.0pt&quot; align=left&gt;&lt;SPAN lang=PT-BR style=&quot;FONT-FAMILY: Symbol; mso-ansi-language: PT-BR; mso-fareast-font-family: Symbol; mso-bidi-font-family: Symbol&quot;&gt;&lt;SPAN style=&quot;mso-list: Ignore&quot;&gt;·&lt;SPAN style=&quot;FONT: 7pt 'Times New Roman'&quot;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; &lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;SPAN lang=PT-BR style=&quot;mso-ansi-language: PT-BR&quot;&gt;Um &lt;I style=&quot;mso-bidi-font-style: normal&quot;&gt;SRS&lt;/I&gt; baseado em protótipos tende a apresentar menos mudanças durante o desenvolvimento, diminuindo assim o tempo nessa fase.&lt;o:p&gt;&lt;/o:p&gt;&lt;/SPAN&gt;&lt;/P&gt;</refinedDescription>
+  </com.ibm.uma:DescriptorDescription>
+  <com.ibm.uma:ActivityDescription xmi:id="-I3P8lLXqZMcuJ1rm7xDy9g" name="Validação,_Rbx60deVEdq2GYRwhl5Hnw" guid="-I3P8lLXqZMcuJ1rm7xDy9g">
+    <mainDescription>&lt;P class=p1a style=&quot;TEXT-INDENT: 14.2pt&quot;&gt;&lt;SPAN lang=PT-BR style=&quot;mso-ansi-language: PT-BR&quot;&gt;O documento de requisitos de software - às vezes chamado de &lt;I style=&quot;mso-bidi-font-style: normal&quot;&gt;SRS&lt;/I&gt; ou especificação de requisitos de software - é a declaração oficial do que é exigido dos desenvolvedores do sistema. Ele deve incluir uma descrição detalhada dos requisitos do cliente do próprio sistema. Em alguns casos, eles são integrados em uma única descrição [Somm04].&lt;?xml:namespace prefix = o /&gt;&lt;o:p&gt;&lt;/o:p&gt;&lt;/SPAN&gt;&lt;/P&gt;
+&lt;P class=p1a&gt;&lt;SPAN lang=PT-BR style=&quot;mso-ansi-language: PT-BR&quot;&gt;Um &lt;I style=&quot;mso-bidi-font-style: normal&quot;&gt;SRS&lt;/I&gt; bem documentado deve prover os seguintes benefícios [IEEE830]:&lt;o:p&gt;&lt;/o:p&gt;&lt;/SPAN&gt;&lt;/P&gt;
+&lt;P class=MsoNormal style=&quot;MARGIN-LEFT: 47.35pt; TEXT-INDENT: -18pt; mso-list: l0 level1 lfo1; tab-stops: list 47.35pt&quot;&gt;&lt;SPAN lang=PT-BR style=&quot;FONT-FAMILY: Symbol; mso-ansi-language: PT-BR; mso-fareast-font-family: Symbol; mso-bidi-font-family: Symbol&quot;&gt;&lt;SPAN style=&quot;mso-list: Ignore&quot;&gt;·&lt;SPAN style=&quot;FONT: 7pt 'Times New Roman'&quot;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; &lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;SPAN lang=PT-BR style=&quot;mso-ansi-language: PT-BR&quot;&gt;Estabelecer a concordância entre clientes e envolvidos no desenvolvimento do software, documentando o que realmente deve ser provido;&lt;o:p&gt;&lt;/o:p&gt;&lt;/SPAN&gt;&lt;/P&gt;
+&lt;P class=MsoNormal style=&quot;MARGIN-LEFT: 47.35pt; TEXT-INDENT: -18pt; TEXT-ALIGN: left; mso-list: l0 level1 lfo1; tab-stops: list 47.35pt&quot; align=left&gt;&lt;SPAN lang=PT-BR style=&quot;FONT-FAMILY: Symbol; mso-ansi-language: PT-BR; mso-fareast-font-family: Symbol; mso-bidi-font-family: Symbol&quot;&gt;&lt;SPAN style=&quot;mso-list: Ignore&quot;&gt;·&lt;SPAN style=&quot;FONT: 7pt 'Times New Roman'&quot;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; &lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;SPAN lang=PT-BR style=&quot;mso-ansi-language: PT-BR&quot;&gt;Reduzir o esforço de desenvolvimento;&lt;o:p&gt;&lt;/o:p&gt;&lt;/SPAN&gt;&lt;/P&gt;
+&lt;P class=MsoNormal style=&quot;MARGIN-LEFT: 47.35pt; TEXT-INDENT: -18pt; TEXT-ALIGN: left; mso-list: l0 level1 lfo1; tab-stops: list 47.35pt&quot; align=left&gt;&lt;SPAN lang=PT-BR style=&quot;FONT-FAMILY: Symbol; mso-ansi-language: PT-BR; mso-fareast-font-family: Symbol; mso-bidi-font-family: Symbol&quot;&gt;&lt;SPAN style=&quot;mso-list: Ignore&quot;&gt;·&lt;SPAN style=&quot;FONT: 7pt 'Times New Roman'&quot;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; &lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;SPAN lang=PT-BR style=&quot;mso-ansi-language: PT-BR&quot;&gt;Estabelecer subsídios para estimar custo e prazo;&lt;o:p&gt;&lt;/o:p&gt;&lt;/SPAN&gt;&lt;/P&gt;
+&lt;P class=MsoNormal style=&quot;MARGIN-LEFT: 47.35pt; TEXT-INDENT: -18pt; mso-list: l0 level1 lfo1; tab-stops: list 47.35pt&quot;&gt;&lt;SPAN lang=PT-BR style=&quot;FONT-FAMILY: Symbol; mso-ansi-language: PT-BR; mso-fareast-font-family: Symbol; mso-bidi-font-family: Symbol&quot;&gt;&lt;SPAN style=&quot;mso-list: Ignore&quot;&gt;·&lt;SPAN style=&quot;FONT: 7pt 'Times New Roman'&quot;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; &lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;SPAN lang=PT-BR style=&quot;mso-ansi-language: PT-BR&quot;&gt;Fornecer uma versão comum para todos os envolvidos no projeto, visando validação e verificação;&lt;o:p&gt;&lt;/o:p&gt;&lt;/SPAN&gt;&lt;/P&gt;
+&lt;P class=MsoNormal style=&quot;MARGIN-LEFT: 47.35pt; TEXT-INDENT: -18pt; TEXT-ALIGN: left; mso-list: l0 level1 lfo1; tab-stops: list 47.35pt&quot; align=left&gt;&lt;SPAN lang=PT-BR style=&quot;FONT-FAMILY: Symbol; mso-ansi-language: PT-BR; mso-fareast-font-family: Symbol; mso-bidi-font-family: Symbol&quot;&gt;&lt;SPAN style=&quot;mso-list: Ignore&quot;&gt;·&lt;SPAN style=&quot;FONT: 7pt 'Times New Roman'&quot;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; &lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;SPAN lang=PT-BR style=&quot;mso-ansi-language: PT-BR&quot;&gt;Facilitar a transferência de desenvolvimento;&lt;o:p&gt;&lt;/o:p&gt;&lt;/SPAN&gt;&lt;/P&gt;
+&lt;P class=MsoNormal style=&quot;MARGIN-LEFT: 47.35pt; TEXT-INDENT: -18pt; TEXT-ALIGN: left; mso-list: l0 level1 lfo1; tab-stops: list 47.35pt&quot; align=left&gt;&lt;SPAN lang=PT-BR style=&quot;FONT-FAMILY: Symbol; mso-ansi-language: PT-BR; mso-fareast-font-family: Symbol; mso-bidi-font-family: Symbol&quot;&gt;&lt;SPAN style=&quot;mso-list: Ignore&quot;&gt;·&lt;SPAN style=&quot;FONT: 7pt 'Times New Roman'&quot;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; &lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;SPAN lang=PT-BR style=&quot;mso-ansi-language: PT-BR&quot;&gt;Servir de base para futuras melhorias.&lt;o:p&gt;&lt;/o:p&gt;&lt;/SPAN&gt;&lt;/P&gt;
+&lt;P class=p1a&gt;&lt;SPAN lang=PT-BR style=&quot;mso-ansi-language: PT-BR&quot;&gt;Como visto nos benefícios listados pela [IEEE830], o &lt;I style=&quot;mso-bidi-font-style: normal&quot;&gt;SRS&lt;/I&gt; deve prover o suporte necessário para a validação dos requisitos entre os &lt;I style=&quot;mso-bidi-font-style: normal&quot;&gt;stakeholders&lt;/I&gt; do sistema.&lt;o:p&gt;&lt;/o:p&gt;&lt;/SPAN&gt;&lt;/P&gt;</mainDescription>
+  </com.ibm.uma:ActivityDescription>
+  <com.ibm.uma:ActivityDescription xmi:id="-N7_xfNBWMAfMjfmE1Kf-ew" name="Elicitaç,_QWQ6sdeJEdq2GYRwhl5Hnw" guid="-N7_xfNBWMAfMjfmE1Kf-ew">
+    <mainDescription>&lt;p&gt;
+    Elicitação de Requisitos, é uma das atividades mais importantes na Engenharia de Requisitos, sendo o primeiro passo na
+    captura dos requisitos. Durante a coleta é necessário que sejam elaboradas as perguntas corretas, buscando encontrar os
+    problemas e levando em consideracao o escopo do sistema.
+&lt;/p&gt;
+&lt;p&gt;
+    A elicitação dos requisitos consiste em saber a origem dos requisitos e como o analista de sistemas poderá coletá-los.
+    No primeiro estágio é construído o entendimento do problema que o&lt;br /&gt;
+    software pretende resolver.Para a &quot;captura&quot;, &quot;descobrimento&quot; e &quot;aquisição&quot; dos requisitos é fundamental a existência e
+    interação entre &lt;strong&gt;stakeholders&lt;/strong&gt;, equipe de desenvolvimento e clientes.
+&lt;/p&gt;
+&lt;p&gt;
+    O conhecimento obtido durante a elicitação dos requisitos tende a ser mais profundo que o conhecimento contido no SRS.
+    Dúvidas no SRS surgem e devem ser esclarecidas com a equipe de especificação, ocorrendo num grande volume de
+    comunicação informal entre as equipes.&lt;br /&gt;
+&lt;/p&gt;</mainDescription>
+  </com.ibm.uma:ActivityDescription>
+</xmi:XMI>

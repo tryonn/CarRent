@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<com.ibm.uma:TaskDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:com.ibm.uma="http://www.ibm.com/uma/1.0.2/uma.ecore" xmi:id="_WV51Afl2Edmvb7SUwOFaYw" name="evaluate_test_results,_WV51APl2Edmvb7SUwOFaYw" guid="_WV51Afl2Edmvb7SUwOFaYw" changeDate="2005-07-20T16:31:22.541-0700">
+  <sections xmi:id="_inLZYPl2Edmvb7SUwOFaYw" name="Examine the Test Log" guid="_inLZYPl2Edmvb7SUwOFaYw"/>
+  <sections xmi:id="_lDIecPl2Edmvb7SUwOFaYw" name="Identify failures and propose candidate solutions" guid="_lDIecPl2Edmvb7SUwOFaYw"/>
+  <sections xmi:id="_n3qbkPl2Edmvb7SUwOFaYw" name="Communicate test evaluation results" guid="_n3qbkPl2Edmvb7SUwOFaYw">
+    <sectionDescription>Report request for change</sectionDescription>
+  </sections>
+  <sections xmi:id="_pHr5APl2Edmvb7SUwOFaYw" name="Evaluate and verify your results" guid="_pHr5APl2Edmvb7SUwOFaYw"/>
+</com.ibm.uma:TaskDescription>

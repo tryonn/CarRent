@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<com.ibm.uma:ContentDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:com.ibm.uma="http://www.ibm.com/uma/1.0.2/uma.ecore" xmi:id="-78ko4CuOJERKJF9ZvwMUBQ" name="detail_ucs_and_scenarios,_4BJ_YCxSEdqjsdw1QLH_6Q" guid="-78ko4CuOJERKJF9ZvwMUBQ" changeDate="2006-04-24T16:22:43.302-0300">
+  <mainDescription>&lt;h4&gt;
+    Detail flow of events
+&lt;/h4&gt;
+&lt;p&gt;
+    As a starting point, use&amp;nbsp;the step-by-step description of the use-case flow of events created as mentioned in &lt;a class=&quot;elementLinkWithType&quot; href=&quot;./../../../basic_unified_process/guidances/guidelines/find_and_outline_actors_and_ucs,_eyL0wCu-EdqSxKAVa9kmvA.html&quot; guid=&quot;_eyL0wCu-EdqSxKAVa9kmvA&quot;&gt;Guideline: Find and Outline Actors and Use Cases&lt;/a&gt;. Then, gradually add details to
+    the flow of events, describing what is done in the Use Case, not how problems internal to the system should be solved.
+&lt;/p&gt;
+&lt;p&gt;
+    A flow of events descritption explores:
+&lt;/p&gt;
+&lt;ul&gt;
+    &lt;li&gt;
+        How and when the Use Case starts
+    &lt;/li&gt;
+    &lt;li&gt;
+        When the use case interacts with the actors, and what data they exchange
+    &lt;/li&gt;
+    &lt;li&gt;
+        How and when the use case uses data stored in the system, or stores data in the system
+    &lt;/li&gt;
+    &lt;li&gt;
+        How and when the use case ends
+    &lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+    For more information, see &lt;a class=&quot;elementLinkWithType&quot; href=&quot;./../../../basic_unified_process/guidances/guidelines/use_case,_0Ve10MlgEdmt3adZL5Dmdw.html&quot; guid=&quot;_0Ve10MlgEdmt3adZL5Dmdw&quot;&gt;Guideline: Use Case&lt;/a&gt;, the discussion on &lt;u&gt;contents&lt;/u&gt; and &lt;u&gt;style&lt;/u&gt; of the flow
+    of events.
+&lt;/p&gt;
+&lt;h4&gt;
+    Structure flow of events
+&lt;/h4&gt;
+&lt;p&gt;
+    A use case's flow of events can be divided into several subflows. These optional or alternative flows must be
+    described.
+&lt;/p&gt;
+&lt;p&gt;
+    Unless&amp;nbsp;a subflow involves only a minor part of the complete flow of events -- which can be described&amp;nbsp;in the
+    body of the text -- it is recommended that you describe each subflow in a separate supplement to the Flow of Events
+    section, being mandatory for the following cases:
+&lt;/p&gt;
+&lt;ul&gt;
+    &lt;li&gt;
+        Subflows that occupy a large segment of a given flow of events.
+    &lt;/li&gt;
+    &lt;li&gt;
+        Exceptional flows of events. This helps the use case's basic flow of events to stand out more clearly.
+    &lt;/li&gt;
+    &lt;li&gt;
+        Any subflow that can be executed at several intervals in the same flow of events.
+    &lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+    For more information, see &lt;a class=&quot;elementLinkWithType&quot; href=&quot;./../../../basic_unified_process/guidances/guidelines/use_case,_0Ve10MlgEdmt3adZL5Dmdw.html&quot; guid=&quot;_0Ve10MlgEdmt3adZL5Dmdw&quot;&gt;Guideline: Use Case&lt;/a&gt;, &lt;u&gt;Structure of the Flow of Events&lt;/u&gt; section.
+&lt;/p&gt;
+&lt;h4&gt;
+    Describe special requirements
+&lt;/h4&gt;
+&lt;p&gt;
+    Any requirements that can be related to the use case, but that are not taken into consideration in the Flow of Events
+    of the use case, should be described in the Special Requirements of the use case. Such requirements are likely to be
+    nonfunctional.
+&lt;/p&gt;
+&lt;p&gt;
+    Typically, Supplemental Requirements which refer to a specific Use Case are captured in the Special
+    Requirements&amp;nbsp;section.
+&lt;/p&gt;
+&lt;p&gt;
+    For more information, see &lt;a class=&quot;elementLinkWithType&quot; href=&quot;./../../../basic_unified_process/guidances/guidelines/use_case,_0Ve10MlgEdmt3adZL5Dmdw.html&quot; guid=&quot;_0Ve10MlgEdmt3adZL5Dmdw&quot;&gt;Guideline: Use Case&lt;/a&gt;,&amp;nbsp;&lt;u&gt;Special Requirements&lt;/u&gt;&amp;nbsp;section.
+&lt;/p&gt;
+&lt;h4&gt;
+    Describe preconditions and postconditions
+&lt;/h4&gt;
+&lt;p&gt;
+    A precondition on a use case explains the state the system must be in order for the use case to be possible to start.
+    Take care to describe the system state. Avoid describing the detail of other incidental activities that may have taken
+    place prior to this use case.
+&lt;/p&gt;
+&lt;p&gt;
+    A postcondition on a use case lists possible states the system can be in at the end of the use case. The system must be
+    in one of those states at the end of the execution of the use case. It is also used to state actions that the system
+    performs at the end of the use case, regardless of what occurred in the use case.
+&lt;/p&gt;
+&lt;p&gt;
+    Neither preconditions nor postconditions are not used to create a sequence of use cases. As a general rule, there will
+    never be a case where you have to first perform one use case, then another, in order to have a meaningful flow of
+    events. If that is the case, correct the problem by reviewing the use cases were&amp;nbsp;decomposed. See step &lt;u&gt;Structure
+    flow of Events&lt;/u&gt; and &lt;a class=&quot;elementLinkWithType&quot; href=&quot;./../../../basic_unified_process/guidances/guidelines/use_case,_0Ve10MlgEdmt3adZL5Dmdw.html&quot; guid=&quot;_0Ve10MlgEdmt3adZL5Dmdw&quot;&gt;Guideline: Use Case&lt;/a&gt;&lt;u&gt;,&lt;/u&gt; &lt;u&gt;Preconditions and Post Conditions&lt;/u&gt; section.
+&lt;/p&gt;
+&lt;h4&gt;
+    Illustrate relationship with Actors and other Use Cases
+&lt;/h4&gt;
+&lt;p&gt;
+&lt;/p&gt;
+&lt;h4&gt;
+    Structure the Use-Case Model
+&lt;/h4&gt;
+&lt;p&gt;
+&lt;/p&gt;
+&lt;p&gt;
+&lt;/p&gt;
+&lt;p&gt;
+&lt;/p&gt;
+&lt;br /&gt;
+&lt;br /&gt;
+&lt;!--EndFragment--&gt;</mainDescription>
+</com.ibm.uma:ContentDescription>

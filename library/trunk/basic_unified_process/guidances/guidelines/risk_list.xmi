@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<com.ibm.uma:ContentDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:com.ibm.uma="http://www.ibm.com/uma/1.0.2/uma.ecore" xmi:id="-UcwDNDehMLxP9uWxHtWdjA" name="risk_list,_45e7gCbhEdqh1LYUOGRh2A" guid="-UcwDNDehMLxP9uWxHtWdjA" changeDate="2005-09-16T11:44:24.223-0700">
+  <mainDescription>&lt;p&gt;
+    A list of risks can be represented as a table containing risk attributes. As it is usual to rank risks by priority,
+    spreadsheets may be an&amp;nbsp;alternative to capture risks. If for a given project there is a need to capture the risk
+    list in an artifact, some of the existing ones can be used for that purpose, as described below.&amp;nbsp;
+&lt;/p&gt;
+&lt;h3&gt;
+    Recommended: risk list captured in the project plan
+&lt;/h3&gt;
+&lt;p&gt;
+    In this approach you put the overall risk list in the project plan. The iteration plan will contain only the tasks you
+    will be doing during the iteration to mitigate the risks. This will ensure that the iteration plan contains only
+    iteration information. The project plan has to be revisited constantly as you updated risks.
+&lt;/p&gt;
+&lt;h3&gt;
+    Option: risk list captured in&amp;nbsp;the iteration plan
+&lt;/h3&gt;
+&lt;p&gt;
+    In this approach you enter the overall risk list in the current iteration plan. This approach ensures that you look at
+    the risk list at each iteration, as it is part of your iteration plan. The only drawback is that your iteration plan
+    will contain information that is not relevant to the current iteration. All the risks you have not&amp;nbsp;mitigated
+    during the iteration&amp;nbsp;have to be&amp;nbsp;transfered to the next iteration plan.
+&lt;/p&gt;</mainDescription>
+</com.ibm.uma:ContentDescription>

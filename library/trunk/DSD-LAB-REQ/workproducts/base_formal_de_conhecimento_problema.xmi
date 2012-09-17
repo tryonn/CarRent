@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<com.ibm.uma:WorkProductDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:com.ibm.uma="http://www.ibm.com/uma/1.0.2/uma.ecore" xmi:id="-v9-0g8KzK8AJVhtR3r31fA" name="base_formal_de_conhecimento_problema,_RaLJENP3EdqX78fvMWY_1g" guid="-v9-0g8KzK8AJVhtR3r31fA" changeDate="2006-05-10T15:05:07.603-0300">
+  <mainDescription>&lt;p&gt;
+    &lt;span lang=&quot;PT-BR&quot;     style=&quot;FONT-SIZE: 10pt; FONT-FAMILY: Verdana; mso-fareast-font-family: 'Times New Roman'; mso-bidi-font-family: Verdana; mso-ansi-language: PT-BR; mso-fareast-language: PT-BR; mso-bidi-language: AR-SA&quot;&gt;
+    &lt;span lang=&quot;PT-BR&quot;     style=&quot;FONT-SIZE: 10pt; FONT-FAMILY: Verdana; mso-fareast-font-family: 'Times New Roman'; mso-bidi-font-family: Verdana; mso-ansi-language: PT-BR; mso-fareast-language: PT-BR; mso-bidi-language: AR-SA&quot;&gt;
+    &lt;span lang=&quot;PT-BR&quot;     style=&quot;FONT-SIZE: 10pt; FONT-FAMILY: Verdana; mso-fareast-font-family: 'Times New Roman'; mso-bidi-font-family: Verdana; mso-ansi-language: PT-BR; mso-fareast-language: PT-BR; mso-bidi-language: AR-SA&quot;&gt;
+    A base formal de conhecimento do problema vem de trabalhos de graduação, dissertações de mestrado e teses de doutorado
+    escritas por estudantes do grupo de pesquisa CCTE. &lt;span lang=&quot;PT-BR&quot;     style=&quot;FONT-SIZE: 10pt; FONT-FAMILY: Verdana; mso-fareast-font-family: 'Times New Roman'; mso-bidi-font-family: Verdana; mso-ansi-language: PT-BR; mso-fareast-language: PT-BR; mso-bidi-language: AR-SA&quot;&gt;
+    Neste cenário&amp;nbsp;eh&amp;nbsp;necessario&amp;nbsp;analisar a base de conhecimentos formal que deu origem aos
+    requisitos&amp;nbsp;levantados&amp;nbsp;para prover maior consistencia na elicitacao e demais fases da engenharia de
+    requisitos.&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;
+&lt;/p&gt;</mainDescription>
+  <purpose>Base formal de conhecimento do problema.</purpose>
+</com.ibm.uma:WorkProductDescription>

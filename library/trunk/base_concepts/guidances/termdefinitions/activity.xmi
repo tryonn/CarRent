@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<com.ibm.uma:ContentDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:com.ibm.uma="http://www.ibm.com/uma/1.0.2/uma.ecore" xmi:id="-67u6-WRUmTOB9IdLgQg6aw" name="activity,_yoVhMB_IEdq6CKKKq4D7YA" guid="-67u6-WRUmTOB9IdLgQg6aw" changeDate="2005-09-07T10:57:11.396-0700">
+  <mainDescription>&lt;a class=&quot;elementLink&quot; href=&quot;base_concepts/guidances/termdefinitions/process_element,_cvdpEB_LEdq6CKKKq4D7YA.html&quot;
+guid=&quot;_cvdpEB_LEdq6CKKKq4D7YA&quot;&gt;process element&lt;/a&gt;&amp;nbsp;which supports the nesting and logical grouping of related process
+elements such as &lt;a class=&quot;elementLink&quot;
+href=&quot;base_concepts/guidances/termdefinitions/descriptor,_7rS6AB_JEdq6CKKKq4D7YA.html&quot;
+guid=&quot;_7rS6AB_JEdq6CKKKq4D7YA&quot;&gt;descriptor&lt;/a&gt;&amp;nbsp;and sub-Activities, thus forming &lt;a class=&quot;elementLink&quot;
+href=&quot;base_concepts/guidances/termdefinitions/breakdown_structure,_95LCoB_QEdq6CKKKq4D7YA.html&quot;
+guid=&quot;_95LCoB_QEdq6CKKKq4D7YA&quot;&gt;breakdown structure&lt;/a&gt;s.</mainDescription>
+</com.ibm.uma:ContentDescription>

@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<com.ibm.uma:TaskDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:com.ibm.uma="http://www.ibm.com/uma/1.0.2/uma.ecore" xmi:id="_qDRSULBKEdm7Eph_l9Cn9w" name="analyze_architecture,_0f-1oMlgEdmt3adZL5Dmdw" guid="_qDRSULBKEdm7Eph_l9Cn9w" changeDate="2005-07-07T14:18:47.211-0700">
+  <sections xmi:id="_9o6Z4CSCEdqDjNgZyGMf5w" name="Identify Architectural Constraints" guid="_9o6Z4CSCEdqDjNgZyGMf5w">
+    <sectionDescription>&lt;p&gt;
+    Often, the system that is developed will be integrated to an existing environment. To ensure a smoother integration as
+    possible, you need to gather information about this environment and identify any architectural constraint.
+&lt;/p&gt;
+&lt;p&gt;
+    Architectural constraints can be:
+&lt;/p&gt;
+&lt;div style=&quot;MARGIN-LEFT: 2em&quot;&gt;
+    &lt;ul&gt;
+        &lt;li&gt;
+            the network topology
+        &lt;/li&gt;
+        &lt;li&gt;
+            the use of a given database vendor or an existing database
+        &lt;/li&gt;
+        &lt;li&gt;
+            the&amp;nbsp;web environment (servers configuration, firewall, DMZ, and so forth)
+        &lt;/li&gt;
+        &lt;li&gt;
+            the servers (hardware model, operating system)
+        &lt;/li&gt;
+        &lt;li&gt;
+            the&amp;nbsp;use of given third parties or given technology
+        &lt;/li&gt;
+        &lt;li&gt;
+            the compliance to existing standards
+        &lt;/li&gt;
+    &lt;/ul&gt;
+&lt;/div&gt;
+&lt;p&gt;
+    For example, if there is just one type of database used in the&amp;nbsp;company, you will probably try as much as possible
+    to use it to leverage&amp;nbsp;the existing database administation skills rather than introducing a new one.
+&lt;/p&gt;
+&lt;p&gt;
+    These architectural constraints combined with the requirements will help you define the&amp;nbsp;best candidate
+    architecture for the system you need to develop.&amp;nbsp;
+&lt;/p&gt;</sectionDescription>
+  </sections>
+  <sections xmi:id="_B899cMP2EdmWKcx6ixEiwg" name="Survey, assess and select from available assets" guid="_B899cMP2EdmWKcx6ixEiwg">
+    <sectionDescription>&lt;p&gt;
+    To assess and select assets to reuse on your project, you need to understand the requirements of the environment for
+    which those assets are being considered, and the system scope and general functionality required. There are several
+    types of assets to consider, such as (but not limited to) reference architectures, frameworks, patterns, analysis
+    mechanisms, classes, and experience. You can search through asset&amp;nbsp;repositories (internal or external to your
+    organization), and industry literature to identify assets or similar projects.
+&lt;/p&gt;
+&lt;p&gt;
+    You will need to assess whether available assets contribute to solving the key challenges of the current project and
+    whether they are compatible with the project's architectural constraints. You will want also to analyze the extent of
+    the fit between asset and requirements, considering whether any of the requirements are negotiable (to enable use of
+    the asset). You should also assess whether the asset could be modified or extended to satisfy requirements, and what
+    the tradeoffs are in terms of cost, risk, and functionality from adopting it.
+&lt;/p&gt;
+&lt;p&gt;
+    Finally, you will want to decide, in principle, whether to use one or more assets and eventually record the rationale
+    for this decision.
+&lt;/p&gt;</sectionDescription>
+  </sections>
+  <sections xmi:id="_FVrlsMP2EdmWKcx6ixEiwg" name="Define approach for structuring the system" guid="_FVrlsMP2EdmWKcx6ixEiwg">
+    <sectionDescription>&lt;p&gt;
+    Structuring your system helps you manage its complexity using the well-known &quot;divide and conquer&quot; strategy. By breaking
+    it on smaller and more manageble pieces you make its development easier.
+&lt;/p&gt;
+&lt;p&gt;
+    Layering&amp;nbsp;approach is&amp;nbsp;one of the most&amp;nbsp;common used&amp;nbsp;approaches for structuring and decomposing
+    systems. It is based on the concept of &quot;layers&quot;, each layer grouping similar classes or components, and communicating
+    as much as possible only with its direct neighbours.
+&lt;/p&gt;
+&lt;p&gt;
+    During architecture analysis you will not be defining on which layer each class or component will go, but much more how
+    many layers you need and which kind of layers you will be using. For example, if you are developping a new middleware
+    system, you probably do not need a business layer.
+&lt;/p&gt;
+&lt;p&gt;
+    During&amp;nbsp;design activities you decide how&amp;nbsp;these layers will be populated in terms of classes and components.
+&lt;/p&gt;</sectionDescription>
+  </sections>
+  <sections xmi:id="_I32E4MP2EdmWKcx6ixEiwg" name="Identify key abstractions" guid="_I32E4MP2EdmWKcx6ixEiwg">
+    <sectionDescription>&lt;p&gt;
+    Requirements and analysis tasks usually uncover key concepts that the system must be able to handle; these concepts
+    manifest themselves as key design&amp;nbsp;abstractions.&amp;nbsp;You can take advantage of existing knowledge by identifying
+    preliminary entity classes to represent these key abstractions on the basis of general knowledge of the system.
+&lt;/p&gt;
+&lt;p&gt;
+    When you define the key abstractions, also define any relationships that exist between entity classes. You can capture
+    them in a table, or&amp;nbsp;on UML class diagrams (in a tool or whiteboard), and create a short description for each
+    abstraction.&amp;nbsp;
+&lt;/p&gt;
+&lt;p&gt;
+    The classes identified at this point will probably change and evolve during the course of the project. The purpose of
+    this step is not to identify a set of classes that will survive throughout design, but to identify the key concepts the
+    system must handle. Don't spend too much time describing entity classes in detail at this initial stage, because there
+    is a risk that you'll identify classes and relationships not actually needed by the use cases. Remember that you will
+    find more entity classes and relationships when looking at the use cases.
+&lt;/p&gt;</sectionDescription>
+  </sections>
+  <sections xmi:id="_KBAsYMP2EdmWKcx6ixEiwg" name="Identify analysis mechanisms" guid="_KBAsYMP2EdmWKcx6ixEiwg">
+    <sectionDescription>&lt;p&gt;
+    &lt;a class=&quot;elementLinkWithType&quot;
+    href=&quot;./../../basic_unified_process/guidances/concepts/analysis_mechanisms,_0gvqoMlgEdmt3adZL5Dmdw.html&quot;
+    guid=&quot;_0gvqoMlgEdmt3adZL5Dmdw&quot;&gt;&lt;u&gt;&lt;font color=&quot;#0000ff&quot;&gt;Concept: Analysis Mechanisms&lt;/font&gt;&lt;/u&gt;&lt;/a&gt;&amp;nbsp;can be
+    identified top-down (a priori knowledge) or bottom-up (discovered as you go along).
+&lt;/p&gt;
+&lt;p&gt;
+    In the top-down mode, experience guides the &lt;a class=&quot;elementLinkWithType&quot;
+    href=&quot;./../../basic_unified_process/roles/architect,_0X9iEMlgEdmt3adZL5Dmdw.html&quot;
+    guid=&quot;_0X9iEMlgEdmt3adZL5Dmdw&quot;&gt;&lt;u&gt;&lt;font color=&quot;#0000ff&quot;&gt;Role: Architect&lt;/font&gt;&lt;/u&gt;&lt;/a&gt;&amp;nbsp;to know that certain
+    problems are present in the domain and will require certain kinds of solutions. Examples of common architectural
+    problems that might be expressed as mechanisms during analysis are: persistence, transaction management, fault
+    management, messaging, and inference engines. The common aspect of all of these is that each is a general capability of
+    a broad class of systems, and each provides functionality that interacts with or supports the basic application
+    functionality. The analysis mechanisms support capabilities required in the basic functional requirements of the
+    system, regardless of the platform it's deployed upon or the implementation language. Analysis mechanisms also can be
+    designed and implemented in a number of different ways; generally there will be more than one design mechanism
+    corresponding to each analysis mechanism, and perhaps more than one way of implementing each design mechanism.
+&lt;/p&gt;
+&lt;p&gt;
+    The bottom-up approach is where analysis mechanisms are ultimately born - they are created as the &lt;a
+    class=&quot;elementLinkWithType&quot; href=&quot;./../../basic_unified_process/roles/architect,_0X9iEMlgEdmt3adZL5Dmdw.html&quot;
+    guid=&quot;_0X9iEMlgEdmt3adZL5Dmdw&quot;&gt;&lt;u&gt;&lt;font color=&quot;#0000ff&quot;&gt;Role: Architect&lt;/font&gt;&lt;/u&gt;&lt;/a&gt; sees, perhaps faintly at first,
+    a common theme emerging from a set of solutions to various problems. There is a need to provide a way for elements in
+    different threads to synchronize their clocks and there is a need for a common way of allocating resources. Analysis
+    mechanisms, which simplify the language of analysis, emerge from these patterns.
+&lt;/p&gt;
+&lt;p&gt;
+    Identifying an analysis mechanism means you identify that a common, perhaps implicit&amp;nbsp;subproblem exists, and you
+    name it. Initially the name might be all that exists; for example, the system will require a persistence
+    mechanism.&amp;nbsp;Ultimately, this mechanism will be implemented through the collaboration of various classes, some of
+    which do not deliver application functionality directly, but exist only to support it. Very often these support classes
+    are located in the middle or lower layers of a layered architecture, thereby providing a common support service to all
+    application level classes.
+&lt;/p&gt;
+&lt;p&gt;
+    If the identified subproblem is common enough, perhaps a pattern exists from which the mechanism can be instantiated -
+    by binding existing classes and implementing new ones as required by the pattern. An analysis mechanism produced this
+    way will be abstract, and will require further refinement through design and implementation.
+&lt;/p&gt;</sectionDescription>
+  </sections>
+  <sections xmi:id="_xTdYACGAEdqk6N_Ot_YEvA" name="Capture architectural decisions" guid="_xTdYACGAEdqk6N_Ot_YEvA">
+    <sectionDescription>&lt;p&gt;
+    Often it is useful to record key architectural decisions and working assumptions on an architecture overview diagram to
+    easier the communication of the architecture to the project team and to the stakeholders. The level of formality of
+    such diagram is project dependent. For example, on an agile and low-ceremony project, the overview diagram can take the
+    form of an informal, rich picture storyboard or iconic graph on whiteboard or drawing tool. Its role is to conceptually
+    illustrate the nature of the proposed solution, conveying the governing ideas and including the major building blocks.
+&lt;/p&gt;
+&lt;p&gt;
+    If a non-trivial distributed system is required, then a Deployment&amp;nbsp;diagram can be&amp;nbsp;integrated into the
+    architecture overview diagram&amp;nbsp;to capture the relationship between nodes.&amp;nbsp;Detailed specification of nodes and
+    connections is deferred, except where they are important for estimating or assessing viability of the architecture.
+    Existing assets can be used, if available. Although this is the first deployment model produced in the project, and
+    it's produced quickly and at a high level, it might identify actual hardware and software products if they are known,
+    or if it's important to make these selection decisions at this time.
+&lt;/p&gt;
+&lt;p&gt;
+    Validate that the deployment&amp;nbsp;approach supports users (especially users at remote locations if this is required)
+    performing typical use cases while satisfying nonfunctional requirements and constraints. Validate that the nodes and
+    connections are adequate to support the interactions between components on different nodes, and between components and
+    their stored data.
+&lt;/p&gt;
+&lt;p&gt;
+    Consider also whether or not you wish to refine and maintain this architecture overview diagram, to serve as a
+    communication vehicle.&lt;!--EndFragment--&gt;
+&lt;/p&gt;</sectionDescription>
+  </sections>
+</com.ibm.uma:TaskDescription>

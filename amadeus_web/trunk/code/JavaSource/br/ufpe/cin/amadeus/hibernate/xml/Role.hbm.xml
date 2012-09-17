@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE hibernate-mapping	PUBLIC 
+	"-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+    "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+
+<hibernate-mapping>
+ <class name="br.ufpe.cin.amadeus.system.academic.role.Role" table="Role">
+ 	<id name="id">
+ 		<column name="sqRole" not-null="true" unique="true"/>
+ 		<generator class="increment"/>
+ 	</id>
+ 	<property name="name">
+ 		<column name="nmRole" length="50" not-null="true" />
+ 	</property>
+ 	
+ 	<property name="constantRole" >
+ 		<column name="idRole" unique="true" />
+ 	</property>
+ 	
+ 
+ </class>
+</hibernate-mapping>

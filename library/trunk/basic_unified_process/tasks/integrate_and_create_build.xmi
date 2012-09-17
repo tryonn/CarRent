@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<com.ibm.uma:TaskDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:com.ibm.uma="http://www.ibm.com/uma/1.0.2/uma.ecore" xmi:id="_ep6tUKrMEdmqUqi7YGiSxw" name="integrate_and_create_build,_0h_n0MlgEdmt3adZL5Dmdw" guid="_ep6tUKrMEdmqUqi7YGiSxw" changeDate="2005-07-20T15:50:50.813-0700">
+  <sections xmi:id="_uglgcKuPEdmhFZtkg1nakg" name="Integrate implemented elements" guid="_uglgcKuPEdmhFZtkg1nakg">
+    <sectionDescription>&lt;p&gt;
+    It is recommended that you integrate the implemented classes (see &lt;a class=&quot;elementLinkWithType&quot;
+    href=&quot;resources/implementation,_0YoQcMlgEdmt3adZL5Dmdw.html&quot; guid=&quot;_0YoQcMlgEdmt3adZL5Dmdw&quot;&gt;Work Product:
+    Implementation&lt;/a&gt;) incrementally bottom-up in the compilation-dependency hierarchy. At each increment you add one, or
+    a few elements to the system.
+&lt;/p&gt;
+&lt;p&gt;
+    If two or more developers are working in parallel on the same component, their work is integrated through
+    a&amp;nbsp;&lt;b&gt;component integration workspace&lt;/b&gt;, into which the&amp;nbsp;developers deliver elements from their private
+    development workspaces, and from which&amp;nbsp;&lt;a class=&quot;elementLinkWithType&quot;
+    href=&quot;resources/build,_0YuXEMlgEdmt3adZL5Dmdw.html&quot; guid=&quot;_0YuXEMlgEdmt3adZL5Dmdw&quot;&gt;Work Product: Build&lt;/a&gt;(s)&amp;nbsp;can
+    be constructed.
+&lt;/p&gt;
+&lt;p&gt;
+    If a team of several individuals works in parallel on the same component, it is important that the team members share
+    their results frequently, not waiting until late in the process to integrate the team's work.
+&lt;/p&gt;</sectionDescription>
+  </sections>
+  <sections xmi:id="_GLWboCF7Edqk6N_Ot_YEvA" name="Test integrated elements" guid="_GLWboCF7Edqk6N_Ot_YEvA">
+    <sectionDescription>&lt;p&gt;
+    As integration of implemented elements occur, it is important that tests are performed to validate that nothing got
+    broken during integration.
+&lt;/p&gt;
+&lt;p&gt;
+    &lt;a class=&quot;elementLinkWithType&quot; href=&quot;resources/run_developer_tests,_0iYCUMlgEdmt3adZL5Dmdw.html&quot;
+    guid=&quot;_0iYCUMlgEdmt3adZL5Dmdw&quot;&gt;Task: Run Developer Tests&lt;/a&gt;&amp;nbsp;may be performed in order to run tests against
+    integrated elements, to verify if integrated elements behave the same as they behave in isolation.
+&lt;/p&gt;</sectionDescription>
+  </sections>
+  <sections xmi:id="_vs_CIKuPEdmhFZtkg1nakg" name="Deliver integrated elements" guid="_vs_CIKuPEdmhFZtkg1nakg">
+    <sectionDescription>&lt;p&gt;
+    After the final increment, when the&amp;nbsp;components&amp;nbsp;are ready and the associated build has been integration
+    tested, the components&amp;nbsp;are delivered into the system integration workspace (see &lt;a class=&quot;elementLinkWithType&quot;
+    href=&quot;./../../basic_unified_process/guidances/concepts/dev_int_workspaces,_0cKsoMlgEdmt3adZL5Dmdw.html&quot;
+    guid=&quot;_0cKsoMlgEdmt3adZL5Dmdw&quot;&gt;&lt;u&gt;&lt;font color=&quot;#0000ff&quot;&gt;Concept: Development and Integration
+    Workspaces&lt;/font&gt;&lt;/u&gt;&lt;/a&gt;).
+&lt;/p&gt;</sectionDescription>
+  </sections>
+  <sections xmi:id="_wc1KsKuPEdmhFZtkg1nakg" name="Accept integrated elements and produce build" guid="_wc1KsKuPEdmhFZtkg1nakg">
+    <sectionDescription>&lt;p&gt;
+    Several builds may be created in particular iteration. For each individual build, this step is performed only when
+    components have been delivered to satisfy the requirements of that build.
+&lt;/p&gt;
+&lt;p&gt;
+    Depending on the complexity and number of&amp;nbsp;components to be integrated, it is often more efficient to produce the
+    target build in a number of steps, adding more&amp;nbsp;components with each step, and producing a series of intermediate
+    'mini' builds - thus, each build planned for an iteration may, in turn, have its own sequence of transient intermediate
+    builds. These are subjected to a minimal integration test&amp;nbsp;to ensure that what is added is compatible with what
+    already exists in the system integration workspace. It should be easier to isolate and diagnose problems using this
+    approach.&amp;nbsp;
+&lt;/p&gt;
+&lt;p&gt;
+    Delivered&amp;nbsp;components are accepted&amp;nbsp;incrementally into the system integration workspace,&amp;nbsp;having any merge
+    conflicts being resolved.&amp;nbsp;It is recommended that this&amp;nbsp;is done in a bottom-up approach with respect to the
+    layered structure, making sure that the versions of the&amp;nbsp;components are consistent, taking imports into
+    consideration. The increment of&amp;nbsp;components is compiled and linked into an intermediate build, which is then
+    provided to the tester to execute a minimal system integration test.
+&lt;/p&gt;
+&lt;p&gt;
+    &lt;img height=&quot;172&quot; alt=&quot;Diagram described in accompanying text.&quot; src=&quot;resources/ac_intsy.gif&quot; width=&quot;501&quot; /&gt;
+&lt;/p&gt;
+&lt;p class=&quot;picturetext&quot; align=&quot;left&quot;&gt;
+    This diagram shows a build produced in three increments. Some&amp;nbsp;components are only needed as stubs, to make it
+    possible to compile and link the other components, and provide the essential minimal run-time behavior.
+&lt;/p&gt;
+&lt;p align=&quot;left&quot;&gt;
+    The final increment of a sequence produces the target build. When this has been minimally tested, an initial or
+    provisional baseline is created for this build. The build is now made available to the tester for complete system
+    testing. The nature and depth of this testing will be as planned for a particular iteration (as defined in &lt;a
+    class=&quot;elementLinkWithType&quot;
+    href=&quot;./../../basic_unified_process/workproducts/iteration_plan,_0aQBEslgEdmt3adZL5Dmdw.html&quot;
+    guid=&quot;_0aQBEslgEdmt3adZL5Dmdw&quot;&gt;&lt;u&gt;&lt;font color=&quot;#0000ff&quot;&gt;Work Product: Iteration Plan&lt;/font&gt;&lt;/u&gt;&lt;/a&gt;).
+&lt;/p&gt;
+&lt;p&gt;
+&lt;/p&gt;</sectionDescription>
+  </sections>
+</com.ibm.uma:TaskDescription>

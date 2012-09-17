@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<com.ibm.uma:ContentDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:com.ibm.uma="http://www.ibm.com/uma/1.0.2/uma.ecore" xmi:id="_yUefQdnmEdmO6L4XMImrsA" name="role,_yUefQNnmEdmO6L4XMImrsA" guid="_yUefQdnmEdmO6L4XMImrsA">
+  <mainDescription>A definition of the behavior and responsibilities of an individual, or a set of individuals working together asa team,
+within the context of a business organization.</mainDescription>
+</com.ibm.uma:ContentDescription>

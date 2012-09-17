@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<com.ibm.uma:ContentDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:com.ibm.uma="http://www.ibm.com/uma/1.0.2/uma.ecore" xmi:id="_S8KCcMP2EdmWKcx6ixEiwg" name="analysis_mechanisms,_0gvqoMlgEdmt3adZL5Dmdw" guid="_S8KCcMP2EdmWKcx6ixEiwg" changeDate="2005-07-07T14:19:22.221-0700">
+  <mainDescription>&lt;p&gt;
+    An analysis mechanism represents a pattern that constitutes a common solution to a common problem. Analysis mechanisms
+    may show patterns of structure, patterns of behavior, or both. They are used during analysis to reduce the complexity
+    of analysis, and to improve consistency by providing designers with a short-hand representation for complex behavior.
+    Mechanisms allow the analysis effort to focus on translating the functional requirements into software concepts without
+    bogging-down in the specification of relatively complex behavior needed to support the functionality but not central to
+    it. Analysis mechanisms often result from the instantiation of one or more architectural or analysis patterns.&amp;nbsp;
+&lt;/p&gt;
+&lt;p&gt;
+    Analysis mechanisms are primarily used to represent 'placeholders' for complex technology in the middle and lower
+    layers of the architecture. By using the mechanisms as 'placeholders' in the architecture, the architecting effort is
+    less likely to become distracted by the details of mechanism behavior. As an example, the need to have object lifetimes
+    span use cases, process lifetimes, or system shutdown and start-up defines the need for object persistence. Persistence
+    is a particularly complex mechanism, and during analysis we do not want to be distracted by the details of how we are
+    going to achieve persistence. This gives rise to a 'persistence' analysis mechanism which allows us to speak of
+    persistent objects and capture the requirements we will have on the persistence mechanism without worrying about what
+    exactly the persistence mechanism will do or how it will work.
+&lt;/p&gt;
+&lt;p&gt;
+    Analysis mechanisms are typically, but not necessarily, unrelated to the problem domain, but instead are &quot;computer
+    science&quot; concepts; as a result they typically occupy the middle and lower layers of the architecture. They provide
+    specific behaviors to a domain-related class or subsystem, or correspond to the implementation of cooperation between
+    classes and/or subsystems. They may be implemented as a framework, Examples include mechanisms to handle persistence,
+    inter-process communication, error or fault handling, notification, and messaging, to name a few.&amp;nbsp;
+&lt;/p&gt;
+&lt;p&gt;
+    However, as more analysis patterns are established in various domains, the partial or complete instantiation of these
+    in analysis mechanisms will lead to these mechanisms appearing in the upper layers of the architecture.
+&lt;/p&gt;
+&lt;h4&gt;
+    Examples of Analysis Mechanisms
+&lt;/h4&gt;
+&lt;ul&gt;
+    &lt;li&gt;
+        &lt;b&gt;Persistency&lt;/b&gt;&lt;br /&gt;
+        &lt;br /&gt;
+        For all classes whose instances may become persistent, we need to identify:
+    &lt;/li&gt;
+    &lt;li style=&quot;list-style: none&quot;&gt;
+        &lt;ul&gt;
+            &lt;li&gt;
+                &lt;b&gt;Granularity&lt;/b&gt;: Range of size of the objects to keep persistent
+            &lt;/li&gt;
+            &lt;li&gt;
+                &lt;b&gt;Volume&lt;/b&gt;: Number of objects to keep persistent
+            &lt;/li&gt;
+            &lt;li&gt;
+                &lt;b&gt;Duration&lt;/b&gt;: How long does the object typically need to be kept?
+            &lt;/li&gt;
+            &lt;li&gt;
+                &lt;b&gt;Retrieval mechanism&lt;/b&gt;: How is a given object uniquely identified and retrieved?
+            &lt;/li&gt;
+            &lt;li&gt;
+                &lt;b&gt;Update frequency&lt;/b&gt;: Are the objects more or less constant; are they permanently updated?
+            &lt;/li&gt;
+            &lt;li&gt;
+                &lt;b&gt;Reliability&lt;/b&gt;: Shall the objects survive a crash of the process; the processor; or the whole system?
+            &lt;/li&gt;
+        &lt;/ul&gt;
+    &lt;/li&gt;
+    &lt;li style=&quot;LIST-STYLE-TYPE: none&quot;&gt;
+        &lt;br /&gt;
+    &lt;/li&gt;
+    &lt;li&gt;
+        &lt;b&gt;Inter-process Communication&lt;/b&gt;&lt;br /&gt;
+        &lt;br /&gt;
+        For all model elements which need to communicate with components or services executing in other processes or
+        threads, we need to identify: 
+        &lt;ul&gt;
+            &lt;li&gt;
+                &lt;b&gt;Latency&lt;/b&gt;: How fast must processes communicate with another?
+            &lt;/li&gt;
+            &lt;li&gt;
+                &lt;b&gt;Synchronicity&lt;/b&gt;: Asynchronous communication
+            &lt;/li&gt;
+            &lt;li&gt;
+                &lt;b&gt;Size of message&lt;/b&gt;: A spectrum might be more appropriate than a single number.
+            &lt;/li&gt;
+            &lt;li&gt;
+                Protocol, flow control, buffering, and so on.
+            &lt;/li&gt;
+        &lt;/ul&gt;
+    &lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+    Other typical mechanisms include:
+&lt;/p&gt;
+&lt;ul&gt;
+    &lt;li&gt;
+        Message routing
+    &lt;/li&gt;
+    &lt;li&gt;
+        Process control and synchronization
+    &lt;/li&gt;
+    &lt;li&gt;
+        Transaction management
+    &lt;/li&gt;
+    &lt;li&gt;
+        Information Exchange
+    &lt;/li&gt;
+    &lt;li&gt;
+        Security
+    &lt;/li&gt;
+    &lt;li&gt;
+        Redundancy
+    &lt;/li&gt;
+    &lt;li&gt;
+        Error reporting
+    &lt;/li&gt;
+    &lt;li&gt;
+        Format conversion
+    &lt;/li&gt;
+&lt;/ul&gt;</mainDescription>
+</com.ibm.uma:ContentDescription>

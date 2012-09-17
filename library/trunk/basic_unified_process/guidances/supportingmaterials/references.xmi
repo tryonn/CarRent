@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<com.ibm.uma:ContentDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:com.ibm.uma="http://www.ibm.com/uma/1.0.2/uma.ecore" xmi:id="-aCI9T-9TIe8D35yXBU6qvg" name="references,_9ToeIB83Edqsvps02rpOOg" guid="-aCI9T-9TIe8D35yXBU6qvg" changeDate="2005-09-06T17:40:24.557-0700">
+  <mainDescription>&lt;table width=&quot;100%&quot; summary=&quot;layout table&quot; border=&quot;0&quot;&gt;
+    &lt;tbody&gt;
+        &lt;tr&gt;
+            &lt;td valign=&quot;top&quot; width=&quot;12%&quot;&gt;
+                &lt;a id=&quot;RUP06&quot; name=&quot;RUP06&quot;&gt;RUP06&lt;/a&gt; 
+            &lt;/td&gt;
+            &lt;td colspan=&quot;2&quot;&gt;
+                IBM Rational 2006. &lt;em&gt;The Rational Unified Process.&lt;/em&gt; 
+            &lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+            &lt;td valign=&quot;top&quot; width=&quot;12%&quot;&gt;
+            &lt;/td&gt;
+            &lt;td width=&quot;10%&quot;&gt;
+            &lt;/td&gt;
+            &lt;td style=&quot;PADDING-BOTTOM: 10px&quot; width=&quot;78%&quot;&gt;
+                A commercial methodology, also based on the Eclipse Process Framework, and advanced guidance on topics such
+                as business modeling, portfolio management, asset-based development, real-time design, user experience, and
+                so on .
+            &lt;/td&gt;
+        &lt;/tr&gt;
+    &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;table width=&quot;100%&quot; summary=&quot;layout table&quot; border=&quot;0&quot;&gt;
+    &lt;tbody&gt;
+        &lt;tr&gt;
+            &lt;td valign=&quot;top&quot; width=&quot;12%&quot;&gt;
+                SCH04
+            &lt;/td&gt;
+            &lt;td colspan=&quot;2&quot;&gt;
+                Ken Schwaber. &lt;em&gt;Agile Project Management with Scrum.&lt;/em&gt; Microsoft Press 2004.
+            &lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+            &lt;td valign=&quot;top&quot; width=&quot;12%&quot;&gt;
+            &lt;/td&gt;
+            &lt;td width=&quot;10%&quot;&gt;
+            &lt;/td&gt;
+            &lt;td style=&quot;PADDING-BOTTOM: 10px&quot; width=&quot;78%&quot;&gt;
+                An excellent reference by one of the co-inventors of the Scrum project management method.
+            &lt;/td&gt;
+        &lt;/tr&gt;
+    &lt;/tbody&gt;
+&lt;/table&gt;</mainDescription>
+</com.ibm.uma:ContentDescription>

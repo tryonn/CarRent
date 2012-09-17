@@ -1,0 +1,66 @@
+<!DOCTYPE hibernate-configuration PUBLIC
+	"-//Hibernate/Hibernate Configuration DTD 3.0//EN"
+	"http://hibernate.sourceforge.net/hibernate-configuration-3.0.dtd">
+
+<hibernate-configuration>
+	<session-factory>
+		<property name="hibernate.dialect">org.hibernate.dialect.PostgreSQLDialect</property>
+		<property name="hibernate.connection.driver_class">org.postgresql.Driver</property>
+        <property name="hibernate.connection.url">jdbc:postgresql://jupi.cin.ufpe.br/amadeus</property>
+		<property name="hibernate.connection.username">amadeus</property>
+		<property name="hibernate.connection.password">amadeus</property>
+		<property name="hibernate.transaction.factory_class">org.hibernate.transaction.JDBCTransactionFactory</property>
+		<property name="hibernate.current_session_context_class">thread</property>
+
+		<property name="hibernate.c3p0.max_size">10</property>
+		<property name="hibernate.c3p0.min_size">2</property>
+		<property name="hibernate.c3p0.timeout">5000</property>
+		<property name="hibernate.c3p0.max_statements">10</property>
+		<property name="hibernate.c3p0.idle_test_period">3000</property>
+		<property name="hibernate.c3p0.acquire_increment">2</property>
+
+		<property name="show_sql">true</property>
+        <property name="use_outer_join">true</property>
+        <property name="hibernate.generate_statistics">true</property>
+        <property name="hibernate.use_sql_comments">true</property>
+
+		<mapping resource="br/ufpe/cin/amadeus/hibernate/xml/User.hbm.xml"/>
+		<mapping resource="br/ufpe/cin/amadeus/hibernate/xml/Person.hbm.xml"/>
+		<mapping resource="br/ufpe/cin/amadeus/hibernate/xml/Course.hbm.xml"/>
+        <mapping resource="br/ufpe/cin/amadeus/hibernate/xml/Tool.hbm.xml"/>
+        <mapping resource="br/ufpe/cin/amadeus/hibernate/xml/Profile.hbm.xml"/>
+        <mapping resource="br/ufpe/cin/amadeus/hibernate/xml/Permission.hbm.xml"/>
+        <mapping resource="br/ufpe/cin/amadeus/hibernate/xml/PersonRoleCourse.hbm.xml"/>
+        <mapping resource="br/ufpe/cin/amadeus/hibernate/xml/Role.hbm.xml"/>
+        <mapping resource="br/ufpe/cin/amadeus/hibernate/xml/Resume.hbm.xml"/>
+        <mapping resource="br/ufpe/cin/amadeus/hibernate/xml/Keyword.hbm.xml"/>
+        <mapping resource="br/ufpe/cin/amadeus/hibernate/xml/Request.hbm.xml"/>        
+        <mapping resource="br/ufpe/cin/amadeus/hibernate/xml/Image.hbm.xml"/>
+        <mapping resource="br/ufpe/cin/amadeus/hibernate/xml/Module.hbm.xml"/>
+        <mapping resource="br/ufpe/cin/amadeus/hibernate/xml/Choice.hbm.xml"/>
+        <mapping resource="br/ufpe/cin/amadeus/hibernate/xml/Material.hbm.xml"/>
+        <mapping resource="br/ufpe/cin/amadeus/hibernate/xml/Poll.hbm.xml"/>
+        <mapping resource="br/ufpe/cin/amadeus/hibernate/xml/Homework.hbm.xml"/>
+        <mapping resource="br/ufpe/cin/amadeus/hibernate/xml/Forum.hbm.xml"/>
+        <mapping resource="br/ufpe/cin/amadeus/hibernate/xml/Message.hbm.xml"/>
+        <mapping resource="br/ufpe/cin/amadeus/hibernate/xml/Answer.hbm.xml"/>
+        <mapping resource="br/ufpe/cin/amadeus/hibernate/xml/Delivery.hbm.xml"/>
+        <mapping resource="br/ufpe/cin/amadeus/hibernate/xml/RequestEvaluation.hbm.xml"/>
+        <mapping resource="br/ufpe/cin/amadeus/hibernate/xml/Commentary.hbm.xml"/>
+        <mapping resource="br/ufpe/cin/amadeus/hibernate/xml/CourseEvaluation.hbm.xml"/>
+        <mapping resource="br/ufpe/cin/amadeus/hibernate/xml/Criterion.hbm.xml"/>
+        <mapping resource="br/ufpe/cin/amadeus/hibernate/xml/CriterionAnswer.hbm.xml"/>
+        <mapping resource="br/ufpe/cin/amadeus/hibernate/xml/EvaluationAnswer.hbm.xml"/>
+        <mapping resource="br/ufpe/cin/amadeus/hibernate/xml/PersonEvaluateCourse.hbm.xml"/>
+        <mapping resource="br/ufpe/cin/amadeus/hibernate/xml/Question.hbm.xml"/>
+   		<mapping resource="br/ufpe/cin/amadeus/hibernate/xml/Evaluation.hbm.xml"/> 
+    	<mapping resource="br/ufpe/cin/amadeus/hibernate/xml/DiscoursiveQuestion.hbm.xml"/> 
+   		<mapping resource="br/ufpe/cin/amadeus/hibernate/xml/ObjectiveQuestion.hbm.xml"/> 
+   		<mapping resource="br/ufpe/cin/amadeus/hibernate/xml/Column.hbm.xml"/>
+		<mapping resource="br/ufpe/cin/amadeus/hibernate/xml/Alternative.hbm.xml"/>
+    	<mapping resource="br/ufpe/cin/amadeus/hibernate/xml/Blank.hbm.xml"/>
+   		<mapping resource="br/ufpe/cin/amadeus/hibernate/xml/Sentence.hbm.xml"/>
+        <mapping resource="br/ufpe/cin/amadeus/hibernate/xml/DiscoursiveQuestionAnswer.hbm.xml"/>
+         
+	</session-factory>
+</hibernate-configuration>

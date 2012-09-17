@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<com.ibm.uma:ContentDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:com.ibm.uma="http://www.ibm.com/uma/1.0.2/uma.ecore" xmi:id="_yNnpVtnmEdmO6L4XMImrsA" name="model_element,_yNnpVdnmEdmO6L4XMImrsA" guid="_yNnpVtnmEdmO6L4XMImrsA">
+  <mainDescription>&lt;a class=&quot;elementLinkWithUserText&quot; href=&quot;rup/guidances/termdefinitions/uml,_yZZbhtnmEdmO6L4XMImrsA.html&quot;
+guid=&quot;_yZZbhtnmEdmO6L4XMImrsA&quot;&gt;&lt;img height=&quot;16&quot; alt=&quot;UML icon&quot; src=&quot;./../../../rup/customcategories/resources/uml.gif&quot;
+width=&quot;13&quot; border=&quot;0&quot; /&gt;&lt;/a&gt; An element that is an abstraction drawn from the system being modeled. Contrast: &lt;i&gt;&lt;a
+class=&quot;elementLink&quot; href=&quot;rup/guidances/termdefinitions/view_element,_ybefKdnmEdmO6L4XMImrsA.html&quot;
+guid=&quot;_ybefKdnmEdmO6L4XMImrsA&quot;&gt;view element&lt;/a&gt;&lt;/i&gt;.</mainDescription>
+</com.ibm.uma:ContentDescription>

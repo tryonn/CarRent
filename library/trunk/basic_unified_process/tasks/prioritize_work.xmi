@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<com.ibm.uma:TaskDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:com.ibm.uma="http://www.ibm.com/uma/1.0.2/uma.ecore" xmi:id="-vMc1ePvsxkVJu-ETIwheMg" name="prioritize_work,_RnoK4CbPEdqh1LYUOGRh2A" guid="-vMc1ePvsxkVJu-ETIwheMg" changeDate="2005-09-16T09:31:17.153-0700">
+  <sections xmi:id="_4TVuECuuEdqTIKp3l5PtzQ" name="Determine priority with stakeholders" guid="_4TVuECuuEdqTIKp3l5PtzQ">
+    <sectionDescription>&lt;p&gt;
+    Analyst and project manager work together on prioritization of scenarios that represent some significant, central
+    functionality to customers. Architect gives support by identifying scenarios that have a substantial architecture
+    coverage or stress a delicate point of architecture. The development of these high importance, architectural
+    significant scenarios take place early in the project, when the candidate architecture for the system is proposed.
+    Architectural risks and quality factors expressed as supplemental requirements (e.g., system performance, system
+    availability, etc.) come into scene and may drive prioritization of scenarios.
+&lt;/p&gt;</sectionDescription>
+  </sections>
+  <sections xmi:id="_koA9gCuvEdqTIKp3l5PtzQ" name="Analyze and estimate" guid="_koA9gCuvEdqTIKp3l5PtzQ">
+    <sectionDescription>- if the analysis for this estimate is substantial, then you should kick-off another work item for the analysis and
+prioritize it.</sectionDescription>
+  </sections>
+  <sections xmi:id="_mklX4CuvEdqTIKp3l5PtzQ" name="Negotiate priority with stakeholders" guid="_mklX4CuvEdqTIKp3l5PtzQ">
+    <sectionDescription>- decide if it fits in the iteration</sectionDescription>
+  </sections>
+</com.ibm.uma:TaskDescription>

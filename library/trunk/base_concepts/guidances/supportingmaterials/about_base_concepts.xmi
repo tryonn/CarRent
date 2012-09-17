@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<com.ibm.uma:ContentDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:com.ibm.uma="http://www.ibm.com/uma/1.0.2/uma.ecore" xmi:id="-V2B7_NtU_O7-45ldkX0Rrw" name="new_supporting_material,_uvje4D_fEdqDFvujd6NHiA" guid="-V2B7_NtU_O7-45ldkX0Rrw" changeDate="2005-10-27T23:22:24.115-0700">
+  <mainDescription>&lt;h3&gt;
+    &lt;a id=&quot;version&quot; name=&quot;version&quot;&gt;Version Information&lt;/a&gt;
+&lt;/h3&gt;
+&lt;blockquote&gt;
+    &lt;p&gt;
+        &lt;font face=&quot;Arial, Helvetica, sans-serif&quot; size=&quot;2&quot;&gt;&lt;b&gt;Version 1.0&lt;br /&gt;
+        &lt;/b&gt;&lt;/font&gt;
+    &lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h3&gt;
+    Content
+&lt;/h3&gt;
+&lt;p&gt;
+    This plug-in is a formal introduction to the UMA Method Architecture.
+&lt;/p&gt;
+&lt;p&gt;
+    It&amp;nbsp;positions UMA in terms of its goals and its novel aspects and defines all fundamental abstractions central to
+    UMA.
+&lt;/p&gt;
+&lt;p&gt;
+    It is not dependent upon any other plug-ins.
+&lt;/p&gt;
+&lt;h3&gt;
+    &lt;a id=&quot;Legal&quot; name=&quot;Legal&quot;&gt;Legal Statement&lt;/a&gt;
+&lt;/h3&gt;
+&lt;p class=&quot;node&quot;&gt;
+    See &lt;a href=&quot;resources/copyrite.htm&quot;&gt;Intellectual Property Notices&lt;/a&gt;.
+&lt;/p&gt;</mainDescription>
+</com.ibm.uma:ContentDescription>
